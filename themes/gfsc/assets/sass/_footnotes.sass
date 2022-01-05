@@ -1,0 +1,38 @@
+.footnotes
+  font-size: 0.8rem
+  line-height: 1.43
+  +border(top)
+  background-color: #{$primary}20
+  ol
+    margin: 0
+    p
+      +for-desktop-up
+        max-width: 70%
+    li:before
+      font-family: $freight
+
+.footnote
+  color: $primary
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+.reversefootnote
+  background-image: url('/assets/images/eye.svg')
+  background-repeat: no-repeat
+  width: 24.67px
+  height: 1rem
+  display: inline-block
+  margin-left: 0.25rem
+  color: transparent
+  background-position: bottom center
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    color: transparent
+
+//   Start of JS positioning
+//   position: absolute
+//   top: 300px
+//   right: 285px
+//   width: 210px

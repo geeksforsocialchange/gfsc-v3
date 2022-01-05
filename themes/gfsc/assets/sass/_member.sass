@@ -1,0 +1,56 @@
+.members
+  +for-phone-only
+    +border(0 2px)
+    hr
+      display: none
+
+
+.member
+  margin-top: 1rem
+  +for-tablet-portrait-up
+    margin-top: 0
+  &__job, &__bio, &__pronouns, &__name
+    padding-left: 1.5rem !important
+    padding-right: 1.5rem
+  &__name
+    margin-bottom: 0
+  &__job
+    +border(bottom)
+    padding-top: 0.25rem
+    padding-bottom: 0.25rem
+    +for-tablet-landscape-up
+      padding-top: 0.5rem
+      padding-bottom: 0.5rem
+    strong
+      font-weight: normal
+  &__photo
+    display: none
+    // +for-tablet-portrait-up
+    //   display: inline-block
+    //   float: right
+    //   +border(0 0 2px 2px)
+    //   margin-left: 1rem
+    //   img
+    //     border-radius: 50%
+    //     max-width: 200px
+    //     margin: 0.75rem 1rem 0.4rem
+  &__pronouns
+    font-size: 0.9rem
+
++for-tablet-landscape-up
+  .member
+    display: grid
+    grid-template-columns: auto 1fr
+    grid-template-areas: "image content"
+    &__info
+      grid-area: content
+      +border(left)
+    &__photo
+      grid-area: image
+      display: block
+      +border(0)
+      align-self: center
+      img
+        width: 300px
+        border-radius: 50%
+        padding: 3rem

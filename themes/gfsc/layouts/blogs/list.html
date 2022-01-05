@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+{% assign blogauthors = post.author | split: ", " %}
+<hr class="fancy fancy__borderless--top">
+  <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="teaser">
+    <div class="teaser__content">
+      <header>
+        <h2 class="teaser__title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        {% if post.subtitle %}
+          <p class="teaser__subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+      </header>
+      <div class="teaser__excerpt">
+        {{ post.description | markdownify }}
+        <p><a href="{{ post.url }}" class="btn">Read more</a></p>
+      </div>
+    </div>
+    <aside class="teaser__aside">
+      <time class="teaser__meta" datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+      <div class="teaser__meta teaser__meta--author" rel="author">By
+          {% for blogauthor in blogauthors %}
+            {% assign author = site.data.authors[blogauthor] %}
+            {% if blogauthor == blogauthors.last and blogauthor == blogauthors.first %}
+            {{ author.name }}
+            {% elsif blogauthor == blogauthors.last %}
+              <span>{{ author.name }}</span>
+            {% elsif blogauthor == blogauthors.first %}
+              {{ author.name }},
+            {% else %}
+              <span>{{ author.name }},</span> 
+            {% endif %}
+          {% endfor %}
+        </div>
+    </aside>
+  </article>
+  {% if forloop.last %}
+    <hr class="fancy fancy__borderless--bottom">
+  {% endif %}
+{% endfor %}
+
+<div class="paginator">
+  <nav aria-label="Blog navigation">
+    <ul>
+      {% if paginator.previous_page %}
+        <li><a class="btn" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer articles</a></li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        <li>
+          {% if page == paginator.page %}
+            <a class="disabled">{{ page }}</a>
+          {% elsif page == 1 %}
+            <a class="btn" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          {% else %}
+            <a class="btn" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <li><a class="btn" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older articles</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>

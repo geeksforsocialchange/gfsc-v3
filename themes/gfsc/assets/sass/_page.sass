@@ -1,0 +1,64 @@
+body
+  margin: 0 1rem
+  background-image: url('/assets/images/background.png')
+  background-size: 35px 35px
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  +for-tablet-portrait-up
+    margin: 1.5rem 1.5rem
+
+.page__wrapper
+  margin: 1rem auto
+  max-width: 1200px
+  +for-tablet-portrait-up
+    +border(all)
+  +for-big-desktop-up
+    max-width: 1400px
+
+.page__title
+  +border(all)
+  margin: 0
+  text-align: center
+  padding: 1.5rem 2rem
+  +for-tablet-portrait-up
+    +border(bottom)
+    padding: 1.5rem 8rem
+  +for-desktop-up
+    padding: 3rem 8rem
+
+.page--default
+  .page__title
+    +for-tablet-portrait-up
+      +border(0)
+
+.page--default .page__content
+  padding: 1rem 1.5rem
+  +for-phone-only
+    +border(0 2px)
+  +for-tablet-portrait-up
+    padding: 1rem 5rem
+    h2
+      margin-top: 2rem
+    h2 + p
+      font-size: 1.44444rem
+      line-height: 1.3077
+      font-weight: 500
+    p
+      font-size: 1.222222rem
+      line-height: 1.454545
+  +for-tablet-landscape-up
+    margin-left: $margin-tablet-landscape
+    +border(left)
+    padding: 2rem 5rem
+    h2
+      margin-top: 1rem
+  +for-desktop-up
+    margin-left: $margin-desktop
+  +for-big-desktop-up
+    margin: 0 $margin-desktop
+    +border(0 2px)
+
+.page--team
+  +for-tablet-portrait-up
+    h1
+      border-bottom: 0

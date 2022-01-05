@@ -1,0 +1,16 @@
+.strip
+  background-repeat: repeat
+  box-sizing: border-box
+  &--circles
+    background-size: 98px 55px
+    background-image: url('/assets/images/circles.svg')
+    background-position-y: center
+    background-size: contain
+    min-height: 50px
+    +for-desktop-up
+      min-height: 55px
+  &--lines
+    // Adding extra pixels stops it aliasing in
+    background-image: url('/assets/images/stripes-narrow.svg')
+    background-size: 1500px 500px
+    min-height: 40px

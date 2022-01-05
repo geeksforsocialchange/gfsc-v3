@@ -1,0 +1,250 @@
+.blog
+  display: grid
+  grid-template-columns: 1fr
+  +for-phone-only
+    +border(top)
+  +for-tablet-landscape-up
+    grid-template-columns: $margin-tablet-landscape 1fr
+  +for-desktop-up
+    grid-template-columns: $margin-desktop 1fr
+  header + p
+    font-size: 1.25rem
+  blockquote, blockquote p
+    color: $primary
+    font-size: 1rem
+    font-weight: 500
+    line-height: 1.666667
+    a
+      color: $primary
+  .video
+    display: block
+    position: relative
+    padding-bottom: 56.25%
+    height: 0
+    overflow: hidden
+    max-width: 100%
+    iframe, object, embed
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+    //   z-index: 10
+    //   opacity: 0.2
+    // &__overlay
+    //   background-color: $copy
+    //   position: absolute
+    //   top: 0
+    //   left: 0
+    //   right: 0
+    //   bottom: 0
+    //   z-index: 1
+
+  hr
+    width: 30px
+    height: 28.8px
+    border: 0
+    background-image: url('/assets/images/hr.svg')
+    background-size: cover
+    margin: 2rem auto
+    +for-tablet-portrait-up
+      width: 50px
+      height: 47.99px
+      margin: 3rem auto
+  &__title
+    font-family: $freight
+    text-align: left
+    color: $primary
+    font-size: 1.666667rem
+    line-height: 1
+    +for-tablet-portrait-up
+      font-size: 2.222222rem
+    +for-desktop-up
+      font-size: 2.5rem
+  &__subtitle
+    font-size: 1.44444rem
+    font-style: italic
+    font-weight: 500
+    +for-tablet-portrait-up
+      font-size: 1.555555rem
+  p.subtitle
+    font-size: 1.111111rem
+    +for-tablet-landscape-up
+      font-size: 1.44444rem
+      line-height: 1.307
+  &__body
+    // > p:first-child
+    //   font-weight: 500
+    //   +for-tablet-landscape-up
+    //     font-size: 1.44444rem
+    //     line-height: 1.3077
+    img, iframe
+      max-width: 100%
+      margin: 0 auto
+    .updated
+      color: $primary
+      font-size: 1rem
+      margin: 2rem 0
+    sup
+      line-height: 0
+  &__content
+    +border(0 2px)
+    color: $copy
+    // NOTE image and footer styles need updating if any of these paddings change!
+    padding: 0 1rem
+    max-width: 100%
+    overflow: hidden
+    grid-row: 2
+    grid-column: 1
+    +for-tablet-portrait-up
+      grid-row: 2
+      grid-column: 1
+      +border(0)
+      padding: 0 5rem
+    +for-tablet-landscape-up
+      grid-row: 1
+      grid-column: 2
+      order: 2
+      padding: 0 2.5rem
+    +for-big-desktop-up
+      margin-right: $margin-desktop
+      +border(right)
+      padding: 0 7rem
+    .footnotes
+      margin: 0 -1rem
+      padding: 1rem
+      +for-tablet-portrait-up
+        margin: 0 -5rem
+        padding: 1rem 5rem
+      +for-tablet-landscape-up
+        margin: 0 -2.5rem
+        padding: 1rem 2rem
+      +for-big-desktop-up
+        margin: 0 -7rem
+        padding: 1rem 7rem
+  &__aside
+    display: flex
+    width: 100%
+    +for-tablet-portrait-up
+      border-top: 1rem $primary-shade solid
+    +for-tablet-landscape-up
+      box-sizing: border-box
+      +border(right)
+      display: block
+      padding: 0
+  &__meta
+    +balboa
+    font-size: 1.11111rem
+    box-sizing: border-box
+    line-height: 1.22222rem
+    padding: 0.75rem 1.25rem
+    +border(0px 2px 2px 0)
+    +for-tablet-portrait-up
+      +border(2px 0px 2px 2px)
+      &:first-child
+        +border(2px 0px 2px 0px)
+    +for-tablet-landscape-up
+      +border(bottom)
+      &:first-child
+        +border(bottom)
+      &:last-child
+        +border(bottom)
+      padding: 1.5rem
+      font-size: 1.333333rem
+      margin: 0
+      display: block
+      text-align: left
+    +for-phone-only
+      &:first-child
+        +border(0 2px 2px 2px)
+    &--date
+      text-align: center
+      justify-content: center
+      flex-grow: 1
+      flex-shrink: 0
+      display: flex
+      align-items: center
+      +for-phone-only
+        width: 50%
+      +for-tablet-landscape-up
+        text-align: left
+        justify-content: left
+    &--illustrator
+      display: none
+      +for-tablet-landscape-up
+        display: block
+        padding: 1rem 1.5rem 1.5rem 1.5rem
+    &--author
+      text-align: left
+      flex-grow: 2
+      +for-tablet-landscape-up
+        line-height: 1.444444rem
+      +for-desktop-up
+        padding-right: 3rem
+    &--avatar
+      padding: 0.25rem
+      &--image
+        display: block
+      text-align: center
+      line-height: 1
+      display: grid
+      justify-content: center
+      align-items: center
+      img, picture
+        width: 40px
+        border-radius: 50%
+      +for-phone-only
+        display: none
+      +for-tablet-landscape-up
+        box-sizing: border-box
+        &--author
+          &:nth-child(3):nth-last-child(3)
+            padding: 1.25rem
+          &:nth-child(3):nth-last-child(4), &:nth-child(3):nth-last-child(4) ~ &
+            width: 50%
+          &:nth-child(3):nth-last-child(4)
+            padding: 1rem 0.5rem 1rem 0.75rem
+          &:nth-child(3):nth-last-child(4) ~ &
+            padding: 1rem 0.75rem 1rem 0.5rem
+          &:nth-child(3):nth-last-child(5), &:nth-child(3):nth-last-child(5) ~ &
+            width: 33.3333333%
+          &:nth-child(3):nth-last-child(5)
+            padding: 1rem 0.25rem 1rem 0.75rem
+          &:nth-child(4):nth-last-child(4)
+            padding: 1rem 0.5rem 1rem 0.5rem
+          &:nth-child(5):nth-last-child(3)
+            padding: 1rem 0.75rem 1rem 0.25rem
+          display: inline-block
+        img
+          width: 95%
+          max-width: 95%
+          margin: 0 auto
+          padding-left: 2.5%
+      &--illustrator
+        display: none
+        +for-tablet-landscape-up
+          display: block
+          width: 100%
+          &:nth-child(7)
+            padding: 0
+            picture img
+              width: 33.3%
+              padding: 0.5rem
+              box-sizing: border-box
+          &:nth-child(6)
+            padding: 0
+            picture img
+              width: 50%
+              padding: 1rem 0.5rem 1rem 0.75rem
+              box-sizing: border-box
+          &:nth-child(5)
+            padding: 1.25rem
+          
+
+
+
+  // .sidenote
+  //   float: right
+  //   margin-right: -40%
+  //   width: 35%
+  //   font-size: 0.9rem

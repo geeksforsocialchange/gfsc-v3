@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 709 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-71.95,-136)">
+        <g id="Lozenges" transform="matrix(1,0,0,1,-6.8,40)">
+            <g id="Lozenge" transform="matrix(1,0,0,1.06026,0,174.563)">
+                <path d="M480,140L540,221.922L480,299.54L480,300L80,300L80,140L480,140Z" style="fill:rgb(239,188,137);stroke:rgb(234,91,12);stroke-width:2.43px;"/>
+            </g>
+            <g id="Lozenge1" serif:id="Lozenge" transform="matrix(1,0,0,0.75,0,400.516)">
+                <path d="M480,140L540,221.922L480,299.54L480,300L80,300L80,140L480,140Z" style="fill:rgb(239,188,137);stroke:rgb(234,91,12);stroke-width:2.83px;"/>
+            </g>
+            <g id="Lozenge2" serif:id="Lozenge" transform="matrix(1,0,0,1.06026,0,-9.43709)">
+                <path d="M480,140L540,221.922L480,299.54L480,300L80,300L80,140L480,140Z" style="fill:rgb(239,188,137);stroke:rgb(234,91,12);stroke-width:2.43px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,245.595,48.3385)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Citiz<tspan x="371.585px 384.065px " y="185.662px 185.662px ">en</tspan> P<tspan x="416.285px 428.975px " y="185.662px 185.662px ">ar</tspan>ticipation</text>
+            </g>
+            <g transform="matrix(1,0,0,1,245.595,234.338)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">T<tspan x="337.385px 350.495px 362.975px 375.455px " y="185.662px 185.662px 185.662px 185.662px ">oken</tspan>ism</text>
+            </g>
+            <g transform="matrix(1,0,0,1,245.595,388.338)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Nonparticipation</text>
+            </g>
+        </g>
+        <g id="Ladder" transform="matrix(0.758191,0,0,0.777778,17.3809,62.2222)">
+            <g transform="matrix(1,0,0,1,0,20)">
+                <path d="M100,160L300,160" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1.24347,-10.192,-81.5176)">
+                <path d="M110.192,145.977L110.192,725.003" style="fill:none;stroke:black;stroke-width:9.21px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1.24275,-43.2382,-92.7408)">
+                <path d="M343.238,155.093L343.238,734.455" style="fill:none;stroke:black;stroke-width:9.21px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,40)">
+                <path d="M100,220L300,220" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            </g>
+            <path d="M100,340L300,340" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            <path d="M100,420L300,420" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            <path d="M100,500L300,500" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            <path d="M100,580L300,580" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            <path d="M100,660L300,660" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            <g transform="matrix(1,0,0,1,0,20)">
+                <path d="M100,720L300,720" style="fill:none;stroke:black;stroke-width:10.42px;"/>
+            </g>
+        </g>
+        <g id="Labels" transform="matrix(1,0,0,1,-6.8,40)">
+            <g transform="matrix(1,0,0,1,-46.1346,-14.2915)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Citiz<tspan x="371.585px 384.065px " y="185.662px 185.662px ">en</tspan> Contr<tspan x="461.345px 474.455px " y="185.662px 185.662px ">ol</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,48.3385)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Deleg<tspan x="385.595px 398.285px " y="185.662px 185.662px ">at</tspan>ion</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,109.405)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">P<tspan x="338.465px 351.155px " y="185.662px 185.662px ">ar</tspan>tner<tspan x="405.935px 417.965px " y="185.662px 185.662px ">sh</tspan>ip</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,170.472)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Placation</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,234.338)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Consultation</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,297.138)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Informing</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,357.138)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Ther<tspan x="373.625px 386.315px " y="185.662px 185.662px ">ap</tspan>y</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-46.3146,422.738)">
+                <text x="324.995px" y="185.662px" style="font-family:'Balboa-Bold', 'Balboa';font-size:30px;">Manipulation</text>
+            </g>
+        </g>
+    </g>
+</svg>

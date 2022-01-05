@@ -1,0 +1,82 @@
+.signupsmall
+  background-color: $primary
+  padding: 1rem
+  +for-tablet-portrait-up
+    padding: 1.5rem
+    margin: 2.5rem 0
+  +for-big-desktop-up
+    margin: 2.5rem -2.5rem
+  .signupsmall__title
+    +balboa
+    font-size: 1.55556rem
+    line-height: 1.55556rem
+    margin-right: 1em
+    color: $secondary
+    display: block
+    margin-bottom: 0.5em
+    margin-block-start: 0
+    margin-block-end: 0
+    +for-tablet-portrait-up
+      font-size: 1.777778rem
+      line-height: 1.777778rem
+    +for-tablet-landscape-up
+      padding-right: 7rem
+  .signupsmall__form
+    +for-tablet-portrait-up
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin: 1.5rem 0 0.3rem 0
+  .signupsmall__input
+    +border(all)
+    border-color: $tertiary
+    padding: 0.5rem 1rem
+    display: block
+    width: 100%
+    box-sizing: border-box
+    margin: 1rem 0
+    background-color: $tertiary
+    color: $secondary
+    font-size: 1rem
+    font-family: $freight
+    &::placeholder
+      color: $secondary
+    &:focus-visible, &:focus
+      +border(all)
+      border-color: $secondary
+      outline: none
+    +for-tablet-portrait-up
+      margin: 0
+      align-self: stretch
+      padding: 0.5rem 1.5rem
+      font-size: 1.222223rem
+  .signupsmall__submitbutton__container
+    +border(all)
+    border-color: $secondary
+    display: inline-block
+    margin: 0
+    padding: 2px
+    &:hover
+      border-color: $tertiary
+    +for-tablet-portrait-up
+      margin-left: 1.5rem
+    .signupsmall__submitbutton__button
+      display: block
+      font-size: 1.3333rem
+      background-color: $secondary
+      display: block
+      text-decoration: none
+      border: 2px solid $primary
+      padding: 0.25rem 1rem
+      color: $primary
+      min-width: 7rem
+      +balboa
+      background-size: 200% 100%
+      background-image: linear-gradient(to right, transparent 50%, $tertiary 50%)
+      -webkit-transition: 0.2s
+      -moz-transition: 0.2s
+      transition: 0.2s
+      &:hover
+        color: $secondary
+        background-position: -100% 0
+        border-color: $tertiary

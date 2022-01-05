@@ -1,0 +1,39 @@
+.paginator
+  +balboa
+  +border(2px 0px 0 2px)
+  +for-tablet-portrait-up
+    +border(top)
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    // Hack to remove space between elements
+    font-size: 0
+    display: flex
+    +for-tablet-portrait-up
+      display: block
+      &:first-child
+        +border(left)
+        margin-left: 6rem
+    +for-tablet-landscape-up
+        &:first-child
+          margin-left: calc(#{$margin-tablet-landscape} - 2px)
+    +for-desktop-up
+      &:first-child
+        margin-left: calc(#{$margin-desktop} - 2px)
+  li
+    display: inline-block
+    text-align: center
+    flex-grow: 1
+    +border(right)
+  a
+    text-decoration: none
+    display: block
+    padding: 0.6rem 1rem
+    border: 0
+    font-size: 1.11111rem
+    +for-tablet-landscape-up
+      font-size: 1.333333rem
+      padding: 1rem 1.75rem
+    &.disabled
+      color: $copy

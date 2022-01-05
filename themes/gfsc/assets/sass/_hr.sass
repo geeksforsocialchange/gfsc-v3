@@ -1,0 +1,17 @@
+.fancy
+  box-sizing: border-box
+  height: 55px
+  margin: 0
+  +border(0 2px 2px 2px)
+  background-size: contain
+  background-image: url('/assets/images/circles.svg')
+  background-position-y: center
+  +for-phone-only
+    &--no-phone
+      display: none
+  +for-tablet-portrait-up
+    +border(2px 0)
+    &__borderless--top
+      +border(bottom)
+    &__borderless--bottom
+      +border(top)

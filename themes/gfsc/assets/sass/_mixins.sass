@@ -1,0 +1,49 @@
+$margin-tablet-portrait: 8.6rem
+$margin-tablet-landscape: 12.11111rem
+$margin-desktop: 13.33333rem
+
+=for-phone-only
+  @media (max-width: 639px)
+    @content
+
+=for-tablet-portrait-up
+  @media (min-width: 640px)
+    @content
+
+=for-tablet-landscape-up
+  @media (min-width: 1024px)
+    @content
+
+=for-desktop-up
+  @media (min-width: 1200px)
+    @content
+
+=for-big-desktop-up
+  @media (min-width: 1600px)
+    @content
+
+=border($side)
+  border-style: solid
+  border-color: $primary
+  @if $side == top
+    border-width: 2px 0 0 0
+  @else if $side == bottom
+    border-width: 0 0 2px 0
+  @else if $side == left
+    border-width: 0 0 0 2px
+  @else if $side == right
+    border-width: 0 2px 0 0
+  @else if $side == all
+    border-width: 2px
+  @else if $side == sides
+    border-width: 0 2px
+  @else if $side == nosides
+    border-width: 2px 0
+  @else if $side == bottomless
+    border-width: 2px 2px 0 2px
+  @else if $side == topless
+    border-width: 0px 2px 2px 2px
+  @else if $side == none
+    border-width: 0
+  @else
+    border-width: $side

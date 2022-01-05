@@ -1,0 +1,152 @@
+.venn
+  text-align: center
+  &__title
+    text-transform: uppercase
+    font-size: 1.11111rem
+    margin: 2rem 0
+    +balboa
+    +for-tablet-landscape-up
+      font-size: 1.33333rem
+    +for-desktop-up
+      margin: 4rem 0 3rem
+      font-size: 2rem
+  &__subtitle
+    display: none
+    margin: 0 auto
+    margin-top: 2rem
+    margin-bottom: 4rem
+    color: $primary
+    font-family: $balboa
+    font-weight: 200
+    font-size: 1rem
+    line-height: 1.1666687
+    // TODO: Confirm font with Mark
+    +for-tablet-portrait-up
+      display: block
+      width: 66%
+      margin-bottom: 2rem
+    +for-tablet-portrait-up
+      font-size: 1.44444rem
+      line-height: 1.05
+      letter-spacing: 0.01em
+    +for-desktop-up
+      width: 33%
+    &--mobile
+      display: block
+      font-size: 1.11111rem
+      margin: 1rem 0
+      +for-tablet-portrait-up
+        display: none
+  &__diagram
+    path
+      fill: transparent
+      cursor: pointer
+    polyline
+      stroke: $primary
+      fill: none
+      stroke-width: 3
+    text
+      +balboa
+      fill: $primary
+    ellipse
+      fill: transparent
+      stroke: $primary
+      stroke-miterlimit: 10
+      stroke-width: 2
+
+#venn-mobile
+  +for-tablet-portrait-up
+    display: none
+  display: block
+  margin: 0 auto
+  width: 95%
+  text-align: center
+  max-width: 320px
+  text.title
+    +balboa
+    font-size: 1.55556rem
+  text.desc
+    font-family: $freight
+    fill: $copy
+
+#venn
+  max-width: 1300px
+  display: none
+  margin: 0 auto
+  text-align: center
+  +for-tablet-portrait-up
+    display: block
+
+  polyline, foreignObject
+    display: none
+
+  path, polyline, foreignObject
+    transition-duration: 200ms
+
+  foreignObject
+    width: 230px
+    height: 200px
+    font-family: $freight
+    font-size: 1rem
+    p
+      color: $copy
+      line-height: 1.4
+      text-align: left
+      margin: 0
+
+  text
+    text-anchor: middle
+    alignment-baseline: middle
+    cursor: pointer
+
+    .desc
+      font-family: sans-serif
+      text-transform: none
+
+
+  .selected .hide,
+  .hovered .hide,
+  .hovered--2 .hide
+    display: block
+
+  .one text
+    font-size: 2rem
+    text-transform: uppercase
+
+  .three text
+    font-size: 1.6rem
+
+  // Cursor is on this element
+  .selected
+    text
+      fill: $secondary
+    &.one path
+      fill: $primary
+    &.two path
+      fill: $primary-shadier
+    &.three path
+      fill: $primary
+
+  // Cursor is adjacent to this element
+  .hovered
+    &.one
+      text
+        fill: $secondary
+      path
+        fill: $primary
+    &.two path
+      fill: $primary-shade
+    &.three path
+      fill: $primary-shade
+
+  // Cursor is twice adjacent
+  .hovered--2
+    &.one
+      text
+        fill: $primary
+      path
+        fill: $primary-shade
+    &.two path
+      fill: $primary-shadier
+    &.three path
+      fill: $primary-shadier

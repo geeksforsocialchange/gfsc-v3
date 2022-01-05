@@ -1,0 +1,19 @@
+.table
+  font-size: 0.8rem
+  +for-tablet-portrait-up
+    font-size: 0.9rem
+  &--4col tr
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+  tbody tr:last-child
+    border-bottom: 1px solid $primary
+    padding-bottom: 0.5rem
+
+tr
+  &.hline
+    border-top: 1px solid $primary
+    margin: 0.25rem 0
+    padding: 0.5rem 0
+
+th
+  text-align: left

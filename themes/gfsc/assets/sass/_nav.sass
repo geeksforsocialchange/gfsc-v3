@@ -1,0 +1,70 @@
+.nav
+  +balboa
+  font-size: 1.55556rem
+  +for-tablet-portrait-up
+    font-size: 1.11111rem
+  +for-desktop-up
+    font-size: 1.33333rem
+  &__toggle
+    padding: 0 1rem
+    cursor: pointer
+    height: 100%
+    line
+      stroke: $primary
+      stroke-width: 3px
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: block
+    // +for-phone-only
+    text-align: center
+    box-sizing: border-box
+    +for-tablet-portrait-up
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 100%
+  a
+    text-decoration: none
+    display: block
+    padding: 1.56rem 1.1rem
+    // +for-phone-only
+    background-color: $primary
+    color: $secondary
+    +for-phone-only
+      &:hover
+        background-color: $secondary
+        color: $primary
+    // Tiny fix for a little breakpoint
+    @media (min-width: 640px) and (max-width: 662px)
+      padding: 0 0.75rem !important
+    +for-tablet-portrait-up
+      padding: 0rem 1rem
+      margin: 0
+      background-color: transparent
+      color: $primary
+      line-height: 2
+
+  li
+    +for-tablet-portrait-up
+      +border(left)
+      box-sizing: border-box
+      display: grid
+      justify-content: center
+      align-items: center
+      height: 100%
+      background-size: 200% 100%
+      background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+      -webkit-transition: 0.2s
+      -moz-transition: 0.2s
+      transition: 0.2s
+      background-clip: border-box
+      &:hover
+        background-position: -100% 0
+        a
+          color: $secondary
+      &.active
+        background-color: $primary
+        a
+          color: $secondary

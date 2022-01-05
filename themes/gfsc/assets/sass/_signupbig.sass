@@ -1,0 +1,87 @@
+.signupbig
+  background-color: $primary-shade
+  +border(bottomless)
+  padding: 0.9rem 1.3em
+  display: block
+  +for-tablet-portrait-up
+    +border(top)
+    display: grid
+    grid-template-columns: repeat(12, 1fr)
+    padding: 2rem 0 1rem 0
+  +for-tablet-landscape-up
+    grid-template-columns: repeat(24, 1fr)
+    padding: 2rem 0
+
+  .signupbig__title
+    +balboa
+    font-size: 1.55556rem
+    line-height: 1.55556rem
+    color: $primary
+    margin: 0.8rem 0.5rem
+    padding-right: 3rem
+    display: inline-block
+    text-align: left
+    margin-block-end: 0
+    margin-block-start: 0
+    +for-tablet-portrait-up
+      padding: 0 1rem 0 0
+      grid-column: 2/6
+      margin: 0
+    +for-tablet-landscape-up
+      font-size: 2.22rem
+      line-height: 2.22rem
+      grid-column: 2/12
+      padding-right: 5rem
+
+  .signupbig__input
+    +border(all)
+    padding: 0.5rem 1rem
+    background-color: $secondary
+    margin: 0.7rem auto
+    color: $copy
+    font-size: 1.11111rem
+    font-family: $freight
+    width: 100%
+    box-sizing: border-box
+    &:focus-visible, &:focus
+      +border(all)
+      border-color: black
+      outline: none
+    +for-tablet-portrait-up
+      margin-top: 0.4rem
+    +for-tablet-landscape-up
+      margin-top: 0.7rem
+  .signupbig__submitbutton__container
+    +border(all)
+    display: inline-block
+    background-color: $primary-shade
+    margin: 0.5rem 0
+    padding: 0.2rem
+  .signupbig__submitbutton__button
+    font-size: 1.111111rem
+    background-color: $secondary
+    display: block
+    text-decoration: none
+    border: 2px solid $primary
+    padding: 0.25rem 1rem
+    color: $primary
+    min-width: 7rem
+    +balboa
+    background-size: 200% 100%
+    background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+    -webkit-transition: 0.2s
+    -moz-transition: 0.2s
+    transition: 0.2s
+    &:hover
+      color: $secondary
+      background-position: -100% 0
+  .signupbig__form
+    margin: 0
+    +for-tablet-portrait-up
+      padding: 0
+      grid-column: 7/12
+      margin: 0
+    +for-tablet-landscape-up
+      font-size: 2rem
+      line-height: 2rem
+      grid-column: 14/24

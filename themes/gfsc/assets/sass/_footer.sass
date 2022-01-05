@@ -1,0 +1,109 @@
+.footer
+  +border(all)
+  display: grid
+  font-size: 0.777778rem
+  +for-desktop-up
+    font-size: 1rem
+  grid-template-columns: 1fr 3.6rem 3.6rem
+  grid-template-rows: auto auto auto
+  +for-tablet-portrait-up
+    +border(top)
+    grid-template-columns: $margin-tablet-portrait 1fr 3.6rem 3.6rem
+    grid-template-rows: auto auto
+  +for-tablet-landscape-up
+    grid-template-columns: $margin-tablet-landscape 1fr 3.6rem 3.6rem
+  +for-desktop-up
+    grid-template-columns: $margin-desktop 1fr repeat(2, $margin-desktop / 2)
+  &__strip
+    grid-row: 1
+    grid-column: 1 / -1
+    +border(bottom)
+  &__title
+    grid-row: 2
+    grid-column: 1
+    +border(bottom)
+    display: grid
+    align-items: center
+    justify-content: left
+    padding: 0.75rem 0
+    +for-tablet-portrait-up
+      +border(right)
+    +for-desktop-up
+      padding: 1.1rem 0
+  &__logo
+    background-image: url('/assets/images/logo_footer_mobile.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    width: 157.22px
+    height: 43.66px
+    margin-left: 0.75rem
+    +for-tablet-portrait-up
+      margin-right: 1rem
+      width: 114.34px
+      height: 31.75px
+      background-image: url('/assets/images/logo_footer_tablet_portrait.svg')
+    +for-tablet-landscape-up
+      background-image: url('/assets/images/logo_footer_desktop.svg')
+      width: 159.03px
+      height: 61.38px
+      margin-left: 1.25rem
+    +for-desktop-up
+      width: 181.83px
+      height: 70.17px
+      margin-left: 1.25rem
+  &__icon
+    +border(0 0 2px 2px)
+    line-height: 0
+    background-size: 200% 100%
+    background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+    -webkit-transition: 0.2s
+    -moz-transition: 0.2s
+    transition: 0.2s
+    &:hover
+      color: $secondary
+      background-position: -100% 0
+    +for-tablet-portrait-up
+      +border(left)
+    a
+      display: grid
+      justify-content: center
+      align-items: center
+      width: 100%
+      height: 100%
+    svg
+      fill: $primary
+      transition: 0.2s
+    a:hover
+      svg
+        fill: $secondary
+    &--twitter
+      grid-column: 3
+      +for-tablet-portrait-up
+        grid-column: 4
+      svg
+        width: 30px
+        +for-tablet-landscape-up
+          width: 40px
+    &--email
+      grid-column: 2
+      +for-tablet-portrait-up
+        grid-column: 3
+      svg
+        width: 22.5px
+        +for-tablet-landscape-up
+          width: 30px
+  &__impressum
+    margin: 0 0.75rem
+    grid-row: 3
+    grid-column: 1 / 4
+    display: grid
+    align-items: center
+    p
+      color: $primary
+      margin: 0.5rem 0
+    a
+      color: $primary
+    +for-tablet-portrait-up
+      grid-row: 2
+      grid-column: 2
+      margin: 0 1rem
