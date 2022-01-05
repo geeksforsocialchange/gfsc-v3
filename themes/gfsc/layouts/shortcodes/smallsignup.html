@@ -1,11 +1,11 @@
 <aside class="signupsmall" markdown="0">
    <p class="signupsmall__title">
-      {% if include.custom %}
+      {{ if include.custom }}
       {{include.custom}}
-      {% else %}
+      {{ else }}
       Support our mission of a fairer world using technology & join our email
       list.
-      {% endif %}
+      {{ end }}
    </p>
    <form
       class="signupsmall__form"

@@ -14,7 +14,7 @@ I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), S
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
-{% include youtube.html video="sTYs_mc0Qgc" %}
+{{ include youtube.html video="sTYs_mc0Qgc" }}
 
 ---
 
@@ -28,7 +28,7 @@ This is methodology is called *asset-based community development* or *ABCD*: aid
 
 *Before continuing, it’s worth noting how hard it can be to write up this kind of work. What “the partnership” is or means to anyone at any given moment can be extremely hard (and often undesirable) to pin down. Decentralised resident-led groups, like most things in society, are complex structures that we believe offer the only real possibility for genuine change: however in doing so they make it extremely hard to write about exactly who did what when without making it sound like credit is being taken for the actions of a wider group. Therefore: when the rest of this article refers to “the partnership” or “we” it is referring specifically to me (Kim Foale), the Hulme Age Friendly Board, and PHASE@MMU working together to create PlaceCal and its requisite theoretical background. If anyone has any ideas how to resolve this issue with language, we are all ears!*
 
-{% include image.html urls="https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" description="1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme" %}
+{{ include image.html urls="https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" description="1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme" }}
 
 This process is designed to combat the widespread “silos” that exist across all sectors. Silos occur when local councils, housing associations, or universities for example act alone over long periods of time. Each institution ends up with its own strengths and weaknesses, and inevitably creates parallel and disconnected knowledges, skills, facilities, and funding streams. If you’ve ever been involved in a community group and wondered “why can’t we just book a room on the local campus?” or “how come the same organisations seem to get all the funding?” or as a researcher wondered “how come it’s so hard to work with local organisations and get citizen involvement?”, then you’ve probably encountered this first-hand. Resident-led partnerships’ direct aim is to de-silo and allow cross-agency work, producing interventions that enable community wellness by solving problems at the root level.
 
@@ -42,13 +42,13 @@ This story is a great example of how the things that prevent community wellness 
 
 This brings us back to the role of the architect in partnership work. Architects are commonly seen as people who simply design buildings. In this case, building a disabled toilet is something a second year undergraduate student or a decent plumber could do: and of course, someone does have to design the thing. The much harder work lies in identifying the problem using the available data: starting from analysing maps of bus routes and public health data, through talking to residents to find the reason for the problems, to creating the conditions to make the change itself.
 
-{% include image.html urls="https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" description="The final result: not too complex!" class="toilet" %}
+{{ include image.html urls="https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" description="The final result: not too complex!" class="toilet" }}
 
 At the time of writing, the NHS are still waiting to start doing surgeries there, such is the planning time on these things. However, Manchester City Council are already using the church hall for a new programme of health and fitness activities. Two people with physical disabilities who used to go to the food bank are now staying for the lunch club which is hosted afterwards — previously they got their food and left. And of course, the partnership now has access to a versatile and accessible venue that meets everyone’s needs in the area.
 
 By fixing this kind of problem at a root level, the eventual outputs can be very cheap to implement compared to any solution a single agency would devise, especially when considering total costs across multiple agencies. In fact, as anyone who has done enough community work knows, the main resource in this kind of situation can be time spent in meetings! In this case, compare the cost and maintenance of fitting a new toilet, as opposed to providing free bus passes or taxis and the health costs of an older population with no access to exercise facilities. This is a great example of how fixing an ongoing and hard-to-address issue has already begun to create neighbourhood *wellness —* in this case, filling a void in community provision that improves neighbourhood capability— rather than a symptom-based approach that would have tackled only the issues arising from the lack of suitable spaces.
 
-{% include smallsignup.html custom="Enjoy our long reads? Sign up here to get 'em directly into your mailbox." %}
+{{ include smallsignup.html custom="Enjoy our long reads? Sign up here to get 'em directly into your mailbox." }}
 
 ---
 
@@ -59,7 +59,7 @@ So how does this connect to PlaceCal? We’re getting there…
 The research methodology for the MAFN process involved a series of research activities such as walking interviews, focus groups, interviews, surveys, mapping workshops, and secondary data search. The explicit goal of this process was to involve the partnership and other providers in coming to an actionable shared understanding and consciousness of their area. We’re producing an action plan for each area detailing these findings ([an old draft for Hulme is on the area blog](https://agefriendlyhulmeandmossside.wordpress.com/action-plan/)): stay tuned for updates.
 
 One of the first, extremely stark findings in this process was that **older people didn’t think there was anything to do near them**. So we set out to find out what there *was* to do. This single observation ended up being the entire design principle for the project. Through partnership meetings and hundreds of phonecalls, chats and emails, we asked everyone what events they knew about or were putting on, and if there’s anyone else we should talk to. Pretty soon each area had a Google Calendar a bit like this one:
-{% include image.html url="https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" description="All the age-friendly events we knew about in Hulme and Moss Side this time last year…" %}
+{{ include image.html url="https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" description="All the age-friendly events we knew about in Hulme and Moss Side this time last year…" }}
 
 These calendars were managed by the MAFN team, and were printed out and distributed at each Age Friendly board meeting; in fact, we’re still doing this. None of us quite realised how much there was going on in each area, or quite how many spaces people were using for events. We found that there were several age-friendly events almost every day for people to go to. We found that many major providers didn’t publish their data online or published a highly incomplete data set, usually managing some mass of leaflets and flyers, circulated and collated by the organisations themselves and a range of health providers and active citizens. Contrary to our initial assumptions there was a *surplus* of community spaces not a lack: however, most of these spaces were hidden and hard to find out about and access without a real-world local connection.
 
@@ -99,7 +99,7 @@ We put together a successful proposal to gain funding from [CityVerve](https://c
 Despite the current focus on high tech solutions, [most people’s IT skills are actually very poor](https://www.nngroup.com/articles/computer-skill-levels/), with up to 40% of the *working-age* population struggling with basic skills like deleting an email. For older people it is likely much, much worse: see the graph below. With a project focusing on older people we knew this was likely to be much, much worse. We currently exist in a bubble where the most technically able 1–5% or so are making apps and websites for a high tech audience, while the average person installs [zero new apps a month](https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/), for example. We needed a completely different approach — one focused around *capability*, not products.
 
 
-{% include image.html url="https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" description="Internet use stats showing a huge drop-off for over 70s[^1]" %}
+{{ include image.html url="https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" description="Internet use stats showing a huge drop-off for over 70s[^1]" }}
 
 [^1]: "The digital divide has grown old: Determinants of a digital divide among seniors" [(Friemel, 2016)](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf)
 
@@ -135,7 +135,7 @@ I’ll write more on the technical implementation at a later date, especially as
 
 **Location data.** One major finding was that geolocation was way, *way* less important than we thought. Who was putting on an event and what venue it were in were far more valuable than quantitative measurements like distance. This makes sense on reflection: people are more likely to go to venues they trust and know how to get to than they are to seek out something further away in an unfamiliar place. Social capital is strongly correlated with the distance you’re willing or able to travel for an event. While people with high social capital go to other countries or cities, let alone the other side of town for an event, most people with mobility issues are often limited to a radius of a few streets around their house. Of course, mobility isn’t the only indicator of social capital, but even within this limited parameter it has a marked effect. The [*Longitudinal Study of Ageing*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731975/) shows the vast differences in walking speed based on education and age, as well as other factors.
 
-{% include image.html description="Differences in walking speed based on education and age[^2]" url="https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" %}
+{{ include image.html description="Differences in walking speed based on education and age[^2]" url="https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" }}
 
 [^2]: “Men’s and Women’s age trajectories of walking speed by educational subpopulations” (Weber, 2016)
 
@@ -154,23 +154,23 @@ From the start we were set on using PlaceCal as a source of data for flyers and 
 In the end, the two-sided leaflet we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the [PlaceCal website](https://placecal.org/winter2017) itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
 
 
-{% include image.html description="The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" url="https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" %}
+{{ include image.html description="The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" url="https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" }}
 
 Between us we distributed 10,000 leaflets and posters down the major shopping streets in Hulme and Moss Side, put them through people’s letter boxes, gave them to parents at schools, and generally plastered the area. By now you’re probably getting the point that by making one really good source of information together, we multiplied our capacity and reach. Through this process we had loads of conversations with local shops and businesses, made some more connections, and got some great feedback. We’re looking forward to being able to go back and see how people got on!
 
-{% include image.html urls="https://cdn-images-1.medium.com/max/9216/1*zId78gPQPZX-igrHycUPGA.jpeg https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg" description="10,000 leaflets is a lot of leaflets…" %}
+{{ include image.html urls="https://cdn-images-1.medium.com/max/9216/1*zId78gPQPZX-igrHycUPGA.jpeg https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg" description="10,000 leaflets is a lot of leaflets…" }}
 
 The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to *Gangnam Style* just before wrapup!
 
-{% include image.html urls = "https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg" description="Photos from our launch" %}
+{{ include image.html urls = "https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg" description="Photos from our launch" }}
 
 I hope this article has given you an insight into not just the PlaceCal design process, but what we hope is the groundwork for a more connected way of delivering technology in a community context. In future pieces I’ll cover what we have planned for PlaceCal in 2018, and document this methodology that we’re calling Community Technology Partnerships. As it happens, we’re also starting a bus service…
 
 If you want to keep up to date then you can follow us here, on [Twitter](https://twitter.com/placecal) or [Facebook](https://www.facebook.com/placecal). If you’re an organisation looking to get involved in the platform, or a neighbourhood partnership, health provider or local authority who would like to have a chat with us about rolling our PlaceCal in your area, don’t hesitate to contact us by email: [support@placecal.org](mailto:support@placecal.org). The PlaceCal design and illustration is by the awesome [Squid](http://studiosquid.co.uk/).
 
-{% include kofi.html custom="Wanna come to our next party? Join our mailing list to get the latest news from us first!" %}
+{{ include kofi.html custom="Wanna come to our next party? Join our mailing list to get the latest news from us first!" }}
 
 Last updated 16th April 2019
 {: .updated}
 
-{% include image.html description="Oh yeah — and we had a photobooth!" url="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" class="center" %}
+{{ include image.html description="Oh yeah — and we had a photobooth!" url="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" class="center" }}

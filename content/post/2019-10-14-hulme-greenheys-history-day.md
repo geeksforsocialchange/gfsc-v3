@@ -12,7 +12,7 @@ subtitle: 23rd November at The Old Abbey Taphouse
 title: Join us for Hulme & Greenheys Community History Day!
 ---
 
-{% include image.html url="/assets/images/blog/hulme-history-day/GFSC_2019_HistoryDay_2-1_3.png" class="wide" %}
+{{ include image.html url="/assets/images/blog/hulme-history-day/GFSC_2019_HistoryDay_2-1_3.png" class="wide" }}
 
 Join us in a day of celebration of Hulme & Greenheys’ diverse history. We are a group of grassroots historians, residents and academics who have come together to explore the history of our area. We’ve organised this day to help us understand how the four waves of rapid redevelopment over the last 100 years have affected us all, for better and worse.
 

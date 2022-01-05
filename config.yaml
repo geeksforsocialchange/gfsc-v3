@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://gfsc.studio
 disablePathToLower: true
-languageCode: en-us
-title: My New Hugo Site
+languageCode: en-gb
+title: Geeks for Social Change

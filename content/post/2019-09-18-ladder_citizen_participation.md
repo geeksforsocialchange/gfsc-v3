@@ -17,7 +17,7 @@ I realise a lot of this knowledge hasn't made it into mainstream tech discourse 
 
 [^arnstein]: Arnstein, S. R. (1969). _A ladder of citizen participation. Journal of the American Institute of planners_, 35(4), 216-224.
 
-{% include image.html description="'Ladder of Citizen Participation' (Arnstein, 1969)" url="/assets/images/blog/arnstein/arnstein_ladder_participation.svg" class="" %}
+{{ include image.html description="'Ladder of Citizen Participation' (Arnstein, 1969)" url="/assets/images/blog/arnstein/arnstein_ladder_participation.svg" class="" }}
 
 ## Nonparticipation
 
@@ -29,13 +29,13 @@ I think therapy refers to where the focus is shifted off the actual focus. For e
 
 [^busstop]: Image from [Justin Li on Twitter](https://twitter.com/justinnhli/status/1003703021321142272)
 
-{% include image.html description="A Facebook bus stop ad" url="/assets/images/blog/arnstein/facebook.jpeg" class="frame" %}
+{{ include image.html description="A Facebook bus stop ad" url="/assets/images/blog/arnstein/facebook.jpeg" class="frame" }}
 
 Despite how obvious these methods can seem, somehow the internal logic of large bureaucratic organisations manages to perpetually convince themselves that this works, that the product is fine and it is it the user that is at fault. Overall, in every community I've worked in this has led to 'consultation fatigue'. Community memory is much, much longer than any funded project, webapp, or commission. People will and do notice if your engagement process, however well designed, has no actual potential to change whatever it is you're developing.
 
-{% include image.html description="Every big tech company" url="/assets/images/blog/arnstein/simpsons.jpg" class="frame" %}
+{{ include image.html description="Every big tech company" url="/assets/images/blog/arnstein/simpsons.jpg" class="frame" }}
 
-{% include kofi.html custom="Buy us a Ko-fi to fuel the writing of more articles like this." %}
+{{ include kofi.html custom="Buy us a Ko-fi to fuel the writing of more articles like this." }}
 
 ## Tokenism
 
@@ -85,4 +85,4 @@ Of course, this approach isn't always relevant. If your primary purpose is comme
 
 _Got any comments or suggestions? Let us know [on Twitter @gfscstudio](https://twitter.com/gfscstudio)._
 
-{% include smallsignup.html custom="Sign up to our mailing list to get our latest articles delivered straight to your inbox." %}
+{{ include smallsignup.html custom="Sign up to our mailing list to get our latest articles delivered straight to your inbox." }}

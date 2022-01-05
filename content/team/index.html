@@ -1,13 +1,13 @@
 ---
-layout: default
+title: Our Team
 ---
 
 <div class="members">
-  {% for author in site.data.authors %}
-    {% assign member = author[1] %}
-    {% if member.in_team == false %}
-      {% continue %}
-    {% endif %}
+  {{ for author in site.data.authors }}
+    {{ assign member = author[1] }}
+    {{ if member.in_team == false }}
+      {{ continue }}
+    {{ end }}
     <div class="member">
       <div class="member__info">
         <h2 class="member__name window__h2">{{ member.name }}</h2>
@@ -34,7 +34,7 @@ layout: default
       </div>
     </div>
     <hr class="fancy">
-  {% endfor %}
+  {{ endfor }}
 </div>
 
 <div class="windows windows--index">

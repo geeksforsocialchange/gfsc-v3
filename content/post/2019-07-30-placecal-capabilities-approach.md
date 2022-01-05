@@ -43,7 +43,7 @@ The MAFN project was conducted by an engaged-research team at MMU with the objec
 
 This deliberate mix of communities of place and practice in the MAFN project is itself an application of a capability-based community development methodology. In our interpretation, it correlates with the concept of ‘active ageing’ in the AFCC approach as a position distinct from medical or social models of disability, instead emphasising the active self-determination of individuals in any social, economic or technical process <span class="citation" data-cites="nussbaum2003 sen1999">(Nussbaum, 2003; Sen, 1999)</span>.
 
-{% include image.html description="WHO Age Friendly Flower’, as adapted by MAFN" url="/assets/images/blog/placecal-capabilities/who-flower.png" class="frame" %}
+{{ include image.html description="WHO Age Friendly Flower’, as adapted by MAFN" url="/assets/images/blog/placecal-capabilities/who-flower.png" class="frame" }}
 
 In discussions of this and earlier work operationalising the capability approach in the context of older people and place <span class="citation" data-cites="white2018a">(White &amp; Hammond, 2018)</span> we argue that the distinction between place-based interventions emphasising the active role of older citizens in deciding and creating the services and systems that ensure equality of opportunity across the life-course have two key features in common with the capability approach. These two features are indicated in the WHO AFCC ‘flower’ diagram, which shows an individual older person’s experience at the centre of a flower with eight petals each indicating a different domain of determining factors in the social, economic or physical environment. The diagram demonstrates how the ‘age friendly approach’ places individual human experience at the centre of both any understanding of the determinants of opportunities for a well-lived life, <strong>and</strong> at the centre of any actions taken to improve those opportunities <span class="citation" data-cites="worldhealthorganization2007">(World Health Organization, 2007)</span>.
 
@@ -127,7 +127,7 @@ This picture is much worse for older people. The UK Office of National Statistic
 
 What people actually <em>do</em> when they’re online is enormously varied and heavily correlated with class and age. Digital exclusion is intersectional, and the worst experiences are suffered by those who are older, less well educated, less likely to be employed, female and disabled <span class="citation" data-cites="vandeursen2014">(Deursen &amp; Dijk, 2014, p. p520)</span>. The result of this is an enormous gap between tech ‘haves’ and ‘have-nots’. It is not just a simple binary test – ‘are you on the internet / using a smartphone / on Facebook?’ – but a complex multidimensional matrix of skills, abilities, and capabilities. This matrix is highly impacted by a range of psychosocial variables, and significantly affected by overall motivation <span class="citation" data-cites="mcneal2008">(McNeal, Hale, &amp; Dotterweich, 2008)</span> for the specific ‘clickable possibilities’ <span class="citation" data-cites="kleine2013">(Kleine, 2013, p. p38)</span> the citizen wants to accomplish.
 
-{% include image.html description="Internet users by age group (Office for National Statistics, 2019)" url="/assets/images/blog/placecal-capabilities/internet-use-by-age.png" class="frame" %}
+{{ include image.html description="Internet users by age group (Office for National Statistics, 2019)" url="/assets/images/blog/placecal-capabilities/internet-use-by-age.png" class="frame" }}
 <span class="citation" data-cites="officefornationalstatistics2019"></span>
 
 This situation is worsened still in the context of the current shift of government and statutory services to be ‘digital by default’ <span class="citation" data-cites="ukcabinetoffice2012">(UK Cabinet Office, UK Govenrment Digital Service, &amp; Rt Hon Lord Maude of Horsham, 2012)</span>, or worse, online only. In the UK, key activities such as claiming benefits, filing tax returns, and accessing medical services are in the process of being moved online ‘to transform public services … making them better and cheaper for taxpayers and more effective and efficient for government’ (ibid.). In other words, services are no longer ‘door to door’ but rather ‘person to person’, mediated by the internet <span class="citation" data-cites="wang2018">(Wang, Zhang, &amp; Wellman, 2018)</span>.
@@ -157,7 +157,7 @@ This research discovered a widely held perception there was ‘nothing to do’ 
 
 Engagement with institutional partners revealed that across the health, housing, and community sectors there were a number of existing attempts to catalogue community activities described in terms of ‘asset mapping’ or ‘community directory’ initiatives. Each of these attempts, like the MAFN calendar, were inherently limited by funding and time, and required constant community development work to keep up to date. It was at this point that PlaceCal was initiated, which will be discussed in detail below.
 
-{% include image.html description="An example of the shared Google Calendar for one day in one area" url="/assets/images/blog/placecal-capabilities/google-cal-results.png" class="frame" %}
+{{ include image.html description="An example of the shared Google Calendar for one day in one area" url="/assets/images/blog/placecal-capabilities/google-cal-results.png" class="frame" }}
 
 The PlaceCal CTP evolved by exploring all the ways that we could increase connectivity and communication between and across neighbourhood project partners. Working with the existing context of collaboration developed by MAFN, we established that there was the potential for high quality, up-to-date and trusted information in the area that would allow individual organisations to share the burden of creating a central source of information.
 
@@ -184,7 +184,7 @@ MAFN had already facilitated the creation of a local partnership of organisation
 
 We realised that if we could encourage each group in the partnership to publish their calendar online using software they were already using (or paying for) such as Outlook, Mac Calendar, Google Calendar or Facebook, we could use the built in ‘iCal’ or ‘API’<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> features of these calendars to automatically combine, collate and publish the information in one place. Rather than the current system where each worker takes a ‘snapshot’ of each group’s activities whenever they met the group, we could train organisations to share their own activity information, and with the help of the PlaceCal software, give them the capability to publish this alongside that of others with much lower effort and much wider reach. This central source of event information would be a canonical source of local information that could be shared by every partner and used to create shared print outputs, for example.
 
-{% include image.html description="A selection of the current community information needed to find out everything going on in the area" url="/assets/images/blog/placecal-capabilities/flyer-pile.jpg" class="" %}
+{{ include image.html description="A selection of the current community information needed to find out everything going on in the area" url="/assets/images/blog/placecal-capabilities/flyer-pile.jpg" class="" }}
 
 GFSC developed the PlaceCal software in Ruby on Rails (RoR), a popular framework for rapidly developing web applications, and is currently live at [placecal.org](placecal.org). The source code is licensed under the AGPL open source license, and can be downloaded from GitHub.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> The training and support materials are available under the same license, and published at [handbook.placecal.org](handbook.placecal.org). All these tools were made free and open source to demonstrate our commitment to our overall methodology rather than any one software tool; to make development and design decisions public and transparent; and optimistically to encourage teams doing similar work in other neighbourhoods to be able to directly contribute to feature development.
 
@@ -205,7 +205,7 @@ Most people belonged to more than one of these roles: for example, everyone is a
 
 The rest of this section explores these roles in depth, and how through <strong>direct engagement</strong> in a <strong>creative partnership</strong> we <strong>actively realised</strong> their increased capability (as established in Section ).
 
-{% include kofi.html custom="Support our community work by donating the price of a Ko-fi to us." %}
+{{ include kofi.html custom="Support our community work by donating the price of a Ko-fi to us." }}
 
 <h3 id="roles-and-their-capabilities">Roles and their capabilities</h3>
 
@@ -217,7 +217,7 @@ We describe these situations in terms of the role ‘secretary’. It is not a �
 
 In the CTP approach, each group was trained to maintain their own listings, which were then aggregated and published on the PlaceCal platform. This shift in structure is shown in the figure below. Through the partnership, work could therefore be divided evenly between workers in an area, shifting the focus from simply maintaining immediately out-of-date lists of information, to wholesale skills-based digital inclusion.
 
-{% include image.html description="CTP approach schematic from the PlaceCal 'Commissioner' handbook" url="/assets/images/blog/placecal-capabilities/secretaries.png" class="frame" %}
+{{ include image.html description="CTP approach schematic from the PlaceCal 'Commissioner' handbook" url="/assets/images/blog/placecal-capabilities/secretaries.png" class="frame" }}
 
 Training groups to maintain their own information had the unexpected side effect that some organisations, when trained to publish their own information, published almost twice as many events as we got from face-to-face interviews in the previous ‘manual’ method. We also discovered that the most frequent barrier to getting this information was finding out who the person responsible for maintaining the diary was in each institution, taking time, trust and patience to effectively engage each group.
 
@@ -263,7 +263,7 @@ The CTP development work created a local trust network that ensured faith in Pla
 
 Creating a de-siloed and community owned and curated social prescribing resource has therefore dramatically increased relationships between GP practices and community groups, giving health workers the capability to care for the widest possible range of patient needs with little additional effort.
 
-{% include image.html description="Dr Alasdair Honeyman at work using PlaceCal (right hand screen)" url="/assets/images/blog/placecal-capabilities/alasdair.jpg" class="" %}
+{{ include image.html description="Dr Alasdair Honeyman at work using PlaceCal (right hand screen)" url="/assets/images/blog/placecal-capabilities/alasdair.jpg" class="" }}
 
 <h4 id="commissioners">Commissioners</h4>
 
@@ -322,7 +322,7 @@ A CTP creates a wide range of shared benefits by enabling specific people in a p
 
 The authors are now working on a cross-sector collaborative funding bid to ‘roll out’ PlaceCal to the City of Manchester, working in partnership with the neighbourhood team, library services, housing associations, GPs, and the Local Care Organisation. This bid will enable the creation of a charity that will own and direct the PlaceCal initiative, funded and managed for the wider benefit of local communities on behalf of its members. We hope that this realisation of the capability approach can radically transform the way that we think about and share community information and build technology, both in the UK and internationally, and paves the way for similar initiatives by others.
 
-{% include smallsignup.html custom="Join our mailing list to hear more about our projects and receive our articles directly to your inbox." %}
+{{ include smallsignup.html custom="Join our mailing list to hear more about our projects and receive our articles directly to your inbox." }}
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 The authors would like to thank Matt Youngson and April Manderson from the MAFN team; Mark Dormand, Jazz Chatfield and Justin Hellings from GFSC; Age Friendly Hulme and Moss Side; Dr Alaisdair Honeyman; and Patrick Hanfling.
@@ -333,7 +333,7 @@ The authors are engaged in acquiring funding to further develop the PlaceCal pil
 <h2 id="funding">Funding</h2>
 Innovate UK’s <em>CityVerve</em> program funded the PlaceCal pilot. It was supported by a community development grant from Manchester City Council.
 
-{% include kofi.html custom="Buy us a Ko-fi if you want to support Geeks for Social Change's projects, including PlaceCal." %}
+{{ include kofi.html custom="Buy us a Ko-fi if you want to support Geeks for Social Change's projects, including PlaceCal." }}
 
 <section class="footnotes" role="doc-endnotes">
 

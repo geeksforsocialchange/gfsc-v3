@@ -12,7 +12,7 @@ I'm always struck in technical meetings how quickly people dream up imaginary pe
 
 And sure. All those things are possible. But they're fantasies. And it's OK to start with a fantasy -- decades of science fiction have guided science and engineering. Everything starts with an idea, at some level of application. But those ideas rapidly get blown wildly out of proportion. The problem is that by creating these stories and allowing them to persist, they get repeated ad nauseum as _post hoc, ego propter hoc_ justifications.
 
-{% include youtube.html video="HL_vHDjG5Wk" %}
+{{ include youtube.html video="HL_vHDjG5Wk" }}
 
 User stories[^1] are meant to be _non-fiction_. We should not be in the business of giving any more airtime to _fictional_ user stories than we need to, given how easy it is to gather them. The cart should not lead the horse. I'm sure that if you asked medical staff their top 20 desires, the lighting on the way home wouldn't even factor, and that streetlights are part of a carefully orchestrated city engineering process. And I'm sure that if one really wanted to reduce air pollution, having a networked grid of air quality sensors would give useful information, but do absolutely nothing to tackle the problem of air pollution in cities. And in the vacuum of applications for these ideas, I suspect these "straw users" will have already been referred to half a dozen times as hypothetical benefits[^2].
 
@@ -37,4 +37,4 @@ There's an underlying, unspoken assumption with technology projects that "if you
 
 Making solutions to problems no-one has is a waste of everyone's time and our planet's dwindling resources. Innovation shouldn't mean disengaging from society and has no built-in moral "goodness" - unchecked, it simply will replicate and support the injustice and inequality already in the world. Imaginary scenarios are a fine place to start, but user stories should be non-fiction, and we need to be careful to separate the two.
 
-{% include smallsignup.html custom="Enjoyed this article? Join our mailing list for more like this." %}
+{{ include smallsignup.html custom="Enjoyed this article? Join our mailing list for more like this." }}

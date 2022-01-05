@@ -12,7 +12,7 @@ subtitle: '...And you still need the right team to get you to that red X.'
 title: Technology isn't a magic wand, it's a treasure map.
 ---
 
-{% include image.html alt="A colourful illustration of a fake Innovations catalogue cover." url="/assets/images/blog/technology-isnt-a-magic-wand/emmacharleston.jpg" class="" %}
+{{ include image.html alt="A colourful illustration of a fake Innovations catalogue cover." url="/assets/images/blog/technology-isnt-a-magic-wand/emmacharleston.jpg" class="" }}
 
 I used to love the _Innovations_ catalogue dropping through the door with the weekend paper. For an entertainment-starved tween, it was a mix of ludicrosity and earnestness that made for ideal Sunday browsing.
 
@@ -24,7 +24,7 @@ If permitted to take up space in a more general-purpose living room, they would 
 
 ---
 
-{% include image.html alt="Scan of an Innovations product called 'Pocket Chainsaw'." description="Evidence of this is largely not online but I was able to pick up a paperback of some of the best bits.[^1]" url="/assets/images/blog/technology-isnt-a-magic-wand/pocketchainsaw.jpg" class="frame image--center" %}
+{{ include image.html alt="Scan of an Innovations product called 'Pocket Chainsaw'." description="Evidence of this is largely not online but I was able to pick up a paperback of some of the best bits.[^1]" url="/assets/images/blog/technology-isnt-a-magic-wand/pocketchainsaw.jpg" class="frame image--center" }}
 
 _Innovations_ gave a spotlight to niche 'inventions' that aimed to solve mundane problems with over-the-top gadgetry. Palm pilots and calculator watches and clock radio toilet roll holders. (_Everything_ had a clock radio.)
 
@@ -34,7 +34,7 @@ It fitted in that gap between "I need that!" and "But do I really?", the gap tha
 
 But a lot of inventions of this era were seemingly designed to fit in this _Innovations_ sized-hole. The promise that all of society's smallest problems could be improved by upscaling your toaster was an intoxicating one.
 
-{% include image.html urls="/assets/images/blog/technology-isnt-a-magic-wand/scarecat.jpg /assets/images/blog/technology-isnt-a-magic-wand/gianthand.jpg" class="frame" description="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1]" %}
+{{ include image.html urls="/assets/images/blog/technology-isnt-a-magic-wand/scarecat.jpg /assets/images/blog/technology-isnt-a-magic-wand/gianthand.jpg" class="frame" description="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1]" }}
 
 ---
 
@@ -50,7 +50,7 @@ This idea is been so persistent that it's the only real concept most people have
 
 Due to the massive amounts of money and hubris that reside in the tech sector, we now seem to believe that the same methodology used to sell pens that write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness, or poverty or something.
 
-{% include image.html alt="Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." description="Securi-Gnome: \"He can be pegged down into the earth\"[^1]" url="/assets/images/blog/technology-isnt-a-magic-wand/securignome.jpg" class="frame image--center" %}
+{{ include image.html alt="Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." description="Securi-Gnome: \"He can be pegged down into the earth\"[^1]" url="/assets/images/blog/technology-isnt-a-magic-wand/securignome.jpg" class="frame image--center" }}
 
 ---
 
@@ -60,7 +60,7 @@ Fixing difficult social problems, or any problems other than the utterly trivial
 
 People expect tech to be a magic wand: wave it and fix a problem. But for any serious problem, this doesn't work. In the same way owning a set of spanners doesn't automatically make you a car mechanic, much less able to run a garage. And yet, policymakers seem to think all they have to do is buy spanners (with dictaphones and clock radios built in of course) and somehow the cars will get fixed by magic.
 
-{% include kofi.html custom="Found this interesting or helpful? Support us with a donation." %}
+{{ include kofi.html custom="Found this interesting or helpful? Support us with a donation." }}
 
 The worst part is that this is now the world those of us engaged in on-the-ground communities and mutual aid groups have to deal with. We're seeing a wave of people come in who just want to fix things with Design Thinking or Human Centred Design, and their new set of Internet of Things-enabled spanners.
 
@@ -78,9 +78,9 @@ With all the lasers and 3D printers in the world, you still need a team of peopl
 
 ---
 
-{% include image.html alt="A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." description="Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2]" url="/assets/images/blog/technology-isnt-a-magic-wand/oculardevice.png" class="frame image--center" %}
+{{ include image.html alt="A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." description="Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2]" url="/assets/images/blog/technology-isnt-a-magic-wand/oculardevice.png" class="frame image--center" }}
 
-{% include smallsignup.html custom="Sign up to our mailing list to get our latest articles delivered straight to your inbox." %}
+{{ include smallsignup.html custom="Sign up to our mailing list to get our latest articles delivered straight to your inbox." }}
 
 ---
 

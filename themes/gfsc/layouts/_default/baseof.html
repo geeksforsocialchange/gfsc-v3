@@ -1,67 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.url }}/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg" color="#ea5b0c">
-    <meta name="msapplication-TileColor" content="#f1f4d1">
-    <meta name="theme-color" content="#f1f4d1">
-    <!-- Open Graph -->
-    <meta property="og:site_name" content="Geeks for Social Change">
-    <meta property="og:type" content="website" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="{{ .Site.BaseURL }}/site.webmanifest">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}/safari-pinned-tab.svg" color="#ea5b0c">
+  <meta name="msapplication-TileColor" content="#f1f4d1">
+  <meta name="theme-color" content="#f1f4d1">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Geeks for Social Change">
+  <meta property="og:type" content="website" />
 
-  {%- if page.title %}
-    <title>{{ page.title }} | Geeks for Social Change</title>
-    <meta property="og:title" content="{{ page.title }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-    <title>Geeks for Social Change</title>
-    <meta property="og:title" content="Geeks for Social Change">
-    <meta name="twitter:title" content="Geeks for Social Change">
-  {% endif %}
+  <title>{{ .Title }} | Geeks for Social Change</title>
+  <meta property="og:title" content="{{ .Title }}">
+  <meta name="twitter:title" content="{{ .Title }}">
 
-  {%- if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}">
-  {% else %}
+
+  {{- if isset .Params "description" }}
+    <meta name="twitter:description" content="{{ .Params.Description }}">
+    <meta property="og:description" content="{{ .Params.Description }}">
+  {{ else }}
     <meta name="twitter:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
     <meta property="og:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
-  {% endif %}
+  {{ end }}
 
-  {%- if page.social-image-square %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.social-image-square }}">
-  {% endif %}
+  {{- if isset .Params "social-image-square" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-square }}">
+  {{ end }}
 
-  {%- if page.social-image-wide %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.social-image-wide }}">
-    {%- unless page.social-image-square %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.social-image-wide }}">
-    {% endunless %}
-  {% endif %}
+  {{- if isset .Params "social-image-wide" }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-wide }}">
+    {{- if not isset .Params "social-image-square" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-wide }}">
+    {{ end }}
+  {{ end }}
 
-  {%- unless page.social-image-square or page.social-image-wide %}
-    <meta property="og:image" content="{{ site.url }}/og-image.jpg">
-    <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
-  {% endunless %}
+  {{- if not isset .Params "social-image-square" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/og-image.jpg">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/og-image-2_1.png">
+  {{ end }}
 
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}{{ page.url }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@gfscstudio">
     <meta name="twitter:creator" content="@gfscstudio">
 
-  {%- if jekyll.environment == "production" %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script defer data-domain="gfsc.studio" src="https://plausible.io/js/plausible.js"></script>
-  {%- endif %}
+  {{- if hugo.IsProduction }}
+    <script defer data-domain="gfsc.studio" src="https://plausible.io/js/plausible.js"></script>
+  {{- end }}
 </head>
+
 <body>
   <div class="page__wrapper">
     <header>
@@ -74,16 +69,16 @@
         </h2>
         <nav class="header__nav nav" id="js-nav">
           <ul>
-            <li {% if page.url == "/who-we-are.html" %}class="active"{% endif %}>
+            <li>
               <a href="/who-we-are">Who we are</a>
             </li>
-            <li {% if page.url == "/what-we-do.html" %}class="active"{% endif %}>
+            <li>
               <a href="/what-we-do">What we do</a>
             </li>
-            <li {% if page.dir == "/blog/" or page.collection == "posts" %}class="active"{% endif %}>
+            <li>
               <a href="/blog">Blog</a>
             </li>
-            <li {% if page.url == "/contact.html" %}class="active"{% endif %}>
+            <li>
               <a href="/contact">Get in touch</a>
             </li>
           </ul>
@@ -98,41 +93,41 @@
             </g>
           </svg>
         </button>
-        {% if page.layout == 'blog-index' or page.layout == 'blog' %}
+        <!-- {{ if page.layout == 'blog-index' or page.layout == 'blog' }}
           <h1 class="header__blog--name">Blog</h1>
-          {% if page.layout == 'blog-index' %}
-          <h1 class="page__title header__blog--title">{{ page.title }}</h1>
-          {% endif %}
+          {{ if page.layout == 'blog-index' }}
+          <h1 class="page__title header__blog--title">{{ .Title }}</h1>
+          {{ end }}
           <div class="header__strip--1 strip strip--circles unless-mobile" role="presentation"></div>
           <div class="header__strip--2 strip strip--lines" role="presentation"></div>
 
-        {% else %}
+        {{ else }}
           <div class="header__strip--1 strip strip--circles" role="presentation"></div>
           <div class="header__strip--2 strip strip--lines" role="presentation"></div>
-        {% endif %}
-      </div>
+        {{ end }}
+      </div> -->
     </header>
     <main>
       <article class="page page--{{ page.layout }}">
-        {% unless page.layout == 'blog' or page.layout == 'blog-index' %}
+        <!-- {{ unless page.layout == 'blog' or page.layout == 'blog-index' }}
           <header>
-            <h1 class="page__title">{{ page.title }}</h1>
+            <h1 class="page__title">{{ .Title }}</h1>
           </header>
-        {% endunless %}
-        {% if page.layout == 'default' %}
+        {{ end }}
+        {{ if page.layout == 'default' }}
           <hr class="fancy unless-mobile">
-        {% endif %}
-        {% if page.layout == 'team' %}
+        {{ end }}
+        {{ if page.layout == 'team' }}
           <hr class="fancy unless-mobile">
-        {% endif %}
+        {{ end }}
         <div class="page__content">
           {{ content }}
-        </div>
+        </div> -->
       </article>
     </main>
  
     <footer>
-      {% include bigsignup.html %}
+      {{ include bigsignup.html }}
       <div class="footer">
       <div class="footer__strip strip strip--circles" role="presentation"></div>
       <div class="footer__title">

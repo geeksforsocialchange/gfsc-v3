@@ -1,10 +1,10 @@
 <aside class="kofi" markdown="0">
    <p class="kofi__text">
-      {% if include.custom %}
+      {{ if include.custom }}
       {{include.custom}}
-      {% else %}
+      {{ else }}
       Make a donation on Ko-fi to help support our work.
-      {% endif %}
+      {{ end }}
    </p>
    <div class="kofi__button__container">
       <a
