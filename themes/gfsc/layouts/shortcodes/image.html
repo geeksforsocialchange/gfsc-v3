@@ -1,26 +1,8 @@
-<figure class="image image--{{ if include.class }}{{ include.class }}{{ else }}frame{{ endif}}" markdown="0">
-  {{ if include.urls }}
-    <div class="image__wrapper image__wrapper--multiple">
-      {{ assign urls = include.urls | split: ' ' }}
-      {{ for url in urls }}
-        <img src="{{ url }}" alt="{{ include.description }}">
-      {{ endfor }}
-    </div>
-  {{ else }}
-    <div class="image__wrapper image__wrapper--single">
-      <img src="{{ include.url }}" alt="{{ include.alt || include.description }}">
-    </div>
-  {{ end }}
-  {{ if include.description }}
-    <figcaption>
-      <span class="icon">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5 19" style="enable-background:new 0 0 5 19;" xml:space="preserve">
-        	<path d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"/>
-        </svg>
-      </span>
-      <span class="desc" markdown="1">
-        {{ include.description }}
-      </span>
-    </figcaption>
-  {{ end }}
+<figure
+   class="image image--{{ if (.Get 2) }}{{ .Get 2 }}{{ else }}frame{{ end }}"
+   markdown="0"
+>
+   <div class="image__wrapper image__wrapper--single">
+      <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" />
+   </div>
 </figure>

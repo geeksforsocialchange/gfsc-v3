@@ -29,15 +29,15 @@
     <meta name="twitter:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
     <meta property="og:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
   {{ end }}
-
+  {{/*
   {{- if isset .Params "social-image-square" }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-square }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageSquare }}">
   {{ end }}
 
   {{- if isset .Params "social-image-wide" }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-wide }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}">
     {{- if not isset .Params "social-image-square" }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ page.social-image-wide }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}">
     {{ end }}
   {{ end }}
 
@@ -46,7 +46,7 @@
     <meta name="twitter:image" content="{{ .Site.BaseURL }}/og-image-2_1.png">
   {{ end }}
 
-    <meta property="og:url" content="{{ .Site.BaseURL }}{{ page.url }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}{{ .url }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@gfscstudio">
@@ -55,6 +55,7 @@
   {{- if hugo.IsProduction }}
     <script defer data-domain="gfsc.studio" src="https://plausible.io/js/plausible.js"></script>
   {{- end }}
+  */}}
 </head>
 
 <body>
@@ -93,41 +94,14 @@
             </g>
           </svg>
         </button>
-        <!-- {{ if page.layout == 'blog-index' or page.layout == 'blog' }}
-          <h1 class="header__blog--name">Blog</h1>
-          {{ if page.layout == 'blog-index' }}
-          <h1 class="page__title header__blog--title">{{ .Title }}</h1>
-          {{ end }}
-          <div class="header__strip--1 strip strip--circles unless-mobile" role="presentation"></div>
-          <div class="header__strip--2 strip strip--lines" role="presentation"></div>
 
-        {{ else }}
-          <div class="header__strip--1 strip strip--circles" role="presentation"></div>
-          <div class="header__strip--2 strip strip--lines" role="presentation"></div>
-        {{ end }}
-      </div> -->
     </header>
     <main>
-      <article class="page page--{{ page.layout }}">
-        <!-- {{ unless page.layout == 'blog' or page.layout == 'blog-index' }}
-          <header>
-            <h1 class="page__title">{{ .Title }}</h1>
-          </header>
-        {{ end }}
-        {{ if page.layout == 'default' }}
-          <hr class="fancy unless-mobile">
-        {{ end }}
-        {{ if page.layout == 'team' }}
-          <hr class="fancy unless-mobile">
-        {{ end }}
-        <div class="page__content">
-          {{ content }}
-        </div> -->
-      </article>
+      {{- block "main" . }}{{- end }}
     </main>
  
     <footer>
-      {{ include bigsignup.html }}
+
       <div class="footer">
       <div class="footer__strip strip strip--circles" role="presentation"></div>
       <div class="footer__title">
@@ -145,10 +119,10 @@
       </div>
       <div class="footer__impressum">
         <p>
-          Copyright &copy; 2019 – {{ 'now' | date: "%Y" }} Geeks for Social Change Ltd.<br class="if-mobile">
+          Copyright &copy; 2019 – 2022 Geeks for Social Change Ltd.<br class="if-mobile">
           All rights reserved.<br>
           Registered in England and Wales No. 10931293.<br>
-          <!-- <a href="/privacy" class="link">Privacy policy</a> -->
+
         </p>
       </div>
     

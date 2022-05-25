@@ -1,2 +1,2 @@
-<time class="teaser__meta" datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<div class="teaser__meta" rel="author">By {{ post.author }}</div>
+<time class="teaser__meta" datetime="{{ .Date }}">{{ .Date }}</time>
+<div class="teaser__meta" rel="author">By {{ .Author }}</div>
