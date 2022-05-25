@@ -1,0 +1,22 @@
+main:
+   - name: "The Studio"
+     url: /studio/
+     weight: 1
+   - name: "The Collective"
+     url: /collective/
+     weight: 2
+   - name: "The team"
+     url: /team/
+     weight: 4
+   - name: "Our Work"
+     url: /projects/
+     weight: 3
+   - name: "Support Us"
+     url: /support/
+     weight: 5
+   - name: "Contact Us"
+     url: /contact/
+     weight: 7
+   - name: "Blog"
+     url: /blog/
+     weight: 6

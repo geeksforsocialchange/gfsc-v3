@@ -1,0 +1,76 @@
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css" />
+   <link rel="stylesheet" href="/css/main.css" />
+   <!-- Favicons -->
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+   <link rel="manifest" href="{{ .Site.BaseURL }}/site.webmanifest" />
+   <link
+      rel="mask-icon"
+      href="{{ .Site.BaseURL }}/safari-pinned-tab.svg"
+      color="#ea5b0c"
+   />
+   <meta name="msapplication-TileColor" content="#f1f4d1" />
+   <meta name="theme-color" content="#f1f4d1" />
+   <!-- Open Graph -->
+   <meta property="og:site_name" content="Geeks for Social Change" />
+   <meta property="og:type" content="website" />
+
+   <title>{{ .Title }} | Geeks for Social Change</title>
+   <meta property="og:title" content="{{ .Title }}" />
+   <meta name="twitter:title" content="{{ .Title }}" />
+
+   <!-- Stylesheet -->
+
+   {{ $style := resources.Get "sass/main.scss" | resources.ToCSS }}
+   <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+   {{- if isset .Params "description" }}
+   <meta name="twitter:description" content="{{ .Params.Description }}" />
+   <meta property="og:description" content="{{ .Params.Description }}" />
+   {{ else }}
+   <meta
+      name="twitter:description"
+      content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research."
+   />
+   <meta
+      property="og:description"
+      content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research."
+   />
+   {{ end }} {{/* {{- if isset .Params "social-image-square" }}
+   <meta
+      property="og:image"
+      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageSquare }}"
+   />
+   {{ end }} {{- if isset .Params "social-image-wide" }}
+   <meta
+      name="twitter:image"
+      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}"
+   />
+   {{- if not isset .Params "social-image-square" }}
+   <meta
+      property="og:image"
+      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}"
+   />
+   {{ end }} {{ end }} {{- if not isset .Params "social-image-square" }}
+   <meta property="og:image" content="{{ .Site.BaseURL }}/og-image.jpg" />
+   <meta name="twitter:image" content="{{ .Site.BaseURL }}/og-image-2_1.png" />
+   {{ end }}
+
+   <meta property="og:url" content="{{ .Site.BaseURL }}{{ .url }}" />
+
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:site" content="@gfscstudio" />
+   <meta name="twitter:creator" content="@gfscstudio" />
+
+   {{- if hugo.IsProduction }}
+   <script
+      defer
+      data-domain="gfsc.studio"
+      src="https://plausible.io/js/plausible.js"
+   ></script>
+   {{- end }} */}}
+</head>
