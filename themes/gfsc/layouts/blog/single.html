@@ -1,0 +1,56 @@
+{{ define "main"}}
+{{ $blogauthors := split .Params.Author ", " }}
+<div class="blog">
+   <div class="blog__content">
+      <header>
+         <h1 class="blog__title">{{ .Title }}</h1>
+         {{ if isset .Params "subtitle" }}
+         <p class="blog__subtitle">{{ .Params.Subtitle }}</p>
+         {{ end }}
+      </header>
+
+      <div class="blog__body">{{ .Content }}</div>
+   </div>
+
+   <aside class="blog__aside">
+      <time class="blog__meta blog__meta--date" datetime="{{ .Date }}"
+         >{{ .Date }}</time
+      >
+      <div class="blog__meta blog__meta--author" rel="author">
+         By {{ range $blogauthors }} {{ . }} {{ end }}
+      </div>
+      {{ range $blogauthors }}
+      <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
+         <picture>
+            <img
+               src="/assets/images/authors/"
+               alt="A photo of {{ . }}"
+               class="blog__meta--avatar--image"
+            />
+         </picture>
+      </div>
+      {{ end }} {{ if isset .Params "illustrator" }}
+      <div
+         class="blog__meta blog__meta--author blog__meta--illustrator"
+         rel="illustrator"
+      >
+         Illustration by {{ .Params.Illustrator }}
+      </div>
+      <div
+         class="blog__meta blog__meta--avatar blog__meta--avatar--illustrator"
+      >
+         <picture>
+            <img
+               src="/assets/images/authors/{{ .Params.Illustrator }}"
+               alt="A photo of {{ .Params.Illustrator }}"
+               class="blog__meta--avatar--image"
+            />
+         </picture>
+      </div>
+      {{ else }}
+      <span></span><span></span>
+      {{ end }}
+   </aside>
+</div>
+
+{{ end }}
