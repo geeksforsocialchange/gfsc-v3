@@ -17,36 +17,46 @@
          >{{ .Date }}</time
       >
       <div class="blog__meta blog__meta--author" rel="author">
-         By {{ range $blogauthors }} {{ . }} {{ end }}
+         By
+         {{ range $blogauthors }}
+            {{ $findauthor := where $.Site.Data.authors.authors "tag" .}}
+            {{ $author := index $findauthor 0 }}
+            {{ $author.name }} 
+         {{ end }}
       </div>
       {{ range $blogauthors }}
-      <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
-         <picture>
-            <img
-               src="/assets/images/authors/"
-               alt="A photo of {{ . }}"
-               class="blog__meta--avatar--image"
-            />
-         </picture>
-      </div>
-      {{ end }} {{ if isset .Params "illustrator" }}
-      <div
-         class="blog__meta blog__meta--author blog__meta--illustrator"
-         rel="illustrator"
-      >
-         Illustration by {{ .Params.Illustrator }}
-      </div>
-      <div
-         class="blog__meta blog__meta--avatar blog__meta--avatar--illustrator"
-      >
-         <picture>
-            <img
-               src="/assets/images/authors/{{ .Params.Illustrator }}"
-               alt="A photo of {{ .Params.Illustrator }}"
-               class="blog__meta--avatar--image"
-            />
-         </picture>
-      </div>
+         {{ $findauthor := where $.Site.Data.authors.authors "tag" .}}
+         {{ $author := index $findauthor 0 }}
+         <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
+            <picture>
+               <img
+                  src="/assets/images/authors/{{ $author.avatar }}"
+                  alt="A photo of {{ $author.name }}"
+                  class="blog__meta--avatar--image"
+               />
+            </picture>
+         </div>
+      {{ end }}
+      {{ if isset .Params "illustrator" }}
+         {{ $findillus := where $.Site.Data.authors.authors "tag" .Params.illustrator }}
+         {{ $illustrator := index $findillus 0 }}
+         <div
+            class="blog__meta blog__meta--author blog__meta--illustrator"
+            rel="illustrator"
+         >
+            Illustration by {{ $illustrator.name }}
+         </div>
+         <div
+            class="blog__meta blog__meta--avatar blog__meta--avatar--illustrator"
+         >
+            <picture>
+               <img
+                  src="/assets/images/authors/{{ $illustrator.avatar }}"
+                  alt="A photo of {{ $illustrator.name }}"
+                  class="blog__meta--avatar--image"
+               />
+            </picture>
+         </div>
       {{ else }}
       <span></span><span></span>
       {{ end }}

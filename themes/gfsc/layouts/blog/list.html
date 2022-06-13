@@ -25,8 +25,12 @@
       <aside class="teaser__aside">
          <time class="teaser__meta" datetime="{{ .Date }}">{{ .Date }}</time>
          <div class="teaser__meta teaser__meta--author" rel="author">
-            By {{ range $blogauthors }}
-            <span>{{ . }}</span> {{ end }}
+            By
+            {{ range $blogauthors }}
+               {{ $findauthor := where $.Site.Data.authors.authors "tag" .}}
+               {{ $author := index $findauthor 0 }}
+               <span>{{ $author.name }}</span>
+            {{ end }}
          </div>
       </aside>
    </article>
