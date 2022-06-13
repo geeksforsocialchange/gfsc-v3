@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ range .Pages }}
+   {{ $blogauthors := split .Params.Author ", " }}
+   <hr class="fancy fancy__borderless--top" />
+   <article
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+      role="article"
+      class="teaser"
+   >
+      <div class="teaser__content">
+         <header>
+            <h2 class="teaser__title" itemprop="name">
+               <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
+            </h2>
+            {{ if isset . "subtitle" }}
+            <p class="teaser__subtitle">{{ .Subtitle }}</p>
+            {{ end }}
+         </header>
+         <div class="teaser__excerpt">
+            {{ .Description | markdownify }}
+            <p><a href="{{ .Permalink }}" class="btn">Read more</a></p>
+         </div>
+      </div>
+      <aside class="teaser__aside">
+         <time class="teaser__meta" datetime="{{ .Date }}">{{ .Date }}</time>
+         <div class="teaser__meta teaser__meta--author" rel="author">
+            By {{ range $blogauthors }}
+            <span>{{ . }}</span> {{ end }}
+         </div>
+      </aside>
+   </article>
+{{ end }}
+<hr class="fancy fancy__borderless--bottom" />
+{{ end }}
