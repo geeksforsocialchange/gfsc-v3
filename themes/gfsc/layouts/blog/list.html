@@ -13,12 +13,12 @@
             <h2 class="teaser__title" itemprop="name">
                <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
             </h2>
-            {{ if isset . "subtitle" }}
-            <p class="teaser__subtitle">{{ .Subtitle }}</p>
+            {{ if isset .Params "subtitle" }}
+            <p class="teaser__subtitle">{{ .Params.Subtitle }}</p>
             {{ end }}
          </header>
          <div class="teaser__excerpt">
-            {{ .Description | markdownify }}
+            {{ .Params.Description | markdownify }}
             <p><a href="{{ .Permalink }}" class="btn">Read more</a></p>
          </div>
       </div>
