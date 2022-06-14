@@ -14,7 +14,7 @@
 
    <aside class="blog__aside">
       <time class="blog__meta blog__meta--date" datetime="{{ .Date }}"
-         >{{ .Date }}</time
+         >{{ .Date.Format "02 January 2006" }}</time
       >
       <div class="blog__meta blog__meta--author" rel="author">
          By
