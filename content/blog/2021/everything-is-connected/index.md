@@ -12,7 +12,7 @@ title: Everything is connected, but should it be?
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
 
-{{ include image.html alt="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon." url="venus-fly-trap.png" class="" }}
+{{<image "venus-fly-trap.png" "A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
 
 ---
 
@@ -22,7 +22,7 @@ I have worked as a software developer for twenty years. In my lifetime I have se
 
 When I started my career, computers were primarily seen as standalone entities: robot butlers (_fig. 1_) for the technologically privileged (as opposed to the robot symbiotes, or parasites, that we now keep in our homes and our pockets). The robot could only see what it was presented by its human owner. It could not yet read our thoughts or desires, eavesdrop on what we said to our friends and lovers in secret. And if it could, well, it was only a subtle interference. Polite.
 
-{{ include image.html description="Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants." url="/assets/images/blog/everything-is-connected/ask-jeeves.png" class="frame image--center" }}
+{{<image-with-caption "ask-jeeves.png" "Screenshot of Ask Jeeves" "Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants." "frame image--center">}}
 
 Circles of tech counterculture foresaw the issue that privacy would become. But for most people, including the burgeoning industry growing in California, it made sense to dismiss any such concerns as low priority, something to be fixed ‘down the line’.
 
@@ -40,7 +40,7 @@ Between these extremes, and especially on a more local level, the impact of vamp
 
 Most recently, the work of [Resistance Lab](https://resistancelab.network/), an anti-racist collective who aim to find new ways to resist state violence, in Manchester has cemented something for me: that the dream of utopian connectivity we were promised could not be further from our current reality.
 
-{{ include smallsignup.html custom="Get our latest articles delivered straight to your inbox." }}
+{{<smallsignup "Get our latest articles delivered straight to your inbox.">}}
 
 ---
 
@@ -99,7 +99,7 @@ This is, of course, anathema to the current way apps are developed. It’s hard 
 
 ‘Sign up’ and ‘maybe later’, like two options that a pushy guy at a nightclub trying to get you to go home with him might present to you, are now the [default dark pattern](https://blog.prototypr.io/not-now-a91c75ad35b6) for many websites. Many of us will have had “you didn’t complete your order” adverts that seem to inexplicably follow us from site to site -- proof to even the casual user that the websites they visit are not self-contained units.
 
-{{ include image.html urls="/assets/images/blog/everything-is-connected/amtrak.png /assets/images/blog/everything-is-connected/push-knowledge.png /assets/images/blog/everything-is-connected/cart-waiting.png" class="1-2 image--frame" description="Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." }}
+{{<image-multi-with-caption "amtrak.png push-knowledge.png cart-waiting.png" "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "1-2 image--frame">}}
 
 Why do they push this? Because getting people to create a user account has inherent value. This is the inevitable consequence of a common marketing methodology called the ‘AAARRR Funnel’ (or ‘Pirate Funnel’). This acronym stands for ‘Awareness, Acquisition, Activation, Retention, Referral, Revenue’, each letter referring to a stage of the process of making a purchase or registering for a service. To implement this methodology, you first need the ability to track each aspect of this - from that first browser cookie, to account creation, to a login, to a re-login, to inviting your friends to join, to making a purchase, a repeat purchase, and so on. I have no doubt this works - as with most marketing tricks, this is the methodology half the web is based on, and why examples like the ones below are becoming more frequent every day.
 
@@ -167,13 +167,13 @@ Maybe you truly do need those things. Or maybe the parasitic desire for more dat
 
 {{ include image.html description="Fig 9. ‘The Tower’ tarot card." url="/assets/images/blog/everything-is-connected/tower.jpg" class="center image--scale-down" }}
 
-{{ include kofi.html custom="Support us to write more articles like this with a donation on Ko-fi." }}
+{{<kofi "Support us to write more articles like this with a donation on Ko-fi.">}}
 
 ### Acknowledgements
 
 Thanks to co-author [Jazz Chatfield](https://twitter.com/jazzchatfield) for his significant contributions to this piece, [Beck Michalak](https://twitter.com/R_Michalak) for the venus fly trap illustration, and [Natalie Ashton](https://twitter.com/Natalan) for inviting me to write this for the [Norms for the New Public Sphere](https://newpublicsphere.stir.ac.uk/) project.
 
-{{ include smallsignup.html custom="Sign up to our mailing list to get our latest articles delivered straight to your inbox." }}
+{{<smallsignup "Sign up to our mailing list to get our latest articles delivered straight to your inbox.">}}
 
 [^1]: Correspondence: [kim@gfsc.studio](mailto:kim@gfsc.studio). Thanks to Jazz Chatfield for significant contributions to this draft.
 [^2]: This list does not include warnings for the content of linked news articles, so please view at your discretion. I have tried to make this list as exhaustive as possible, so please let me know if there are any I have missed.

@@ -1,9 +1,13 @@
+{{- $filename := .Get 0 }}
+{{- $src := .Page.Resources.GetMatch $filename }}
+{{- $image := $src.Resize "700x" }}
+
 <figure
-   class="image image--{{ if (.Get 3) }}{{ .Get 3 }}{{ else }}frame{{ end }}"
+   class="image {{ if (.Get 3) }}image--{{ .Get 3 }}{{ end }}"
    markdown="0"
 >
    <div class="image__wrapper image__wrapper--single">
-      <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" />
+      <img src="{{ $image.RelPermalink }}" alt="{{ .Get 1 }}" />
    </div>
    <figcaption>
       <span class="icon">
