@@ -3,3 +3,4 @@ disablePathToLower: true
 languageCode: en-gb
 title: Geeks for Social Change
 theme: gfsc
+paginate: 5
