@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range (where .Site.RegularPages "Section" "project") }}
+    <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
+  {{ end }}
+{{ end }}
