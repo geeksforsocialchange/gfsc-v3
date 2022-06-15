@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+  {{ range (where .Site.RegularPages ".Params.categories" "!=" nil) }}
+    {{ if (in .Params.categories $.Params.key )}}
+      <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
+    {{ end }}
+  {{ end }}
+{{ end }}
