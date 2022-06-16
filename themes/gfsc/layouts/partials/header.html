@@ -9,9 +9,9 @@
       <nav class="header__nav nav" id="js-nav">
          <ul>
             {{ range .Site.Menus.main }}
-            <li class="header__nav__item">
-               <a href="{{ .URL }}">{{ .Name }}</a>
-            </li>
+               <li class="header__nav__item">
+                  <a href="{{ .URL }}">{{ .Name }}</a>
+               </li>
             {{ end }}
          </ul>
       </nav>
