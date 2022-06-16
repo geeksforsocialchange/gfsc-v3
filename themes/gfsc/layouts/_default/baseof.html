@@ -3,10 +3,9 @@
    {{- partial "head.html" . -}}
    <body>
       <div class="page__wrapper">
-         {{- partial "header.html" . -}}
+         {{- partial "header.html" . -}} {{- partial "title.html" . -}}
          <main>{{- block "main" . }}{{- end }}</main>
-         {{- partial "bigsignup.html" }}
-         {{- partial "footer.html" . -}}
+         {{- partial "bigsignup.html" }} {{- partial "footer.html" . -}}
       </div>
       <script src="/assets/js/main.js"></script>
    </body>
