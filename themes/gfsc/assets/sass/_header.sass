@@ -10,6 +10,7 @@
   +for-tablet-landscape-up
     grid-template-columns: $margin-tablet-landscape 1fr auto
     grid-template-rows: auto 1fr
+    position: relative
   +for-desktop-up
     grid-template-columns: $margin-desktop 1fr auto
     height: unset
@@ -44,6 +45,7 @@
       grid-column: 1
       grid-row: 1
     +for-tablet-landscape-up
+      min-height: 88px
       grid-row: 1 / 3
       display: grid
       align-items: center
@@ -94,6 +96,10 @@
     svg
       margin-left: 1rem
     +for-tablet-portrait-up
+      grid-column: 3
+      order: 3
+      +border(left)
+    +for-tablet-landscape-up
       display: none
   &__nav
     grid-column: 1 / 3
@@ -104,11 +110,17 @@
     +border(bottom)
     &.expanded
       display: block
-    +for-tablet-portrait-up
-      grid-row: 1
-      grid-column: 3
+    +for-tablet-landscape-up
+      width: max-content
       display: block
+      position: absolute
+      right: 0
+      top: 0
       border-width: 0
+    +for-desktop-up
+      position: relative
+      grid-column: 3 / 4
+      grid-row: 1 / 2
   .strip
     // +for-mobile-only
     //   display: none
@@ -117,15 +129,20 @@
   &__strip--1
     display: none
     +for-tablet-portrait-up
+      display: block
       grid-column: 2
       grid-row: 1
       height: 100%
       min-height: 0 !important
+    +for-tablet-landscape-up
+      display: none
     +for-desktop-up
+      display: block
+      +border(bottom)
   &__strip--2
     display: none
     +for-tablet-landscape-up
-      +border(top)
+      // +border(top)
       display: block
       grid-column: 2 / 4
       grid-row: 2

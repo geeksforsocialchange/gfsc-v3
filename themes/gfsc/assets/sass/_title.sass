@@ -15,10 +15,10 @@
     +for-tablet-portrait-up
       padding: 1.5rem 8rem
     +for-tablet-landscape-up
-      font-size: 2.222222rem
+      font-size: 2.666666rem
     +for-desktop-up
       padding: 3rem 8rem
-      font-size: 3.333333rem
+      font-size: 2.5rem
   &__subtitle
     padding: 1.5rem 2rem
     margin: 0
@@ -36,7 +36,7 @@
       +for-tablet-landscape-up
         font-size: 2.222222rem
       +for-desktop-up
-        font-size: 3.333333rem
+        font-size: 2.666666rem
     &__credit
       margin-bottom: 0
   &__strip
@@ -46,7 +46,11 @@
       +border(none)
     .title__strip
       +border(bottom)
-  
+      +for-tablet-portrait-up
+        display: none
+
+.title--notitle
+
 .page__title
   +border(all)
   margin: 0
