@@ -14,3 +14,14 @@
     background-image: url('/assets/images/stripes-narrow.svg')
     background-size: 1500px 500px
     min-height: 40px
+
+  &--divider
+    margin: 0 -1.5rem
+    +border(nosides)
+    +for-tablet-portrait-up
+      margin: 0 -5rem
+    +for-tablet-landscape-up
+      margin-left: calc(($margin-tablet-landscape + 5rem) * -1)
+      margin-right: -5rem
+    +for-desktop-up
+      margin-left: calc(($margin-desktop + 5rem) * -1)

@@ -30,19 +30,75 @@ body
     p
       font-size: 1.222222rem
       line-height: 1.454545
-  +for-tablet-landscape-up
-    margin-left: $margin-tablet-landscape
-    +border(left)
+  
     padding: 2rem 5rem
     h2
       margin-top: 1rem
+  
+  p:first-child
+    font-weight: 900
+    +for-tablet-portrait-up
+      font-size: 1.44444444rem
+      font-weight: 500
+      margin-bottom: 1.5em
+
+.page__content--leftmargin
+  +for-tablet-landscape-up
+    margin-left: $margin-tablet-landscape
+    +border(left)
   +for-desktop-up
     margin-left: $margin-desktop
   +for-big-desktop-up
     margin: 0 $margin-desktop
     +border(0 2px)
 
+.page__content--doublemargin
+  +for-desktop-up
+    +border(sides)
+    max-width: 950px
+    margin: 0 auto
+    box-sizing: border-box
+
+
 .page--team
   +for-tablet-portrait-up
     h1
       border-bottom: 0
+
+.page
+  &__header
+    &--sectionheader
+      font-family: $freight
+      font-size: 1.666666rem
+      margin: 1.5rem 0
+      line-height: 1.2em
+  &__image
+    &--sectionheader
+      height: 217px
+      +border(nosides)
+      +for-tablet-portrait-up
+        height: 282px
+    &--marginless
+      margin: 0 -1.5rem
+      +for-tablet-portrait-up
+        margin: 0 -5rem
+      +for-tablet-landscape-up
+        margin-left: calc(($margin-tablet-landscape + 5rem) * -1)
+        margin-right: -5rem
+      +for-desktop-up
+        margin-left: calc(($margin-desktop + 5rem) * -1)
+  &__underline
+    +border(bottom)
+    &--marginless
+      margin: 0 -1.5rem
+      padding: 0 1.5rem
+      +for-tablet-portrait-up
+        margin: 0 -5rem
+        padding: 0 5rem
+      +for-tablet-landscape-up
+        margin-left: calc(($margin-tablet-landscape + 5rem) * -1)
+        margin-right: -5rem
+        padding-left: calc($margin-tablet-landscape + 5rem)
+      +for-desktop-up
+        margin-left: calc(($margin-desktop + 5rem) * -1)
+        padding-left: calc($margin-desktop + 5rem)
