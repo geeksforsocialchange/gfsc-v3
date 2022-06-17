@@ -1,8 +1,8 @@
 ---
 title: "The collective"
+bigtext: "“The dream of a peaceful society to me is still the dream of a potluck supper. The society in which all can contribute and all can find friendship.”"
+bigtextcredit: "Ursula Franklin"
 ---
-
-“The dream of a peaceful society to me is still the dream of a potluck supper. The society in which all can contribute and all can find friendship.” — Ursula Franklin
 
 The GFSC collective is a diverse range of practitioners from many fields, with a shared interest in working towards positive and collaborative social change. Unlike GFSC Studio, GFSC Collective members work on self-chosen projects on a mostly voluntary basis.
 

@@ -40,11 +40,13 @@
     @media (min-width: 640px) and (max-width: 662px)
       padding: 0 0.75rem !important
     +for-tablet-portrait-up
-      padding: 0rem 1rem
+      padding: 0rem 0.75rem
       margin: 0
       background-color: transparent
       color: $primary
       line-height: 2
+    +for-desktop-up
+      padding: 0rem 1rem
 
   li
     +for-tablet-portrait-up
@@ -60,6 +62,7 @@
       -moz-transition: 0.2s
       transition: 0.2s
       background-clip: border-box
+      background-color: $secondary
       &:hover
         background-position: -100% 0
         a
@@ -68,3 +71,5 @@
         background-color: $primary
         a
           color: $secondary
+    +for-tablet-landscape-up
+      +border(bottomleft)

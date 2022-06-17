@@ -1,5 +1,7 @@
 ---
 title: The studio
+bigtext: "“Technology involves organisation, procedure, symbols, new words, equations, and most of all, it involves a mind set.”"
+bigtextcredit: Ursula Franklin
 ---
 
 GFSC work with community groups, researchers and academics, charities, digital agencies and other organisations to deliver tools, training, support and technical solutions for lasting and holistic change.

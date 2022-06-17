@@ -1,0 +1,23 @@
+<div class="title  {{ if eq .Params.Notitle true }}title--notitle{{end}}">
+  {{ if eq .Params.Notitle true }}
+    <div class="title__strip strip strip--circles" role="presentation"></div>
+  {{ else }}
+    <h2 class="title__main">{{ .Title }}</h1>
+  {{ end }}
+  {{ with .Params.Bigtext }}
+    <div class="title__subtitle">
+      {{ if eq $.Params.Notitle true }}
+        <h2 class="title__subtitle__bigtext">{{ . }}</h2>
+      {{ else }}
+        <p class="title__subtitle__bigtext">{{ . }}</p>
+      {{ end }}
+      {{ with $.Params.Bigtextcredit }}
+        <p class="title__subtitle__credit">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+  {{ if eq .Params.Notitle true }}
+  {{ else }}
+    <div class="title__strip strip strip--circles" role="presentation"></div>
+  {{ end }}
+</div>
