@@ -1,0 +1,35 @@
+.textbox
+  +border(all)
+  margin: 2rem 0
+  &__header
+    margin: 0
+    background-color: $primary
+    color: $secondary
+    padding: 0.5rem 1rem
+  &__content
+    padding: 1rem 1rem
+    &--orange
+      background-color: $primary-shade
+    p, p:first-child
+      font-size: 1.25rem !important
+      font-weight: 400 !important
+      margin-bottom: 0 !important
+      margin-top: 0
+  &__footer
+    +border(top)
+    background-image: url('/assets/images/stripes-narrow.svg')
+    background-size: 1500px 500px
+    min-height: 40px
+    &__button
+      +border(right)
+      padding: 0.25rem
+      width: max-content
+      background-color: $primary-shade
+      &__link
+        +border(all)
+        padding: 0.25rem 0.5rem
+        display: block
+        text-decoration: none
+        +balboa
+        color: $primary
+        background-color: $secondary

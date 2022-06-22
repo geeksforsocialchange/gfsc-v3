@@ -1,0 +1,9 @@
+<div class="textbox textbox--{{ .justify }}">
+   <h3 class="textbox__header">{{ .title }}</h3>
+   <div class="textbox__content {{ with .bgcolor }}textbox__content--{{ . }}{{ end }}">{{ .content }}</div>
+   <div class="textbox__footer">
+      <div class="textbox__footer__button">
+         <a href="{{ .linkto }}" class="textbox__footer__button__link">{{ .linktext }}</a>
+      </div>
+   </div>
+</div>

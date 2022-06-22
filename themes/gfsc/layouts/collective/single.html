@@ -1,0 +1,104 @@
+{{ define "main" }}
+<div class="page page--default studio">
+   <div class="page__content page__content--doublemargin">
+      {{ .Content }}
+
+      <div
+         class="strip strip--circles strip--divider"
+         role="presentation"
+      ></div>
+
+      <h3 class="page__header--sectionheader">How to support us</h3>
+      <div class="page__image--marginless page__image--sectionheader orangify">
+         <img src="https://source.unsplash.com/random/1000x500/?img=3" />
+      </div>
+      <div>
+         {{ with $.Resources.GetMatch "donate.md" }} {{ partial "textbox.html"
+         (dict "justify" "left" "title" .Title "content" .Content "linktext"
+         .Params.Buttontext "linkto" .Params.Buttonlink "bgcolor" "orange")}} {{
+         end }} {{ with $.Resources.GetMatch "newsletter.md" }} {{ partial
+         "textbox.html" (dict "justify" "left" "title" .Title "content" .Content
+         "linktext" .Params.Buttontext "linkto" .Params.Buttonlink "bgcolor"
+         "orange")}} {{ end }} {{ with $.Resources.GetMatch "join.md" }} {{
+         partial "textbox.html" (dict "justify" "left" "title" .Title "content"
+         .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink
+         "bgcolor" "orange")}} {{ end }}
+      </div>
+   </div>
+
+   <div class="page__content">
+      <div
+         class="strip strip--circles strip--divider"
+         role="presentation"
+      ></div>
+      <h3 class="page__header--sectionheader">Members of the collective</h3>
+      <p>
+         Listed below are some of the longest standing members of the Geeks For
+         Social Change Collective. Perhaps a slightly longer introduction is
+         needed here?
+      </p>
+      <ul class="collective__list">
+         <li class="collective__list__item">
+            <h4
+               class="page__header--sectionheader collective__list__item__name"
+            >
+               Person name
+            </h4>
+            <p class="collective__list__item__pronouns">Pronouns</p>
+            <p class="collective__list__item__description">
+               Graphic Designer, Voiceover artist, theatre set designer,
+               researcher
+            </p>
+         </li>
+         <li class="collective__list__item">
+            <h4
+               class="page__header--sectionheader collective__list__item__name"
+            >
+               Person name
+            </h4>
+            <p class="collective__list__item__pronouns">Pronouns</p>
+            <p class="collective__list__item__description">
+               Graphic Designer, Voiceover artist, theatre set designer,
+               researcher
+            </p>
+         </li>
+         <li class="collective__list__item">
+            <h4
+               class="page__header--sectionheader collective__list__item__name"
+            >
+               Person name
+            </h4>
+            <p class="collective__list__item__pronouns">Pronouns</p>
+            <p class="collective__list__item__description">
+               Graphic Designer, Voiceover artist, theatre set designer,
+               researcher
+            </p>
+         </li>
+         <li class="collective__list__item">
+            <h4
+               class="page__header--sectionheader collective__list__item__name"
+            >
+               Person name
+            </h4>
+            <p class="collective__list__item__pronouns">Pronouns</p>
+            <p class="collective__list__item__description">
+               Graphic Designer, Voiceover artist, theatre set designer,
+               researcher
+            </p>
+         </li>
+         <li class="collective__list__item">
+            <h4
+               class="page__header--sectionheader collective__list__item__name"
+            >
+               Person name
+            </h4>
+            <p class="collective__list__item__pronouns">Pronouns</p>
+            <p class="collective__list__item__description">
+               Graphic Designer, Voiceover artist, theatre set designer,
+               researcher
+            </p>
+         </li>
+      </ul>
+   </div>
+</div>
+{{ end }}

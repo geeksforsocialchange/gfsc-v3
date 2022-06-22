@@ -1,0 +1,43 @@
+.collective
+  &__list
+    +border(nosides)
+    margin: 0rem -1.5rem !important
+    list-style: none
+    +for-tablet-portrait-up
+      margin: 0rem -5rem !important
+      display: flex
+      flex-wrap: wrap
+    &__item
+      list-style-type: none
+      margin: 0 !important
+      padding: 0 1rem
+      +border(bottom)
+      +for-tablet-portrait-up
+        width: 50%
+        box-sizing: border-box
+      &:last-child
+        +border(none)
+      &::before
+        display: none
+      &:nth-child(odd)
+        +for-tablet-portrait-up
+          +border(0 2px 2px 0)
+        
+      &__name, &__pronouns, &__description
+        margin-block-start: 0
+        margin-block-end: 0
+      &__name
+        margin: 1rem 0 0 0
+      &__pronouns
+        +border(all)
+        width: fit-content
+        color: $primary
+        font-style: italic
+        margin: 0.5rem 0
+        &::before
+          content: "i"
+          +border(right)
+          padding: 0.25rem 0.5rem
+          font-style: normal
+      &__description
+        margin: 1rem 0 1.5rem 0
