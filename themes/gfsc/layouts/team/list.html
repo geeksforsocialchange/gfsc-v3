@@ -40,7 +40,7 @@
                src="{{ $avatar.RelPermalink }}"
                alt="A photo of {{ .Params.title }}"
             />
-         </div>
+         </div> 
       </div>
       <hr class="fancy" />
    {{ end }}
@@ -76,14 +76,16 @@
                   </div>
                </div>
             </div>
-            <div class="member__photo">
-               {{ $avatarfile := .Params.avatar }}
-               {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
-               <img
-                  src="{{ $avatar.RelPermalink }}"
-                  alt="A photo of {{ .Params.title }}"
-               />
-            </div>
+            {{ if isset .Params "avatar" }}
+               <div class="member__photo">
+                  {{ $avatarfile := .Params.avatar }}
+                  {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
+                  <img
+                     src="{{ $avatar.RelPermalink }}"
+                     alt="A photo of {{ .Params.title }}"
+                  />
+               </div>
+            {{ end }}
          </div>
          <hr class="fancy" />
 
