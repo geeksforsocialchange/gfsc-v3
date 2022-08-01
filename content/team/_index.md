@@ -1,5 +1,7 @@
 ---
 title: Our team
+bigtext: "“The dream of a peaceful society to me is still the dream of a potluck supper. The society in which all can contribute and all can find friendship.”"
+bigtextcredit: "Ursula Franklin"
 ---
 
 GFSC studio was founded by Dr. Kim Foale in 2016, with the flagship project PlaceCal. Working out of their home studio in Hulme, Manchester, they used the 'Geeks For Social Change' moniker as an at-a-glance way for clients to understand their aims and goals. They shaped GFSC to prioritise both social change and positive working practices. As time went on, they started collaborating with others, still working under the GFSC banner, and in 2020, GFSC employed their second full time employee, Frontend Developer, Jazz Chatfield.

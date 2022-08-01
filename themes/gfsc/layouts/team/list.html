@@ -1,16 +1,23 @@
 {{ define "main" }}
 <div class="members">
-   <h2>Studio lead</h2>
-   {{ range first 1 (where .Pages ".Params.Role" "lead") }}
-      {{ $leadlist := (where $.Site.Data.authors.authors "tag" ".Params.dataname") }}
-      {{ $lead := index $leadlist 0 }}
+   <h2 class="members__category">Studio lead</h2>
+   {{ range first 1 (where .RegularPagesRecursive ".Params.Role" "lead") }}
       <div class="member">
          <div class="member__info">
-            <h3 class="member__name window__h2">{{ .Params.title }}</h2>
-            <div class="member__job teaser__subtitle">
+            <h3 class="member__name">{{ .Params.title }}</h3>
+            <div class="member__job">
                <strong>{{ .Params.job }}</strong>
             </div>
-            <div class="member__bio">{{ .Content }}</div>
+         </div>
+         <div class="member__bio">{{ .Content }}</div>
+         
+         <div class="member__photo">
+            {{ $avatarfile := .Params.avatar }}
+            {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
+            <img
+               src="{{ $avatar.RelPermalink }}"
+               alt="A photo of {{ .Params.title }}"
+            />
             <div class="member__pronouns">
                <div class="infobox">
                   <span class="icon">
@@ -32,49 +39,22 @@
                   <span class="desc"> {{ .Params.pronouns }} </span>
                </div>
             </div>
-         </div>
-         <div class="member__photo">
-            {{ $avatarfile := .Params.avatar }}
-            {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
-            <img
-               src="{{ $avatar.RelPermalink }}"
-               alt="A photo of {{ .Params.title }}"
-            />
          </div> 
       </div>
       <hr class="fancy" />
    {{ end }}
-   <h2>Staff</h2>
-   {{ range (where .Pages ".Params.Role" "!=" "lead") }}
-      {{ $member := .}}
+   <h2 class="members__category">Staff</h2>
+   {{ $collective := $.Site.GetPage "/team/staff" }}
+   {{ range (where $collective.Pages ".Params.Role" "!=" "lead")}}
+         {{ $member := .}}
          <div class="member">
             <div class="member__info">
-               <h3 class="member__name window__h2">{{ .Params.title }}</h2>
-               <div class="member__job teaser__subtitle">
+               <h3 class="member__name">{{ .Params.title }}</h2>
+               <div class="member__job">
                   <strong>{{ .Params.job }}</strong>
                </div>
                <div class="member__bio">{{ .Content }}</div>
-               <div class="member__pronouns">
-                  <div class="infobox">
-                     <span class="icon">
-                        <svg
-                           version="1.1"
-                           xmlns="http://www.w3.org/2000/svg"
-                           xmlns:xlink="http://www.w3.org/1999/xlink"
-                           x="0px"
-                           y="0px"
-                           viewBox="0 0 5 19"
-                           style="enable-background: new 0 0 5 19"
-                           xml:space="preserve"
-                        >
-                           <path
-                              d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
-                           ></path>
-                        </svg>
-                     </span>
-                     <span class="desc"> {{ .Params.pronouns }} </span>
-                  </div>
-               </div>
+               
             </div>
             {{ if isset .Params "avatar" }}
                <div class="member__photo">
@@ -84,14 +64,47 @@
                      src="{{ $avatar.RelPermalink }}"
                      alt="A photo of {{ .Params.title }}"
                   />
+                  <div class="member__pronouns">
+                     <div class="infobox">
+                        <span class="icon">
+                           <svg
+                              version="1.1"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              x="0px"
+                              y="0px"
+                              viewBox="0 0 5 19"
+                              style="enable-background: new 0 0 5 19"
+                              xml:space="preserve"
+                           >
+                              <path
+                                 d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
+                              ></path>
+                           </svg>
+                        </span>
+                        <span class="desc"> {{ .Params.pronouns }} </span>
+                     </div>
+                  </div>
                </div>
             {{ end }}
          </div>
          <hr class="fancy" />
 
    {{ end }}
-   <h2>Collective</h2>
-   <h2>Advisors</h2>
+   <h2 class="members__category">Collective</h2>
+   {{ $collective := $.Site.GetPage "/team/collective" }}
+   {{ with $collective }}
+      {{ range .Pages }}
+         {{ .Title }}
+      {{ end }}
+   {{ end }}
+   <h2 class="members__category">Advisors</h2>
+   {{ $advisors := $.Site.GetPage "/team/consultants-and-advisors" }}
+   {{ with $advisors }}
+      {{ range .Pages }}
+         {{ .Title }}
+      {{ end }}
+   {{ end }}
 </div>
 
 <div class="windows windows--index">
