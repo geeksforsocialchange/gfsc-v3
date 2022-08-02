@@ -10,7 +10,7 @@ subtitle: A new space for trans community enabled by technology and collaboratio
 title: Enter... The Trans Dimension!
 ---
 
-{{ include image.html alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets." url="/assets/images/blog/transdimension/transdimension.png" class="" }}
+{{<image transdimension.png "Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
 
 Geeks for Social Change are thrilled to to announce _The Trans Dimension,_ an online community hub which will connect trans communities across the UK by collating news, events and services by and for trans people in one easy-to-reach place.
 
@@ -20,7 +20,7 @@ It's been funded by the [Comic Relief Tech for Good "Build" fund](https://techfo
 
 This graphic is a first look of the coming website, featuring illustration by the wonderful [Harry Woodgate](https://www.harrywoodgate.com/) and logo from frequent GFSC collaborator [Squid](https://studiosquid.co.uk/).
 
-{{ include smallsignup.html custom="To be first to know when we launch The Trans Dimension, sign up to our email newsletter" }}
+{{<smallsignup "To be first to know when we launch The Trans Dimension, sign up to our email newsletter">}}
 
 ## Why is this so important?
 
@@ -57,7 +57,7 @@ Listings will be moderated centrally by a dedicated staff member at Gendered Int
 
 We hope that The Trans Dimension will help create a world where trans people of every age and ability can safely access the potentially life saving support of community networks, and where all trans people feel welcome.
 
-{{ include kofi.html custom="Make a donation on Ko-fi to support The Trans Dimension." }}
+{{<kofi "Make a donation on Ko-fi to support The Trans Dimension.">}}
 
 _To get notified when we launch, you can sign up for GFSC's newsletter below, for just Trans Dimension updates on our [hastily constructed holding page](http://transdimension.uk/), or follow GFSC or Gendered Intelligence on social media!_
 

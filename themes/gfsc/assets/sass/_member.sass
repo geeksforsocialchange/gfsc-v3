@@ -3,28 +3,156 @@
     +border(0 2px)
     hr
       display: none
-
+  &__category
+    background-color: $primary
+    margin-block-start: 0
+    margin-block-end: 0
+    color: $secondary
+    +balboa
+    padding: 0.5rem 1rem
+    font-size: 1.333333rem
+  &__advisors
+    padding: 0
+    list-style-type: none
+    margin: 0
+    +for-tablet-portrait-up
+      display: flex
+      flex-wrap: wrap
+  &__advisor
+    +border(bottom)
+    &:nth-child(odd)
+      +border(0 2px 2px 0)
+    &:last-child
+      +border(none)
+    &:nth-last-child(2)
+      +border(right)   
+    margin-top: 1rem
+    padding-bottom: 1rem
+    +for-tablet-portrait-up
+      width: 50%
+      margin-top: 0
+      padding-top: 1rem
+      box-sizing: border-box
+      display: grid
+      grid-template-columns: 1fr auto
+      grid-template-rows: auto auto
+    .member__name
+      +border(none)
+    .member__pronouns
+      margin: 0.5rem 0
+      +for-tablet-portrait-up
+        padding: 0
+        margin-right: 1rem
+    .member__job
+      color: $copy
+      +for-tablet-portrait-up
+        grid-column: 1 / 3
 
 .member
   margin-top: 1rem
+  display: grid
+  grid-template-columns: 1fr
+  +border(bottom)
   +for-tablet-portrait-up
-    margin-top: 0
-  &__job, &__bio, &__pronouns, &__name
+    margin-top: 0 
+    grid-template-columns: 3fr 5fr
+    grid-template-rows: auto 1fr
+    +border(none)
+  +for-desktop-up
+    grid-template-columns: 2fr 5fr
+    grid-template-rows: auto 1fr
+    position: relative
+  &__info
+    grid-row: 1 / 2
+    +for-tablet-portrait-up
+      +border(bottom)
+      padding: 1rem 0
+    +for-tablet-landscape-up
+      padding-left: calc(100% - 216px - 3rem)
+    +for-desktop-up
+      grid-row: 1 / 2
+      grid-column: 2 / 3
+      +border(0 0 2px 2px)
+      padding-left: 0
+  &__bio
+    grid-row: 3 / 4
+    +for-tablet-portrait-up
+      grid-row: 1 / 3
+      grid-column: 2 / 3
+      +border(left)
+      padding-top: 0.25rem
+      padding-bottom: 0.25rem
+    +for-tablet-landscape-up
+      max-width: 450px
+    +for-desktop-up
+      grid-row: 2 / 3
+      grid-column: 2 / 3
+      max-width: 100%
+      padding-right: 5rem !important
+      max-width: calc(1344px + 5rem)
+  &__job, &__bio, &__name
     padding-left: 1.5rem !important
     padding-right: 1.5rem
   &__name
-    margin-bottom: 0
+    margin-block-start: 0
+    margin-block-end: 0
+    font-family: $freight
+    font-size: 1.666666rem
+    +for-desktop-up
+      font-size: 2.5rem
+      +border(bottom)
+      padding-bottom: 1rem
   &__job
-    +border(bottom)
+    font-style: italic
     padding-top: 0.25rem
     padding-bottom: 0.25rem
     +for-tablet-landscape-up
       padding-top: 0.5rem
       padding-bottom: 0.5rem
+    +for-desktop-up
+      font-size: 1.777777rem
+      padding-top: 1.5rem
     strong
       font-weight: normal
   &__photo
-    display: none
+    grid-row: 2 / 3
+    display: block
+    +border(0)
+    align-self: center
+    text-align: center
+    position: relative
+    padding-top: 1rem
+    +for-tablet-portrait-up
+      align-self: baseline
+      padding-top: 2rem
+    +for-tablet-landscape-up
+      width: fit-content
+      margin-left: auto
+      padding: 1.5rem 1.5rem 2.5rem 0
+    +for-desktop-up
+      grid-row: 1 / 3
+      grid-column: 1 / 2
+      padding: 2rem 0
+      width: 100%
+      position: unset
+    &__image
+      width: 300px
+      height: 300px
+      background-color: $primary
+      box-sizing: border-box
+      border-radius: 50%
+      display: inline-block
+      +for-tablet-portrait-up
+        width: calc(100% - 2rem)
+        height: calc(100% - 2rem)
+      +for-tablet-landscape-up
+        width: 216px
+        height: 216px
+      +for-desktop-up
+        width: 300px
+        height: 300px
+        max-width: 100%
+        max-height: 100%
     // +for-tablet-portrait-up
     //   display: inline-block
     //   float: right
@@ -36,21 +164,26 @@
     //     margin: 0.75rem 1rem 0.4rem
   &__pronouns
     font-size: 0.9rem
-
-+for-tablet-landscape-up
-  .member
-    display: grid
-    grid-template-columns: auto 1fr
-    grid-template-areas: "image content"
-    &__info
-      grid-area: content
-      +border(left)
-    &__photo
-      grid-area: image
-      display: block
-      +border(0)
-      align-self: center
-      img
-        width: 300px
-        border-radius: 50%
-        padding: 3rem
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    left: 1rem
+    bottom: 2rem
+    background-color: $secondary
+    +for-tablet-portrait-up
+      left: 1.25rem
+      bottom: -0.25rem
+    +for-tablet-landscape-up
+      bottom: 2rem
+      left: 0rem
+    +for-desktop-up
+      top: 1rem
+      right: 1rem
+      left: unset
+      bottom: unset
+      background-color: $primary-shade
+      height: fit-content
+    .infobox
+      margin: 0
+  .member__pronouns
+    position: absolute
+    padding: 0
