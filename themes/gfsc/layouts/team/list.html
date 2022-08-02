@@ -15,6 +15,7 @@
             {{ $avatarfile := .Params.avatar }}
             {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
             <img
+               class="member__photo__image"
                src="{{ $avatar.RelPermalink }}"
                alt="A photo of {{ .Params.title }}"
             />
@@ -51,73 +52,80 @@
             <div class="member__info">
                <h3 class="member__name">{{ .Params.title }}</h2>
                <div class="member__job">
-                  <strong>{{ .Params.job }}</strong>
-               </div>
-               <div class="member__bio">{{ .Content }}</div>
-               
+                  {{ .Params.job }}
+               </div>              
             </div>
-            {{ if isset .Params "avatar" }}
-               <div class="member__photo">
+            <div class="member__bio">{{ .Content }}</div>
+            <div class="member__photo">
+               {{ if isset .Params "avatar" }}
                   {{ $avatarfile := .Params.avatar }}
                   {{ $avatar := .Resources.GetMatch (printf "**%s" .Params.avatar) }}
                   <img
+                     class="member__photo__image"
                      src="{{ $avatar.RelPermalink }}"
                      alt="A photo of {{ .Params.title }}"
                   />
-                  <div class="member__pronouns">
-                     <div class="infobox">
-                        <span class="icon">
-                           <svg
-                              version="1.1"
-                              xmlns="http://www.w3.org/2000/svg"
-                              xmlns:xlink="http://www.w3.org/1999/xlink"
-                              x="0px"
-                              y="0px"
-                              viewBox="0 0 5 19"
-                              style="enable-background: new 0 0 5 19"
-                              xml:space="preserve"
-                           >
-                              <path
-                                 d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
-                              ></path>
-                           </svg>
-                        </span>
-                        <span class="desc"> {{ .Params.pronouns }} </span>
-                     </div>
+               {{ else }}
+                  <div class="member__photo__image"></div>
+               {{ end }}
+               <div class="member__pronouns">
+                  <div class="infobox">
+                     <span class="icon">
+                        <svg
+                           version="1.1"
+                           xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           x="0px"
+                           y="0px"
+                           viewBox="0 0 5 19"
+                           style="enable-background: new 0 0 5 19"
+                           xml:space="preserve"
+                        >
+                           <path
+                              d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
+                           ></path>
+                        </svg>
+                     </span>
+                     <span class="desc"> {{ .Params.pronouns }} </span>
                   </div>
                </div>
-            {{ end }}
+            </div>
          </div>
          <hr class="fancy" />
 
-   {{ end }}
-   <h2 class="members__category">Collective</h2>
-   {{ $collective := $.Site.GetPage "/team/collective" }}
-   {{ with $collective }}
-      {{ range .Pages }}
-         {{ .Title }}
-      {{ end }}
    {{ end }}
    <h2 class="members__category">Advisors</h2>
    {{ $advisors := $.Site.GetPage "/team/consultants-and-advisors" }}
    {{ with $advisors }}
       {{ range .Pages }}
-         {{ .Title }}
+         <div class="members__advisor">
+            <h3 class="member__name">{{ .Params.title }}</h3>
+            <div class="member__pronouns">
+               <div class="infobox">
+                  <span class="icon">
+                     <svg
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 5 19"
+                        style="enable-background: new 0 0 5 19"
+                        xml:space="preserve"
+                     >
+                        <path
+                           d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
+                        ></path>
+                     </svg>
+                  </span>
+                  <span class="desc"> {{ .Params.pronouns }} </span>
+               </div>
+            </div>
+            <div class="member__job">{{ .Params.job }}</div>
+         </div>
       {{ end }}
    {{ end }}
 </div>
 
-<div class="windows windows--index">
-   <div class="window window--2 window--highlight">
-      <h2>Get in touch</h2>
-      <p class="content">
-         Talk to us to discover how we can work together towards a better world.
-      </p>
-      <p class="more">
-         <a href="/contact" class="btn">Contact us</a>
-         <span class="strip strip--lines"></span>
-      </p>
-   </div>
-</div>
 
 {{ end }}

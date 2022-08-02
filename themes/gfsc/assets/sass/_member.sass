@@ -10,12 +10,22 @@
     +balboa
     padding: 0.5rem 1rem
     font-size: 1.333333rem
-
+  &__advisor
+    +border(bottom)
+    &:last-child
+      +border(none)
+    margin-top: 1rem
+    padding-bottom: 1rem
+    .member__pronouns
+      margin: 0.5rem 0
+    .member__job
+      color: $copy
 
 .member
   margin-top: 1rem
   display: grid
   grid-template-columns: 1fr
+  +border(bottom)
   +for-tablet-portrait-up
     margin-top: 0
     
@@ -50,9 +60,13 @@
     text-align: center
     position: relative
     padding-top: 1rem
-    img
+    &__image
       width: 300px
+      height: 300px
+      background-color: $primary
+      box-sizing: border-box
       border-radius: 50%
+      display: inline-block
       +for-tablet-landscape-up
         padding: 3rem
     // +for-tablet-portrait-up
@@ -66,12 +80,16 @@
     //     margin: 0.75rem 1rem 0.4rem
   &__pronouns
     font-size: 0.9rem
-    position: absolute
+    padding-left: 1.5rem
+    padding-right: 1.5rem
     left: 1rem
     bottom: 2rem
     background-color: $secondary
     .infobox
       margin: 0
+  .member__pronouns
+    position: absolute
+    padding: 0
 
 +for-tablet-landscape-up
   .member
