@@ -95,10 +95,11 @@
 
    {{ end }}
    <h2 class="members__category">Advisors</h2>
+   <ul class="members__advisors">
    {{ $advisors := $.Site.GetPage "/team/consultants-and-advisors" }}
    {{ with $advisors }}
       {{ range .Pages }}
-         <div class="members__advisor">
+         <li class="members__advisor">
             <h3 class="member__name">{{ .Params.title }}</h3>
             <div class="member__pronouns">
                <div class="infobox">
@@ -122,9 +123,10 @@
                </div>
             </div>
             <div class="member__job">{{ .Params.job }}</div>
-         </div>
+         </li>
       {{ end }}
    {{ end }}
+   </ul>
 </div>
 
 
