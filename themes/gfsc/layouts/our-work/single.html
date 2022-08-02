@@ -1,9 +1,15 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  {{ .Content }}
-  {{ range (where .Site.RegularPages ".Params.categories" "!=" nil) }}
-    {{ if (in .Params.categories $.Params.key )}}
-      <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
+  <h3 class="category__title">{{ .Title }}</h3>
+  <div class="category__content">
+    {{ .Content }}
+  </div>
+  <hr class="fancy" />
+  <ul class="work__projects">
+    {{ range (where .Site.RegularPages ".Params.categories" "!=" nil) }}
+      {{ if (in .Params.categories $.Params.key )}}
+        {{- partial "projectindex.html" . -}}
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </ul>
+  <hr class="fancy" />
 {{ end }}
