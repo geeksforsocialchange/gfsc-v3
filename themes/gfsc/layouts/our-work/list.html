@@ -1,6 +1,60 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range (where .Site.RegularPages "Section" "project") }}
-    <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
-  {{ end }}
+  <ul class="work__categories">
+    {{ $categories := $.Site.GetPage "/our-work/category" }}
+    {{ with $categories }}
+      {{ range .Pages }}
+        <li class="work__category">
+            <h3 class="work__category__name">{{.Title}}</h3>
+            <div class="work__category__stripes">
+              <a href="{{ .URL }}" class="work__category__link">Browse</a>
+            </div>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <hr class="fancy" />
+  <ul class="work__projects">
+    {{ range (.Paginate (where .Site.RegularPages "Section" "project")).Pages }}
+      <li class="work__project">
+          <div class="work__project__info">
+            <a href="{{ .URL }}" class="work__project__title">
+                <h2 class="work__project__title">{{ .Title }}</h2>
+            </a>
+            <p class="work__project__summary">{{ .Params.summary }}</p>
+            <a href="{{ .URL }}" class="work__project__readmore">Read more</a>
+          </div>
+          <div class="work__project__image orangify">
+            <img src="https://source.unsplash.com/random/1000x500/?img=1" />
+          </div>
+      </li>
+    {{ end }}
+  </ul>
+  <hr class="fancy" />
+  <div class="paginator">
+    <nav aria-label="Projects navigation">
+       <ul>
+          {{ if .Paginator.HasPrev }}
+             <li>
+                <a class="btn" href="{{ .Paginator.Prev.URL }}">Previous page</a>
+             </li>
+          {{ end }} 
+          {{ range .Paginator.Pagers }}
+             <li>
+                {{ if (eq $.Paginator .) }}
+                   <a class="disabled">{{ .PageNumber }}</a>
+                {{ else if (eq . $.Paginator.First) }}
+                   <a class="btn" href="{{ $.Paginator.First.URL }}">{{ .PageNumber }}</a>
+                {{ else }}
+                   <a class="btn" href="{{ .URL }}">{{ .PageNumber }}</a>
+                {{ end }}
+             </li>
+          {{ end }}
+          {{ if .Paginator.HasNext }}
+             <li>
+                <a class="btn" href="{{ .Paginator.Next.URL }}">Next page</a>
+             </li>
+          {{ end }}
+       </ul>
+    </nav>
+  </div>
 {{ end }}
