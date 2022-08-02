@@ -85,9 +85,11 @@
       background-color: $secondary
     &__image
       height: 217px
-      +border(left)
+      margin: 0rem -1.5rem
+      +border(2px 0px)
       +for-tablet-portrait-up
-        margin-left: 0
+        +border(left)
+        margin: 0
         height: auto
         width: 213px
         flex-grow: 0
@@ -99,4 +101,34 @@
         width: 341px
       +for-desktop-up
         +border(sides)
-          
+
+.category
+  &__title
+    +border(0 2px 2px 2px)
+    margin-block-start: 0
+    margin-block-end: 0
+    text-align: center
+    padding: 0.5rem 1.5rem
+    font-size: 1.333333rem
+    +for-tablet-portrait-up
+      +border(bottom)
+    +for-desktop-up
+      font-size: 2.5rem
+      padding: 1.5rem 3rem
+  &__content
+    +border(topless)
+    padding: 1rem
+    font-style: italic
+    text-align: center
+    +for-tablet-portrait-up
+      +border(none)
+      max-width: 522px
+      margin: 0.5rem auto
+    +for-tablet-landscape-up
+      max-width: 714px
+      margin: 1rem auto
+    p
+      &:first-child
+        margin-block-start: 0
+      &:last-child
+        margin-block-end: 0
