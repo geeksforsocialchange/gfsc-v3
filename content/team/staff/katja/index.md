@@ -1,5 +1,6 @@
 ---
 title: "Katja Mordaunt"
+firstname: "Katja"
 pronouns: "She/her"
 job: "Developer and Project Coordinator"
 jobtype: staff

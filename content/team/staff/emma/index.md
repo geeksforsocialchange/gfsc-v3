@@ -1,5 +1,6 @@
 ---
 title: "Emma Charleston"
+firstname: "Emma"
 pronouns: "She/her"
 job: "Graphic Designer and Content Strategist"
 jobtype: staff

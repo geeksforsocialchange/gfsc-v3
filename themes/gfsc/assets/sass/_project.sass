@@ -1,23 +1,83 @@
 .project
   +border(0 2px 2px 2px)
   padding: 1.5rem 1rem 1rem 1rem
+  +for-tablet-portrait-up
+    +border(none)
+    padding: 2rem 5rem
+  +for-desktop-up
+    margin: 0 $margin-desktop
+    +border(sides)
+    padding-bottom: 0
   &__title
     margin-block-start: 0
     margin-block-end: 0
     padding-bottom: 1rem
     font-family: $freight
     font-size: 1.666666rem
-    line-height: 2rem
+    line-height: 1.1em
+    +for-tablet-portrait-up
+      font-size: 2.222222rem
   &__summary
     font-weight: 900
+    +for-tablet-portrait-up
+      font-weight: normal
+      font-size: 1.444444rem
+      margin: 0.5rem 0 2.5rem 0
+  &__meta
+    display: none
+    +for-tablet-portrait-up
+      display: grid
+      grid-template-columns: 2fr 1fr
+      grid-template-rows: 1fr 1fr
+      +border(bottom)
+      margin: 0 -5rem
+    p
+      margin-block-start: 0
+      margin-block-end: 0
+    &__client, &__date, &__team, &__themes
+      padding: 0.75rem 1.25rem
+      font-weight: 900
+    &__client
+      +for-tablet-landscape-up
+        padding-left: 5rem
+      +for-desktop-up
+        padding-left: 1.25rem
+    &__date
+      +border(left)
+      +for-tablet-landscape-up
+        padding-right: 5rem
+      +for-desktop-up
+        padding-right: 1.25rem
+    &__team
+      +border(top)
+      grid-row: 2 / 3
+      grid-column: 1 / 3   
+      +for-tablet-landscape-up
+        padding-left: 5rem
+      +for-desktop-up
+        padding-left: 1.25rem
+    &__themes
+      margin: 0
+    &__value
+      color: $primary
+      a
+        color: $primary
+        margin: 0 0.25rem
   &__gallery
     margin: 0 -1rem
+    +for-tablet-portrait-up
+      margin: 0 -5rem
     &__thumbnails
       display: flex
       flex-wrap: wrap
     &__space
       flex-grow: 2
       +border(bottom)
+      &:nth-child(6), &:nth-child(11), &:nth-child(16)
+        display: none
+      +for-tablet-portrait-up
+        &:nth-child(11), &:nth-child(21), &:nth-child(31)
+          display: none
   &__image
     +border(2px 0)
   &__thumbnail
@@ -27,6 +87,12 @@
     +border(0 2px 2px 0)
     &:nth-child(5), &:nth-child(10), &:nth-child(15)   
       +border(0 0 2px 0)
+    +for-tablet-portrait-up
+      flex-basis: calc(10% - (18px / 10))
+      &:nth-child(5), &:nth-child(15)   
+        +border(0 2px 2px 0)
+      &:nth-child(20), &:nth-child(30)
+        +border(0 0 2px 0)
     &::after
       content: ""
       display: block
@@ -38,3 +104,27 @@
       right: 0
       top: 0
       bottom: 0
+  &__content
+    +for-tablet-portrait-up
+      padding-top: 1rem
+  &__footer
+    display: flex
+    margin: 0 -5rem
+    align-items: stretch
+    +border(top)
+    .project__meta__value
+      a
+        text-decoration: none
+        font-weight: 900
+    &__button
+      padding: 0.75rem 1.25rem
+      +border(all)
+      +balboa
+      text-decoration: none
+      color: $primary
+      display: block
+      margin: 1rem
+    &__section
+      +border(left)
+      display: flex
+      align-items: center
