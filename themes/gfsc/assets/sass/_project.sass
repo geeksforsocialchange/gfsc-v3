@@ -1,0 +1,40 @@
+.project
+  +border(0 2px 2px 2px)
+  padding: 1.5rem 1rem 1rem 1rem
+  &__title
+    margin-block-start: 0
+    margin-block-end: 0
+    padding-bottom: 1rem
+    font-family: $freight
+    font-size: 1.666666rem
+    line-height: 2rem
+  &__summary
+    font-weight: 900
+  &__gallery
+    margin: 0 -1rem
+    &__thumbnails
+      display: flex
+      flex-wrap: wrap
+    &__space
+      flex-grow: 2
+      +border(bottom)
+  &__image
+    +border(2px 0)
+  &__thumbnail
+    flex-basis: calc(20% - (8px / 5))
+    flex-grow: 0
+    position: relative
+    +border(0 2px 2px 0)
+    &:nth-child(5), &:nth-child(10), &:nth-child(15)   
+      +border(0 0 2px 0)
+    &::after
+      content: ""
+      display: block
+      padding-top: 100%
+    img
+      object-fit: cover
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
