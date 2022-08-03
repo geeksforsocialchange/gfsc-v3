@@ -1,0 +1,54 @@
+{{ define "main" }}
+   <div class="support">
+      <div class="support__content">{{ .Content }}</div>
+      <div class="support__section">
+         {{ with $.Resources.GetMatch "how-we-fund.md" }}
+            <h3 class="support__header">{{ .Title }}</h3>
+            <ul class="support__circles">
+               <li class="support__circle">{{ .Params.circle1 }}</li>
+               <li class="support__circle">{{ .Params.circle2 }}</li>
+               <li class="support__circle">{{ .Params.circle3 }}</li>
+            </ul>
+            <div class="support__content">
+               {{ .Content }}
+            </div>
+         {{ end }}
+      </div>
+      <hr class="fancy" />
+      <div class="support__section">
+         {{ with $.Resources.GetMatch "projects.md" }}
+            <h3 class="support__header">{{ .Title }}</h3>
+            <ul class="support__projects">
+               {{ range .Params.projects }}
+                  <li class="support__project">
+                     <h4 class="support__project__name">{{ .name }}</h4>
+                     <p class="support__project__description">
+                        {{ .description }}
+                     </p>
+                     <div class="support__project__bar">
+                        <div class="support__project__lines"></div>
+                        {{ with .url }}
+                           <div class="support__project__box">
+                              <a href="{{ . }}" class="support__project__button">
+                                 Read more
+                              </a>
+                           </div>
+                        {{ end }}
+                     </div>
+                  </li>
+               {{ end }}
+            </ul>
+         {{ end }}
+      </div>
+      <hr class="fancy" />
+      <div class="support__section">
+         {{ with $.Resources.GetMatch "donate.md" }}
+            <h3 class="support__header">{{ .Title }}</h3>
+            <div class="support__content">
+               {{ .Content }}
+            </div>
+            <a href="/" class="support__button">Donate</a>
+         {{ end }}
+      </div>
+   </div>
+{{ end }}

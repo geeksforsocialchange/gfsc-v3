@@ -108,10 +108,12 @@
     +for-tablet-portrait-up
       padding-top: 1rem
   &__footer
-    display: flex
+    display: none
     margin: 0 -5rem
     align-items: stretch
     +border(top)
+    +for-desktop-up
+      display: flex
     .project__meta__value
       a
         text-decoration: none

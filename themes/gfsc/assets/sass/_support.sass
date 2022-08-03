@@ -1,0 +1,49 @@
+.support
+  &__section
+    +border(0 2px 2px 2px)
+    padding: 1rem
+  &__header
+    font-family: $freight
+    font-size: 1.666666rem
+    margin-block-start: 0
+  &__projects
+    margin: 0
+    padding: 0
+    list-style-type: none
+  &__project
+    +border(all)
+    margin: 1rem 0
+    &__name, &__description
+      margin-block-start: 0
+      margin-block-end: 0
+      padding: 0.5rem 1.5rem
+    &__name
+      color: $secondary
+      background-color: $primary
+      font-size: 1.333333rem
+    &__description
+      background-color: $primary-shade
+      font-size: 1.111111rem
+      padding-bottom: 0.75rem
+    &__lines
+      background-image: url('/assets/images/stripes-narrower.svg')
+      background-size: 1500px 500px
+      min-height: 40px
+      background-repeat: repeat
+      +border(top)
+      flex-grow: 2
+    &__bar
+      display: flex
+      flex-direction: row-reverse
+    &__box
+      background-color: $primary-shade
+      +border(2px 2px 0 0)
+    &__button
+      background-color: $secondary
+      color: $primary
+      text-decoration: none
+      +balboa
+      +border(all)
+      padding: 0.25rem 0.5rem
+      display: block
+      margin: 0.25rem
