@@ -1,5 +1,6 @@
 ---
 title: "Dr. Kim Foale"
+firstname: "Kim"
 pronouns: "They/them"
 job: "Founder & Studio Lead"
 role: lead
