@@ -2,10 +2,48 @@
   &__section
     +border(0 2px 2px 2px)
     padding: 1rem
+    &:last-child
+      +border(sides)
   &__header
     font-family: $freight
     font-size: 1.666666rem
     margin-block-start: 0
+  &__content
+    p
+      &:first-child
+        font-weight: 900
+  &__circles
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+  &__circle
+    position: relative
+    width: 122px
+    height: 122px
+    color: $secondary
+    padding: 1rem
+    box-sizing: border-box
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    +balboa
+    font-size: 1.4rem
+    line-height: 1.1em
+    &::before
+      content: ""
+      display: block
+      border-radius: 50%
+      background-color: $primary
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      position: absolute
+      z-index: -1
   &__projects
     margin: 0
     padding: 0
@@ -47,3 +85,10 @@
       padding: 0.25rem 0.5rem
       display: block
       margin: 0.25rem
+  &__button
+    background-color: $primary
+    color: $secondary
+    +balboa
+    padding: 0.75rem 1rem
+    font-size: 1.111111rem
+    display: inline-block
