@@ -1,0 +1,71 @@
+.homepage
+  &__themes
+    +for-tablet-portrait-up
+      margin: 2rem
+    &__title
+      +balboa
+      text-align: center
+      font-size: 2rem
+      padding: 0 2rem
+      line-height: 1.1em
+    &__content
+      padding: 0 1.25rem
+      text-align: center
+      +for-tablet-portrait-up
+        padding: 0 3.25rem
+    &__list
+      margin: 0
+      padding: 0
+      list-style-type: none
+      +for-tablet-portrait-up
+        display: flex
+        flex-wrap: wrap
+        align-items: flex-start
+  &__theme
+    +border(all)
+    margin: 1.5rem 0
+    +for-tablet-portrait-up
+      width: calc(50% - 1rem)
+      box-sizing: border-box
+      &:nth-child(odd)
+        margin: 1rem 1rem 1rem 0
+      &:nth-child(even)
+        margin: 1rem 0 1rem 1rem
+        
+        
+    &__title
+      margin-block-start: 0
+      margin-block-end: 0
+      background-color: $primary
+      color: $secondary
+      padding: 0.5rem 1.5rem
+      font-size: 1.333333rem
+    &__summary
+      margin-block-end: 0
+      margin-block-start: 0
+      background-color: $primary-shade
+      font-style: italic
+      padding: 1rem 1.5rem
+      +border(bottom)
+    &__footer
+      display: flex
+    &__box
+      +border(right)
+      background-color: $primary-shade
+    &__button
+      display: block
+      background-color: $secondary
+      +balboa
+      padding: 0.25rem 0.5rem
+      text-decoration: none
+      color: $primary
+      +border(all)
+      width: fit-content
+      margin: 0.25rem
+    &__lines
+      background-image: url('/assets/images/stripes-narrower.svg')
+      background-size: 1500px 500px
+      min-height: 40px
+      background-repeat: repeat
+      flex-grow: 2
+      display: block
