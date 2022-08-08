@@ -1,49 +1,85 @@
 {{ define "main" }}
-<div class="venn">
-   <h2 class="venn__title">The people we work with</h2>
-   {{ partial "venn.html" . }}
-   <p class="venn__subtitle">
-      *such as campaigns, charities, social enterprises, health and wellbeing
-      initatives, the NHS, and neighbourhood teams.
-   </p>
-   <p class="venn__subtitle venn__subtitle--mobile">And everyone in between.</p>
-</div>
+{{ $homepage := .Site.GetPage "homepage" }}
+{{ with $homepage.Resources.GetMatch "venn.md" }}
+   <div class="venn">
+      <h2 class="venn__title">The people we work with</h2>
+      {{ partial "venn.html" . }}
+      <p class="venn__subtitle">
+         *such as campaigns, charities, social enterprises, health and wellbeing
+         initatives, the NHS, and neighbourhood teams.
+      </p>
+      <p class="venn__subtitle venn__subtitle--mobile">And everyone in between.</p>
+   </div>
+{{ end }}
 
 <hr class="fancy fancy--no-phone" />
-
-<div class="windows windows--index">
-   <div class="window window--1">
-      <h2>Who we are</h2>
-      <p class="content">
-         Geeks for Social Change is a research and development studio based in
-         Manchester, UK.
-      </p>
-      <p class="more">
-         <a href="/who-we-are" class="btn">Find out more</a>
-         <span class="strip strip--lines"></span>
-      </p>
+{{ with $homepage.Resources.GetMatch "textboxes.md" }}
+   <div class="windows windows--index">
+      <div class="window window--1">
+         <h2>{{ .Params.whotitle }}</h2>
+         <p class="content">
+            {{ .Params.whodescription }}
+         </p>
+         <p class="more">
+            <a href="/who-we-are" class="btn">Find out more</a>
+            <span class="strip strip--lines"></span>
+         </p>
+      </div>
+      <div class="window window--2">
+         <h2>{{ .Params.whattitle }}</h2>
+         <p class="content">
+            {{ .Params.whatdescription }}
+         </p>
+         <p class="more">
+            <a href="/what-we-do" class="btn">Find out more</a>
+            <span class="strip strip--lines"></span>
+         </p>
+      </div>
    </div>
-   <div class="window window--2">
-      <h2>What we do</h2>
-      <p class="content">
-         We use a community-based approach to technology and research that helps
-         organisations and social enterprises achieve their aims.
-      </p>
-      <p class="more">
-         <a href="/what-we-do" class="btn">Find out more</a>
-         <span class="strip strip--lines"></span>
-      </p>
+   {{ end }}
+   <hr class="fancy fancy--no-phone" />
+   {{ with $homepage.Resources.GetMatch "themes.md" }}
+      {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+      <div class="homepage__themes">
+         <h2 class="homepage__themes__title">
+            {{ .Title }}
+         </h2>
+         <div class="homepage__themes__content">
+            {{ .Content }}
+         </div>
+         <ul class="homepage__themes__list">
+            {{ range $themes.RegularPages }}
+               <li class="homepage__theme">              
+                  <h3 class="homepage__theme__title">{{ .Title }}</h3>
+                  <p class="homepage__theme__summary">{{ .Params.summary }}</p>
+                  <div class="homepage__theme__footer">
+                     <div class="homepage__theme__box">
+                        <a class="homepage__theme__button" href="{{ .URL }}">
+                           Browse
+                        </a>
+                     </div>
+                     <span class="homepage__theme__lines"></span>
+                  </div>
+               </li>
+            {{ end }}
+         </ul>
+      </div>
+   {{ end }}
+   <hr class="fancy" />
+   {{ with $homepage.Resources.GetMatch "textboxes.md" }}
+   <div class="windows windows--index">
+      <div class="window window--3 window--highlight">
+         <h2>{{ .Params.contacttitle }}</h2>
+         <p class="content">
+            {{ .Params.contactdescription }}
+         </p>
+         <p class="more">
+            <a href="/contact" class="btn">{{ .Params.contactbutton }}</a>
+            <span class="strip strip--lines"></span>
+         </p>
+      </div>
    </div>
-   <div class="window window--3 window--highlight">
-      <h2>Get in touch</h2>
-      <p class="content">
-         Talk to us to discover how we can work together towards a better world.
-      </p>
-      <p class="more">
-         <a href="/contact" class="btn">Contact us</a>
-         <span class="strip strip--lines"></span>
-      </p>
-   </div>
+   {{ end }}
 </div>
 
 {{ end }}
