@@ -1,6 +1,6 @@
 {{- $filename := .Get 0 }}
 {{- $src := .Page.Resources.GetMatch $filename }}
-{{- $image := $src.Resize "700x" }}
+{{- $image := $src.Resize "900x" }}
 <figure
    class="image {{ if (.Get 2) }}image--{{ .Get 2 }}{{ end }}"
    markdown="0"

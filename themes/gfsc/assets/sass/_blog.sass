@@ -1,8 +1,6 @@
 .blog
   display: grid
   grid-template-columns: 1fr
-  +for-phone-only
-    +border(top)
   +for-tablet-landscape-up
     grid-template-columns: $margin-tablet-landscape 1fr
   +for-desktop-up
@@ -132,6 +130,7 @@
       +border(right)
       display: block
       padding: 0
+      font-size: 0px
   &__meta
     +balboa
     font-size: 1.11111rem
@@ -198,6 +197,7 @@
       +for-tablet-landscape-up
         box-sizing: border-box
         &--author
+          display: inline-block
           &:nth-child(3):nth-last-child(3)
             padding: 1.25rem
           &:nth-child(3):nth-last-child(4), &:nth-child(3):nth-last-child(4) ~ &
@@ -214,7 +214,6 @@
             padding: 1rem 0.5rem 1rem 0.5rem
           &:nth-child(5):nth-last-child(3)
             padding: 1rem 0.75rem 1rem 0.25rem
-          display: inline-block
         img
           width: 95%
           max-width: 95%

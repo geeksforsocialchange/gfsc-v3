@@ -5,6 +5,13 @@
       <h2 class="title__main title__main--work">{{ .Title }}</h2>
     {{ end }}
   </div>
+{{ else if and (or (in .URL "blog") (in .URL "project")) (not (eq .URL "/blog/")) }}
+  <div class="title title--blog">
+    {{ $blog := $.Site.GetPage "/blog/" }}
+    {{ with $blog }}
+      <h2 class="title__main title__main--blog">{{ .Title }}</h2>
+    {{ end }}
+  </div>
 {{ else }}
   <div class="title  {{ if eq .Params.Notitle true }}title--notitle{{end}}">
     {{ if eq .Params.Notitle true }}
