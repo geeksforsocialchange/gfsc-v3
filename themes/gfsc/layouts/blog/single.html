@@ -18,14 +18,18 @@
       >
       <div class="blog__meta blog__meta--author" rel="author">
          By
-         {{ range $blogauthors }}
-            {{ $findauthor := where $.Site.Data.authors.authors "tag" .}}
+         {{ range $index, $authortag := $blogauthors }}
+            {{ $findauthor := where $.Site.Data.authors.authors "tag" $authortag }}
             {{ $author := index $findauthor 0 }}
-            {{ $author.name }} 
+            {{ if ge (sub (len $blogauthors) $index) 2 }}
+               {{ $author.name }},
+            {{ else }}
+               {{ $author.name }}
+            {{ end }}
          {{ end }}
       </div>
       {{ range $blogauthors }}
-         {{ $findauthor := where $.Site.Data.authors.authors "tag" .}}
+         {{ $findauthor := where $.Site.Data.authors.authors "tag" . }}
          {{ $author := index $findauthor 0 }}
          <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
             <picture>
