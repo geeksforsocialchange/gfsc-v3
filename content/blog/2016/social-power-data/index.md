@@ -47,4 +47,4 @@ We need to be drawn not to the extreme, exciting, new, or sexy _technology_, but
 
 As socially engaged citizens who work with data, we cannot ignore the power structures that create, manipulate, publish, and use, data. Just as data is only given context by interpretation, so too we need to analyse the power structures that surround it. Only by working with communities to use data to its fullest extent can we hope to challenge the inequality in the world today. Let's let technology ride the back seat for a while and get back to getting to know the people around us.
 
-{{ include smallsignup.html custom="Get articles like this, plus news and updates, directly by joining our email list." }}
+{{<smallsignup "Get articles like this, plus news and updates, directly by joining our email list.">}}
