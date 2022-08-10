@@ -27,7 +27,7 @@ At the start of a new group when you have a handful of members and you meet regu
 
 Are there some downsides to this method? Of course. The rest of this article discusses some tips for mitigating these.
 
-{{ include smallsignup.html custom="Sign up to our email list to receive articles like this directly into your inbox." }}
+{{<smallsignup "Sign up to our email list to receive articles like this directly into your inbox.">}}
 
 ## Setting up stress-free email
 
@@ -69,4 +69,4 @@ Here's some tips:
 
 Email lists are by far the best method of communication for small groups, but require a little work on behalf of group members to be most effective. We spend an enormous about of time and energy sending emails nowadays. Taking a few minutes (or even an hour) to sort out your inbox will pay huge returns in workload and stress. Let us know if you have any other tips over on [Twitter!](https://twitter.com/gfscstudio)
 
-{{ include kofi.html custom="Found this useful? Buy us a Ko-fi to support our work." }}
+{{<kofi "Found this useful? Buy us a Ko-fi to support our work.">}}

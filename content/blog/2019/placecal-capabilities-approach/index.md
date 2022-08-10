@@ -1,10 +1,11 @@
 ---
 author: kim, stefan
 date: "2019-07-30T00:00:00Z"
-description: We discuss how a capability approach to information technology in neighbourhoods
-  with low social capital can create embedded and sustainable Community Technology
-  Partnerships (CTPs) that connect residents and institutions together, reducing barriers
-  to social participation and collaborative action.
+description:
+   We discuss how a capability approach to information technology in neighbourhoods
+   with low social capital can create embedded and sustainable Community Technology
+   Partnerships (CTPs) that connect residents and institutions together, reducing barriers
+   to social participation and collaborative action.
 subtitle: PlaceCal and the capabilities approach
 title: Making a place for technology in communities
 ---
@@ -21,7 +22,7 @@ MAFN developed a CTP to correlate perceptions that it was difficult to find out 
 
 The CTP was developed using a capability model <span class="citation" data-cites="kleine2013">(Kleine, 2013)</span> to discover and overcome both the social and technical barriers preventing the hosts of neighbourhood activities collaboratively and sustainably self-publishing their event information. This resulted in the production of PlaceCal, an holistic social and technical toolkit that ensures groups and individuals have the technology, skills, infrastructure and support to publish information, creating a distributed network of community information.
 
-<h2 id="introduction">Introduction</h2>
+## Introduction
 
 In this paper we discuss how applying a ‘capability approach’ to information technology <span class="citation" data-cites="kleine2013">(Kleine, 2013)</span> in neighbourhoods with low social capital can create embedded and sustainable ‘Community Technology Partnerships’ (CTPs) that connect residents and institutions together, reducing barriers to social participation and encouraging collaborative action.
 
@@ -33,9 +34,9 @@ We called this co-production process a Community Technology Partnership (CTP). T
 
 This paper will discuss the ‘age friendly’ context for the intervention, and how we built on existing work applying capabilities to IT. Throughout, we distinguish a capability approach from existing ‘digital inclusion’ approaches, and conclude with the specific findings discovered in both delivering the PlaceCal platform and the CTP.
 
-<h2 id="neighbourhood-partnerships-and-the-capability-model">Neighbourhood Partnerships and the Capability model</h2>
+## Neighbourhood Partnerships and the Capability model
 
-<h3 id="defining-capability-approach">Defining the capability approach</h3>
+### Defining the capability approach
 
 The PlaceCal CTP was conceived in order to apply a ‘capability approach’ to community technological development, building on existing ‘age friendly’ community development programme ‘Manchester Age Friendly Neighbourhoods’ (MAFN).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
 
@@ -43,17 +44,19 @@ The MAFN project was conducted by an engaged-research team at MMU with the objec
 
 This deliberate mix of communities of place and practice in the MAFN project is itself an application of a capability-based community development methodology. In our interpretation, it correlates with the concept of ‘active ageing’ in the AFCC approach as a position distinct from medical or social models of disability, instead emphasising the active self-determination of individuals in any social, economic or technical process <span class="citation" data-cites="nussbaum2003 sen1999">(Nussbaum, 2003; Sen, 1999)</span>.
 
-{{ include image.html description="WHO Age Friendly Flower’, as adapted by MAFN" url="/assets/images/blog/placecal-capabilities/who-flower.png" class="frame" }}
+{{<image-with-caption "who-flower.png" "WHO Age Friendly Flower’, as adapted by MAFN" "WHO Age Friendly Flower’, as adapted by MAFN" "frame">}}
 
-In discussions of this and earlier work operationalising the capability approach in the context of older people and place <span class="citation" data-cites="white2018a">(White &amp; Hammond, 2018)</span> we argue that the distinction between place-based interventions emphasising the active role of older citizens in deciding and creating the services and systems that ensure equality of opportunity across the life-course have two key features in common with the capability approach. These two features are indicated in the WHO AFCC ‘flower’ diagram, which shows an individual older person’s experience at the centre of a flower with eight petals each indicating a different domain of determining factors in the social, economic or physical environment. The diagram demonstrates how the ‘age friendly approach’ places individual human experience at the centre of both any understanding of the determinants of opportunities for a well-lived life, <strong>and</strong> at the centre of any actions taken to improve those opportunities <span class="citation" data-cites="worldhealthorganization2007">(World Health Organization, 2007)</span>.
+In discussions of this and earlier work operationalising the capability approach in the context of older people and place <span class="citation" data-cites="white2018a">(White &amp; Hammond, 2018)</span> we argue that the distinction between place-based interventions emphasising the active role of older citizens in deciding and creating the services and systems that ensure equality of opportunity across the life-course have two key features in common with the capability approach. These two features are indicated in the WHO AFCC ‘flower’ diagram, which shows an individual older person’s experience at the centre of a flower with eight petals each indicating a different domain of determining factors in the social, economic or physical environment. The diagram demonstrates how the ‘age friendly approach’ places individual human experience at the centre of both any understanding of the determinants of opportunities for a well-lived life, **and** at the centre of any actions taken to improve those opportunities <span class="citation" data-cites="worldhealthorganization2007">(World Health Organization, 2007)</span>.
 
-Definitions of the capability approach insist on ‘people’s freedom to choose the lives <em>they</em> have reason to value’ <span class="citation" data-cites="sen1999">(Sen, 1999, p. p18)</span>. All aspects of the social, economic and physical environment are implicated in the interdependent structural enabling or disabling of each individual’s desires. This is represented in the WHO flower, which shows the interaction of multi-determinants of healthy ageing. In capability terms, Kleine <span class="citation" data-cites="kleine2013">(2013)</span>, using Alsop and Heinsohn <span class="citation" data-cites="alsop2005">(2005, p. p8)</span>, shows how the agency of the individual to make ‘meaningful choices’ is a capacity that is measured by that individual’s ‘asset endowment’ which has ‘psychological, informational, organisational, material, social, financial and human’ components.
+Definitions of the capability approach insist on ‘people’s freedom to choose the lives _they_ have reason to value’ <span class="citation" data-cites="sen1999">(Sen, 1999, p. p18)</span>. All aspects of the social, economic and physical environment are implicated in the interdependent structural enabling or disabling of each individual’s desires. This is represented in the WHO flower, which shows the interaction of multi-determinants of healthy ageing. In capability terms, Kleine <span class="citation" data-cites="kleine2013">(2013)</span>, using Alsop and Heinsohn <span class="citation" data-cites="alsop2005">(2005, p. p8)</span>, shows how the agency of the individual to make ‘meaningful choices’ is a capacity that is measured by that individual’s ‘asset endowment’ which has ‘psychological, informational, organisational, material, social, financial and human’ components.
 
 Reiterating these themes with a more philosophical tone, Nussbaum describes the capability model in the form of a question: ‘what are the people of the group … actually able to do and be?’ <span class="citation" data-cites="nussbaum1999">(Nussbaum, 1999, p. p34)</span>. In doing so she offers a concrete ethical test to ensure that people are being engaged in a manner which respects their fundamental existence, rather than having choices ‘made for them’ on the basis of external characterisation or assumptions of their abilities, feelings or opinions. The test contains the expectation that this question needs to be asked of all individuals and groups, and requires an ongoing negotiation between all Beings.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
 
-In this interpretation, we argue that the three main conceptual impacts of adopting a capability approach are the assumption of the right of each individual to define their Being, and recognition that <em>both</em> the actual existence <em>and</em> potential of their Being is interdependent with the social economic and political context of that existence. Firstly, there is a requirement for direct engagement with citizens and discovery of their real and actual desires. Secondly, individuals are always part of groups and societies, and our capabilities to achieve our desired Being are collective and relational. The third impact is demonstrated in the drive to ask this question at all. The capability approach is an active and collective question seeking to support individuals to overcome the actual specific barriers preventing them from realising their desired states of Being: indeed, this is why it is an <em>approach</em> and not a <em>model</em> <span class="citation" data-cites="sen1999">(Sen, 1999)</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>
+In this interpretation, we argue that the three main conceptual impacts of adopting a capability approach are the assumption of the right of each individual to define their Being, and recognition that _both_ the actual existence _and_ potential of their Being is interdependent with the social economic and political context of that existence. Firstly, there is a requirement for direct engagement with citizens and discovery of their real and actual desires. Secondly, individuals are always part of groups and societies, and our capabilities to achieve our desired Being are collective and relational. The third impact is demonstrated in the drive to ask this question at all. The capability approach is an active and collective question seeking to support individuals to overcome the actual specific barriers preventing them from realising their desired states of Being: indeed, this is why it is an _approach_ and not a _model_ <span class="citation" data-cites="sen1999">(Sen, 1999)</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>
 
 We summarise this interpretation of the capability approach and how it can be distinguished from a wide range of technical and social attempts to enable greater equity of opportunity in Table 1.
+
+{{<rawhtml>}}
 
 <table class="table table--4col">
   <caption>
@@ -106,8 +109,9 @@ We summarise this interpretation of the capability approach and how it can be di
     </tr>
   </tbody>
 </table>
+{{</rawhtml>}}
 
-The Deficit or ‘medical’ model attributes problems to an individual’s deviations from ‘the norm’: in other words, ‘abnormal’ individuals are assumed to have a ‘deficit’ of some kind. Franklin <span class="citation" data-cites="franklin1999">(1999)</span>, speaking in a technology context, puts this bluntly: ‘people are seen as sources of problems, while technology is seen as a source of solutions’. By contrast, the social model sees disability as created by the individual’s relationship to the social environment, and argues that deficit-based approaches actually <em>disable</em> communities by implying ‘communities in and of themselves are not competent [and] require the expertise of professionals’ <span class="citation" data-cites="durie2013">(Durie &amp; Wyatt, 2013)</span>.
+The Deficit or ‘medical’ model attributes problems to an individual’s deviations from ‘the norm’: in other words, ‘abnormal’ individuals are assumed to have a ‘deficit’ of some kind. Franklin <span class="citation" data-cites="franklin1999">(1999)</span>, speaking in a technology context, puts this bluntly: ‘people are seen as sources of problems, while technology is seen as a source of solutions’. By contrast, the social model sees disability as created by the individual’s relationship to the social environment, and argues that deficit-based approaches actually _disable_ communities by implying ‘communities in and of themselves are not competent [and] require the expertise of professionals’ <span class="citation" data-cites="durie2013">(Durie &amp; Wyatt, 2013)</span>.
 
 While the difference between deficit and social models have been widely discussed – especially in disability studies – there is little formal academic discussion about the relationship between the capability approach and other models. In a rare example, Mitra (2006) explains that the key feature of the capability model in terms of its relationship to other disability models is that ‘the capability approach allows disability to be differentiated at two levels: at the capability level, or as a potential disability, and at the functioning level, or as an actual disability’.
 
@@ -117,17 +121,17 @@ Durie and Wyatt <span class="citation" data-cites="durie2013">(2013)</span> expl
 
 The MAFN project explicitly followed the C2 methodology in order to operationalise this interpretation of the capability approach. The C2 method sets out key features of resident-led engagement processes and partnership building, and served as the basis for constructing partnerships developed both by MAFN and the PlaceCal CTP.
 
-<h3 id="technology-capability">Technology and capability</h3>
+### Technology and capability
 
 Table 1 explores differences between the three broad models of dis/ability. In our interpretation these approaches should not be seen to be in opposition, but are complementary. The capability approach builds on both the social and deficit models, responding to the conditions affecting both actual and potential capabilities of both communities of place and practice in relation to different groups of older people. This section explores how these existing discussions of digital inclusion and accessibility relate to the CTP approach.
 
 Research by the OECD <span class="citation" data-cites="oecd2016">(2016)</span> paints a bleak picture of the state of digital skills in the UK. This study divides up common computer skills into several categories from 1 (simple) to 3 (complex). Level 1 skills consist of a range of day-to-day computing skills like ‘deleting an email’. 40% of ‘working age’ adults aged 16-65 struggle to complete all the tests at this basic threshold, being described as ‘under level 1’.
 
-This picture is much worse for older people. The UK Office of National Statistics <span class="citation" data-cites="officefornationalstatistics2019">(2019)</span> found 56% of those over 75 have either <em>never</em> been online, or not been online for over three months, increasing to 61% for over 75s with disabilities. The reasons for this are varied. 52% of non-internet users aged over 65 think that they’re simply not missing out on information <span class="citation" data-cites="pewresearchcentre2014">(Pew Research Centre, 2014b)</span>, 65% think it’s too complicated, and 53% have privacy concerns <span class="citation" data-cites="friemel2016">(Friemel, 2016)</span>. This is exacerbated by social class, with 40% or less of over 65s with a high school education or less being online, compared to 87% of college graduates in the USA <span class="citation" data-cites="pewresearchcentre2014a">(Pew Research Centre, 2014a)</span>.
+This picture is much worse for older people. The UK Office of National Statistics <span class="citation" data-cites="officefornationalstatistics2019">(2019)</span> found 56% of those over 75 have either _never_ been online, or not been online for over three months, increasing to 61% for over 75s with disabilities. The reasons for this are varied. 52% of non-internet users aged over 65 think that they’re simply not missing out on information <span class="citation" data-cites="pewresearchcentre2014">(Pew Research Centre, 2014b)</span>, 65% think it’s too complicated, and 53% have privacy concerns <span class="citation" data-cites="friemel2016">(Friemel, 2016)</span>. This is exacerbated by social class, with 40% or less of over 65s with a high school education or less being online, compared to 87% of college graduates in the USA <span class="citation" data-cites="pewresearchcentre2014a">(Pew Research Centre, 2014a)</span>.
 
-What people actually <em>do</em> when they’re online is enormously varied and heavily correlated with class and age. Digital exclusion is intersectional, and the worst experiences are suffered by those who are older, less well educated, less likely to be employed, female and disabled <span class="citation" data-cites="vandeursen2014">(Deursen &amp; Dijk, 2014, p. p520)</span>. The result of this is an enormous gap between tech ‘haves’ and ‘have-nots’. It is not just a simple binary test – ‘are you on the internet / using a smartphone / on Facebook?’ – but a complex multidimensional matrix of skills, abilities, and capabilities. This matrix is highly impacted by a range of psychosocial variables, and significantly affected by overall motivation <span class="citation" data-cites="mcneal2008">(McNeal, Hale, &amp; Dotterweich, 2008)</span> for the specific ‘clickable possibilities’ <span class="citation" data-cites="kleine2013">(Kleine, 2013, p. p38)</span> the citizen wants to accomplish.
+What people actually _do_ when they’re online is enormously varied and heavily correlated with class and age. Digital exclusion is intersectional, and the worst experiences are suffered by those who are older, less well educated, less likely to be employed, female and disabled <span class="citation" data-cites="vandeursen2014">(Deursen &amp; Dijk, 2014, p. p520)</span>. The result of this is an enormous gap between tech ‘haves’ and ‘have-nots’. It is not just a simple binary test – ‘are you on the internet / using a smartphone / on Facebook?’ – but a complex multidimensional matrix of skills, abilities, and capabilities. This matrix is highly impacted by a range of psychosocial variables, and significantly affected by overall motivation <span class="citation" data-cites="mcneal2008">(McNeal, Hale, &amp; Dotterweich, 2008)</span> for the specific ‘clickable possibilities’ <span class="citation" data-cites="kleine2013">(Kleine, 2013, p. p38)</span> the citizen wants to accomplish.
 
-{{ include image.html description="Internet users by age group (Office for National Statistics, 2019)" url="/assets/images/blog/placecal-capabilities/internet-use-by-age.png" class="frame" }}
+{{<image-with-caption "internet-use-by-age.png" "Internet users by age group (Office for National Statistics, 2019)" "Internet users by age group (Office for National Statistics, 2019)" "frame">}}
 <span class="citation" data-cites="officefornationalstatistics2019"></span>
 
 This situation is worsened still in the context of the current shift of government and statutory services to be ‘digital by default’ <span class="citation" data-cites="ukcabinetoffice2012">(UK Cabinet Office, UK Govenrment Digital Service, &amp; Rt Hon Lord Maude of Horsham, 2012)</span>, or worse, online only. In the UK, key activities such as claiming benefits, filing tax returns, and accessing medical services are in the process of being moved online ‘to transform public services … making them better and cheaper for taxpayers and more effective and efficient for government’ (ibid.). In other words, services are no longer ‘door to door’ but rather ‘person to person’, mediated by the internet <span class="citation" data-cites="wang2018">(Wang, Zhang, &amp; Wellman, 2018)</span>.
@@ -142,11 +146,12 @@ Current strategies to rectify this systematic exclusion in a technological conte
 
 ‘Digital inclusion’ takes a skills and development approach that considers the social factors that make someone not able to (or want to) use a given website. The UK Cabinet Office <span class="citation" data-cites="ukcabinetoffice2014">(2014)</span> breaks down digital inclusion into four categories: “access - the ability to actually go online and connect to the internet; skills - to be able to use the internet; motivation - knowing the reasons why using the internet is a good thing; and trust - a fear of crime, or not knowing where to start to go online”, for example. The data provided by the ONS <span class="citation" data-cites="officefornationalstatistics2019">(2019)</span> indicate that this approach has a very long way to go to make government digital services inclusive for older people.
 
-Our critique of the current situation is that neither inclusive design nor digital inclusion programmes seek to address the <em>underlying</em> causes of digital exclusion by transforming the product or system to make it more inclusive. Park &amp; Humphry <span class="citation" data-cites="park2019">(2019)</span> note that ‘digital inclusion can only be realised if all dimensions of access, affordability and digital literacy are resolved’. We would add that these are all complex social and economic factors that cannot be explained through ‘the digital’ or ‘literacy’ alone: this schema would presume that current services are basically perfect, and that anyone who doesn’t use digital technology to do what they want or need has a social or physical impairment. Ultimately both the deficit and social programmes of technical inclusion predominantly seek to enable people to adapt to existing systems that were designed without conceptual or real engagement with people like them. A capability approach seeks to design systems and products which support people’s freedom to choose the ‘lives they have reason to value’ (Sen, 1999:18) – in our case, the simple wish to find things to do and people to meet locally in a deprived area bereft of digital capacity.
+Our critique of the current situation is that neither inclusive design nor digital inclusion programmes seek to address the _underlying_ causes of digital exclusion by transforming the product or system to make it more inclusive. Park &amp; Humphry <span class="citation" data-cites="park2019">(2019)</span> note that ‘digital inclusion can only be realised if all dimensions of access, affordability and digital literacy are resolved’. We would add that these are all complex social and economic factors that cannot be explained through ‘the digital’ or ‘literacy’ alone: this schema would presume that current services are basically perfect, and that anyone who doesn’t use digital technology to do what they want or need has a social or physical impairment. Ultimately both the deficit and social programmes of technical inclusion predominantly seek to enable people to adapt to existing systems that were designed without conceptual or real engagement with people like them. A capability approach seeks to design systems and products which support people’s freedom to choose the ‘lives they have reason to value’ (Sen, 1999:18) – in our case, the simple wish to find things to do and people to meet locally in a deprived area bereft of digital capacity.
 
 The remainder of this paper will discuss our capability approach to forming a CTP. This approach considers all the people, skills, infrastructure, tools and resources in a neighbourhood, analyses the barriers to digital participation, and asks what it is that people want to do and be using technology.
 
-<h3 id="capable-neighbourhood">A capable neighbourhood</h3>
+### A capable neighbourhood
+
 The MAFN co-research process involved over 6,000 conversations, culminating in the development of ‘Age Friendly Action Plans’ for each of the 5 communities where research was undertaken.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> In each case, the action plans demonstrated that ‘community information’ was a significant issue, a finding supported by a wide range of health, housing and social care stakeholders.
 
 This research discovered a widely held perception there was ‘nothing to do’ in each of the neighbourhoods. An exhaustive audit of community activity in each area then discovered, on the contrary, that there was a significant amount of activity even in the least active area. These activities involved a wide range of stakeholders from tiny community groups to city institutions. This resulted in the creation of a shared Google Calendar maintained by MAFN community development staff. These calendars in themselves became an extraordinary resource that allowed each partnership to get a full picture of what was going on in the neighbourhood, themselves enabling previously impossible collaborations and validating the C2 methodology.
@@ -157,7 +162,7 @@ This research discovered a widely held perception there was ‘nothing to do’ 
 
 Engagement with institutional partners revealed that across the health, housing, and community sectors there were a number of existing attempts to catalogue community activities described in terms of ‘asset mapping’ or ‘community directory’ initiatives. Each of these attempts, like the MAFN calendar, were inherently limited by funding and time, and required constant community development work to keep up to date. It was at this point that PlaceCal was initiated, which will be discussed in detail below.
 
-{{ include image.html description="An example of the shared Google Calendar for one day in one area" url="/assets/images/blog/placecal-capabilities/google-cal-results.png" class="frame" }}
+{{<image-with-caption "google-cal-results.png" "An example of the shared Google Calendar for one day in one area" "An example of the shared Google Calendar for one day in one area" "frame">}}
 
 The PlaceCal CTP evolved by exploring all the ways that we could increase connectivity and communication between and across neighbourhood project partners. Working with the existing context of collaboration developed by MAFN, we established that there was the potential for high quality, up-to-date and trusted information in the area that would allow individual organisations to share the burden of creating a central source of information.
 
@@ -173,18 +178,19 @@ Our working definition of a capability approach in the context of place-based co
 <li>actively enabling realisation of both group and individual capabilities. (generating new actual and potential resources through enabling new relations and actions).</li>
 </ol>
 
-<h2 id="how-we-made-a-community-technology-partnership">How we made a Community Technology Partnership</h2>
+## How we made a Community Technology Partnership
+
 As briefly discussed, PlaceCal was initially conceived of as a tool to move from the single, central, manual calendar maintained by the MAFN team, to an automated, cross-sector tool grounded in the existing partnership work. MMU and GFSC gained funding from Innovate UK’s ‘Smart City Demonstrator’<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> program ‘CityVerve’. Our bid fell under the ‘health and social care’ stream of the project.
 
 We used the term ‘Community Technology Partnership’ to describe an intervention process that uses direct engagement with a broad range of stakeholders to build a partnership that facilitates co-production of a digital, technological object. The PlaceCal CTP specifically had the goal of designing, creating and maintaining a social and technological intervention that could improve aspects of community connectedness, impact on social cohesion, and reduce social isolation in low social capital neighbourhoods. We deliberately distinguish the development of PlaceCal software and training, and the CTP approach, in order to fully realise the importance of both, and offer a methodology for creating technological products in an embedded community context. We will now briefly describe how this methodology was applied.
 
-<h3 id="developing-a-prototype">Developing a prototype</h3>
+### Developing a prototype
 
 MAFN had already facilitated the creation of a local partnership of organisations (discussed in Section ), creating a ‘manual’ Google Calendar of all the events in the area as far as we were able to gather them through 18 months of community engagement. This manual calendar was eventually stretched to the limits of the software. For example, the calendar was not very good at browsing lots of events at the same time, had no geolocation features, and required an ongoing connection to the MAFN partnership to access. Crucially, this manual version required constant updates and maintenance, resulting in more work being created the more successful it got. The PlaceCal project aimed to automate and build on the underlying context that each organisation was actively sharing information with the MAFN partnership, and was maintaining a diary of some kind that allowed us to share their information.
 
 We realised that if we could encourage each group in the partnership to publish their calendar online using software they were already using (or paying for) such as Outlook, Mac Calendar, Google Calendar or Facebook, we could use the built in ‘iCal’ or ‘API’<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> features of these calendars to automatically combine, collate and publish the information in one place. Rather than the current system where each worker takes a ‘snapshot’ of each group’s activities whenever they met the group, we could train organisations to share their own activity information, and with the help of the PlaceCal software, give them the capability to publish this alongside that of others with much lower effort and much wider reach. This central source of event information would be a canonical source of local information that could be shared by every partner and used to create shared print outputs, for example.
 
-{{ include image.html description="A selection of the current community information needed to find out everything going on in the area" url="/assets/images/blog/placecal-capabilities/flyer-pile.jpg" class="" }}
+{{<image-with-caption "flyer-pile.jpg" "A selection of the current community information needed to find out everything going on in the area" "A selection of the current community information needed to find out everything going on in the area">}}
 
 GFSC developed the PlaceCal software in Ruby on Rails (RoR), a popular framework for rapidly developing web applications, and is currently live at [placecal.org](placecal.org). The source code is licensed under the AGPL open source license, and can be downloaded from GitHub.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> The training and support materials are available under the same license, and published at [handbook.placecal.org](handbook.placecal.org). All these tools were made free and open source to demonstrate our commitment to our overall methodology rather than any one software tool; to make development and design decisions public and transparent; and optimistically to encourage teams doing similar work in other neighbourhoods to be able to directly contribute to feature development.
 
@@ -196,28 +202,29 @@ Given this diversity of technical requirements and the social complexity of gett
 
 Our final prototype had three key features: a list of activities on each day (‘show me what’s on right now’), a list of activities at each community venue (‘show me what’s on at my local venue’), and a list of each ‘partner’ (‘show me the kinds of things I can do in my area’).
 
-<h3 id="the-capability-engagement-processes">The capability engagement processes</h3>
+### The capability engagement processes
+
 With our prototype in place, we began engaging every member of the age friendly partnership in the PlaceCal methodology. Our a priori categories for these groups were: ‘Institution’ (e.g. Manchester City Council); ‘Voluntary’ (e.g. third sector community centres) and ‘Community’ (e.g. small unincorporated groups directly running activities). Each group in this initial phase was consulted for up to an hour with a semi-structured interview about both what the group did and their current technical capabilities. This research uncovered a wide range of social and technical barriers such as: fearing the time and effort it would take; not understanding the meaning and efficacy of involvement; not having an internet connection; not knowing who in the organisation was responsible for digital publishing; and either not being able to get permission, or being unsure if permission was required.
 
 This process led to a significantly more sophisticated understanding of capabilities and desired capabilities for a wide range of organisations types. These capabilities covered all aspects of publishing, editing, reading and curating information. From these discrete wishes emerged a list of ‘core capabilities’ (Nussbaum, 2003) or ‘roles’ that people wanted to ‘do and be’. These roles are summarised in Table 1.
 
-Most people belonged to more than one of these roles: for example, everyone is a ‘citizen’, and ‘secretaries’ are often also ‘social prescribers’. We found this role taxonomy described very well the shared objectives and barriers in our specific context, and enabled reaching shared understandings of the capabilities we needed to enable through the CTP. It’s important to note that these roles help identify <strong>general</strong> common barriers across a range of distributed stakeholders, and do not replace the requirement for individual engagement with each group to discover their <strong>specific</strong> barriers. Identifying these roles was a key tool in understanding design objectives, communication, support, and training.
+Most people belonged to more than one of these roles: for example, everyone is a ‘citizen’, and ‘secretaries’ are often also ‘social prescribers’. We found this role taxonomy described very well the shared objectives and barriers in our specific context, and enabled reaching shared understandings of the capabilities we needed to enable through the CTP. It’s important to note that these roles help identify **general** common barriers across a range of distributed stakeholders, and do not replace the requirement for individual engagement with each group to discover their **specific** barriers. Identifying these roles was a key tool in understanding design objectives, communication, support, and training.
 
-The rest of this section explores these roles in depth, and how through <strong>direct engagement</strong> in a <strong>creative partnership</strong> we <strong>actively realised</strong> their increased capability (as established in Section ).
+The rest of this section explores these roles in depth, and how through **direct engagement** in a **creative partnership** we **actively realised** their increased capability (as established in Section ).
 
-{{ include kofi.html custom="Support our community work by donating the price of a Ko-fi to us." }}
+{{<kofi "Support our community work by donating the price of a Ko-fi to us.">}}
 
-<h3 id="roles-and-their-capabilities">Roles and their capabilities</h3>
+### Roles and their capabilities
 
-<h4 id="secretary">Secretary</h4>
+#### Secretary
 
 As mentioned, an early finding was that several public health institutions, community activists, and development workers were undertaking work to create ‘asset mapping’ or ‘community directory’ services. The tools provided to them to do this were either non-existent or poorly designed, resulting in a range of spreadsheets, printouts and paper guides being circulated within each organisation, each incomplete, with overlapping and conflicting information, mirroring the existing situation for the organisations hosting and running activities.
 
-We describe these situations in terms of the role ‘secretary’. It is not a ‘technical’ role but rather indicated the ambition to ‘enable local groups to publish information’ and ‘be able to curate local information to create an active local identity’. PlaceCal was designed to replace the current situation where each secretary met each group individually and manually created a list of events at that moment in time that required review every few months to keep it up-to-date. Every extra worker doing this role therefore actually <em>increased</em> the total effort to maintain this information in the area for each community group.
+We describe these situations in terms of the role ‘secretary’. It is not a ‘technical’ role but rather indicated the ambition to ‘enable local groups to publish information’ and ‘be able to curate local information to create an active local identity’. PlaceCal was designed to replace the current situation where each secretary met each group individually and manually created a list of events at that moment in time that required review every few months to keep it up-to-date. Every extra worker doing this role therefore actually _increased_ the total effort to maintain this information in the area for each community group.
 
 In the CTP approach, each group was trained to maintain their own listings, which were then aggregated and published on the PlaceCal platform. This shift in structure is shown in the figure below. Through the partnership, work could therefore be divided evenly between workers in an area, shifting the focus from simply maintaining immediately out-of-date lists of information, to wholesale skills-based digital inclusion.
 
-{{ include image.html description="CTP approach schematic from the PlaceCal 'Commissioner' handbook" url="/assets/images/blog/placecal-capabilities/secretaries.png" class="frame" }}
+{{<image-with-caption "secretaries.png" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "frame">}}
 
 Training groups to maintain their own information had the unexpected side effect that some organisations, when trained to publish their own information, published almost twice as many events as we got from face-to-face interviews in the previous ‘manual’ method. We also discovered that the most frequent barrier to getting this information was finding out who the person responsible for maintaining the diary was in each institution, taking time, trust and patience to effectively engage each group.
 
@@ -231,11 +238,11 @@ Crucially, this role enables existing ‘on the ground’ trust networks to be r
 
 While many secretaries helped with the PlaceCal rollout, we were unable to fully train them to use the PlaceCal platform directly due to the limited resources in our pilot and the relatively high technical and social skills required to effectively engage local groups. To fully realise this role fully we are seeking funding to co-develop a ‘train the trainers’ program to gain all these necessary capabilities. Nevertheless, this is a small group of people to train when working in a partnership context in any given neighbourhood (say 5-20 per 50,000 people or so), so we believe this to be a surmountable problem in a future project expansion.
 
-<h4 id="community-groups-managers-and-admins">Community groups (managers and admins)</h4>
+#### Community groups (managers and admins)
 
 ‘Community groups’ are incorporated or unincorporated organisations on a variety of scales from one person in their spare time, to cross-city and country institutions. We identified two key roles to working with them in the CTP context: ‘managers’, who were able to make the strategic decision and commit the institutional resources needed to be part of the PlaceCal platform, and ‘admins’, who were the workers with the job of actually doing the data entry on a day-to-day basis. In some cases, these were the same person, again reflecting the social/relational rather than technical/representational aspects of this work.
 
-Secretaries in the pilot area worked with every community group in the neighbourhood to understand their technical and social needs. Overall we discovered an enormous skills gulf representative of the discussion in section , with groups of all scales struggling to use their current software and computer assets and unable to take on any additional technology. For example, members of large institutions commonly did not know how to access internal systems (or the bureaucracy in using them was insurmountable), and small groups often didn’t know they even had a calendar program as part of their email suite (in Outlook 365 or G Suite, for example). It was demonstrated very quickly that the PlaceCal approach of working with existing calendar software was the only way this job was possible, with the median time to ‘onboard’ a group in <em>software they already had</em> being upwards of one day over several conversations, emails, phonecalls and visits.
+Secretaries in the pilot area worked with every community group in the neighbourhood to understand their technical and social needs. Overall we discovered an enormous skills gulf representative of the discussion in section , with groups of all scales struggling to use their current software and computer assets and unable to take on any additional technology. For example, members of large institutions commonly did not know how to access internal systems (or the bureaucracy in using them was insurmountable), and small groups often didn’t know they even had a calendar program as part of their email suite (in Outlook 365 or G Suite, for example). It was demonstrated very quickly that the PlaceCal approach of working with existing calendar software was the only way this job was possible, with the median time to ‘onboard’ a group in _software they already had_ being upwards of one day over several conversations, emails, phonecalls and visits.
 
 By helping groups upload their events using existing tools, we made the crucial job of diary publishing as easy as possible and with a clear definition of success: publish a calendar feed and let us know about it. For example, Big Life Centres, a large community partner with two venues each with their own programme, previously published only a weekly paper leaflet distributed on their front desk, and were not able to get this information online. As the result of a key worker publishing this information in their existing Outlook system with the assistance of their existing IT support provider, PlaceCal has become the core events listing for the service, removing the burden on an already overstretched admin staff. In another case, it emerged the system that was already in use was outputting an iCal feed.
 
@@ -249,7 +256,7 @@ In one example of this, a resident (F/50s) conducted an oral history project loo
 
 Community groups in the pilot area have been supported to publish information in a drastically simpler way than existing mechanisms. In Sen’s <span class="citation" data-cites="sen1984">(1984)</span> terms, this increases their ability to convert capital (in the form of staff time) into capability (the ability to publish information effectively). Through the partnership, this information is now widely distributed with no additional effort on behalf of individual groups. We hope the CTP can now grow to enable community groups to work together collaborative to understand their needs and commission training, support and further software tools.
 
-<h4 id="social-prescribers">Social prescribers</h4>
+#### Social prescribers
 
 ‘Social prescribers’ are individuals and organisations who have a statutory duty to support the health of the community and who are seeking to do so by helping them connect to local activities, programmes and opportunities. A Nesta study <span class="citation" data-cites="nesta2013">(2013)</span> discovered 90% of GPs would ‘socially prescribe’ if they had access to the right information, but only 9% of patients have received social prescriptions, a finding supported by the UK Government and the NHS <span class="citation" data-cites="nhsengland2019">(NHS England, 2019)</span>. This finding appeared to be confirmed in our pilot area as shown in the example below of work with a local GP practice.
 
@@ -263,13 +270,13 @@ The CTP development work created a local trust network that ensured faith in Pla
 
 Creating a de-siloed and community owned and curated social prescribing resource has therefore dramatically increased relationships between GP practices and community groups, giving health workers the capability to care for the widest possible range of patient needs with little additional effort.
 
-{{ include image.html description="Dr Alasdair Honeyman at work using PlaceCal (right hand screen)" url="/assets/images/blog/placecal-capabilities/alasdair.jpg" class="" }}
+{{<image "alasdair.jpg" "Dr Alasdair Honeyman at work using PlaceCal (right hand screen)" "Dr Alasdair Honeyman at work using PlaceCal (right hand screen)">}}
 
-<h4 id="commissioners">Commissioners</h4>
+#### Commissioners
 
 Overseeing this community partnership work are the individual institutional commissioners who actually commit the staff and resources. As part of the PlaceCal engagement we worked with NHS commissioners, housing associations, Manchester City Council’s (MCC) website and innovation teams, GP Federation representatives, and health and wellbeing workers, to establish Manchester Public Information Group (ManPIG).
 
-We quickly discovered a fairly stubborn assumption that the internet has already made information about community activity almost universally available, and free. On reflection with the group, we discovered that this was highly correlated with social capital. Given it was at least <em>possible</em> to find out about high social capital cultural events such as classical concerts, theatre, and art, it was counterintuitive for this group to discover that information wasn’t available <em>at all</em> for more deprived communities. While there was a desire to, for example, ‘see all the classical concerts on tonight in one place’ (a desire shared by the local tourist board), this was seen as a ‘nice to have’, not the critical public health issue experienced in our pilot area. It became clear that this level of misunderstanding was a key barrier to overcome to justify the CTP approach to those who controlled city-wide budgets. One local councillor shared our frustration:
+We quickly discovered a fairly stubborn assumption that the internet has already made information about community activity almost universally available, and free. On reflection with the group, we discovered that this was highly correlated with social capital. Given it was at least _possible_ to find out about high social capital cultural events such as classical concerts, theatre, and art, it was counterintuitive for this group to discover that information wasn’t available _at all_ for more deprived communities. While there was a desire to, for example, ‘see all the classical concerts on tonight in one place’ (a desire shared by the local tourist board), this was seen as a ‘nice to have’, not the critical public health issue experienced in our pilot area. It became clear that this level of misunderstanding was a key barrier to overcome to justify the CTP approach to those who controlled city-wide budgets. One local councillor shared our frustration:
 
 > PlaceCal captures information that isn’t held anywhere else. This is particularly useful to people who don’t use social media, which can often be older people who are at higher risk of being isolated. What a shame it was they didn’t know about all these other events or projects, precisely because there isn’t a central place for them to be shared.
 >
@@ -277,7 +284,8 @@ We quickly discovered a fairly stubborn assumption that the internet has already
 
 We worked with this wide range of senior managers across multiple sectors to understand these city-wide information issues, painting a picture of the full range of community activity. We were surprised to discover that very often we had the only ‘technical’ knowledge in the room, highlighting the lack of ‘technological’ knowledge even at the very top of statutory organisations. Through ‘demystifying’ this kind of knowledge and sharing our process and methodology openly with the group, we co-wrote a set of group aims and objectives. This process has highlighted the importance of good quality information, and begun the process of de-siloing information commissioning processes enabling these groups to share information and experience and work towards shared cross-sector initiatives.
 
-<h4 id="citizens">Citizens</h4>
+#### Citizens
+
 All of the above engagement as part of a local partnership has radically transformed neighbourhood information for each involved stakeholder and the citizens of the neighbourhood generally. We estimate about 3% of total community activity was published at the start of the project, compared to 70% at the time of writing. This dramatic increase has reduced the ‘degrees of separation’ that any individual has from neighbourhood activities and services, both directly and through friends, family and peers. Many of the success stories we have had in the PlaceCal pilot have been these indirect connections: concerned friends, social prescribers and health workers who now have the capability to find something to do for everyone in the neighbourhood.
 
 The decentralised network of residents, VCSEs, ‘community champions’ and service providers sharing information through the PlaceCal platform has enabled the partners to work better together, is highly cost effective, and actualised the realisation of a range of previously impossible tasks.
@@ -300,7 +308,7 @@ I was a bit low and my doctor asked me about stuff I liked doing and I wasn’t 
 ‘Samina’, Moss Side resident
 
 </blockquote>
-<h2 id="conclusion-making-a-place-for-community-technology">Conclusion: making a place for community technology</h2>
+## Conclusion: making a place for community technology
 The PlaceCal CTP used the capability approach to transform community information in our pilot area. Our approach has three stages:
 
 <ol type="1">
@@ -310,75 +318,78 @@ The PlaceCal CTP used the capability approach to transform community information
 </ol>
 The key difference between a capability approach and deficit or social approaches to technology is that the latter two only address the problem from a technical or a social perspective respectively. Deficit approaches only address technical issues related to physical accessibility, while social approaches only address issues related to categories of social accessibility.
 
-Taken together, we argue they are insufficient to overcome the multiple technical, social and economic barriers to the actual socio-technical needs desired by communities in deprived neighbourhoods. These approaches do not require either direct engagement with those who are excluded, or a social commitment to helping individuals overcome their specific barriers but instead focus on representational issues (‘could someone with a disability <em>theoretically</em> <em>access</em> this service?’) with little (or no) accountability to any specific population (‘is this specific person or group <em>actually</em> <em>benefiting</em> from this service?’).
+Taken together, we argue they are insufficient to overcome the multiple technical, social and economic barriers to the actual socio-technical needs desired by communities in deprived neighbourhoods. These approaches do not require either direct engagement with those who are excluded, or a social commitment to helping individuals overcome their specific barriers but instead focus on representational issues (‘could someone with a disability _theoretically_ _access_ this service?’) with little (or no) accountability to any specific population (‘is this specific person or group _actually_ _benefiting_ from this service?’).
 
 In contrast, the CTP approach requires a creative partnership that can produce active solutions to specific experiences of exclusion that address the interdependence between social and technical issues. We believe that the case study presented here strongly indicates that such an integrated process can create and realize dramatically more inclusive opportunities.
 
-At this point we seek to highlight one key lesson from the pilot process. We believe that processes of engagement that seek to overcome exclusionary mechanisms and to create and realise opportunities have to be concretely situated. ‘Direct’ engagement recognises that it is the quality of the relationships between specific people in a particular place which enables the expression or suppression of the potential and actual capability of individuals. The specific barriers faced by individuals and groups are varied and interdependent and social and technical, all at the same time. The engagement process supports each community group to work in direct collaboration with the agencies and expertise needed to address the specific barriers that prevent people achieving active, ontological goals, <em>in their own neighbourhood</em>. This specificity is essential to the objective of addressing both the absolutely particular actual and potential aspects of individual and collective capability.
+At this point we seek to highlight one key lesson from the pilot process. We believe that processes of engagement that seek to overcome exclusionary mechanisms and to create and realise opportunities have to be concretely situated. ‘Direct’ engagement recognises that it is the quality of the relationships between specific people in a particular place which enables the expression or suppression of the potential and actual capability of individuals. The specific barriers faced by individuals and groups are varied and interdependent and social and technical, all at the same time. The engagement process supports each community group to work in direct collaboration with the agencies and expertise needed to address the specific barriers that prevent people achieving active, ontological goals, _in their own neighbourhood_. This specificity is essential to the objective of addressing both the absolutely particular actual and potential aspects of individual and collective capability.
 
-The PlaceCal CTP specifically is focussed on actually connecting specific people to a source of trusted community information. This could mean helping people to turn a paper calendar into a digital one; negotiating with managers for permission to share information; working with off-site IT support to set up systems to share information; or making a printed copy of a month’s events available at a local corner shop on request. While each of these desires has an accessibility and inclusion requirement that <em>could</em> be addressed individually, it is hopefully clear that the capability approach places these often unique needs in a meaningful, timely, and strategic context.
+The PlaceCal CTP specifically is focussed on actually connecting specific people to a source of trusted community information. This could mean helping people to turn a paper calendar into a digital one; negotiating with managers for permission to share information; working with off-site IT support to set up systems to share information; or making a printed copy of a month’s events available at a local corner shop on request. While each of these desires has an accessibility and inclusion requirement that _could_ be addressed individually, it is hopefully clear that the capability approach places these often unique needs in a meaningful, timely, and strategic context.
 
 A CTP creates a wide range of shared benefits by enabling specific people in a particular place to realise opportunities that they were unable to do before. It increases the capabilities of both individuals and groups working in partnership, enabling people not to use technology as an instrument but use technology to ‘do and be’ what they actually want.
 
 The authors are now working on a cross-sector collaborative funding bid to ‘roll out’ PlaceCal to the City of Manchester, working in partnership with the neighbourhood team, library services, housing associations, GPs, and the Local Care Organisation. This bid will enable the creation of a charity that will own and direct the PlaceCal initiative, funded and managed for the wider benefit of local communities on behalf of its members. We hope that this realisation of the capability approach can radically transform the way that we think about and share community information and build technology, both in the UK and internationally, and paves the way for similar initiatives by others.
 
-{{ include smallsignup.html custom="Join our mailing list to hear more about our projects and receive our articles directly to your inbox." }}
+{{<smallsignup "Join our mailing list to hear more about our projects and receive our articles directly to your inbox.">}}
 
-<h2 id="acknowledgements">Acknowledgements</h2>
+## Acknowledgements
+
 The authors would like to thank Matt Youngson and April Manderson from the MAFN team; Mark Dormand, Jazz Chatfield and Justin Hellings from GFSC; Age Friendly Hulme and Moss Side; Dr Alaisdair Honeyman; and Patrick Hanfling.
 
-<h2 id="disclosure-statement">Disclosure statement</h2>
+## Disclosure statement
+
 The authors are engaged in acquiring funding to further develop the PlaceCal pilot, and therefore have a financial interest in its success.
 
-<h2 id="funding">Funding</h2>
-Innovate UK’s <em>CityVerve</em> program funded the PlaceCal pilot. It was supported by a community development grant from Manchester City Council.
+## Funding
 
-{{ include kofi.html custom="Buy us a Ko-fi if you want to support Geeks for Social Change's projects, including PlaceCal." }}
+Innovate UK’s _CityVerve_ program funded the PlaceCal pilot. It was supported by a community development grant from Manchester City Council.
+
+{{<kofi "Buy us a Ko-fi if you want to support Geeks for Social Change's projects, including PlaceCal.">}}
 
 <section class="footnotes" role="doc-endnotes">
 
-<h3 id="references" class="unnumbered">References</h3>
+### References
 
 <div id="refs" class="references" role="doc-bibliography">
 <div id="ref-ageuk2015">
-Age UK. (2015). <em>Later life in a digital world</em>. Retrieved from <a href="https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/active-communities/later_life_in_a_digital_world.pdf">https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/active-communities/later_life_in_a_digital_world.pdf</a>
+Age UK. (2015). *Later life in a digital world*. Retrieved from <a href="https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/active-communities/later_life_in_a_digital_world.pdf">https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/active-communities/later_life_in_a_digital_world.pdf</a>
 
 </div>
 
 <div id="ref-alsop2005">
-Alsop, R., &amp; Heinsohn, N. (2005). <em>Measuring Empowerment in Practice: Structuring Analysis and Framing Indicators</em>. <a href="https://doi.org/10.1596/1813-9450-3510">https://doi.org/10.1596/1813-9450-3510</a>
+Alsop, R., &amp; Heinsohn, N. (2005). *Measuring Empowerment in Practice: Structuring Analysis and Framing Indicators*. <a href="https://doi.org/10.1596/1813-9450-3510">https://doi.org/10.1596/1813-9450-3510</a>
 
 </div>
 <div id="ref-vandeursen2014">
-Deursen, A. J. van, &amp; Dijk, J. A. van. (2014). The digital divide shifts to differences in usage. <em>New Media &amp; Society</em>, <em>16</em>(3), 507–526. <a href="https://doi.org/10.1177/1461444813487959">https://doi.org/10.1177/1461444813487959</a>
+Deursen, A. J. van, &amp; Dijk, J. A. van. (2014). The digital divide shifts to differences in usage. *New Media &amp; Society*, *16*(3), 507–526. <a href="https://doi.org/10.1177/1461444813487959">https://doi.org/10.1177/1461444813487959</a>
 
 </div>
 <div id="ref-durie2013">
-Durie, R., &amp; Wyatt, K. (2013). Connecting communities and complexity: A case study in creating the conditions for transformational change. <em>Critical Public Health</em>, <em>23</em>(2), 174–187. <a href="https://doi.org/10.1080/09581596.2013.781266">https://doi.org/10.1080/09581596.2013.781266</a>
+Durie, R., &amp; Wyatt, K. (2013). Connecting communities and complexity: A case study in creating the conditions for transformational change. *Critical Public Health*, *23*(2), 174–187. <a href="https://doi.org/10.1080/09581596.2013.781266">https://doi.org/10.1080/09581596.2013.781266</a>
 
 </div>
 <div id="ref-franklin1999">
-Franklin, U. (1999). <em>The real world of technology</em>. House of Anansi.
+Franklin, U. (1999). *The real world of technology*. House of Anansi.
 
 </div>
 <div id="ref-friemel2016">
-Friemel, T. N. (2016). The digital divide has grown old: Determinants of a digital divide among seniors. <em>New Media &amp; Society</em>, <em>18</em>(2), 313–331. <a href="https://doi.org/10.1177/1461444814538648">https://doi.org/10.1177/1461444814538648</a>
+Friemel, T. N. (2016). The digital divide has grown old: Determinants of a digital divide among seniors. *New Media &amp; Society*, *18*(2), 313–331. <a href="https://doi.org/10.1177/1461444814538648">https://doi.org/10.1177/1461444814538648</a>
 
 </div>
 <div id="ref-grossi2017">
-Grossi, G., &amp; Pianezzi, D. (2017). Smart cities: Utopia or neoliberal ideology? <em>Cities</em>, <em>69</em>, 79–85. <a href="https://doi.org/10.1016/j.cities.2017.07.012">https://doi.org/10.1016/j.cities.2017.07.012</a>
+Grossi, G., &amp; Pianezzi, D. (2017). Smart cities: Utopia or neoliberal ideology? *Cities*, *69*, 79–85. <a href="https://doi.org/10.1016/j.cities.2017.07.012">https://doi.org/10.1016/j.cities.2017.07.012</a>
 
 </div>
 <div id="ref-irving2017">
-Irving, G., Neves, A. L., Dambha-Miller, H., Oishi, A., Tagashira, H., Verho, A., &amp; Holden, J. (2017). International variations in primary care physician consultation time: A systematic review of 67 countries. <em>BMJ Open</em>, <em>7</em>(10), e017902. <a href="https://doi.org/10.1136/bmjopen-2017-017902">https://doi.org/10.1136/bmjopen-2017-017902</a>
+Irving, G., Neves, A. L., Dambha-Miller, H., Oishi, A., Tagashira, H., Verho, A., &amp; Holden, J. (2017). International variations in primary care physician consultation time: A systematic review of 67 countries. *BMJ Open*, *7*(10), e017902. <a href="https://doi.org/10.1136/bmjopen-2017-017902">https://doi.org/10.1136/bmjopen-2017-017902</a>
 
 </div>
 <div id="ref-kleine2013">
-Kleine, D. (2013). <em>Technologies of choice?: ICTs, development, and the capabilities approach</em>. MIT Press.
+Kleine, D. (2013). *Technologies of choice?: ICTs, development, and the capabilities approach*. MIT Press.
 
 </div>
 <div id="ref-mcneal2008">
-McNeal, R., Hale, K., &amp; Dotterweich, L. (2008). Citizen–Government Interaction and the Internet: Expectations and Accomplishments in Contact, Quality, and Trust. <em>Journal of Information Technology &amp; Politics</em>, <em>5</em>(2), 213–229. <a href="https://doi.org/10.1080/19331680802298298">https://doi.org/10.1080/19331680802298298</a>
+McNeal, R., Hale, K., &amp; Dotterweich, L. (2008). Citizen–Government Interaction and the Internet: Expectations and Accomplishments in Contact, Quality, and Trust. *Journal of Information Technology &amp; Politics*, *5*(2), 213–229. <a href="https://doi.org/10.1080/19331680802298298">https://doi.org/10.1080/19331680802298298</a>
 
 </div>
 <div id="ref-nesta2013">
@@ -386,51 +397,51 @@ Nesta. (2013). Social prescriptions should be available from GP surgeries, say f
 
 </div>
 <div id="ref-nhsengland2019">
-NHS England. (2019). <em>Army of workers to support family doctors</em>. Retrieved from <a href="https://www.england.nhs.uk/2019/01/army-of-workers-to-support-family-doctors/">https://www.england.nhs.uk/2019/01/army-of-workers-to-support-family-doctors/</a>
+NHS England. (2019). *Army of workers to support family doctors*. Retrieved from <a href="https://www.england.nhs.uk/2019/01/army-of-workers-to-support-family-doctors/">https://www.england.nhs.uk/2019/01/army-of-workers-to-support-family-doctors/</a>
 
 </div>
 <div id="ref-niehaves2014">
-Niehaves, B., &amp; Plattfaut, R. (2014). Internet adoption by the elderly: Employing IS technology acceptance theories for understanding the age-related digital divide. <em>European Journal of Information Systems</em>, <em>23</em>(6), 708–726. <a href="https://doi.org/10.1057/ejis.2013.19">https://doi.org/10.1057/ejis.2013.19</a>
+Niehaves, B., &amp; Plattfaut, R. (2014). Internet adoption by the elderly: Employing IS technology acceptance theories for understanding the age-related digital divide. *European Journal of Information Systems*, *23*(6), 708–726. <a href="https://doi.org/10.1057/ejis.2013.19">https://doi.org/10.1057/ejis.2013.19</a>
 
 </div>
 <div id="ref-nussbaum2003">
-Nussbaum, M. (2003). Capabilities as Fundamental Entitlements: Sen and Social Justice. <em>Feminist Economics</em>, <em>9</em>(2-3), 33–59. <a href="https://doi.org/10.1080/1354570022000077926">https://doi.org/10.1080/1354570022000077926</a>
+Nussbaum, M. (2003). Capabilities as Fundamental Entitlements: Sen and Social Justice. *Feminist Economics*, *9*(2-3), 33–59. <a href="https://doi.org/10.1080/1354570022000077926">https://doi.org/10.1080/1354570022000077926</a>
 
 </div>
 <div id="ref-nussbaum1999">
-Nussbaum, M. C. (1999). <em>Sex and Social Justice</em>. Oxford University Press.
+Nussbaum, M. C. (1999). *Sex and Social Justice*. Oxford University Press.
 
 </div>
 <div id="ref-oecd2016">
-OECD. (2016). <em>Skills Matter: Further Results from the Survey of Adult Skills</em>. Retrieved from <a href="https://www.oecd.org/skills/skills-matter-9789264258051-en.htm">https://www.oecd.org/skills/skills-matter-9789264258051-en.htm</a>
+OECD. (2016). *Skills Matter: Further Results from the Survey of Adult Skills*. Retrieved from <a href="https://www.oecd.org/skills/skills-matter-9789264258051-en.htm">https://www.oecd.org/skills/skills-matter-9789264258051-en.htm</a>
 
 </div>
 <div id="ref-officefornationalstatistics2019">
-Office for National Statistics. (2019). <em>Exploring the UK’s digital divide - Office for National Statistics</em>. Retrieved from <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/articles/exploringtheuksdigitaldivide/2019-03-04">https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/articles/exploringtheuksdigitaldivide/2019-03-04</a>
+Office for National Statistics. (2019). *Exploring the UK’s digital divide - Office for National Statistics*. Retrieved from <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/articles/exploringtheuksdigitaldivide/2019-03-04">https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/articles/exploringtheuksdigitaldivide/2019-03-04</a>
 
 </div>
 <div id="ref-park2019">
-Park, S., &amp; Humphry, J. (2019). Exclusion by design: Intersections of social, digital and data exclusion. <em>Information, Communication &amp; Society</em>, <em>22</em>(7), 934–953. <a href="https://doi.org/10.1080/1369118X.2019.1606266">https://doi.org/10.1080/1369118X.2019.1606266</a>
+Park, S., &amp; Humphry, J. (2019). Exclusion by design: Intersections of social, digital and data exclusion. *Information, Communication &amp; Society*, *22*(7), 934–953. <a href="https://doi.org/10.1080/1369118X.2019.1606266">https://doi.org/10.1080/1369118X.2019.1606266</a>
 
 </div>
 <div id="ref-pewresearchcentre2014a">
-Pew Research Centre. (2014a). <em>Attitudes, Impacts, and Barriers to Adoption Pew Research Center</em>. Retrieved from <a href="https://www.pewinternet.org/2014/04/03/attitudes-impacts-and-barriers-to-adoption/">https://www.pewinternet.org/2014/04/03/attitudes-impacts-and-barriers-to-adoption/</a>
+Pew Research Centre. (2014a). *Attitudes, Impacts, and Barriers to Adoption Pew Research Center*. Retrieved from <a href="https://www.pewinternet.org/2014/04/03/attitudes-impacts-and-barriers-to-adoption/">https://www.pewinternet.org/2014/04/03/attitudes-impacts-and-barriers-to-adoption/</a>
 
 </div>
 <div id="ref-pewresearchcentre2014">
-Pew Research Centre. (2014b). <em>Older Adults and Technology Use</em>. Retrieved from <a href="https://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/">https://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/</a>
+Pew Research Centre. (2014b). *Older Adults and Technology Use*. Retrieved from <a href="https://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/">https://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/</a>
 
 </div>
 <div id="ref-phillipson2014">
-Phillipson, C., White, S., &amp; Hammond, M. (2014). <em>Old Moat: Age-friendly Neighbourhood Report</em> (p. 124).
+Phillipson, C., White, S., &amp; Hammond, M. (2014). *Old Moat: Age-friendly Neighbourhood Report* (p. 124).
 
 </div>
 <div id="ref-sen1984">
-Sen, A. (1984). <em>Resources, Values, and Development</em>. Harvard University Press.
+Sen, A. (1984). *Resources, Values, and Development*. Harvard University Press.
 
 </div>
 <div id="ref-sen1999">
-Sen, A. (1999). <em>Development as Freedom</em>. New York: Alfred Knopf.
+Sen, A. (1999). *Development as Freedom*. New York: Alfred Knopf.
 
 </div>
 <div id="ref-ukcabinetoffice2012">
@@ -438,23 +449,23 @@ UK Cabinet Office, UK Govenrment Digital Service, &amp; Rt Hon Lord Maude of Hor
 
 </div>
 <div id="ref-ukcabinetoffice2014">
-UK Cabinet Office, &amp; UK Government Digital Service. (2014). <em>Government Digital Inclusion Strategy</em>. Retrieved from <a href="https://www.gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy">https://www.gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy</a>
+UK Cabinet Office, &amp; UK Government Digital Service. (2014). *Government Digital Inclusion Strategy*. Retrieved from <a href="https://www.gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy">https://www.gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy</a>
 
 </div>
 <div id="ref-wang2018">
-Wang, H., Zhang, R., &amp; Wellman, B. (2018). Are older adults networked individuals? Insights from East Yorkers’ network structure, relational autonomy, and digital media use. <em>Information, Communication &amp; Society</em>, <em>21</em>(5), 681–696. <a href="https://doi.org/10.1080/1369118X.2018.1428659">https://doi.org/10.1080/1369118X.2018.1428659</a>
+Wang, H., Zhang, R., &amp; Wellman, B. (2018). Are older adults networked individuals? Insights from East Yorkers’ network structure, relational autonomy, and digital media use. *Information, Communication &amp; Society*, *21*(5), 681–696. <a href="https://doi.org/10.1080/1369118X.2018.1428659">https://doi.org/10.1080/1369118X.2018.1428659</a>
 
 </div>
 <div id="ref-white2018">
-White, S. (2018). The greater part: How intuition forms better worlds. In Lord, Beth (Ed.), <em>Spinoza’s Philosophy of Ratio</em>. Retrieved from <a href="https://edinburghuniversitypress.com/book-spinoza-039-s-philosophy-of-ratio.html">https://edinburghuniversitypress.com/book-spinoza-039-s-philosophy-of-ratio.html</a>
+White, S. (2018). The greater part: How intuition forms better worlds. In Lord, Beth (Ed.), *Spinoza’s Philosophy of Ratio*. Retrieved from <a href="https://edinburghuniversitypress.com/book-spinoza-039-s-philosophy-of-ratio.html">https://edinburghuniversitypress.com/book-spinoza-039-s-philosophy-of-ratio.html</a>
 
 </div>
 <div id="ref-white2018a">
-White, S., &amp; Hammond, M. (2018). From representation to active ageing in a Manchester neighbourhood: Designing the age-friendly city. <em>Age-Friendly Cities and Communities: A Global Perspective</em>, 193–210.
+White, S., &amp; Hammond, M. (2018). From representation to active ageing in a Manchester neighbourhood: Designing the age-friendly city. *Age-Friendly Cities and Communities: A Global Perspective*, 193–210.
 
 </div>
 <div id="ref-worldhealthorganization2007">
-World Health Organization. (2007). <em>Global Age-friendly Cities: A Guide</em>. World Health Organization.
+World Health Organization. (2007). *Global Age-friendly Cities: A Guide*. World Health Organization.
 
 </div>
 </div>

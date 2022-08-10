@@ -16,7 +16,7 @@ It works by getting community groups to publish their calendars online using sof
 
 This is really important as it’s currently very difficult for people to find out about the small local, neighbourhood-level events that can be hard to discover: the coffee mornings, sewing groups, computer classes and gardening groups that might be just around the corner but can only be discovered by word of mouth. This especially affects older people, who are much more likely to be socially isolated and digitally excluded.
 
-{{ include image.html description="A screenshot of PlaceCal at the time of publication" url="/assets/images/blog/brief-intro-placecal/0.png" class="" }}
+{{<image-with-caption "0.png" "A screenshot of PlaceCal at the time of publication" "A screenshot of PlaceCal at the time of publication">}}
 
 By helping everyone in a neighbourhood find out what’s happening, PlaceCal enables service providers, community groups and residents to work together enabling people to live more physically and socially active lives.
 
@@ -40,7 +40,7 @@ Many neighbourhoods used to have a range of local publishing like newspapers, wh
 
 In the absence of a more functional community media, finding out everything that’s happening in a given neighbourhood looks something like this.
 
-{{ include image.html description="Some of the flyers and posters we collected for events in our area" url="/assets/images/blog/brief-intro-placecal/1.jpg" class="frame" }}
+{{<image-with-caption "1.jpg" "Some of the flyers and posters we collected for events in our area" "Some of the flyers and posters we collected for events in our area">}}
 
 It’s disconnected, ad-hoc, and reliant on each individual organisation to create, publish and distribute their own material. This is enormously cost inefficient across the sector. It’s no surprise that less than 50% of voluntary, community and social enterprise[^2] (let alone unincorporated community groups) have a website at all, let alone an up-to-date one, given the cost and skills required to reach relatively few people compared to traditional media.
 
@@ -64,7 +64,7 @@ The UK government and health sector is pushing for doctors and community workers
 
 [^5]: "DH pledges to roll out GP social prescribing across England by 2023", [GP Online (2018)](https://www.gponline.com/dh-pledges-roll-gp-social-prescribing-across-england-2023/article/1496121)
 
-{{ include kofi.html custom="Support our community work by donating the price of a Ko-fi to us." }}
+{{<kofi "Support our community work by donating the price of a Ko-fi to us.">}}
 
 ## How it works
 
@@ -104,15 +104,15 @@ Rather than asking people to contribute to yet another system, we simply find ou
 
 For example, if a group is using Outlook internally for their email, that means they have access to Outlook Calendar too. We can help them make a shared calendar of public events that can be managed with other people in the organisation. By using these existing tools that people are already familiar with, it makes people far more likely that this information will stay up to date, and not be “just another” thing to remember.
 
-{{ include image.html description="Illustrative diagram of how PlaceCal imports feeds" url="/assets/images/blog/brief-intro-placecal/2.png" class="frame" }}
+{{<image-with-caption "2.png" "Illustrative diagram of how PlaceCal imports feeds" "Illustrative diagram of how PlaceCal imports feeds" "frame">}}
 
 Giving organisations the skills to manage their own information has hugely increased the accuracy and completeness of their information. One organization we worked with published twice as many events when given this skill as their representative was able to tell us face-to-face.
 
 Our most ambitious project yet was for Hulme’s 2018 Winter Festival, where we co-produced and delivered 10,000 A2 maps of the area with everyone’s venues and events on! This meant that every organization drastically increased their reach, and were supported by the neighbourhood team to be part of a the community network.
 
-{{ include image.html description="The map of Hulme and Moss Side we made for Winter 2018's mailout" url="/assets/images/blog/brief-intro-placecal/3.png" class="" }}
+{{<image-with-caption "3.png" "The map of Hulme and Moss Side we made for Winter 2018's mailout" "The map of Hulme and Moss Side we made for Winter 2018's mailout">}}
 
-{{ include smallsignup.html custom="Hear more about our projects by signing up to our email list." }}
+{{<smallsignup "Hear more about our projects by signing up to our email list.">}}
 
 ## What are the benefits?
 
@@ -128,7 +128,7 @@ For residents, there was a short and simple benefit:
 >
 > – Catherine, participant at a supported IT session for older people
 
-{{ include image.html description="A community group in Moss Side library using PlaceCal to find out what’s on" url="/assets/images/blog/brief-intro-placecal/4.jpg" }}
+{{<image-with-caption "4.jpg" "A community group in Moss Side library using PlaceCal to find out what’s on" "A community group in Moss Side library using PlaceCal to find out what’s on">}}
 
 ### Small community groups can get their stuff online really easily
 
@@ -152,7 +152,7 @@ GPs appointments are an average of 7 minutes. By making information really fast 
 
 By focussing on creating a central public list of events, PlaceCal means there is no longer any need for expensive and siloed institutional contracts. This allows everyone to quite literally be “on the same page” rather than duplicating this work across each social prescribing organisation.
 
-{{ include image.html description="Alasdair at work using PlaceCal" url="/assets/images/blog/brief-intro-placecal/5.jpg" }}
+{{<image-with-caption "5.jpg" "Alasdair at work using PlaceCal" "Alasdair at work using PlaceCal">}}
 
 ### Secretaries can work with other venues in the area to share the work of asset mapping
 
@@ -173,8 +173,7 @@ Our vision is to set up “The PlaceCal Foundation”, allowing it to be co-owne
 All the software is open source, and we’re developing a comprehensive training and onboarding process with three other neighbourhoods. If you’re interested in working with us to develop this radically different way of thinking about technology that benefits everyone, [please get in touch](/contact)!
 
 First posted 19 April 2019
-{: .updated}
 
-{{ include image.html description="Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)" url="/assets/images/blog/brief-intro-placecal/6.jpg" }}
+{{<image-with-caption "6.jpg" "Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)" "Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)">}}
 
 [^aal]: "The Smart Ageing Prize awards €50,000 to 3 innovative solutions for active and healthy ageing", [AAL Association, 2018](http://www.aal-europe.eu/the-smart-ageing-prize-awards-e50000-to-3-innovative-solutions-for-active-and-healthy-ageing/)
