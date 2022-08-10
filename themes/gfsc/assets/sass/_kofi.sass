@@ -10,6 +10,17 @@
     justify-content: space-between
   +for-big-desktop-up
     margin: 2.5rem -2.5rem
+  &--alt
+    background-color: $primary
+    .kofi__button__container
+      border-color: $secondary !important
+      .kofi__button
+        color: $primary !important
+        background-color: $secondary !important
+        background-image: linear-gradient(to right, transparent 50%, #565544 50%) !important
+        &:hover
+          background-color: $tertiary !important
+          color: $secondary !important
   .kofi__text
     color: $secondary
     margin-block-start: 0
