@@ -1,11 +1,15 @@
 {{- $filename := .Get 0 }}
-{{- $src := .Page.Resources.GetMatch $filename }}
-{{- $image := $src.Resize "900x" }}
 <figure
    class="image {{ if (.Get 2) }}image--{{ .Get 2 }}{{ end }}"
    markdown="0"
 >
    <div class="image__wrapper image__wrapper--single">
-      <img src="{{ $image.RelPermalink }}" alt="{{ .Get 1 }}" />
+      {{ if or (in $filename "http") (in $filename ".svg") }}
+         <img src="{{ $filename }}" alt="{{ .Get 1 }}" />
+      {{ else }}       
+         {{- $src := .Page.Resources.GetMatch $filename }}
+         {{- $image := $src.Resize "900x" }}
+         <img src="{{ $image.RelPermalink }}" alt="{{ .Get 1 }}" />
+      {{ end }}
    </div>
 </figure>

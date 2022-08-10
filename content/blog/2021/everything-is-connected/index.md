@@ -56,7 +56,7 @@ The Mayor of Greater Manchester Andy Burnham now plans to put police officers in
 
 How do technologies like 'VeinID', which is essentially straight out of 1997 sci-fi film _Gattaca_ (starring Ethan Hawke, Jude Law and Uma Thurman), end up not being dismissed as dystopian movie plots, but given regional working groups and financial incentives to operate? The simple answer: because the people in the chrome tower -- developers, funders, politicians, tech evangelists and financiers -- are usually in the tiny minority laid out in the introduction. To them, this is a simple financial convenience that means you don’t need to take your phone or card out your pocket to pay.
 
-{{ include image.html description="Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." url="/assets/images/blog/everything-is-connected/fingo.png" class="frame" }}
+{{<image-with-caption "fingo.png" "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "frame">}}
 
 For others in Manchester this couldn’t be further from their reality. Is it too hard to imagine that the next ‘joint enterprise’ arrests could be based on data of multiple people who happened to board the same bus? Does it seem unlikely that Immigration Compliance and Enforcement (ICE) teams would match fingerprints taken at Dallas Court Immigration Centre (where asylum seekers and refugees must regularly report) to those taken by city homeless services, and used as grounds for deportation?
 
@@ -113,7 +113,7 @@ In the desire to see [data as the new oil](https://www.forbes.com/sites/forbeste
 
 Interaction designer Brett Victor (2006) defines [three kinds of software](http://worrydream.com/MagicInk/): information software, manipulation software, and communication software. Information software is where you want to find something out (Wikipedia). Manipulation software is where you want to make something (Word, Photoshop). Communications software is where you want to communicate with someone else (Email, WhatsApp).
 
-{{ include image.html description="Fig 5. Diagrams of the three kinds of software (Victor, 2006)." urls="/assets/images/blog/everything-is-connected/information.png /assets/images/blog/everything-is-connected/manipulation.png /assets/images/blog/everything-is-connected/communication.png" class="3 image--frame" }}
+{{<image-multi-with-caption "information.png manipulation.png communication.png" "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "3 image--frame">}}
 
 Most software is information software. Most of the time, we want to just find something out or browse. And yet, interactivity is all too often pathologically shoehorned in. All of the major platforms -- Twitter, Facebook, Instagram -- continue to make their apps more complicated, merging so many features into one package until these platforms become more and more indistinguishable from each other. This is because backers correlate increased interactions with increased profit as per the Pirate Funnel.
 
@@ -127,7 +127,7 @@ Even software that is explicitly designed to help vulnerable people often falls 
 
 While I was writing this piece, I got an Instagram ad which perfectly captures the more orthodox position of modern startup design (see below). This app actively encourages people to go around taking photographs of homeless people and uploading them to their server, where we can see their _name and balance_. Before even getting into the root causes of homelessness and what is actually needed in the sector (hint: houses), homelessness, as I have already mentioned, is now grounds for deportation. It only takes a second to realise the harm that could be caused by this initiative. While seemingly extreme, this is not unlike dozens of other ideas I’ve heard in ‘tech for good’ circles.
 
-{{ include image.html urls="/assets/images/blog/everything-is-connected/facedonate-1.jpg /assets/images/blog/everything-is-connected/facedonate-2.png" class="frame" description="Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." }}
+{{<image-multi-with-caption "facedonate-1.jpg facedonate-2.png" "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "frame">}}
 
 ### But what about when we do need a wider range of people to upload information?
 
@@ -151,13 +151,13 @@ But when push comes to shove (which it always does), interventions which create 
 
 A refusal to take part in this process for the dignity of your service users is a Sisyphean task. I have spoken to dozens of practitioners who have experienced this and privately share this view but are unable to talk about it publically for fear of being financially cast adrift, and dozens of funders who want to “yes, but” me into a corner until I give up. It sucks.
 
-{{ include image.html description="Fig 7. Meme uploaded ‘unironically’ to [r/neoliberal](https://www.reddit.com/r/neoliberal/comments/ep4bdj/this_but_unironically_repost_because_it_got/)" url="/assets/images/blog/everything-is-connected/graph-goes-up.jpg" class="frame" }}
+{{<image-with-caption "graph-goes-up.jpg" "Fig 7. Meme uploaded ‘unironically’ to [r/neoliberal](https://www.reddit.com/r/neoliberal/comments/ep4bdj/this_but_unironically_repost_because_it_got/)" "Fig 7. Meme uploaded ‘unironically’ to r/neoliberal" "frame">}}
 
 I think this, very simply, stems from the unconsciously adopted view both within and without the chrome tower that the Pirate Funnel is basically a good thing and is the only ‘true’ way to monitor a service and demonstrate ‘impact’. Decades of indoctrination by billion dollar corporations has seemingly convinced middle managers with Fitbits and Alexa-controlled lightbulbs everywhere that they must be on to something, and somehow a methodology designed to sell Nespresso subscriptions or Call of Duty loot crates must also be applicable to public services.
 
 Silicon Valley firms spend a whole lot of money promoting that some of the most immoral people in the world today are [maverick t-shirt-wearing inventors](https://www.gq-magazine.co.uk/fashion/article/victoria-hitchcock-stylist-interview) worthy of idolisation, and not frenzied capitalists funded by billions of high risk investment capital overseeing the most efficient transfer of wealth from the poor to the rich in history. We even create superheroes based on their archetype. Is it any wonder that people believe they must be doing something right?
 
-{{ include image.html description="Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." url="/assets/images/blog/everything-is-connected/tony-stark.jpg" class="frame" }}
+{{<image-with-caption "tony-stark.jpg" "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "frame">}}
 
 ### Conclusion (of doom?)
 
@@ -165,7 +165,7 @@ Does your new app truly need users to create an account, or can you just give th
 
 Maybe you truly do need those things. Or maybe the parasitic desire for more data at any cost should be called out for what it is, a fascistic tendency with dire consequences. If we continue churning out softwares and technologies without fundamentally changing how we treat privacy and how we regard users, we will simply be building the final floors of a structure not unlike The Tower, a tarot card from the Major Arcana, which depicts a gigantic high rise built on shaky foundations. Like The Tower, which signifies chaos but also revelation, maybe the crumbling of the tech industry (and those who fund it) from the ground up will be a necessary, and welcome, revelation that will herald a new age. But should we always need prophecies of such apocalyptic scale to come to fruition before we can incite change?
 
-{{ include image.html description="Fig 9. ‘The Tower’ tarot card." url="/assets/images/blog/everything-is-connected/tower.jpg" class="center image--scale-down" }}
+{{<image-with-caption "tower.jpg" "Fig 9. ‘The Tower’ tarot card." "Fig 9. ‘The Tower’ tarot card." "center image--scale-down">}}
 
 {{<kofi "Support us to write more articles like this with a donation on Ko-fi.">}}
 
