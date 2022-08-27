@@ -18,24 +18,17 @@
       <div class="support__section">
          {{ with $.Resources.GetMatch "projects.md" }}
             <h3 class="support__header">{{ .Title }}</h3>
-            <ul class="support__projects">
+            <ul class="windows windows--alternating windows--orange">
                {{ range .Params.projects }}
-                  <li class="support__project">
-                     <h4 class="support__project__name">{{ .name }}</h4>
-                     <p class="support__project__description">
-                        {{ .description }}
-                     </p>
-                     <div class="support__project__bar">
-                        <div class="support__project__lines"></div>
-                        {{ with .url }}
-                           <div class="support__project__box">
-                              <a href="{{ . }}" class="support__project__button">
-                                 Read more
-                              </a>
-                           </div>
-                        {{ end }}
-                     </div>
-                  </li>
+                  {{ if isset . "url" }}
+                     {{ partial "textbox.html"
+                        (dict "title" .name "content" .description "linktext" "Read more" "linkto" .url)
+                     }}
+                  {{ else }}
+                     {{ partial "textbox.html"
+                        (dict "title" .name "content" .description)
+                     }}
+                  {{ end }}
                {{ end }}
             </ul>
          {{ end }}
