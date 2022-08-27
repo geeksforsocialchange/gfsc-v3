@@ -1,9 +1,14 @@
-<div class="textbox textbox--{{ .justify }}">
-   <h3 class="textbox__header">{{ .title }}</h3>
-   <div class="textbox__content {{ with .bgcolor }}textbox__content--{{ . }}{{ end }}">{{ .content }}</div>
-   <div class="textbox__footer">
-      <div class="textbox__footer__button">
-         <a href="{{ .linkto }}" class="textbox__footer__button__link">{{ .linktext }}</a>
-      </div>
+<div class="window">
+   <h3 class="window__header">{{ .title }}</h3>
+   <div class="window__content">{{ .content }}</div>
+   <div class="window__footer">
+      {{ if isset . "linktext" }}
+         <div class="window__footer__buttonbox">
+            <a href="{{ .linkto }}" class="window__footer__button">
+               {{ .linktext }}
+            </a>
+         </div>
+      {{ end }}
+      <span class="window__footer__stripes"></span>     
    </div>
 </div>
