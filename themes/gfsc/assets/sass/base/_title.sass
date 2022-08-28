@@ -7,48 +7,72 @@
   &__main
     +balboa
     color: $tertiary
-    padding: 1.5rem 2rem
+    padding: 0.75rem 2rem
     margin: 0
-    font-size: 1.55556rem
+    font-size: 1.333334rem
     line-height: 1
     +border(bottom)
     +for-tablet-portrait-up
-      padding: 1.5rem 8rem
+      padding: 0.75rem 6rem
     +for-tablet-landscape-up
-      font-size: 2.666666rem
+      
     +for-desktop-up
-      padding: 3rem 8rem
+      font-size: 2.666666rem
+      padding: 2rem 8rem
       font-size: 2.5rem
   &__subtitle
-    padding: 1.5rem 2rem
+    padding: 1.25rem 2rem
     margin: 0
     +border(bottom)
     +for-tablet-portrait-up    
-      padding: 1.5rem 8rem
+      padding: 1rem 6rem
     +for-desktop-up
-      padding: 3rem 8rem
+      padding: 2rem 4rem
+    &--bigger
+      +for-tablet-landscape-up
+        padding: 1.5rem 6rem
+      +for-desktop-up
+        padding: 3rem 14rem
+      .title__subtitle__bigtext
+        +for-tablet-landscape-up
+          font-size: 2.222223rem
+          padding-top: 0
+        +for-desktop-up
+          font-size: 3.333334rem
     &__bigtext
       margin: 0
       +balboa
       color: $primary
-      font-size: 1.55556rem
+      font-size: 1.555556rem
       line-height: 1
+      +for-tablet-portrait-up
+        padding-top: 0.5rem
       +for-tablet-landscape-up
-        font-size: 2.222222rem
+        
       +for-desktop-up
-        font-size: 2.666666rem
+        font-size: 2.555556rem
+      
     &__credit
       margin-bottom: 0
+      margin-top: 0.5rem
+      +for-tablet-portrait-up
+        font-size: 0.777778rem
+        margin-top: 1rem
+      +for-desktop-up
+        font-size: 1.333334rem
   &__strip
     +border(none)
   &--notitle
     .title__subtitle
       +border(none)
     .title__strip
-      +border(bottom)
-      +for-tablet-portrait-up
-        display: none
-  &--work
+      &--top
+        +border(bottom)
+        +for-tablet-portrait-up
+          display: none
+      &--bottom
+        +border(top)
+  &--borderless
     .title__main
       +border(none)
   &--blog

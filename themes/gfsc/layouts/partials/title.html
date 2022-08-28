@@ -1,8 +1,8 @@
 {{ if and (or (in .URL "our-work") (in .URL "project")) (not (eq .URL "/our-work/")) }}
-  <div class="title title--work">
+  <div class="title title--borderless">
     {{ $ourwork := $.Site.GetPage "/our-work/" }}
     {{ with $ourwork }}
-      <h2 class="title__main title__main--work">{{ .Title }}</h2>
+      <h2 class="title__main">{{ .Title }}</h2>
     {{ end }}
   </div>
 {{ else if and (or (in .URL "blog") (in .URL "project")) (not (eq .URL "/blog/")) }}
@@ -13,14 +13,14 @@
     {{ end }}
   </div>
 {{ else }}
-  <div class="title  {{ if eq .Params.Notitle true }}title--notitle{{end}}">
+  <div class="title{{ if eq .Params.Notitle true }} title--notitle{{end}}{{ if and (eq .Params.Nostrip true) (eq (isset .Params "bigtext") false)}} title--borderless{{end}}">
     {{ if eq .Params.Notitle true }}
-      <div class="title__strip strip strip--circles" role="presentation"></div>
+      <div class="title__strip title__strip--top strip strip--circles" role="presentation"></div>
     {{ else }}
       <h2 class="title__main">{{ .Title }}</h2>
     {{ end }}
     {{ with .Params.Bigtext }}
-      <div class="title__subtitle">
+      <div class="title__subtitle{{ if (eq $.URL "/")}} title__subtitle--bigger{{ end }}">
         {{ if eq $.Params.Notitle true }}
           <h2 class="title__subtitle__bigtext">{{ . }}</h2>
         {{ else }}
@@ -31,9 +31,9 @@
         {{ end }}
       </div>
     {{ end }}
-    {{ if eq .Params.Notitle true }}
+    {{ if eq .Params.Nostrip true }}
     {{ else }}
-      <div class="title__strip strip strip--circles" role="presentation"></div>
+      <div class="title__strip title__strip--bottom strip strip--circles" role="presentation"></div>
     {{ end }}
   </div>
 {{ end }}
