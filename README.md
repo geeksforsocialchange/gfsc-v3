@@ -34,13 +34,13 @@ You would then visit (example IP) [192.168.10.10:1313](http://192.168.10.10:1313
 
 Deploys to [Netlify](https://docs.netlify.com/).
 
-When a change is committed the `main` branch the site is rebuilt and deployed.
+When a change is committed to the `main` branch the site is rebuilt and deployed.
 
 ## Development
 
 When a pull request is created, a preview site is deployed.
 
-If the build is successful and the changes are approved it can be merged into main which will automatically deploy it.
+If the build is successful and the changes are approved it can be merged into `main` which will automatically deploy it.
 
 ## License
 
