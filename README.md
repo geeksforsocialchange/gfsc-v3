@@ -32,7 +32,7 @@ You would then visit (example IP) [192.168.10.10:1313](192.168.10.10:1313)
 
 ## Deployment
 
-Deploys to Netlify.
+Deploys to [Netlify](https://docs.netlify.com/).
 
 When a change is committed the `main` branch the site is rebuilt and deployed.
 
