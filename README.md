@@ -24,7 +24,7 @@ If you need test the site on multiple devices locally you can bind the address t
 
 `hugo server --bind 192.168.10.10 --baseURL http://192.168.10.10`
 
-You would then visit (example IP) [192.168.10.10:1313](192.168.10.10:1313)
+You would then visit (example IP) [192.168.10.10:1313](http://192.168.10.10:1313)
 
 ## Build
 
@@ -40,7 +40,7 @@ When a change is committed the `main` branch the site is rebuilt and deployed.
 
 When a pull request is created, a preview site is deployed.
 
-If the build is successful and the changes are approves it can be merged into main which will automatically deploy it.
+If the build is successful and the changes are approved it can be merged into main which will automatically deploy it.
 
 ## License
 
