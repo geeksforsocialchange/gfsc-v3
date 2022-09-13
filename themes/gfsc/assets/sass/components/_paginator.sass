@@ -26,6 +26,9 @@
     text-align: center
     flex-grow: 1
     +border(right)
+    &.page__num
+      +for-phone-only
+        display: none
   a
     text-decoration: none
     display: block
