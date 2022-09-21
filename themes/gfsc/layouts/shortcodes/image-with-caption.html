@@ -1,16 +1,29 @@
-{{- $filename := .Get 0 }}
+<!-- {{ $type := .Get 0 }} -->
+<!-- {{ printf "<blockquote class=\"md-hint %s\">" $type | htmlUnescape | safeHTML }} -->
+<!-- {{ .Inner }} -->
+<!-- {{ printf "</blockquote>" | htmlUnescape | safeHTML }} -->
 
-<figure
-   class="image {{ if (.Get 3) }}image--{{ .Get 3 }}{{ end }}"
+{{- $filename := .Get 0 }}
+{{- $alt := .Get 1 }}
+{{- $class := slice "image" }}
+{{ if .Get 2}}
+	{{- $class := $class | append .Get 2 }}
+{{ end }}
+
+{{ printf $filename}}
+
+{{ printf "<figure" | htmlUnescape | safeHTML }}
+{{ printf "class=\"%s\"" delimit $class | htmlUnescape | safeHTML }}
+   
    markdown="0"
 >
    <div class="image__wrapper image__wrapper--single">
       {{ if or (in $filename "http") (in $filename ".svg") }}
-         <img src="{{ $filename }}" alt="{{ .Get 1 }}" />
+         <img src="{{ $filename }}" alt="{{ $alt }}" />
       {{ else }}       
          {{- $src := .Page.Resources.GetMatch $filename }}
          {{- $image := $src.Resize "900x" }}
-         <img src="{{ $image.RelPermalink }}" alt="{{ .Get 1 }}" />
+         <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" />
       {{ end }}
    </div>
    <figcaption>
@@ -30,6 +43,8 @@
             />
          </svg>
       </span>
-      <span class="desc" markdown="1"> {{ .Get 2 }} </span>
+      <span class="desc" markdown="1">
+				{{ .Inner }} 
+			</span>
    </figcaption>
 </figure>
