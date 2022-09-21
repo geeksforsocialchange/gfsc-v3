@@ -5,10 +5,11 @@
 {{ $alt := .Get 1 }}
 {{ $class := slice "image" }}
 {{ if .Get 2}}
-	{{ $class = $class | append (.Get 2) }}
+	{{$userClass := slice "image" (.Get 2) }}
+	{{$userClass = delimit $userClass "--"}}
+	{{ $class = $class | append $userClass }}
 {{ end }}
 {{ $class = delimit $class " " }}
-{{printf "%s" $class}}
 
 {{ printf "<figure class=\"%s\" markdown='0' >" $class | htmlUnescape | safeHTML }}
 {{ printf "<div class=\"image__wrapper image__wrapper--single\">" | htmlUnescape | safeHTML }}
