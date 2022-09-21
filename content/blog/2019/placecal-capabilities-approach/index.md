@@ -44,7 +44,9 @@ The MAFN project was conducted by an engaged-research team at MMU with the objec
 
 This deliberate mix of communities of place and practice in the MAFN project is itself an application of a capability-based community development methodology. In our interpretation, it correlates with the concept of ‘active ageing’ in the AFCC approach as a position distinct from medical or social models of disability, instead emphasising the active self-determination of individuals in any social, economic or technical process {{<rawhtml>}}<span class="citation" data-cites="nussbaum2003 sen1999">(Nussbaum, 2003; Sen, 1999)</span>{{</rawhtml>}}.
 
-{{<image-with-caption "who-flower.png" "WHO Age Friendly Flower’, as adapted by MAFN" "WHO Age Friendly Flower’, as adapted by MAFN" "frame">}}
+{{%image-with-caption "who-flower.png" "WHO Age Friendly Flower’, as adapted by MAFN" "frame"%}}
+WHO Age Friendly Flower’, as adapted by MAFN 
+{{%/image-with-caption%}}
 
 In discussions of this and earlier work operationalising the capability approach in the context of older people and place {{<rawhtml>}}<span class="citation" data-cites="white2018a">(White &amp; Hammond, 2018)</span>{{</rawhtml>}} we argue that the distinction between place-based interventions emphasising the active role of older citizens in deciding and creating the services and systems that ensure equality of opportunity across the life-course have two key features in common with the capability approach. These two features are indicated in the WHO AFCC ‘flower’ diagram, which shows an individual older person’s experience at the centre of a flower with eight petals each indicating a different domain of determining factors in the social, economic or physical environment. The diagram demonstrates how the ‘age friendly approach’ places individual human experience at the centre of both any understanding of the determinants of opportunities for a well-lived life, **and** at the centre of any actions taken to improve those opportunities {{<rawhtml>}}<span class="citation" data-cites="worldhealthorganization2007">(World Health Organization, 2007)</span>{{</rawhtml>}}.
 
@@ -131,7 +133,9 @@ This picture is much worse for older people. The UK Office of National Statistic
 
 What people actually _do_ when they’re online is enormously varied and heavily correlated with class and age. Digital exclusion is intersectional, and the worst experiences are suffered by those who are older, less well educated, less likely to be employed, female and disabled {{<rawhtml>}}<span class="citation" data-cites="vandeursen2014">(Deursen &amp; Dijk, 2014, p. p520)</span>{{</rawhtml>}}. The result of this is an enormous gap between tech ‘haves’ and ‘have-nots’. It is not just a simple binary test – ‘are you on the internet / using a smartphone / on Facebook?’ – but a complex multidimensional matrix of skills, abilities, and capabilities. This matrix is highly impacted by a range of psychosocial variables, and significantly affected by overall motivation {{<rawhtml>}}<span class="citation" data-cites="mcneal2008">(McNeal, Hale, &amp; Dotterweich, 2008)</span>{{</rawhtml>}} for the specific ‘clickable possibilities’ {{<rawhtml>}}<span class="citation" data-cites="kleine2013">(Kleine, 2013, p. p38)</span>{{</rawhtml>}} the citizen wants to accomplish.
 
-{{<image-with-caption "internet-use-by-age.png" "Internet users by age group (Office for National Statistics, 2019)" "Internet users by age group (Office for National Statistics, 2019)" "frame">}}
+{{%image-with-caption "internet-use-by-age.png" "Internet users by age group (Office for National Statistics, 2019)" "frame"%}}
+Internet users by age group (Office for National Statistics, 2019) 
+{{%/image-with-caption%}}
 {{<rawhtml>}}<span class="citation" data-cites="officefornationalstatistics2019"></span>{{</rawhtml>}}
 
 This situation is worsened still in the context of the current shift of government and statutory services to be ‘digital by default’ {{<rawhtml>}}<span class="citation" data-cites="ukcabinetoffice2012">(UK Cabinet Office, UK Govenrment Digital Service, &amp; Rt Hon Lord Maude of Horsham, 2012)</span>{{</rawhtml>}}, or worse, online only. In the UK, key activities such as claiming benefits, filing tax returns, and accessing medical services are in the process of being moved online ‘to transform public services … making them better and cheaper for taxpayers and more effective and efficient for government’ (ibid.). In other words, services are no longer ‘door to door’ but rather ‘person to person’, mediated by the internet {{<rawhtml>}}<span class="citation" data-cites="wang2018">(Wang, Zhang, &amp; Wellman, 2018)</span>{{</rawhtml>}}.
@@ -162,7 +166,9 @@ This research discovered a widely held perception there was ‘nothing to do’ 
 
 Engagement with institutional partners revealed that across the health, housing, and community sectors there were a number of existing attempts to catalogue community activities described in terms of ‘asset mapping’ or ‘community directory’ initiatives. Each of these attempts, like the MAFN calendar, were inherently limited by funding and time, and required constant community development work to keep up to date. It was at this point that PlaceCal was initiated, which will be discussed in detail below.
 
-{{<image-with-caption "google-cal-results.png" "An example of the shared Google Calendar for one day in one area" "An example of the shared Google Calendar for one day in one area" "frame">}}
+{{%image-with-caption "google-cal-results.png" "An example of the shared Google Calendar for one day in one area" "frame"%}}
+An example of the shared Google Calendar for one day in one area 
+{{%/image-with-caption%}}
 
 The PlaceCal CTP evolved by exploring all the ways that we could increase connectivity and communication between and across neighbourhood project partners. Working with the existing context of collaboration developed by MAFN, we established that there was the potential for high quality, up-to-date and trusted information in the area that would allow individual organisations to share the burden of creating a central source of information.
 
@@ -190,7 +196,9 @@ MAFN had already facilitated the creation of a local partnership of organisation
 
 We realised that if we could encourage each group in the partnership to publish their calendar online using software they were already using (or paying for) such as Outlook, Mac Calendar, Google Calendar or Facebook, we could use the built in ‘iCal’ or ‘API’{{<rawhtml>}}<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>{{</rawhtml>}} features of these calendars to automatically combine, collate and publish the information in one place. Rather than the current system where each worker takes a ‘snapshot’ of each group’s activities whenever they met the group, we could train organisations to share their own activity information, and with the help of the PlaceCal software, give them the capability to publish this alongside that of others with much lower effort and much wider reach. This central source of event information would be a canonical source of local information that could be shared by every partner and used to create shared print outputs, for example.
 
-{{<image-with-caption "flyer-pile.jpg" "A selection of the current community information needed to find out everything going on in the area" "A selection of the current community information needed to find out everything going on in the area">}}
+{{%image-with-caption "flyer-pile.jpg" "A selection of the current community information needed to find out everything going on in the area"%}}
+ A selection of the current community information needed to find out everything going on in the area
+{{%/image-with-caption%}}
 
 GFSC developed the PlaceCal software in Ruby on Rails (RoR), a popular framework for rapidly developing web applications, and is currently live at [placecal.org](placecal.org). The source code is licensed under the AGPL open source license, and can be downloaded from GitHub.{{<rawhtml>}}<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>{{</rawhtml>}} The training and support materials are available under the same license, and published at [handbook.placecal.org](handbook.placecal.org). All these tools were made free and open source to demonstrate our commitment to our overall methodology rather than any one software tool; to make development and design decisions public and transparent; and optimistically to encourage teams doing similar work in other neighbourhoods to be able to directly contribute to feature development.
 
@@ -224,7 +232,9 @@ We describe these situations in terms of the role ‘secretary’. It is not a �
 
 In the CTP approach, each group was trained to maintain their own listings, which were then aggregated and published on the PlaceCal platform. This shift in structure is shown in the figure below. Through the partnership, work could therefore be divided evenly between workers in an area, shifting the focus from simply maintaining immediately out-of-date lists of information, to wholesale skills-based digital inclusion.
 
-{{<image-with-caption "secretaries.png" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "frame">}}
+{{%image-with-caption "secretaries.png" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "frame"%}}
+CTP approach schematic from the PlaceCal 'Commissioner' handbook 
+{{%/image-with-caption%}}
 
 Training groups to maintain their own information had the unexpected side effect that some organisations, when trained to publish their own information, published almost twice as many events as we got from face-to-face interviews in the previous ‘manual’ method. We also discovered that the most frequent barrier to getting this information was finding out who the person responsible for maintaining the diary was in each institution, taking time, trust and patience to effectively engage each group.
 

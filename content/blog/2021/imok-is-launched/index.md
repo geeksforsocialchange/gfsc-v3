@@ -27,7 +27,9 @@ We released it today under an open source (MIT) license. If you'd like to dive i
 
 Last year GFSC were approached by [No Borders Manchester](https://nobordersmcr.com/) to create a tool for their Signing Support Network. As part of the Tory government's 'hostile environment' policy, people seeking asylum in the UK must regularly 'sign in' at one of 14 'signing centres' around the UK. In Manchester, this is Dallas Court Reporting Centre.
 
-{{<image-with-caption "dallas-court.jpg" "Illustration of Dallas Court by Michael Collins ([CC-BY-NC, Right to Remain](https://righttoremain.org.uk/you-literally-live-in-constant-anxiety-reporting-at-the-home-office/))" "Illustration of Dallas Court by Michael Collins" "frame image--center">}}
+{{%image-with-caption "dallas-court.jpg" "Illustration of Dallas Court by Michael Collins ([CC-BY-NC, Right to Remain](https://righttoremain.org.uk/you-literally-live-in-constant-anxiety-reporting-at-the-home-office/))" "frame image--center"%}}
+Illustration of Dallas Court by Michael Collins 
+{{%/image-with-caption%}}
 
 This has repeatedly been described by people seeking asylum as the most dehumanising aspect of the whole asylum process. The #AbolishReporting hashtag is widely used on this issue by a variety of groups including Right to Remain and Migrants Organise. Reporting centres tend to be in the middle of nowhere with no seating or shelter for waiting family members or friends provided. On attending, an immigration official asks a range of inane questions that seem designed to waste everyone's time, but can theoretically impact your case for asylum. How often you have to check-in depends on how big a risk the government thinks you are, from every day to every quarter.
 
