@@ -4,7 +4,7 @@ firstname: "Katja"
 pronouns: "She/her"
 job: "Developer and Project Coordinator"
 jobtype: staff
-dataname: alexandria
+dataname: katja
 avatar: katja@400.jpg
 ---
 
