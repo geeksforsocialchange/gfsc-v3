@@ -16,6 +16,9 @@ It works by getting community groups to publish their calendars online using sof
 
 This is really important as it’s currently very difficult for people to find out about the small local, neighbourhood-level events that can be hard to discover: the coffee mornings, sewing groups, computer classes and gardening groups that might be just around the corner but can only be discovered by word of mouth. This especially affects older people, who are much more likely to be socially isolated and digitally excluded.
 
+{{%image-with-caption "0.png" "A screenshot of PlaceCal at the time of publication"%}}
+ A screenshot of PlaceCal at the time of publication
+{{%/image-with-caption%}}
 
 By helping everyone in a neighbourhood find out what’s happening, PlaceCal enables service providers, community groups and residents to work together enabling people to live more physically and socially active lives.
 
@@ -39,6 +42,9 @@ Many neighbourhoods used to have a range of local publishing like newspapers, wh
 
 In the absence of a more functional community media, finding out everything that’s happening in a given neighbourhood looks something like this.
 
+{{%image-with-caption "1.jpg" "Some of the flyers and posters we collected for events in our area"%}}
+ Some of the flyers and posters we collected for events in our area
+{{%/image-with-caption%}}
 
 It’s disconnected, ad-hoc, and reliant on each individual organisation to create, publish and distribute their own material. This is enormously cost inefficient across the sector. It’s no surprise that less than 50% of voluntary, community and social enterprise[^2] (let alone unincorporated community groups) have a website at all, let alone an up-to-date one, given the cost and skills required to reach relatively few people compared to traditional media.
 
@@ -102,11 +108,17 @@ Rather than asking people to contribute to yet another system, we simply find ou
 
 For example, if a group is using Outlook internally for their email, that means they have access to Outlook Calendar too. We can help them make a shared calendar of public events that can be managed with other people in the organisation. By using these existing tools that people are already familiar with, it makes people far more likely that this information will stay up to date, and not be “just another” thing to remember.
 
+{{%image-with-caption "2.png" "Illustrative diagram of how PlaceCal imports feeds" "frame"%}}
+"Illustrative diagram of how PlaceCal imports feeds" 
+{{%/image-with-caption%}}
 
 Giving organisations the skills to manage their own information has hugely increased the accuracy and completeness of their information. One organization we worked with published twice as many events when given this skill as their representative was able to tell us face-to-face.
 
 Our most ambitious project yet was for Hulme’s 2018 Winter Festival, where we co-produced and delivered 10,000 A2 maps of the area with everyone’s venues and events on! This meant that every organization drastically increased their reach, and were supported by the neighbourhood team to be part of a the community network.
 
+{{%image-with-caption "3.png" "The map of Hulme and Moss Side we made for Winter 2018's mailout"%}}
+ The map of Hulme and Moss Side we made for Winter 2018's mailout
+{{%/image-with-caption%}}
 
 {{<smallsignup "Hear more about our projects by signing up to our email list.">}}
 
@@ -124,6 +136,9 @@ For residents, there was a short and simple benefit:
 >
 > – Catherine, participant at a supported IT session for older people
 
+{{%image-with-caption "4.jpg" "A community group in Moss Side library using PlaceCal to find out what’s on"%}}
+ A community group in Moss Side library using PlaceCal to find out what’s on
+{{%/image-with-caption%}}
 
 ### Small community groups can get their stuff online really easily
 
@@ -147,6 +162,9 @@ GPs appointments are an average of 7 minutes. By making information really fast 
 
 By focussing on creating a central public list of events, PlaceCal means there is no longer any need for expensive and siloed institutional contracts. This allows everyone to quite literally be “on the same page” rather than duplicating this work across each social prescribing organisation.
 
+{{%image-with-caption "5.jpg" "Alasdair at work using PlaceCal"%}}
+ Alasdair at work using PlaceCal
+{{%/image-with-caption%}}
 
 ### Secretaries can work with other venues in the area to share the work of asset mapping
 
