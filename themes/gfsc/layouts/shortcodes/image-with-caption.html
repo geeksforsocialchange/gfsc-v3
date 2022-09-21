@@ -1,5 +1,5 @@
 <!-- Allow full markdown in caption -->
-<!-- https://oostens.me/posts/hugo-shortcodes-with-markdown-gotchas/#fnref:1 -->
+<!-- https://oostens.me/posts/hugo-shortcodes-with-markdown-gotchas/ -->
 
 {{ $filename := .Get 0 }}
 {{ $alt := .Get 1 }}
@@ -11,17 +11,6 @@
 {{ end }}
 {{ $class = delimit $class " " }}
 
-{{ printf "<figure class=\"%s\" markdown='0' >" $class | htmlUnescape | safeHTML }}
-{{ printf "<div class=\"image__wrapper image__wrapper--single\">" | htmlUnescape | safeHTML }}
-{{ if or (in $filename "http") (in $filename ".svg") }}
-	{{ printf "<img src=\"%s[0]\" alt=\"%s[1]\" />" $filename $alt | htmlUnescape | safeHTML }}
-{{ else }}       
-	{{- $src := .Page.Resources.GetMatch $filename }}
-	{{- $image := $src.Resize "900x" }}
-{{ printf "<img src=\"%s\" alt=\"%s\" />" $image.RelPermalink $alt | htmlUnescape | safeHTML }}
-{{ end }}
-{{ printf "</div>" | htmlUnescape | safeHTML }}
-{{ printf "<figcaption>" | htmlUnescape | safeHTML }}
-{{ printf "<span class=\"icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 5 19\" style=\"enable-background: new 0 0 5 19\" xml:space=\"preserve\"><path d=\"M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z\"/></svg></span><span class=\"desc\" markdown=\"1\">" | htmlUnescape | safeHTML }}
-				{{ .Inner }} 
-{{ printf "</span></figcaption></figure>" | htmlUnescape | safeHTML }}
+{{partial "footNoteStart.html" (dict "filename" $filename "alt" $alt "class" $class "ctx" $ )}}
+	{{ .Inner }} 
+{{ partial "footNoteEnd.html"}}
