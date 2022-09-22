@@ -1,25 +1,26 @@
+{{ $ctx := .ctx}}
    <div class="paginator">
       <nav aria-label="Blog navigation">
          <ul>
-            {{ if .Paginator.HasPrev }}
+            {{ if .ctx.Paginator.HasPrev }}
                <li>
-                  <a class="btn" href="{{ .Paginator.Prev.URL }}">Newer articles</a>
+								 <a class="btn" href="{{ .ctx.Paginator.Prev.URL }}">{{ .newer}}</a>
                </li>
             {{ end }} 
-            {{ range .Paginator.Pagers }}
+            {{ range .ctx.Paginator.Pagers }}
                <li class="page__num">
-                  {{ if (eq $.Paginator .) }}
+                  {{ if (eq $.ctx.Paginator .) }}
                      <a class="disabled">{{ .PageNumber }}</a>
-                  {{ else if (eq . $.Paginator.First) }}
-                     <a class="btn" href="{{ $.Paginator.First.URL }}">{{ .PageNumber }}</a>
+                  {{ else if (eq . $.ctx.Paginator.First) }}
+                     <a class="btn" href="{{ $.ctx.Paginator.First.URL }}">{{ .PageNumber }}</a>
                   {{ else }}
                      <a class="btn" href="{{ .URL }}">{{ .PageNumber }}</a>
                   {{ end }}
                </li>
             {{ end }}
-            {{ if .Paginator.HasNext }}
+            {{ if .ctx.Paginator.HasNext }}
                <li>
-                  <a class="btn" href="{{ .Paginator.Next.URL }}">Older articles</a>
+								 <a class="btn" href="{{ .ctx.Paginator.Next.URL }}">{{ .older }}</a>
                </li>
             {{ end }}
          </ul>

@@ -53,5 +53,5 @@
          <hr class="fancy fancy__borderless--bottom" />
       {{ end }}
    {{ end }}
-	 {{ partial "paginator.html" .}}
+	 {{ partial "paginator.html" (dict "ctx" . "newer" "Newer articles" "older" "Older articles" )}}
 {{ end }}

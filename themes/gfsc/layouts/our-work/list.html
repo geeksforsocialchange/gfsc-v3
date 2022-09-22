@@ -30,5 +30,5 @@
     {{ end }}
   </ul>
   <hr class="fancy" />
-	 {{ partial "paginator.html" .}}
+	 {{ partial "paginator.html" (dict "ctx" . "newer" "Previous page" "older" "Next page" )}}
 {{ end }}
