@@ -56,9 +56,8 @@ This idea is been so persistent that it's the only real concept most people have
 Due to the massive amounts of money and hubris that reside in the tech sector, we now seem to believe that the same methodology used to sell pens that write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness, or poverty or something.
 
 {{%image-with-caption "securignome.jpg" "Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." "frame image--center"%}}
-"Securi-Gnome: \"He can be pegged down into the earth\"[^1]" 
+Securi-Gnome: "He can be pegged down into the earth"[^1] 
 {{%/image-with-caption%}}
-
 ---
 
 ## _Sorry, but I'm here to tell you this isn't a thing._
