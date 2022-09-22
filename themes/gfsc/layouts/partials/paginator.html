@@ -1,0 +1,27 @@
+   <div class="paginator">
+      <nav aria-label="Blog navigation">
+         <ul>
+            {{ if .ctx.Paginator.HasPrev }}
+               <li>
+								 <a class="btn" href="{{ .ctx.Paginator.Prev.URL }}">{{ .newer}}</a>
+               </li>
+            {{ end }} 
+            {{ range .ctx.Paginator.Pagers }}
+               <li class="page__num">
+                  {{ if (eq $.ctx.Paginator .) }}
+                     <a class="disabled">{{ .PageNumber }}</a>
+                  {{ else if (eq . $.ctx.Paginator.First) }}
+                     <a class="btn" href="{{ $.ctx.Paginator.First.URL }}">{{ .PageNumber }}</a>
+                  {{ else }}
+                     <a class="btn" href="{{ .URL }}">{{ .PageNumber }}</a>
+                  {{ end }}
+               </li>
+            {{ end }}
+            {{ if .ctx.Paginator.HasNext }}
+               <li>
+								 <a class="btn" href="{{ .ctx.Paginator.Next.URL }}">{{ .older }}</a>
+               </li>
+            {{ end }}
+         </ul>
+      </nav>
+   </div>

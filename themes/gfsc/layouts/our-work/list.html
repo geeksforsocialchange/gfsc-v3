@@ -30,31 +30,5 @@
     {{ end }}
   </ul>
   <hr class="fancy" />
-  <div class="paginator">
-    <nav aria-label="Projects navigation">
-       <ul>
-          {{ if .Paginator.HasPrev }}
-             <li>
-                <a class="btn" href="{{ .Paginator.Prev.URL }}">Previous page</a>
-             </li>
-          {{ end }} 
-          {{ range .Paginator.Pagers }}
-             <li>
-                {{ if (eq $.Paginator .) }}
-                   <a class="disabled">{{ .PageNumber }}</a>
-                {{ else if (eq . $.Paginator.First) }}
-                   <a class="btn" href="{{ $.Paginator.First.URL }}">{{ .PageNumber }}</a>
-                {{ else }}
-                   <a class="btn" href="{{ .URL }}">{{ .PageNumber }}</a>
-                {{ end }}
-             </li>
-          {{ end }}
-          {{ if .Paginator.HasNext }}
-             <li>
-                <a class="btn" href="{{ .Paginator.Next.URL }}">Next page</a>
-             </li>
-          {{ end }}
-       </ul>
-    </nav>
-  </div>
+	 {{ partial "paginator.html" (dict "ctx" . "newer" "Previous page" "older" "Next page" )}}
 {{ end }}
