@@ -315,7 +315,9 @@ I was a bit low and my doctor asked me about stuff I liked doing and I wasn’t 
 ‘Samina’, Moss Side resident
 
 </blockquote>
+
 ## Conclusion: making a place for community technology
+
 The PlaceCal CTP used the capability approach to transform community information in our pilot area. Our approach has three stages:
 
 <ol type="1">
