@@ -11,6 +11,6 @@
 {{ end }}
 {{ $class = delimit $class " " }}
 
-{{partial "footNoteStart.html" (dict "filename" $filename "alt" $alt "class" $class "ctx" $ )}}
+{{partial "captionFootNoteStart.html" (dict "filename" $filename "alt" $alt "class" $class "ctx" $ )}}
 	{{ .Inner }} 
-{{ partial "footNoteEnd.html"}}
+{{ partial "captionFootNoteEnd.html"}}

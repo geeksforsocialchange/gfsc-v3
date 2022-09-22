@@ -103,7 +103,9 @@ This is, of course, anathema to the current way apps are developed. It’s hard 
 
 ‘Sign up’ and ‘maybe later’, like two options that a pushy guy at a nightclub trying to get you to go home with him might present to you, are now the [default dark pattern](https://blog.prototypr.io/not-now-a91c75ad35b6) for many websites. Many of us will have had “you didn’t complete your order” adverts that seem to inexplicably follow us from site to site -- proof to even the casual user that the websites they visit are not self-contained units.
 
-{{<image-multi-with-caption "amtrak.png push-knowledge.png cart-waiting.png" "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "1-2 image--frame">}}
+{{%image-multi-with-caption "amtrak.png push-knowledge.png cart-waiting.png" "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "1-2 image--frame"%}}
+Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'. 
+{{%/image-multi-with-caption%}}
 
 Why do they push this? Because getting people to create a user account has inherent value. This is the inevitable consequence of a common marketing methodology called the ‘AAARRR Funnel’ (or ‘Pirate Funnel’). This acronym stands for ‘Awareness, Acquisition, Activation, Retention, Referral, Revenue’, each letter referring to a stage of the process of making a purchase or registering for a service. To implement this methodology, you first need the ability to track each aspect of this - from that first browser cookie, to account creation, to a login, to a re-login, to inviting your friends to join, to making a purchase, a repeat purchase, and so on. I have no doubt this works - as with most marketing tricks, this is the methodology half the web is based on, and why examples like the ones below are becoming more frequent every day.
 
@@ -117,7 +119,9 @@ In the desire to see [data as the new oil](https://www.forbes.com/sites/forbeste
 
 Interaction designer Brett Victor (2006) defines [three kinds of software](http://worrydream.com/MagicInk/): information software, manipulation software, and communication software. Information software is where you want to find something out (Wikipedia). Manipulation software is where you want to make something (Word, Photoshop). Communications software is where you want to communicate with someone else (Email, WhatsApp).
 
-{{<image-multi-with-caption "information.png manipulation.png communication.png" "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "3 image--frame">}}
+{{%image-multi-with-caption "information.png manipulation.png communication.png" "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "3 image--frame"%}}
+Fig 5. Diagrams of the three kinds of software (Victor, 2006). 
+{{%/image-multi-with-caption%}}
 
 Most software is information software. Most of the time, we want to just find something out or browse. And yet, interactivity is all too often pathologically shoehorned in. All of the major platforms -- Twitter, Facebook, Instagram -- continue to make their apps more complicated, merging so many features into one package until these platforms become more and more indistinguishable from each other. This is because backers correlate increased interactions with increased profit as per the Pirate Funnel.
 
@@ -131,7 +135,9 @@ Even software that is explicitly designed to help vulnerable people often falls 
 
 While I was writing this piece, I got an Instagram ad which perfectly captures the more orthodox position of modern startup design (see below). This app actively encourages people to go around taking photographs of homeless people and uploading them to their server, where we can see their _name and balance_. Before even getting into the root causes of homelessness and what is actually needed in the sector (hint: houses), homelessness, as I have already mentioned, is now grounds for deportation. It only takes a second to realise the harm that could be caused by this initiative. While seemingly extreme, this is not unlike dozens of other ideas I’ve heard in ‘tech for good’ circles.
 
-{{<image-multi-with-caption "facedonate-1.jpg facedonate-2.png" "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "frame">}}
+{{%image-multi-with-caption "facedonate-1.jpg facedonate-2.png" "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "frame"%}}
+Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right). 
+{{%/image-multi-with-caption%}}
 
 ### But what about when we do need a wider range of people to upload information?
 
