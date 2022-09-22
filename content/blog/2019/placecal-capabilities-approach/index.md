@@ -58,8 +58,6 @@ In this interpretation, we argue that the three main conceptual impacts of adopt
 
 We summarise this interpretation of the capability approach and how it can be distinguished from a wide range of technical and social attempts to enable greater equity of opportunity in Table 1.
 
-{{<rawhtml>}}
-
 <table class="table table--4col">
   <caption>
     <h3>Table 1: Models of difference</h3>
@@ -111,7 +109,6 @@ We summarise this interpretation of the capability approach and how it can be di
     </tr>
   </tbody>
 </table>
-{{</rawhtml>}}
 
 The Deficit or ‘medical’ model attributes problems to an individual’s deviations from ‘the norm’: in other words, ‘abnormal’ individuals are assumed to have a ‘deficit’ of some kind. Franklin <span class="citation" data-cites="franklin1999">(1999)</span>, speaking in a technology context, puts this bluntly: ‘people are seen as sources of problems, while technology is seen as a source of solutions’. By contrast, the social model sees disability as created by the individual’s relationship to the social environment, and argues that deficit-based approaches actually _disable_ communities by implying ‘communities in and of themselves are not competent [and] require the expertise of professionals’ <span class="citation" data-cites="durie2013">(Durie &amp; Wyatt, 2013)</span>.
 
