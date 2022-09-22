@@ -1,12 +1,13 @@
+{{$imgs := slice}}
 <figure
 class="{{.class}}"
 markdown="0"
 >
-<div class="image__wrapper image__wrapper--multiple">
 {{ range .urls }}
-<img src="{{ . }}" alt="{{ $.alt }}" />
+{{ $imgs = $imgs | append (printf "<img src=\"%s\" alt=\"%s\" />" . $.alt)}}
 {{ end }}
-</div>
+{{ $imgs = delimit $imgs ""}}
+{{printf "<div class='image__wrapper image__wrapper--multiple'>%s</div>" $imgs | htmlUnescape | safeHTML}}
 <figcaption>
 <span class="icon">
 <svg
