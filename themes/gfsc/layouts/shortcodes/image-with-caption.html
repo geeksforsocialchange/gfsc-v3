@@ -16,13 +16,13 @@
    markdown="0"
 >
 <div class="image__wrapper image__wrapper--single">
-{{ if or (in $filename "http") (in $filename ".svg") }}
+{{- if or (in $filename "http") (in $filename ".svg") -}}
 <img src="{{ $filename }}" alt="{{ $alt }}" />
-{{ else }}       
-{{- $src := .Page.Resources.GetMatch $filename }}
-{{- $image := $src.Resize "900x" }}
+{{- else -}}       
+{{- $src := .Page.Resources.GetMatch $filename -}}
+{{- $image := $src.Resize "900x" -}}
 <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" />
-{{ end }}
+{{- end -}}
 </div>
 <figcaption>
 <span class="icon">
