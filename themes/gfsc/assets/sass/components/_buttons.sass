@@ -20,6 +20,28 @@ a.btn, .btn a
     color: $secondary
     background-position: 0 95%;
 
+a.btn--invert, .btn--invert a
+  display: inline-block
+  text-decoration: none
+  border: 2px solid $primary
+  padding: 0.66666rem 1rem
+  color: $secondary
+  +balboa
+  background-size: 210% 100%
+  background-image: linear-gradient(to right, $primary 50%, $secondary 50%)
+  -webkit-transition: 0.2s
+  -moz-transition: 0.2s
+  transition: 0.2s
+  &:hover
+    color: $primary
+    background-position: -95% 0
+  &--up
+    background-size: 100% 220%
+    background-image: linear-gradient(to top,  $secondary 50%, $primary 50%)
+  &--up:hover
+    color: $primary
+    background-position: 0 95%;
+
 a.link
   display: inline-block
   background-size: 100% 200%
