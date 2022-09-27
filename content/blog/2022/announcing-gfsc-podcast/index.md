@@ -17,7 +17,7 @@ We're delighted to present the first episode to you today. Mallory Moore (Trans 
 
 You can listen to it below, or on [anchor.fm](https://anchor.fm/gfscstudio). We'll be adding it to all the major podcast platforms (Spotify, Apple Music, Google Podcasts, Amazon etc) today.
 
-<iframe src="https://anchor.fm/gfscstudio/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+{{<anchorfm "How-government-technology-limits-who-we-can-become-e1mbckq" >}}
 
 > “I see a lot of the criminal justice system as a technology for further aggravating class divides” 
 >
