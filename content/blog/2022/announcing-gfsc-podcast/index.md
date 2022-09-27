@@ -33,7 +33,7 @@ You can listen to it below, or on [anchor.fm](https://anchor.fm/gfscstudio). We'
 
 If you liked it and want to support us, feel free to send us a tip -- needless to say noone is paying us for these and there's a lot of production costs involved in terms of equipment, transcription, production, etc. We also have [Patreon](https://www.patreon.com/gfscstudio) and [OpenCollective](https://opencollective.com/gfscstudio) set up but are yet to get rolling on these -- anyone wanna be our first backer? 🥰
 
-{% include kofi.html custom="You can support us making more episodes with a donation on Ko-Fi!" %}
+{{<kofi "You can support us making more episodes with a donation on Ko-Fi!">}}
 
 ## Episode information
 
