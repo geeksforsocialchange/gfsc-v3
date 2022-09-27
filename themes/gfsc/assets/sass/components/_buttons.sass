@@ -13,6 +13,12 @@ a.btn, .btn a
   &:hover
     color: $secondary
     background-position: -100% 0
+  &--up
+    background-size: 100% 200%
+    background-image: linear-gradient(to top,  $primary 50%, transparent 50%)
+  &--up:hover
+    color: $secondary
+    background-position: 0 100%;
 
 a.link, .teaser__excerpt a
   display: inline-block
