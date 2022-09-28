@@ -19,14 +19,14 @@ Subscription options are hardcoded into the shortcode.
 ### Example
 
 ```
-{{<image src="blm.avif" alt="A photograph of BLM protestors in London" classList="frame image--center">}}
+{{<image src="blm.avif" alt="A photograph of BLM protestors in London" classList="image--frame image--center">}}
 ```
 
 ### Arguments
 
 - `src`: address of the image file
 - `alt`: alt text for accessibility
-- `classList`: Classes to be added to the image. It looks to originally have taken a single word which was appended to `image--`. It has been craftily used in many places with two classes by writing the full classname for the second half of the argument and separating with a space.
+- `classList`: A space separated list of additional classes you would like to apply to the image. See options in `themes/gfsc/assets/sass/components/_images.sass`. *Optional*.
 
 ## `image-with-caption/start` & `image-with-caption/end` 
 
