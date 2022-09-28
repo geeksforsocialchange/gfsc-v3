@@ -1,6 +1,6 @@
 # Shortcodes
 
-## `image-with-caption`
+## `anchorfm`
 
 ### Example
 
