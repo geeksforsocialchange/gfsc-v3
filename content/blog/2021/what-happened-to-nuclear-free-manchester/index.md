@@ -75,7 +75,7 @@ BAE also own the company that created the [Trident nuclear submarine fleet](http
 Sounds bad right? Well, not according to GMCA who literally _[put them in the brochure](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/)_ for the Greater Manchester Strategic Framework, alongside a quote from someone with a truly Bond-villan-esque name and job title.
 
 {{%image-with-caption "Screenshot_2021-09-15_at_16.11.03.png" "A page from GMCA's 'Doing Digital Differently' brochure. It has a profile photo of 'Victoria Knight, Strategic Business Director, BAE Systems', a middle-aged white woman with long brown hair. It has a full page quote: We see this as a real thriving tech hub and the aspiration for Greater Manchester to become one of Europe's top 5 digital city regions is absolutely attractive to us." "frame"%}}
-"A page from GMCA's 'Doing Digital Differently' brochure highlighting BAE Systems." 
+A page from GMCA's 'Doing Digital Differently' brochure highlighting BAE Systems.
 {{%/image-with-caption%}}
 
 Other companies who presented at DSEI 2021 actively welcomed by various parts of GMCA include:
