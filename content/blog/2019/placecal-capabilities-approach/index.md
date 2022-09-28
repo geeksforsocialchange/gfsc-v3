@@ -44,8 +44,8 @@ The MAFN project was conducted by an engaged-research team at MMU with the objec
 
 This deliberate mix of communities of place and practice in the MAFN project is itself an application of a capability-based community development methodology. In our interpretation, it correlates with the concept of ‘active ageing’ in the AFCC approach as a position distinct from medical or social models of disability, instead emphasising the active self-determination of individuals in any social, economic or technical process <span class="citation" data-cites="nussbaum2003 sen1999">(Nussbaum, 2003; Sen, 1999)</span>.
 
-{{%image-with-caption "who-flower.png" "WHO Age Friendly Flower’, as adapted by MAFN" "frame"%}}
-WHO Age Friendly Flower’, as adapted by MAFN 
+{{%image-with-caption "who-flower.png" "WHO Age Friendly ’Flower’, as adapted by MAFN" "frame"%}}
+WHO Age Friendly ‘Flower’, as adapted by MAFN 
 {{%/image-with-caption%}}
 
 In discussions of this and earlier work operationalising the capability approach in the context of older people and place <span class="citation" data-cites="white2018a">(White &amp; Hammond, 2018)</span> we argue that the distinction between place-based interventions emphasising the active role of older citizens in deciding and creating the services and systems that ensure equality of opportunity across the life-course have two key features in common with the capability approach. These two features are indicated in the WHO AFCC ‘flower’ diagram, which shows an individual older person’s experience at the centre of a flower with eight petals each indicating a different domain of determining factors in the social, economic or physical environment. The diagram demonstrates how the ‘age friendly approach’ places individual human experience at the centre of both any understanding of the determinants of opportunities for a well-lived life, **and** at the centre of any actions taken to improve those opportunities <span class="citation" data-cites="worldhealthorganization2007">(World Health Organization, 2007)</span>.
