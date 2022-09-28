@@ -188,6 +188,6 @@ First posted 19 April 2019
 
 {{% image-with-caption "6.jpg" "Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)" %}}
 Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)
+{{% /image-with-caption %}}
 
 [^aal]: "The Smart Ageing Prize awards €50,000 to 3 innovative solutions for active and healthy ageing", [AAL Association, 2018](http://www.aal-europe.eu/the-smart-ageing-prize-awards-e50000-to-3-innovative-solutions-for-active-and-healthy-ageing/)
-{{% /image-with-caption %}}
