@@ -58,6 +58,7 @@ Due to the massive amounts of money and hubris that reside in the tech sector, w
 {{%image-with-caption "securignome.jpg" "Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." "frame image--center"%}}
 Securi-Gnome: "He can be pegged down into the earth"[^1] 
 {{%/image-with-caption%}}
+
 ---
 
 ## _Sorry, but I'm here to tell you this isn't a thing._
