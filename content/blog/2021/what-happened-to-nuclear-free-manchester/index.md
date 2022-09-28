@@ -31,7 +31,7 @@ It's the last day of Defence & Security Equipment International (DSEI), one of t
 If you want to know where the _really really_ bad people in the world get their guns and ammo, it's here. If you're a repressive government such as Saudia Arabia, UAE or USA looking to buy anything from torture equipment to chemical weapons to helicopters, DSEI has you covered. In fact, the UK government will pay for your delegation to come over, give you a stall to sit on all week while people come and pitch you weapons, and lay on millions of pounds of policing to protect you while you're here. You can even speculate on how many bullets are in a jar and win a prize!
 
 {{%image-with-caption "bullets.jpg" "A jar of bullets with a sign reading 'Guess the amount of bullet cores and win a £50 M&S voucher. Place business card in vase for a chance to win" "frame"%}}
-"Guess the number of bullets and win a prize! Image via [@darren_cullen on Twitter](https://mobile.twitter.com/darren_cullen/status/1436056720921567236)" 
+Guess the number of bullets and win a prize! Image via [@darren_cullen on Twitter](https://mobile.twitter.com/darren_cullen/status/1436056720921567236)
 {{%/image-with-caption%}}
 
 ## Sounds bad, so what's this got to do with Manchester?
