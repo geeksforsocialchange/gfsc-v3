@@ -105,7 +105,7 @@ We summarise this interpretation of the capability approach and how it can be di
       <td>Individuals negatively judged against a pre-defined norm</td>
       <td>Target clinical interventions more effectively e.g. reducing hospital admissions of frail older people</td>
       <td>Physical barriers to service access removed</td>
-      <td>Follow technical standards for websites and documentation so that people are not excluded `automatically’ (a11y)</td>
+      <td>Follow technical standards for websites and documentation so that people are not excluded ‘automatically’ (a11y)</td>
     </tr>
   </tbody>
 </table>
