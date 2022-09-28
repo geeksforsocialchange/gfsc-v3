@@ -12,7 +12,7 @@ title: Everything is connected, but should it be?
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
 
-{{<image "venus-fly-trap.png" "A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
+{{<image src="venus-fly-trap.png" alt="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
 
 ---
 

@@ -8,7 +8,7 @@ illustrator: emma
 social-image-wide: blog/raftt-1/cover.jpg
 ---
 
-{{<image "cover.jpg" "An abstract image featuring a black and white shot of some mills with some white lines and coloured blobs on the top suggesting a user interface">}}
+{{<image src="cover.jpg" alt="An abstract image featuring a black and white shot of some mills with some white lines and coloured blobs on the top suggesting a user interface">}}
 
 Local history is an area GFSC have done a lot of work in. Every neighbourhood on Earth has a plethora of stories that are completely unknown outside it. At GFSC we want to find ways of telling and sharing these stories which are compelling, well presented, accessible, easy to use, and crucially are designed and owned directly by the communities they're made with.
 
@@ -50,17 +50,17 @@ Sam is conducting in depth interviews with participants who are willing, offerin
 
 Of course at this stage, we don’t really know what the overall history data set will look like. Will we unearth a huge treasure trove of photographs from the past in someone’s cupboard? Will we find an interviewee who offers loads of incredible recorded oral testimonies that they’re happy to share? Will the social media campaign really take off, and we end up with loads of tiny text-based snippets of anecdotes?
 
-{{<image "1.jpg" "Several circles linked together with lines representing abstract concepts we are trying to connect. A caption reads 'How do we think about this data set? How do we display it?'" "frame image--center">}}
+{{<image src="1.jpg" alt="Several circles linked together with lines representing abstract concepts we are trying to connect. A caption reads 'How do we think about this data set? How do we display it?'" classList="frame image--center">}}
 
 Whatever form our data set takes, it’s still important for us to start considering how we might build the eventual online digital history project with it, which will take the form of a user-friendly (back and and front end!) website.
 
 Last week we had a great opening discussion about the kinds of questions we need to ask to build this sort of site, and how we might answer them. The illustrations in this piece are the sketches we created on the fly as we talked.
 
-{{<image "2.jpg" "Some abstract rectangles with coloured blocks representing parts in a theme. Text reads: What is the narrative story of the site? How do users explore the content? We want to avoid 'pincushion maps' as they don't add any useful context to the kinds of stuff on display. We could display the content chronologically but is there a more exciting way of displaying this particular data set? The idea of 'themes'. How can we put the various 'themes' found in the data set at the heart of the design and browing experience?" "frame image--center">}}
+{{<image src="2.jpg" alt="Some abstract rectangles with coloured blocks representing parts in a theme. Text reads: What is the narrative story of the site? How do users explore the content? We want to avoid 'pincushion maps' as they don't add any useful context to the kinds of stuff on display. We could display the content chronologically but is there a more exciting way of displaying this particular data set? The idea of 'themes'. How can we put the various 'themes' found in the data set at the heart of the design and browing experience?" classList="frame image--center">}}
 
 We started off by asking what the narrative order of the site might be. How do users explore the content? What is the ‘town square’ of the site — the space it is centred around, the key navigation which users will base their explorations around?
 
-{{<image "3.jpg" "One zoomed in coloured block. Text reads: What is the 'town square' of the site? What is the site centered around - a key navigation functionality that users will centre their explorations around? If we are going to centre the site around 'themes', how are these navigated?" "frame image--center">}}
+{{<image src="3.jpg" alt="One zoomed in coloured block. Text reads: What is the 'town square' of the site? What is the site centered around - a key navigation functionality that users will centre their explorations around? If we are going to centre the site around 'themes', how are these navigated?" classList="frame image--center">}}
 
 Kim has [written in the past](https://cassowaryproject.org/visualising-qualitative-data-on-maps/) about why ‘pincushion maps’ are a bad idea, and indeed we are keen to avoid this approach here. Our previous local history site Hulme History ([http://hulmehistory.info/](http://hulmehistory.info/)) was centred around a map, but also around a chronology, and aimed to show how the map had changed and developed over time.
 
@@ -72,7 +72,7 @@ Another reason why centering the map isn’t a great idea here (or indeed, in ma
 
 So with mapping/geographic data ruled out, what other facets of this data set might we consider the “primary axis” to base the structure and narrative of the site around? We initially talked a lot about whether a ‘timeline’ would be a good concept here. Sometimes this works wonderfully as a narrative device, but with larger or more fragmented data sets (of which this could yet prove to be either), it can feel either overwhelming, gappy, or simply irrelevant to the larger narratives at play.
 
-{{<image "4.jpg" "Some colourful text laid out artisticaly. Text reads: Themes? What kinds of things would these be? Basically any reoccuring ideas which come up in the research we gather. For RAFTT these things could be like... the towers as navigational device; parties and celebrations; community centre/s; key local personalities; deprivation and challenges; and more!" "frame image--center">}}
+{{<image src="4.jpg" alt="Some colourful text laid out artisticaly. Text reads: Themes? What kinds of things would these be? Basically any reoccuring ideas which come up in the research we gather. For RAFTT these things could be like... the towers as navigational device; parties and celebrations; community centre/s; key local personalities; deprivation and challenges; and more!" classList="frame image--center">}}
 
 ## Themes
 
@@ -92,7 +92,7 @@ And more still growing and forming.
 
 It will be down to us to consider how many and what themes to centre the website around in the final design.
 
-{{<image "5.jpg" "An abstract diagram showing some concepts sorted into theme columns with colour codes and showing some of them will be video, image, text etc. Text reads: Theme panels, each contains different individual 'anecdotes' / data pieces. One person's interview mgiht yield multiple 'bits' across themes - a short video, a piece of text, a photo they shared, etc etc, across themes. Even a small number of high quality interviewees is good!" "frame image--center">}}
+{{<image src="5.jpg" alt="An abstract diagram showing some concepts sorted into theme columns with colour codes and showing some of them will be video, image, text etc. Text reads: Theme panels, each contains different individual 'anecdotes' / data pieces. One person's interview mgiht yield multiple 'bits' across themes - a short video, a piece of text, a photo they shared, etc etc, across themes. Even a small number of high quality interviewees is good!" classList="frame image--center">}}
 
 ## Thinking about design
 
@@ -106,7 +106,7 @@ With this in mind, we are thinking of our content as easy to consume, bitesize �
 
 We returned again to thinking about narrative — the story the site tells at any individual moment, no matter where an individual is in their exploration of it.
 
-{{<image "6.jpg" "Text reading: How do users navigate through the site? What is the hierarchy with which we display different aspects of content for this project? Introduction (general overview to site, accessible at all times) Theme (broad themes seen across the data set) Individual item (image, video, audio, written testimonial) Person (who said/gave us this?) Group/campaign (are they affiliated with any groups or campaigns?) When (what era is it from, when exactly did it happen?) Geographic data (where relevant — situate on a map for context) Conclusion (if we can draw any!) The complexity and depth of navigation on the site may depend on how much content there is to explore" "frame image--center">}}
+{{<image src="6.jpg" alt="Text reading: How do users navigate through the site? What is the hierarchy with which we display different aspects of content for this project? Introduction (general overview to site, accessible at all times) Theme (broad themes seen across the data set) Individual item (image, video, audio, written testimonial) Person (who said/gave us this?) Group/campaign (are they affiliated with any groups or campaigns?) When (what era is it from, when exactly did it happen?) Geographic data (where relevant — situate on a map for context) Conclusion (if we can draw any!) The complexity and depth of navigation on the site may depend on how much content there is to explore" classList="frame image--center">}}
 
 All stories start from a beginning — an anchoring point to get you into it, even if the project is, as discussed, not in chronological order. We will need to figure out how this overall introduction and starting point manifests itself.
 
@@ -116,13 +116,13 @@ As for the ‘end’ of the story... Well, is there an end? We discussed whether
 
 ## Structure
 
-{{<image "7.jpg" "An even more zoomed out view showing several interface areas. 1) 'Browse by theme' panel. 2) Expanded view of one theme's individual pieces of content. 3) One individual piece of content (pic, video, text). 4. Expanded view of one piece of content" "frame image--center">}}
+{{<image src="7.jpg" alt="An even more zoomed out view showing several interface areas. 1) 'Browse by theme' panel. 2) Expanded view of one theme's individual pieces of content. 3) One individual piece of content (pic, video, text). 4. Expanded view of one piece of content" classList="frame image--center">}}
 
 We looked at our old Hulme History site ([http://hulmehistory.info/](http://hulmehistory.info/)), and decided to use that as a jumping off point in considering panel based navigation styles. The design/layout sketched here is arbitrary, these ponderings were more to think about navigation and site structure.
 
 Shown here, to the left, is a ‘themes’ panel, which would be constantly visible, or at least accessible. To the top right is an expansion of one of the themes, showing all the individual snippets which are contained within that theme. Any one of these snippets can be clicked on and expanded into the panel below (bottom right).
 
-{{<image "8.jpg" "A simpler version of the above sketch with two areas. 1) 'Browse by theme' and 2) Expanded theme panel to browse the content under that theme" "frame image--center">}}
+{{<image src="8.jpg" alt="A simpler version of the above sketch with two areas. 1) 'Browse by theme' and 2) Expanded theme panel to browse the content under that theme" classList="frame image--center">}}
 
 We did discuss whether maybe three levels of navigation was simply too many, so created an alternative where the themes panel also contains a short ‘contents’ for each theme (partial or full?) and on click a user can explore all the contents of that theme in the panel to the right.
 

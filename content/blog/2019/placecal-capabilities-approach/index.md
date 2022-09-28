@@ -281,7 +281,7 @@ The CTP development work created a local trust network that ensured faith in Pla
 
 Creating a de-siloed and community owned and curated social prescribing resource has therefore dramatically increased relationships between GP practices and community groups, giving health workers the capability to care for the widest possible range of patient needs with little additional effort.
 
-{{<image "alasdair.jpg" "Dr Alasdair Honeyman at work using PlaceCal (right hand screen)" "Dr Alasdair Honeyman at work using PlaceCal (right hand screen)">}}
+{{<image src="alasdair.jpg" alt="Dr Alasdair Honeyman at work using PlaceCal (right hand screen)">}}
 
 #### Commissioners
 

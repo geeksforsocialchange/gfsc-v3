@@ -8,7 +8,7 @@ social-image-wide: blog/why-so-hard/together-hands-embroidery.jpg
 social-image-square: blog/why-so-hard/together-hands-embroidery.jpg
 ---
 
-{{<image "together-hands-embroidery.jpg" "An illustration of two sets of hands working on a canvas made of circuit board, thread, and paper, with a lightbulb in the corner. Together these elements spell out the word 'together'.">}}
+{{<image src="together-hands-embroidery.jpg" alt="An illustration of two sets of hands working on a canvas made of circuit board, thread, and paper, with a lightbulb in the corner. Together these elements spell out the word 'together'.">}}
 
 _This article is a bloggified version of the talk I gave at [EMF 2022](https://www.emfcamp.org/schedule/2022/239-why-is-it-so-hard-to-do-nice-things-that-make-a-difference) aimed at a hacker/maker/creator community. It's a bit rougher and more personal than our usual posts, so I hope you like it, and I would love to talk to you all about it over the following months._
 
@@ -94,7 +94,7 @@ I hope it is not controversial to say: politics in the UK (and world) _fucking s
 
 We live in extremely disempowering times. It feels like it’s hard to talk about possibility and change right now as we spend so long struggling to exist: the intersecting cost of living crisis, ongoing pandemic, corrupt and fascist government, social isolation and loneliness crisis, upswing in structural racism and hate crime, and highly coordinated and well funded attacks on trans people are creating an incredibly intolerant environment. Covid has torn apart a lot of the normal functionings of how people go and find communities of place and hyperfocussed the ones of interest.
 
-{{<image "blm.avif" "A photograph of BLM protestors in London" "frame image--center">}}
+{{<image src="blm.avif" alt="A photograph of BLM protestors in London" classList="frame image--center">}}
 
 I think a lot of us, especially those who are perhaps two or more of trans, disabled, of colour, neurodivergent, working class, queer, carers, and other marginalised groups have never been further from representation at the ballot box. This is the rant part of the talk before I get talking about more constructive things. The Labour Party in waiting looks like Tory-lite, and on some issues is more right wing than the Tory party. The minority parties never look like serious contenders on any issues and don’t seem to have any real teeth outside of just “not that guy”, and the mainstream alternatives to that suck too. Join that up with the billionaire press in this country, and yeah. Not good. A lot of us simply not only see no representation of ourselves at all, we have almost daily attacks on our rights to exist everywhere we look.
 
@@ -112,7 +112,7 @@ An ONS study[^leisure] showed that men have _five hours_ more leisure time a wee
 
 [^leisure]: Office for National Statistics (2018). _Men enjoy five hours more leisure time per week than women: Men in the UK enjoy nearly five more hours of leisure time per week than women, ONS analysis reveals._ [Retrieved online](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/menenjoyfivehoursmoreleisuretimeperweekthanwomen/2018-01-09).
 
-{{<image "leisure-gender.png" "An ONS graph showing that men have five hours more leisure time than women per week" "frame image--center">}}
+{{<image src="leisure-gender.png" alt="An ONS graph showing that men have five hours more leisure time than women per week" classList="frame image--center">}}
 
 I think this dynamic by itself results in so much of what we see unfold in terms of hobby group makeup. And a lot of this is because of larger issues to do with the unequal distribution of care labour, unequal pay, etc. But it also ties into a disability activism narrative where if activities are uncritically based around the idea of the normal, normative, able bodied person, who [Grayson Perry coined “Default Man”](https://www.newstatesman.com/long-reads/2014/10/grayson-perry-rise-and-fall-default-man), we are just always going to be reproducing the harmful construct we’re placed within.
 

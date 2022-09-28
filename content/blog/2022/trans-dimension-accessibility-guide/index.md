@@ -8,7 +8,7 @@ social-image-wide: transdimension.png
 social-image-square: og-square.jpg
 ---
 
-{{<image "transdimension.png" "Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
+{{<image src="transdimension.png" alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
 
 We've previously [blogged](/2021/12/14/enter-trans-dimension.html) and tweeted about _The Trans Dimension_, a new space for trans community enabled by technology and collaboration that we're working on in collaboration with Gendered Intelligence. We will have some news on this soon and are hoping to launch this at the start of July.
 

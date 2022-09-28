@@ -14,7 +14,7 @@ subtitle:
 title: What happened to Nuclear Free Manchester?
 ---
 
-{{<image "og-wide.jpg" "Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
+{{<image src="og-wide.jpg" alt="Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
 
 Now not only do we have several companies here who manufacture or assist in the production of nuclear missiles and submarines, we put 'em in the regional marketing brochure.
 
