@@ -85,7 +85,7 @@ With all the lasers and 3D printers in the world, you still need a team of peopl
 ---
 
 {{%image-with-caption "oculardevice.png" "A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." "frame image--center"%}}
-"Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2]" 
+Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2]
 {{%/image-with-caption%}}
 
 {{<smallsignup "Sign up to our mailing list to get our latest articles delivered straight to your inbox.">}}
