@@ -25,7 +25,7 @@ Subscription options are hardcoded into the shortcode.
 ### Arguments
 
 - `src`: address of the image file
-- `alt`: alt text for accessibility
+- `alt`: alt text for accessibility. *Optional but please be considerate*.
 - `classList`: A space separated list of additional classes you would like to apply to the image. See options in `themes/gfsc/assets/sass/components/_images.sass`. *Optional*.
 
 ## `image-with-caption/start` & `image-with-caption/end` 

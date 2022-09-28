@@ -7,11 +7,11 @@
 >
    <div class="image__wrapper image__wrapper--single">
       {{ if or (or (in $filename "http") (in $filename ".svg")) (in $filename ".avif") }}
-         <img src="{{ $filename }}" alt="{{ $alt }}" />
+         <img src="{{ $filename }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
       {{ else }}       
          {{- $src := .Page.Resources.GetMatch $filename }}
          {{- $image := $src.Resize "900x" }}
-         <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" />
+         <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
       {{ end }}
    </div>
 </figure>
