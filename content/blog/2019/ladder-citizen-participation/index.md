@@ -19,7 +19,9 @@ I realise a lot of this knowledge hasn't made it into mainstream tech discourse 
 
 [^arnstein]: Arnstein, S. R. (1969). _A ladder of citizen participation. Journal of the American Institute of planners_, 35(4), 216-224.
 
-{{<image-with-caption "arnstein_ladder_participation.svg" "'Ladder of Citizen Participation' (Arnstein, 1969)" "'Ladder of Citizen Participation' (Arnstein, 1969)">}}
+{{<image-with-caption/start "arnstein_ladder_participation.svg" "'Ladder of Citizen Participation' (Arnstein, 1969)">}}
+'Ladder of Citizen Participation' (Arnstein, 1969)
+{{<image-with-caption/end>}}
 
 ## Nonparticipation
 
@@ -31,11 +33,15 @@ I think therapy refers to where the focus is shifted off the actual focus. For e
 
 [^busstop]: Image from [Justin Li on Twitter](https://twitter.com/justinnhli/status/1003703021321142272)
 
-{{<image-with-caption "facebook.jpeg" "A Facebook bus stop ad" "A Facebook bus stop ad" "frame">}}
+{{<image-with-caption/start "facebook.jpeg" "A Facebook bus stop ad" "frame">}}
+A Facebook bus stop ad 
+{{<image-with-caption/end>}}
 
 Despite how obvious these methods can seem, somehow the internal logic of large bureaucratic organisations manages to perpetually convince themselves that this works, that the product is fine and it is it the user that is at fault. Overall, in every community I've worked in this has led to 'consultation fatigue'. Community memory is much, much longer than any funded project, webapp, or commission. People will and do notice if your engagement process, however well designed, has no actual potential to change whatever it is you're developing.
 
-{{<image-with-caption "simpsons.jpg" "Every big tech company" "Every big tech company" "frame">}}
+{{<image-with-caption/start "simpsons.jpg" "Every big tech company" "frame">}}
+Every big tech company 
+{{<image-with-caption/end>}}
 
 {{<kofi "Buy us a Ko-fi to fuel the writing of more articles like this.">}}
 

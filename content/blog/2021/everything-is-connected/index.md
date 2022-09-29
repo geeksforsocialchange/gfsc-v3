@@ -22,7 +22,9 @@ I have worked as a software developer for twenty years. In my lifetime I have se
 
 When I started my career, computers were primarily seen as standalone entities: robot butlers (_fig. 1_) for the technologically privileged (as opposed to the robot symbiotes, or parasites, that we now keep in our homes and our pockets). The robot could only see what it was presented by its human owner. It could not yet read our thoughts or desires, eavesdrop on what we said to our friends and lovers in secret. And if it could, well, it was only a subtle interference. Polite.
 
-{{<image-with-caption "ask-jeeves.png" "Screenshot of Ask Jeeves" "Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants." "frame image--center">}}
+{{<image-with-caption/start "ask-jeeves.png" "Screenshot of Ask Jeeves" "frame image--center">}}
+Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants. 
+{{<image-with-caption/end>}}
 
 Circles of tech counterculture foresaw the issue that privacy would become. But for most people, including the burgeoning industry growing in California, it made sense to dismiss any such concerns as low priority, something to be fixed ‘down the line’.
 
@@ -56,7 +58,9 @@ The Mayor of Greater Manchester Andy Burnham now plans to put police officers in
 
 How do technologies like 'VeinID', which is essentially straight out of 1997 sci-fi film _Gattaca_ (starring Ethan Hawke, Jude Law and Uma Thurman), end up not being dismissed as dystopian movie plots, but given regional working groups and financial incentives to operate? The simple answer: because the people in the chrome tower -- developers, funders, politicians, tech evangelists and financiers -- are usually in the tiny minority laid out in the introduction. To them, this is a simple financial convenience that means you don’t need to take your phone or card out your pocket to pay.
 
-{{<image-with-caption "fingo.png" "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "frame">}}
+{{<image-with-caption/start "fingo.png" "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "frame">}}
+Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK. 
+{{<image-with-caption/end>}}
 
 For others in Manchester this couldn’t be further from their reality. Is it too hard to imagine that the next ‘joint enterprise’ arrests could be based on data of multiple people who happened to board the same bus? Does it seem unlikely that Immigration Compliance and Enforcement (ICE) teams would match fingerprints taken at Dallas Court Immigration Centre (where asylum seekers and refugees must regularly report) to those taken by city homeless services, and used as grounds for deportation?
 
@@ -151,13 +155,17 @@ But when push comes to shove (which it always does), interventions which create 
 
 A refusal to take part in this process for the dignity of your service users is a Sisyphean task. I have spoken to dozens of practitioners who have experienced this and privately share this view but are unable to talk about it publically for fear of being financially cast adrift, and dozens of funders who want to “yes, but” me into a corner until I give up. It sucks.
 
-{{<image-with-caption "graph-goes-up.jpg" "Fig 7. Meme uploaded ‘unironically’ to [r/neoliberal](https://www.reddit.com/r/neoliberal/comments/ep4bdj/this_but_unironically_repost_because_it_got/)" "Fig 7. Meme uploaded ‘unironically’ to r/neoliberal" "frame">}}
+{{<image-with-caption/start "graph-goes-up.jpg" "Fig 7. Meme uploaded ‘unironically’ to r/neoliberal " "frame">}}
+Fig 7. Meme uploaded ‘unironically’ to [r/neoliberal](https://www.reddit.com/r/neoliberal/comments/ep4bdj/this_but_unironically_repost_because_it_got/)
+{{<image-with-caption/end>}}
 
 I think this, very simply, stems from the unconsciously adopted view both within and without the chrome tower that the Pirate Funnel is basically a good thing and is the only ‘true’ way to monitor a service and demonstrate ‘impact’. Decades of indoctrination by billion dollar corporations has seemingly convinced middle managers with Fitbits and Alexa-controlled lightbulbs everywhere that they must be on to something, and somehow a methodology designed to sell Nespresso subscriptions or Call of Duty loot crates must also be applicable to public services.
 
 Silicon Valley firms spend a whole lot of money promoting that some of the most immoral people in the world today are [maverick t-shirt-wearing inventors](https://www.gq-magazine.co.uk/fashion/article/victoria-hitchcock-stylist-interview) worthy of idolisation, and not frenzied capitalists funded by billions of high risk investment capital overseeing the most efficient transfer of wealth from the poor to the rich in history. We even create superheroes based on their archetype. Is it any wonder that people believe they must be doing something right?
 
-{{<image-with-caption "tony-stark.jpg" "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "frame">}}
+{{<image-with-caption/start "tony-stark.jpg" "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "frame">}}
+Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere. 
+{{<image-with-caption/end>}}
 
 ### Conclusion (of doom?)
 
@@ -165,7 +173,9 @@ Does your new app truly need users to create an account, or can you just give th
 
 Maybe you truly do need those things. Or maybe the parasitic desire for more data at any cost should be called out for what it is, a fascistic tendency with dire consequences. If we continue churning out softwares and technologies without fundamentally changing how we treat privacy and how we regard users, we will simply be building the final floors of a structure not unlike The Tower, a tarot card from the Major Arcana, which depicts a gigantic high rise built on shaky foundations. Like The Tower, which signifies chaos but also revelation, maybe the crumbling of the tech industry (and those who fund it) from the ground up will be a necessary, and welcome, revelation that will herald a new age. But should we always need prophecies of such apocalyptic scale to come to fruition before we can incite change?
 
-{{<image-with-caption "tower.jpg" "Fig 9. ‘The Tower’ tarot card." "Fig 9. ‘The Tower’ tarot card." "center image--scale-down">}}
+{{<image-with-caption/start "tower.jpg" "Fig 9. ‘The Tower’ tarot card." "center image--scale-down">}}
+Fig 9. ‘The Tower’ tarot card. 
+{{<image-with-caption/end>}}
 
 {{<kofi "Support us to write more articles like this with a donation on Ko-fi.">}}
 

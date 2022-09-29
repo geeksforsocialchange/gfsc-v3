@@ -1,7 +1,7 @@
 {{- $filename := .Get 0 }}
 
 <figure
-   class="image {{ if (.Get 3) }}image--{{ .Get 3 }}{{ end }}"
+   class="image {{ if (.Get 2) }}image--{{ .Get 2 }}{{ end }}"
    markdown="0"
 >
    <div class="image__wrapper image__wrapper--single">
@@ -30,6 +30,4 @@
             />
          </svg>
       </span>
-      <span class="desc" markdown="1"> {{ .Get 2 }} </span>
-   </figcaption>
-</figure>
+      <span class="desc" markdown="1"> 

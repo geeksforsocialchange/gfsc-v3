@@ -61,7 +61,9 @@ The research methodology for the MAFN process involved a series of research acti
 
 One of the first, extremely stark findings in this process was that **older people didn’t think there was anything to do near them**. So we set out to find out what there _was_ to do. This single observation ended up being the entire design principle for the project. Through partnership meetings and hundreds of phonecalls, chats and emails, we asked everyone what events they knew about or were putting on, and if there’s anyone else we should talk to. Pretty soon each area had a Google Calendar a bit like this one:
 
-{{<image-with-caption "https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" "All the age-friendly events we knew about in Hulme and Moss Side this time last year…" "All the age-friendly events we knew about in Hulme and Moss Side this time last year…" "frame">}}
+{{<image-with-caption/start "https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" "All the age-friendly events we knew about in Hulme and Moss Side this time last year…" "frame">}}
+All the age-friendly events we knew about in Hulme and Moss Side this time last year… 
+{{<image-with-caption/end>}}
 
 These calendars were managed by the MAFN team, and were printed out and distributed at each Age Friendly board meeting; in fact, we’re still doing this. None of us quite realised how much there was going on in each area, or quite how many spaces people were using for events. We found that there were several age-friendly events almost every day for people to go to. We found that many major providers didn’t publish their data online or published a highly incomplete data set, usually managing some mass of leaflets and flyers, circulated and collated by the organisations themselves and a range of health providers and active citizens. Contrary to our initial assumptions there was a _surplus_ of community spaces not a lack: however, most of these spaces were hidden and hard to find out about and access without a real-world local connection.
 
@@ -100,7 +102,9 @@ We put together a successful proposal to gain funding from [CityVerve](https://c
 
 Despite the current focus on high tech solutions, [most people’s IT skills are actually very poor](https://www.nngroup.com/articles/computer-skill-levels/), with up to 40% of the _working-age_ population struggling with basic skills like deleting an email. For older people it is likely much, much worse: see the graph below. With a project focusing on older people we knew this was likely to be much, much worse. We currently exist in a bubble where the most technically able 1–5% or so are making apps and websites for a high tech audience, while the average person installs [zero new apps a month](https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/), for example. We needed a completely different approach — one focused around _capability_, not products.
 
-{{<image-with-caption "https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" "Internet use stats showing a huge drop-off for over 70s" "Internet use stats showing a huge drop-off for over 70s[^1]" "frame">}}
+{{<image-with-caption/start "https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" "Internet use stats showing a huge drop-off for over 70s" "frame">}}
+Internet use stats showing a huge drop-off for over 70s[^1] 
+{{<image-with-caption/end>}}
 
 [^1]: "The digital divide has grown old: Determinants of a digital divide among seniors" [(Friemel, 2016)](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf)
 
@@ -137,7 +141,9 @@ I’ll write more on the technical implementation at a later date, especially as
 
 **Location data.** One major finding was that geolocation was way, _way_ less important than we thought. Who was putting on an event and what venue it were in were far more valuable than quantitative measurements like distance. This makes sense on reflection: people are more likely to go to venues they trust and know how to get to than they are to seek out something further away in an unfamiliar place. Social capital is strongly correlated with the distance you’re willing or able to travel for an event. While people with high social capital go to other countries or cities, let alone the other side of town for an event, most people with mobility issues are often limited to a radius of a few streets around their house. Of course, mobility isn’t the only indicator of social capital, but even within this limited parameter it has a marked effect. The [_Longitudinal Study of Ageing_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731975/) shows the vast differences in walking speed based on education and age, as well as other factors.
 
-{{<image-with-caption "https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" "Differences in walking speed based on education and age" "Differences in walking speed based on education and age[^2]" "frame">}}
+{{<image-with-caption/start "https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" "Differences in walking speed based on education and age" "frame">}}
+Differences in walking speed based on education and age[^2] 
+{{<image-with-caption/end>}}
 
 [^2]: “Men’s and Women’s age trajectories of walking speed by educational subpopulations” (Weber, 2016)
 
@@ -155,7 +161,9 @@ From the start we were set on using PlaceCal as a source of data for flyers and 
 
 In the end, the two-sided leaflet we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the [PlaceCal website](https://placecal.org/winter2017) itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
 
-{{<image-with-caption "https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" "The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" "The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" "frame">}}
+{{<image-with-caption/start "https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" "The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" "frame">}}
+The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC) 
+{{<image-with-caption/end>}}
 
 Between us we distributed 10,000 leaflets and posters down the major shopping streets in Hulme and Moss Side, put them through people’s letter boxes, gave them to parents at schools, and generally plastered the area. By now you’re probably getting the point that by making one really good source of information together, we multiplied our capacity and reach. Through this process we had loads of conversations with local shops and businesses, made some more connections, and got some great feedback. We’re looking forward to being able to go back and see how people got on!
 
@@ -173,4 +181,6 @@ If you want to keep up to date then you can follow us here, on [Twitter](https:/
 
 Last updated 16th April 2019
 
-{{<image-with-caption "https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" "Oh yeah — and we had a photobooth!" "Oh yeah — and we had a photobooth!" "center">}}
+{{<image-with-caption/start "https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" "Oh yeah — and we had a photobooth!" "center">}}
+Oh yeah — and we had a photobooth! 
+{{<image-with-caption/end>}}
