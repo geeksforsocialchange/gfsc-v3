@@ -491,21 +491,21 @@ World Health Organization. (2007). *Global Age-friendly Cities: A Guide*. World 
 <h3>Footnotes</h3>
 
 <ol>
-<li id="fn1" role="doc-endnote">The project was based on an earlier successful and still ongoing 2012 pilot project <span class="citation" data-cites="phillipson2014">(Phillipson, White, &amp; Hammond, 2014)</span>, which was funded and undertaken in partnership with Southway Housing Trust. The MAFN project formally ends in March 2020, and is funded by the UK National Lottery’s ‘Ambition for Ageing’ programme.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn1" role="doc-endnote">The project was based on an earlier successful and still ongoing 2012 pilot project <span class="citation" data-cites="phillipson2014">(Phillipson, White, &amp; Hammond, 2014)</span>, which was funded and undertaken in partnership with Southway Housing Trust. The MAFN project formally ends in March 2020, and is funded by the UK National Lottery’s ‘Ambition for Ageing’ programme.<a href="#fnref1" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn2" role="doc-endnote">This account is expanded in terms of Spinoza by the authors in <span class="citation" data-cites="white2018">White (2018)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn2" role="doc-endnote">This account is expanded in terms of Spinoza by the authors in <span class="citation" data-cites="white2018">White (2018)</span>.<a href="#fnref2" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn3" role="doc-endnote">Nussbaum’s work amplifies this ethical aspect of Sen’s approach which makes clear that people are not able to be who they are actually capable of becoming because of ‘deprivations’, ‘barriers’ or ‘handicaps’ they experience are the result of the compounding relationship between their personal characteristics and the barriers that the environment, in its physical, economic, social, political, and cultural aspects presents to them.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn3" role="doc-endnote">Nussbaum’s work amplifies this ethical aspect of Sen’s approach which makes clear that people are not able to be who they are actually capable of becoming because of ‘deprivations’, ‘barriers’ or ‘handicaps’ they experience are the result of the compounding relationship between their personal characteristics and the barriers that the environment, in its physical, economic, social, political, and cultural aspects presents to them.<a href="#fnref3" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn4" role="doc-endnote">The Manchester wards Old Moat, Moston, Miles Platting, Burnage, and Hulme and Moss Side (one area).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn4" role="doc-endnote">The Manchester wards Old Moat, Moston, Miles Platting, Burnage, and Hulme and Moss Side (one area).<a href="#fnref4" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn5" role="doc-endnote">A contested term there is not space to go into in this paper. See, for example Grossi &amp; Pianezzi <span class="citation" data-cites="grossi2017">(2017)</span>: “There is a high level of agreement in the literature that there is as yet no common definition of a smart city … Overall, the IT dimension appears central to the smart city and the advocates of this urban paradigm highlight the benefits resulting from the adoption of technologies, techniques and visions, granting that these are ‘scientific, objective, commonsensical and apolitical’ in nature”<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn5" role="doc-endnote">A contested term there is not space to go into in this paper. See, for example Grossi &amp; Pianezzi <span class="citation" data-cites="grossi2017">(2017)</span>: “There is a high level of agreement in the literature that there is as yet no common definition of a smart city … Overall, the IT dimension appears central to the smart city and the advocates of this urban paradigm highlight the benefits resulting from the adoption of technologies, techniques and visions, granting that these are ‘scientific, objective, commonsensical and apolitical’ in nature”<a href="#fnref5" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn6" role="doc-endnote">‘Application Programming Interface’, a computer-readable public interface to a database<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn6" role="doc-endnote">‘Application Programming Interface’, a computer-readable public interface to a database<a href="#fnref6" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn7" role="doc-endnote"><a href="https://github.com/geeksforsocialchange/PlaceCal">https://github.com/geeksforsocialchange/PlaceCal</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn7" role="doc-endnote"><a href="https://github.com/geeksforsocialchange/PlaceCal">https://github.com/geeksforsocialchange/PlaceCal</a><a href="#fnref7" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
-<li id="fn8" role="doc-endnote"><a href="https://handbook.placecal.org">https://handbook.placecal.org</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a>
+<li id="fn8" role="doc-endnote"><a href="https://handbook.placecal.org">https://handbook.placecal.org</a><a href="#fnref8" class="footnote-backref" role="doc-backlink">↩︎</a>
 </li>
 </ol>
 </section>
