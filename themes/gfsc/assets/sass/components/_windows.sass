@@ -43,6 +43,13 @@
           color: $copy
           text-decoration: none
           +border(bottom)
+          padding: 0 0.5rem
+          background-size: 100% 200%;
+          background-image: linear-gradient(to top, #ea5b0c 50%, transparent 50%);
+          transition: 0.2s;
+        &__link:hover
+          color: $secondary
+          background-position: 0 100%;
   &--orange
     .window
       &__content

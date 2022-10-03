@@ -2,16 +2,16 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css" />
-   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css" />
-   <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/orangify.css" />
+   <link rel="stylesheet" href="/css/main.css" />
+   <link rel="stylesheet" href="/assets/css/orangify.css" />
    <!-- Favicons -->
    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-   <link rel="manifest" href="{{ .Site.BaseURL }}/site.webmanifest" />
+   <link rel="manifest" href="/site.webmanifest" />
    <link
       rel="mask-icon"
-      href="{{ .Site.BaseURL }}/safari-pinned-tab.svg"
+      href="/safari-pinned-tab.svg"
       color="#ea5b0c"
    />
    <meta name="msapplication-TileColor" content="#f1f4d1" />
@@ -44,24 +44,24 @@
    {{ end }} {{/* {{- if isset .Params "social-image-square" }}
    <meta
       property="og:image"
-      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageSquare }}"
+      content="/assets/images/{{ .SocialImageSquare }}"
    />
    {{ end }} {{- if isset .Params "social-image-wide" }}
    <meta
       name="twitter:image"
-      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}"
+      content="/assets/images/{{ .SocialImageWide }}"
    />
    {{- if not isset .Params "social-image-square" }}
    <meta
       property="og:image"
-      content="{{ .Site.BaseURL }}/assets/images/{{ .SocialImageWide }}"
+      content="/assets/images/{{ .SocialImageWide }}"
    />
    {{ end }} {{ end }} {{- if not isset .Params "social-image-square" }}
-   <meta property="og:image" content="{{ .Site.BaseURL }}/og-image.jpg" />
-   <meta name="twitter:image" content="{{ .Site.BaseURL }}/og-image-2_1.png" />
+   <meta property="og:image" content="/og-image.jpg" />
+   <meta name="twitter:image" content="/og-image-2_1.png" />
    {{ end }}
 
-   <meta property="og:url" content="{{ .Site.BaseURL }}{{ .url }}" />
+   <meta property="og:url" content="{{ .url }}" />
 
    <meta name="twitter:card" content="summary_large_image" />
    <meta name="twitter:site" content="@gfscstudio" />
