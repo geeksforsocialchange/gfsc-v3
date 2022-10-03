@@ -15,11 +15,15 @@ On a chilly Saturday morning last November I joined other local residents, activ
 
 Upon entering the pub, I was greeted by the sight of former residents grouped around tables, sipping cups of tea and sharing stories. Others were huddled around a long table covered with historical maps, each taking the opportunity to point out cherished sites long since destroyed and built over.
 
-{{<image-with-caption "pic1.jpg" "Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer." "Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer." "frame">}}
+{{<image-with-caption/start "pic1.jpg" "Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer." "frame">}}
+Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer. 
+{{<image-with-caption/end>}}
 
 As a researcher at the University of Manchester, I was fascinated to trace the contours of the bustling multi-ethnic working-class communities that had once occupied the streets immediately behind the South Campus in what is now known as Manchester Science Park. My own research over the past year has focused on the historic battles waged by residents of that neighborhood as well as nearby Moss Side to stop the bulldozers from moving in during the late 1960s and early 1970s.
 
-{{<image-with-caption "pic2.jpg" "Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott." "Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott." "frame">}}
+{{<image-with-caption/start "pic2.jpg" "Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott." "frame">}}
+Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott. 
+{{<image-with-caption/end>}}
 
 After WWII, more than half of the city’s housing stock was deemed ‘unfit for human habitation’ and in dire need of redevelopment. The Victorian terraces of Moss Side, Hulme, and Greenheys emerged as a key focal point with city authorities announcing plans for large-scale ‘slum clearance’ in 1967.[^slums] It is important to recognise that these neighbourhoods had served as an important ‘gateway’ for migrant workers beginning with the Irish during the late nineteenth century and followed by early African seamen as well as subsequent postwar ‘New Commonwealth’ migrants from the Caribbean and Indian subcontinent.[^migrant] By the mid 1960s, 60% of all Caribbean migrants to Manchester lived in Moss Side – a spatial configuration reinforced by extended kinship networks and unchecked discrimination in the housing and banking sectors.
 
@@ -28,13 +32,17 @@ After WWII, more than half of the city’s housing stock was deemed ‘unfit for
 
 This ‘color bar’ also extended into many public accommodations including the Old Abbey Taphouse, the publican of which famously refused to serve local boxer and activist Len Johnson, [spurring a series of 'drink-ins' in 1953](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/len- johnson-hulme-colour-bar-15859656). Despite these barriers, many residents managed to purchase homes and started their own businesses including the many clubs, restaurants, and grocery stores that dotted Denmark Road.
 
-{{<image-with-caption "pic3.jpg" "Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer." "Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer." "frame">}}
+{{<image-with-caption/start "pic3.jpg" "Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer." "frame">}}
+Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer. 
+{{<image-with-caption/end>}}
 
 Against this backdrop it is unsurprising that residents organized to resist top-down urban regeneration schemes and forced relocation. To learn more about these campaigns I visited the [Ahmed Iqbal Ullah Race Relations Resource Centre](http://www.racearchive.manchester.ac.uk/), which preserves rich archives related to Manchester’s multiethnic communities. Among them are the papers of Guyana-born activist Elouise Edwards whose home was located in the heart of the demolition zone at 78 Platt Street. Residents, including Edwards and her partner Beresford Edwards, came together to form the Moss Side People’s Association and it’s subsidiary Housing Action Group, which held regular meetings, staged demonstrations, and published an independent zine called Moss Side News. The group aimed to inject residents into the planning process and ensure that they had a voice in the future development of these communities.
 
 As our contemporary urban landscape makes clear, local activists were not successful in halting demolition. Between 1970 and 1974, the bulldozers moved in and gradually forced residents and most business owners out. Elouise and Beresford Edwards were among the final holdouts; their house was the last one left on the block when they departed in 1974. At the Community History Day we got to hear the personal stories of several former residents and – with the support of archaeological technician John Piprani and his team – used Digimap and GPS technology to identify the exact locations of the homes in which they grew up. [John Piprani has written a blog on this process which has more photos and thoughts from the day](https://clahresearch.wordpress.com/2019/12/20/greenheys-community-history-day).
 
-{{<image-with-caption "pic4.jpg" "Former residents stand on the exact spot of their old homes in Greenheys." "Former residents stand on the exact spot of their old homes in Greenheys." "frame">}}
+{{<image-with-caption/start "pic4.jpg" "Former residents stand on the exact spot of their old homes in Greenheys." "frame">}}
+Former residents stand on the exact spot of their old homes in Greenheys. 
+{{<image-with-caption/end>}}
 
 After lunch, we returned for a series of workshops organized by residents, cultural practitioners, and community historians all engaged in vital heritage-making practices related to the area. Through family memoirs and photobooks, theatrical performances, and oral accounts we are all constructing histories capable of outlasting the bulldozers and, hopefully, shaping future discussions about the impact of urban regeneration in our communities.
 
