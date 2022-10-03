@@ -46,14 +46,14 @@ Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet ex
 - Caption body accepts normal markdown as in the rest of the file. It is important to place this between the `start` and `end` shortcodes.
 
 
-## `image-multi-with-caption/start` & `image-multi-with-caption/end` 
+## `gallery-with-caption/start` & `gallery-with-caption/end` 
 
 ### Example
 
 ```
-{{<image-multi-with-caption/start srcs="amtrak.png push-knowledge.png cart-waiting.png" alts="amtrak alt text | push alt text | cart alt text" classList="image--1-2 image--frame">}}
+{{<gallery-with-caption/start srcs="amtrak.png push-knowledge.png cart-waiting.png" alts="amtrak alt text | push alt text | cart alt text" classList="image--1-2 image--frame">}}
 Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'. 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 ```
 
 ### Arguments

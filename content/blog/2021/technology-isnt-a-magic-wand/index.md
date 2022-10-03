@@ -37,9 +37,9 @@ It fitted in that gap between "I need that!" and "But do I really?", the gap tha
 
 But a lot of inventions of this era were seemingly designed to fit in this _Innovations_ sized-hole. The promise that all of society's smallest problems could be improved by upscaling your toaster was an intoxicating one.
 
-{{<image-multi-with-caption/start srcs="scarecat.jpg gianthand.jpg" alts="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right)." classList="image--frame">}}
+{{<gallery-with-caption/start srcs="scarecat.jpg gianthand.jpg" alts="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right)." classList="image--frame">}}
 Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1] 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 
 ---
 
