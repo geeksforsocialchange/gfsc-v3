@@ -3,11 +3,11 @@
    <div class="page__content page__content--doublemargin">
       {{ .Content }}
       <div class="studio__elements page__underline page__underline--marginless">
-         <a class="studio__elements__item" href="#consultancy"
+         <a class="btn" href="#consultancy"
             >Consultancy and coaching</a
          >
-         <a class="studio__elements__item" href="#research">Research</a>
-         <a class="studio__elements__item" href="#development">Development</a>
+         <a class="btn" href="#research">Research</a>
+         <a class="btn" href="#development">Development</a>
       </div>
       {{ with $.Resources.GetMatch "consultancy.md" }}
       <h3 class="page__header--sectionheader" id="consultancy">{{ .Title }}</h3>
@@ -15,9 +15,11 @@
          <img src="https://source.unsplash.com/random/1000x500/?img=1" />
       </div>
       <div>{{ .Content }}</div>
-      <a class="studio__button" href="{{ .Params.Buttonlink }}"
-         >{{ .Params.Buttontext }}</a
-      >
+			<div class="studio__elements">
+				<a class="btn" href="{{ .Params.Buttonlink }}"
+					 >{{ .Params.Buttontext }}</a
+				>
+			</div>
       {{ end }}
       <div
          class="strip strip--circles strip--divider"
@@ -29,9 +31,11 @@
          <img src="https://source.unsplash.com/random/1000x500/?img=2" />
       </div>
       <div>{{ .Content }}</div>
-      <a class="studio__button" href="{{ .Params.Buttonlink }}"
-         >{{ .Params.Buttontext }}</a
-      >
+			<div class="studio__elements">
+				<a class="btn" href="{{ .Params.Buttonlink }}"
+					 >{{ .Params.Buttontext }}</a
+				>
+			</div>
       {{ end }}
       <div
          class="strip strip--circles strip--divider"
@@ -43,9 +47,11 @@
          <img src="https://source.unsplash.com/random/1000x500/?img=3" />
       </div>
       <div>{{ .Content }}</div>
-      <a class="studio__button" href="{{ .Params.Buttonlink }}"
-         >{{ .Params.Buttontext }}</a
-      >
+			<div class="studio__elements">
+				<a class="btn" href="{{ .Params.Buttonlink }}"
+					 >{{ .Params.Buttontext }}</a
+				>
+			</div>
       {{ end }}
    </div>
 </div>
