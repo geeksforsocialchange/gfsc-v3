@@ -29,7 +29,7 @@ This is methodology is called _asset-based community development_ or _ABCD_: aid
 
 _Before continuing, it’s worth noting how hard it can be to write up this kind of work. What “the partnership” is or means to anyone at any given moment can be extremely hard (and often undesirable) to pin down. Decentralised resident-led groups, like most things in society, are complex structures that we believe offer the only real possibility for genuine change: however in doing so they make it extremely hard to write about exactly who did what when without making it sound like credit is being taken for the actions of a wider group. Therefore: when the rest of this article refers to “the partnership” or “we” it is referring specifically to me (Kim Foale), the Hulme Age Friendly Board, and PHASE@MMU working together to create PlaceCal and its requisite theoretical background. If anyone has any ideas how to resolve this issue with language, we are all ears!_
 
-{{<image-multi-with-caption/start "https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" "1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme" "frame">}}
+{{<image-multi-with-caption/start srcs="https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" alts="1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme" classList="image--frame">}}
 {{<rawhtml>}}1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme{{</rawhtml>}}
 {{<image-multi-with-caption/end>}}
 
@@ -45,7 +45,7 @@ This story is a great example of how the things that prevent community wellness 
 
 This brings us back to the role of the architect in partnership work. Architects are commonly seen as people who simply design buildings. In this case, building a disabled toilet is something a second year undergraduate student or a decent plumber could do: and of course, someone does have to design the thing. The much harder work lies in identifying the problem using the available data: starting from analysing maps of bus routes and public health data, through talking to residents to find the reason for the problems, to creating the conditions to make the change itself.
 
-{{<image-multi-with-caption/start "https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" "The final result: not too complex!" "toilet">}}
+{{<image-multi-with-caption/start srcs="https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" alts="The final result: not too complex!" classList="image--toilet">}}
 The final result: not too complex! 
 {{<image-multi-with-caption/end>}}
 
@@ -171,13 +171,13 @@ The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbi
 
 Between us we distributed 10,000 leaflets and posters down the major shopping streets in Hulme and Moss Side, put them through people’s letter boxes, gave them to parents at schools, and generally plastered the area. By now you’re probably getting the point that by making one really good source of information together, we multiplied our capacity and reach. Through this process we had loads of conversations with local shops and businesses, made some more connections, and got some great feedback. We’re looking forward to being able to go back and see how people got on!
 
-{{<image-multi-with-caption/start "https://cdn-images-1.medium.com/max/9216/1*zId78gPQPZX-igrHycUPGA.jpeg https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg" "10,000 leaflets is a lot of leaflets…" "frame">}}
+{{<image-multi-with-caption/start srcs="https://cdn-images-1.medium.com/max/9216/1*zId78gPQPZX-igrHycUPGA.jpeg https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg" alts="10,000 leaflets is a lot of leaflets…" classList="image--frame">}}
 10,000 leaflets is a lot of leaflets… 
 {{<image-multi-with-caption/end>}}
 
 The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to _Gangnam Style_ just before wrapup!
 
-{{<image-multi-with-caption/start "https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg" "Photos from our launch" "frame">}}
+{{<image-multi-with-caption/start srcs="https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg" alts="Photos from our launch" classList="image--frame">}}
 Photos from our launch 
 {{<image-multi-with-caption/end>}}
 

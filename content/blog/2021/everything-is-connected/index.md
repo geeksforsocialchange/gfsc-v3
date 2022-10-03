@@ -12,7 +12,7 @@ title: Everything is connected, but should it be?
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
 
-{{<image src="venus-fly-trap.png" alt="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
+{{<image src="venus-fly-trap.png" alts="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
 
 ---
 
@@ -103,7 +103,7 @@ This is, of course, anathema to the current way apps are developed. It’s hard 
 
 ‘Sign up’ and ‘maybe later’, like two options that a pushy guy at a nightclub trying to get you to go home with him might present to you, are now the [default dark pattern](https://blog.prototypr.io/not-now-a91c75ad35b6) for many websites. Many of us will have had “you didn’t complete your order” adverts that seem to inexplicably follow us from site to site -- proof to even the casual user that the websites they visit are not self-contained units.
 
-{{<image-multi-with-caption/start "amtrak.png push-knowledge.png cart-waiting.png" "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "1-2 image--frame">}}
+{{<image-multi-with-caption/start srcs="amtrak.png push-knowledge.png cart-waiting.png" alts="Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." classList="image--1-2 image--frame">}}
 Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'. 
 {{<image-multi-with-caption/end>}}
 
@@ -119,7 +119,7 @@ In the desire to see [data as the new oil](https://www.forbes.com/sites/forbeste
 
 Interaction designer Brett Victor (2006) defines [three kinds of software](http://worrydream.com/MagicInk/): information software, manipulation software, and communication software. Information software is where you want to find something out (Wikipedia). Manipulation software is where you want to make something (Word, Photoshop). Communications software is where you want to communicate with someone else (Email, WhatsApp).
 
-{{<image-multi-with-caption/start "information.png manipulation.png communication.png" "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "3 image--frame">}}
+{{<image-multi-with-caption/start srcs="information.png manipulation.png communication.png" alts="Fig 5. Diagrams of the three kinds of software (Victor, 2006)." classList="image--3 image--frame">}}
 Fig 5. Diagrams of the three kinds of software (Victor, 2006). 
 {{<image-multi-with-caption/end>}}
 
@@ -135,7 +135,7 @@ Even software that is explicitly designed to help vulnerable people often falls 
 
 While I was writing this piece, I got an Instagram ad which perfectly captures the more orthodox position of modern startup design (see below). This app actively encourages people to go around taking photographs of homeless people and uploading them to their server, where we can see their _name and balance_. Before even getting into the root causes of homelessness and what is actually needed in the sector (hint: houses), homelessness, as I have already mentioned, is now grounds for deportation. It only takes a second to realise the harm that could be caused by this initiative. While seemingly extreme, this is not unlike dozens of other ideas I’ve heard in ‘tech for good’ circles.
 
-{{<image-multi-with-caption/start "facedonate-1.jpg facedonate-2.png" "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "frame">}}
+{{<image-multi-with-caption/start srcs="facedonate-1.jpg facedonate-2.png" alts="Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." classList="image--frame">}}
 Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right). 
 {{<image-multi-with-caption/end>}}
 

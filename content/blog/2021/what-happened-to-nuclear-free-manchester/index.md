@@ -14,7 +14,7 @@ subtitle:
 title: What happened to Nuclear Free Manchester?
 ---
 
-{{<image src="og-wide.jpg" alt="Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
+{{<image src="og-wide.jpg" alts="Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
 
 Now not only do we have several companies here who manufacture or assist in the production of nuclear missiles and submarines, we put 'em in the regional marketing brochure.
 
@@ -56,7 +56,7 @@ In 2005, one of the architects of this declaration Cllr Bill Risby stated:
 
 in the 1980s-90s the slogan "Manchester: a Nuclear Free City" was widely used on signs. You can still see them around town today. This [Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/truth-iconic-manchester-emblem-top-14925461) longread talks about the history of where it came from.
 
-{{<image-multi-with-caption/start "0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" "Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" "frame">}}
+{{<image-multi-with-caption/start srcs="0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" alts="Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" classList="image--frame">}}
 Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester' 
 {{<image-multi-with-caption/end>}}
 

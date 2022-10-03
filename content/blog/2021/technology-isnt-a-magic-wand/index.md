@@ -13,7 +13,7 @@ subtitle: "...And you still need the right team to get you to that red X."
 title: Technology isn't a magic wand, it's a treasure map.
 ---
 
-{{<image src="emmacharleston.jpg" alt="A colourful illustration of a fake Innovations catalogue cover.">}}
+{{<image src="emmacharleston.jpg" alts="A colourful illustration of a fake Innovations catalogue cover.">}}
 
 I used to love the _Innovations_ catalogue dropping through the door with the weekend paper. For an entertainment-starved tween, it was a mix of ludicrosity and earnestness that made for ideal Sunday browsing.
 
@@ -25,7 +25,7 @@ If permitted to take up space in a more general-purpose living room, they would 
 
 ---
 
-{{<image-with-caption/start pocketchainsaw.jpg "Scan of an Innovations product called 'Pocket Chainsaw'." "frame image--center">}}
+{{<image-with-caption/start src="pocketchainsaw.jpg" alt="Scan of an Innovations product called 'Pocket Chainsaw'." classList="image--frame image--center">}}
 Evidence of this is largely not online but I was able to pick up a paperback of some of the best bits.[^1] 
 {{<image-with-caption/end>}}
 
@@ -37,7 +37,7 @@ It fitted in that gap between "I need that!" and "But do I really?", the gap tha
 
 But a lot of inventions of this era were seemingly designed to fit in this _Innovations_ sized-hole. The promise that all of society's smallest problems could be improved by upscaling your toaster was an intoxicating one.
 
-{{<image-multi-with-caption/start "scarecat.jpg gianthand.jpg" "Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right)." "frame">}}
+{{<image-multi-with-caption/start srcs="scarecat.jpg gianthand.jpg" alts="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right)." classList="image--frame">}}
 Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1] 
 {{<image-multi-with-caption/end>}}
 
