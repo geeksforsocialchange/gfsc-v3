@@ -33,17 +33,17 @@ Subscription options are hardcoded into the shortcode.
 ### Example
 
 ```
-{{<image-with-caption/start "ask-jeeves.png" "Screenshot of Ask Jeeves" "frame image--center">}}
+{{<image-with-caption/start src="ask-jeeves.png" alt="Screenshot of Ask Jeeves" classList="image--frame image--center">}}
 Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants. 
 {{<image-with-caption/end>}}
 ```
 
 ### Arguments
 
-1. URL for the image
-2. Alt text for the image
-3. Classes to be added to the image. It looks to originally have taken a single word which was appended to `image--`. It has been craftily used in many places with two classes by writing the full class name for the second half of the argument and separating with a space. See `themes/gfsc/assets/sass/components/_images.sass`.
-4. Caption body accepts normal markdown as in the rest of the file. It is important to place this between the `start` and `end` shortcodes.
+- `src`: address of the image file
+- `alt`: alt text for accessibility. *Optional but please be considerate*.
+- `classList`: A space separated list of additional classes you would like to apply to the image. See options in `themes/gfsc/assets/sass/components/_images.sass`. *Optional*.
+- Caption body accepts normal markdown as in the rest of the file. It is important to place this between the `start` and `end` shortcodes.
 
 
 ## `image-multi-with-caption/start` & `image-multi-with-caption/end` 

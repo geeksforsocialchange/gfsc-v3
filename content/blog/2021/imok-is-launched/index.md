@@ -27,7 +27,7 @@ We released it today under an open source (MIT) license. If you'd like to dive i
 
 Last year GFSC were approached by [No Borders Manchester](https://nobordersmcr.com/) to create a tool for their Signing Support Network. As part of the Tory government's 'hostile environment' policy, people seeking asylum in the UK must regularly 'sign in' at one of 14 'signing centres' around the UK. In Manchester, this is Dallas Court Reporting Centre.
 
-{{<image-with-caption/start "dallas-court.jpg" "Illustration of Dallas Court by Michael Collins " "frame image--center">}}
+{{<image-with-caption/start src="dallas-court.jpg" alt="Illustration of Dallas Court by Michael Collins " classList="image--frame image--center">}}
 Illustration of Dallas Court by Michael Collins ([CC-BY-NC, Right to Remain](https://righttoremain.org.uk/you-literally-live-in-constant-anxiety-reporting-at-the-home-office/))
 {{<image-with-caption/end>}}
 

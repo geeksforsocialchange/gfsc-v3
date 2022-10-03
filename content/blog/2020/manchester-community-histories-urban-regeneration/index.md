@@ -15,13 +15,13 @@ On a chilly Saturday morning last November I joined other local residents, activ
 
 Upon entering the pub, I was greeted by the sight of former residents grouped around tables, sipping cups of tea and sharing stories. Others were huddled around a long table covered with historical maps, each taking the opportunity to point out cherished sites long since destroyed and built over.
 
-{{<image-with-caption/start "pic1.jpg" "Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer." "frame">}}
+{{<image-with-caption/start src="pic1.jpg" alt="Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer." classList="image--frame">}}
 Event participants gather around historical maps of the Greenheys area. Photo credit: Jenna Bowyer. 
 {{<image-with-caption/end>}}
 
 As a researcher at the University of Manchester, I was fascinated to trace the contours of the bustling multi-ethnic working-class communities that had once occupied the streets immediately behind the South Campus in what is now known as Manchester Science Park. My own research over the past year has focused on the historic battles waged by residents of that neighborhood as well as nearby Moss Side to stop the bulldozers from moving in during the late 1960s and early 1970s.
 
-{{<image-with-caption/start "pic2.jpg" "Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott." "frame">}}
+{{<image-with-caption/start src="pic2.jpg" alt="Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott." classList="image--frame">}}
 Historical map of Moss Side East Ward. Photo credit: Kerry Pimblott. 
 {{<image-with-caption/end>}}
 
@@ -32,7 +32,7 @@ After WWII, more than half of the city’s housing stock was deemed ‘unfit for
 
 This ‘color bar’ also extended into many public accommodations including the Old Abbey Taphouse, the publican of which famously refused to serve local boxer and activist Len Johnson, [spurring a series of 'drink-ins' in 1953](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/len- johnson-hulme-colour-bar-15859656). Despite these barriers, many residents managed to purchase homes and started their own businesses including the many clubs, restaurants, and grocery stores that dotted Denmark Road.
 
-{{<image-with-caption/start "pic3.jpg" "Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer." "frame">}}
+{{<image-with-caption/start src="pic3.jpg" alt="Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer." classList="image--frame">}}
 Event participant reading from an exhibit created by Dr Shirin Hirsch and Geoff Brown related to Len Johnson's historic protest at the Old Abbey Taphouse. Photo credit: Jenna Bowyer. 
 {{<image-with-caption/end>}}
 
@@ -40,7 +40,7 @@ Against this backdrop it is unsurprising that residents organized to resist top-
 
 As our contemporary urban landscape makes clear, local activists were not successful in halting demolition. Between 1970 and 1974, the bulldozers moved in and gradually forced residents and most business owners out. Elouise and Beresford Edwards were among the final holdouts; their house was the last one left on the block when they departed in 1974. At the Community History Day we got to hear the personal stories of several former residents and – with the support of archaeological technician John Piprani and his team – used Digimap and GPS technology to identify the exact locations of the homes in which they grew up. [John Piprani has written a blog on this process which has more photos and thoughts from the day](https://clahresearch.wordpress.com/2019/12/20/greenheys-community-history-day).
 
-{{<image-with-caption/start "pic4.jpg" "Former residents stand on the exact spot of their old homes in Greenheys." "frame">}}
+{{<image-with-caption/start src="pic4.jpg" alt="Former residents stand on the exact spot of their old homes in Greenheys." classList="image--frame">}}
 Former residents stand on the exact spot of their old homes in Greenheys. 
 {{<image-with-caption/end>}}
 

@@ -16,7 +16,7 @@ It works by getting community groups to publish their calendars online using sof
 
 This is really important as it’s currently very difficult for people to find out about the small local, neighbourhood-level events that can be hard to discover: the coffee mornings, sewing groups, computer classes and gardening groups that might be just around the corner but can only be discovered by word of mouth. This especially affects older people, who are much more likely to be socially isolated and digitally excluded.
 
-{{<image-with-caption/start "0.png" "A screenshot of PlaceCal at the time of publication">}}
+{{<image-with-caption/start src="0.png" alt="A screenshot of PlaceCal at the time of publication">}}
 A screenshot of PlaceCal at the time of publication
 {{<image-with-caption/end>}}
 
@@ -42,7 +42,7 @@ Many neighbourhoods used to have a range of local publishing like newspapers, wh
 
 In the absence of a more functional community media, finding out everything that’s happening in a given neighbourhood looks something like this.
 
-{{<image-with-caption/start "1.jpg" "Some of the flyers and posters we collected for events in our area">}}
+{{<image-with-caption/start src="1.jpg" alt="Some of the flyers and posters we collected for events in our area">}}
 Some of the flyers and posters we collected for events in our area
 {{<image-with-caption/end>}}
 
@@ -108,7 +108,7 @@ Rather than asking people to contribute to yet another system, we simply find ou
 
 For example, if a group is using Outlook internally for their email, that means they have access to Outlook Calendar too. We can help them make a shared calendar of public events that can be managed with other people in the organisation. By using these existing tools that people are already familiar with, it makes people far more likely that this information will stay up to date, and not be “just another” thing to remember.
 
-{{<image-with-caption/start "2.png" "Illustrative diagram of how PlaceCal imports feeds" "frame">}}
+{{<image-with-caption/start src="2.png" alt="Illustrative diagram of how PlaceCal imports feeds" classList="image--frame">}}
 Illustrative diagram of how PlaceCal imports feeds 
 {{<image-with-caption/end>}}
 
@@ -116,7 +116,7 @@ Giving organisations the skills to manage their own information has hugely incre
 
 Our most ambitious project yet was for Hulme’s 2018 Winter Festival, where we co-produced and delivered 10,000 A2 maps of the area with everyone’s venues and events on! This meant that every organization drastically increased their reach, and were supported by the neighbourhood team to be part of a the community network.
 
-{{<image-with-caption/start "3.png" "The map of Hulme and Moss Side we made for Winter 2018's mailout">}}
+{{<image-with-caption/start src="3.png" alt="The map of Hulme and Moss Side we made for Winter 2018's mailout">}}
 The map of Hulme and Moss Side we made for Winter 2018's mailout
 {{<image-with-caption/end>}}
 
@@ -136,7 +136,7 @@ For residents, there was a short and simple benefit:
 >
 > – Catherine, participant at a supported IT session for older people
 
-{{<image-with-caption/start "4.jpg" "A community group in Moss Side library using PlaceCal to find out what’s on">}}
+{{<image-with-caption/start src="4.jpg" alt="A community group in Moss Side library using PlaceCal to find out what’s on">}}
 A community group in Moss Side library using PlaceCal to find out what’s on
 {{<image-with-caption/end>}}
 
@@ -162,7 +162,7 @@ GPs appointments are an average of 7 minutes. By making information really fast 
 
 By focussing on creating a central public list of events, PlaceCal means there is no longer any need for expensive and siloed institutional contracts. This allows everyone to quite literally be “on the same page” rather than duplicating this work across each social prescribing organisation.
 
-{{<image-with-caption/start "5.jpg" "Alasdair at work using PlaceCal">}}
+{{<image-with-caption/start src="5.jpg" alt="Alasdair at work using PlaceCal">}}
 Alasdair at work using PlaceCal
 {{<image-with-caption/end>}}
 
@@ -186,7 +186,7 @@ All the software is open source, and we’re developing a comprehensive training
 
 First posted 19 April 2019
 
-{{<image-with-caption/start "6.jpg" "Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)">}}
+{{<image-with-caption/start src="6.jpg" alt="Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)">}}
 Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)
 {{<image-with-caption/end>}}
 

@@ -65,7 +65,7 @@ The research methodology for the MAFN process involved a series of research acti
 
 One of the first, extremely stark findings in this process was that **older people didn’t think there was anything to do near them**. So we set out to find out what there _was_ to do. This single observation ended up being the entire design principle for the project. Through partnership meetings and hundreds of phonecalls, chats and emails, we asked everyone what events they knew about or were putting on, and if there’s anyone else we should talk to. Pretty soon each area had a Google Calendar a bit like this one:
 
-{{<image-with-caption/start "https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" "All the age-friendly events we knew about in Hulme and Moss Side this time last year…" "frame">}}
+{{<image-with-caption/start src="https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png" alt="All the age-friendly events we knew about in Hulme and Moss Side this time last year…" classList="image--frame">}}
 All the age-friendly events we knew about in Hulme and Moss Side this time last year… 
 {{<image-with-caption/end>}}
 
@@ -106,7 +106,7 @@ We put together a successful proposal to gain funding from [CityVerve](https://c
 
 Despite the current focus on high tech solutions, [most people’s IT skills are actually very poor](https://www.nngroup.com/articles/computer-skill-levels/), with up to 40% of the _working-age_ population struggling with basic skills like deleting an email. For older people it is likely much, much worse: see the graph below. With a project focusing on older people we knew this was likely to be much, much worse. We currently exist in a bubble where the most technically able 1–5% or so are making apps and websites for a high tech audience, while the average person installs [zero new apps a month](https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/), for example. We needed a completely different approach — one focused around _capability_, not products.
 
-{{<image-with-caption/start "https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" "Internet use stats showing a huge drop-off for over 70s" "frame">}}
+{{<image-with-caption/start src="https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png" alt="Internet use stats showing a huge drop-off for over 70s" classList="image--frame">}}
 Internet use stats showing a huge drop-off for over 70s[^1] 
 {{<image-with-caption/end>}}
 
@@ -145,7 +145,7 @@ I’ll write more on the technical implementation at a later date, especially as
 
 **Location data.** One major finding was that geolocation was way, _way_ less important than we thought. Who was putting on an event and what venue it were in were far more valuable than quantitative measurements like distance. This makes sense on reflection: people are more likely to go to venues they trust and know how to get to than they are to seek out something further away in an unfamiliar place. Social capital is strongly correlated with the distance you’re willing or able to travel for an event. While people with high social capital go to other countries or cities, let alone the other side of town for an event, most people with mobility issues are often limited to a radius of a few streets around their house. Of course, mobility isn’t the only indicator of social capital, but even within this limited parameter it has a marked effect. The [_Longitudinal Study of Ageing_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731975/) shows the vast differences in walking speed based on education and age, as well as other factors.
 
-{{<image-with-caption/start "https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" "Differences in walking speed based on education and age" "frame">}}
+{{<image-with-caption/start src="https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png" alt="Differences in walking speed based on education and age" classList="image--frame">}}
 Differences in walking speed based on education and age[^2] 
 {{<image-with-caption/end>}}
 
@@ -165,7 +165,7 @@ From the start we were set on using PlaceCal as a source of data for flyers and 
 
 In the end, the two-sided leaflet we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the [PlaceCal website](https://placecal.org/winter2017) itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
 
-{{<image-with-caption/start "https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" "The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" "frame">}}
+{{<image-with-caption/start src="https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg" alt="The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" classList="image--frame">}}
 The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC) 
 {{<image-with-caption/end>}}
 
@@ -189,6 +189,6 @@ If you want to keep up to date then you can follow us here, on [Twitter](https:/
 
 Last updated 16th April 2019
 
-{{<image-with-caption/start "https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" "Oh yeah — and we had a photobooth!" "center">}}
+{{<image-with-caption/start src="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" alt="Oh yeah — and we had a photobooth!" classList="image--center">}}
 Oh yeah — and we had a photobooth! 
 {{<image-with-caption/end>}}

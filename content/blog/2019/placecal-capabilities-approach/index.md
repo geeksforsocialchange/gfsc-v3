@@ -44,7 +44,7 @@ The MAFN project was conducted by an engaged-research team at MMU with the objec
 
 This deliberate mix of communities of place and practice in the MAFN project is itself an application of a capability-based community development methodology. In our interpretation, it correlates with the concept of ‘active ageing’ in the AFCC approach as a position distinct from medical or social models of disability, instead emphasising the active self-determination of individuals in any social, economic or technical process {{<rawhtml>}}<span class="citation" data-cites="nussbaum2003 sen1999">(Nussbaum, 2003; Sen, 1999)</span>{{</rawhtml>}}.
 
-{{<image-with-caption/start "who-flower.png" "WHO Age Friendly ‘Flower’, as adapted by MAFN" "frame">}}
+{{<image-with-caption/start src="who-flower.png" alt="WHO Age Friendly ‘Flower’, as adapted by MAFN" classList="image--frame">}}
 WHO Age Friendly ‘Flower’, as adapted by MAFN 
 {{<image-with-caption/end>}}
 
@@ -133,7 +133,7 @@ This picture is much worse for older people. The UK Office of National Statistic
 
 What people actually _do_ when they’re online is enormously varied and heavily correlated with class and age. Digital exclusion is intersectional, and the worst experiences are suffered by those who are older, less well educated, less likely to be employed, female and disabled {{<rawhtml>}}<span class="citation" data-cites="vandeursen2014">(Deursen &amp; Dijk, 2014, p. p520)</span>{{</rawhtml>}}. The result of this is an enormous gap between tech ‘haves’ and ‘have-nots’. It is not just a simple binary test – ‘are you on the internet / using a smartphone / on Facebook?’ – but a complex multidimensional matrix of skills, abilities, and capabilities. This matrix is highly impacted by a range of psychosocial variables, and significantly affected by overall motivation {{<rawhtml>}}<span class="citation" data-cites="mcneal2008">(McNeal, Hale, &amp; Dotterweich, 2008)</span>{{</rawhtml>}} for the specific ‘clickable possibilities’ {{<rawhtml>}}<span class="citation" data-cites="kleine2013">(Kleine, 2013, p. p38)</span>{{</rawhtml>}} the citizen wants to accomplish.
 
-{{<image-with-caption/start "internet-use-by-age.png" "Internet users by age group (Office for National Statistics, 2019)" "frame">}}
+{{<image-with-caption/start src="internet-use-by-age.png" alt="Internet users by age group (Office for National Statistics, 2019)" classList="image--frame">}}
 Internet users by age group {{<rawhtml>}}<span class="citation" data-cites="officefornationalstatistics2019">(Office for National Statistics, 2019)</span>{{</rawhtml>}} 
 {{<image-with-caption/end>}}
 
@@ -165,7 +165,7 @@ This research discovered a widely held perception there was ‘nothing to do’ 
 
 Engagement with institutional partners revealed that across the health, housing, and community sectors there were a number of existing attempts to catalogue community activities described in terms of ‘asset mapping’ or ‘community directory’ initiatives. Each of these attempts, like the MAFN calendar, were inherently limited by funding and time, and required constant community development work to keep up to date. It was at this point that PlaceCal was initiated, which will be discussed in detail below.
 
-{{<image-with-caption/start "google-cal-results.png" "An example of the shared Google Calendar for one day in one area" "frame">}}
+{{<image-with-caption/start src="google-cal-results.png" alt="An example of the shared Google Calendar for one day in one area" classList="image--frame">}}
 An example of the shared Google Calendar for one day in one area 
 {{<image-with-caption/end>}}
 
@@ -197,7 +197,7 @@ MAFN had already facilitated the creation of a local partnership of organisation
 
 We realised that if we could encourage each group in the partnership to publish their calendar online using software they were already using (or paying for) such as Outlook, Mac Calendar, Google Calendar or Facebook, we could use the built in ‘iCal’ or ‘API’{{<rawhtml>}}<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>{{</rawhtml>}} features of these calendars to automatically combine, collate and publish the information in one place. Rather than the current system where each worker takes a ‘snapshot’ of each group’s activities whenever they met the group, we could train organisations to share their own activity information, and with the help of the PlaceCal software, give them the capability to publish this alongside that of others with much lower effort and much wider reach. This central source of event information would be a canonical source of local information that could be shared by every partner and used to create shared print outputs, for example.
 
-{{<image-with-caption/start "flyer-pile.jpg" "A selection of the current community information needed to find out everything going on in the area">}}
+{{<image-with-caption/start src="flyer-pile.jpg" alt="A selection of the current community information needed to find out everything going on in the area">}}
  A selection of the current community information needed to find out everything going on in the area
 {{<image-with-caption/end>}}
 
@@ -233,7 +233,7 @@ We describe these situations in terms of the role ‘secretary’. It is not a �
 
 In the CTP approach, each group was trained to maintain their own listings, which were then aggregated and published on the PlaceCal platform. This shift in structure is shown in the figure below. Through the partnership, work could therefore be divided evenly between workers in an area, shifting the focus from simply maintaining immediately out-of-date lists of information, to wholesale skills-based digital inclusion.
 
-{{<image-with-caption/start "secretaries.png" "CTP approach schematic from the PlaceCal 'Commissioner' handbook" "frame">}}
+{{<image-with-caption/start src="secretaries.png" alt="CTP approach schematic from the PlaceCal 'Commissioner' handbook" classList="image--frame">}}
 CTP approach schematic from the PlaceCal 'Commissioner' handbook 
 {{<image-with-caption/end>}}
 

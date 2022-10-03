@@ -55,7 +55,7 @@ This idea is been so persistent that it's the only real concept most people have
 
 Due to the massive amounts of money and hubris that reside in the tech sector, we now seem to believe that the same methodology used to sell pens that write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness, or poverty or something.
 
-{{<image-with-caption/start "securignome.jpg" "Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." "frame image--center">}}
+{{<image-with-caption/start src="securignome.jpg" alt="Scan of an Innovations product called 'Securi-Gnome', a garden gnome with a body heat sensor." classList="image--frame image--center">}}
 Securi-Gnome: \"He can be pegged down into the earth\"[^1]
 {{<image-with-caption/end>}}
 
@@ -85,7 +85,7 @@ With all the lasers and 3D printers in the world, you still need a team of peopl
 
 ---
 
-{{<image-with-caption/start "oculardevice.png" "A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." "frame image--center">}}
+{{<image-with-caption/start src="oculardevice.png" alt="A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." classList="image--frame image--center">}}
 Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2] 
 {{<image-with-caption/end >}}
 

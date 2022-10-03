@@ -22,7 +22,7 @@ Like a lot of long term activists, I was also very burnt out from activism and w
 
 I like to think almost everyone has some form of making, coding, producing, sewing, sculpting, knitting, instrument playing, or other arts and crafts process, as a coping mechanism. An activity that's just for _you_ that brings _you_ joy for its own sake.
 
-{{<image-with-caption/start "art-of-noises-1.jpg" "A photograph of a boardgame I made as part of my PhD. It's called 'art of noises'. Photo shows several cards laid out with words on like 'forest', 'snooker', 'wine', and is surrounded by some colourful plastic instruments" "frame image--center">}}
+{{<image-with-caption/start src="art-of-noises-1.jpg" alt="A photograph of a boardgame I made as part of my PhD. It's called 'art of noises'. Photo shows several cards laid out with words on like 'forest', 'snooker', 'wine', and is surrounded by some colourful plastic instruments" classList="image--frame image--center">}}
 [Art of noises](https://alliscalm.net/art-of-noises/), a game I made in 2014 as a way of playing with concepts in my PhD as a standalone activity to bring me joy 
 {{<image-with-caption/end>}}
 
@@ -46,7 +46,7 @@ I think the effort that is currently needed to begin and maintain these things t
 
 Making is for many our escape from oppressive power structures. Almost every talk in the [EMF program](https://www.emfcamp.org/schedule/2022) is not someone’s day job, or if it is they’ve had to jump through burning hoops to make it their day job. This is what we do for fun. Isn’t it mad that these niche interests, the things that bring us joy, and that bring a field of people together, are pushed so far from the margins that we can’t even imaging this being the main thing we do? We have a potential wellspring of new ideas and the people who want to make a better world, and yet that space is pushed right to the margins.
 
-{{<image-with-caption/start "emfcamp.webp" "An aerial photograph of [EMF camp](https://www.emfcamp.org/) at night showing lit up pathways, big tends, and a glowing purple tent." "frame image--center">}}
+{{<image-with-caption/start src="emfcamp.webp" alt="An aerial photograph of [EMF camp](https://www.emfcamp.org/) at night showing lit up pathways, big tends, and a glowing purple tent." classList="image--frame image--center">}}
 EMF camp at night 
 {{<image-with-caption/end>}}
 
