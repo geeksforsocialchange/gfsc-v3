@@ -78,7 +78,7 @@
           {{ $themeslist := split .Params.themes " " }} {{ $themepages :=
           (.GetPage "/our-work/theme").Pages }} {{ range $themeslist }} {{ range
           (where $themepages ".Params.key" .) }}
-          <a href="{{ .URL }}"> {{ .Title }} </a>
+          <a href="{{ .URL }}">{{- .Title -}}</a>
           {{ end }} {{ end }}
         </span>
       </p>
