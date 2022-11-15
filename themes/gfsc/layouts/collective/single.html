@@ -41,67 +41,22 @@
             Listed below are some of the longest standing members of the Geeks For Social Change Collective. Perhaps a slightly longer introduction is needed here?
          </p>
          <ul class="collective__list">
+					{{ $collective := $.Site.GetPage "/team/collective" }}
+					{{ range $collective.Pages}}
             <li class="collective__list__item">
                <h4
                   class="page__header--sectionheader collective__list__item__name"
                >
-                  Person name
+                  {{ .Params.title }}
                </h4>
-               <p class="collective__list__item__pronouns">Pronouns</p>
+								 <p class="collective__list__item__pronouns">{{ .Params.pronouns }}</p>
                <p class="collective__list__item__description">
-                  Graphic Designer, Voiceover artist, theatre set designer,
-                  researcher
+                  {{ .Params.job }}
                </p>
             </li>
-            <li class="collective__list__item">
-               <h4
-                  class="page__header--sectionheader collective__list__item__name"
-               >
-                  Person name
-               </h4>
-               <p class="collective__list__item__pronouns">Pronouns</p>
-               <p class="collective__list__item__description">
-                  Graphic Designer, Voiceover artist, theatre set designer,
-                  researcher
-               </p>
-            </li>
-            <li class="collective__list__item">
-               <h4
-                  class="page__header--sectionheader collective__list__item__name"
-               >
-                  Person name
-               </h4>
-               <p class="collective__list__item__pronouns">Pronouns</p>
-               <p class="collective__list__item__description">
-                  Graphic Designer, Voiceover artist, theatre set designer,
-                  researcher
-               </p>
-            </li>
-            <li class="collective__list__item">
-               <h4
-                  class="page__header--sectionheader collective__list__item__name"
-               >
-                  Person name
-               </h4>
-               <p class="collective__list__item__pronouns">Pronouns</p>
-               <p class="collective__list__item__description">
-                  Graphic Designer, Voiceover artist, theatre set designer,
-                  researcher
-               </p>
-            </li>
-            <li class="collective__list__item">
-               <h4
-                  class="page__header--sectionheader collective__list__item__name"
-               >
-                  Person name
-               </h4>
-               <p class="collective__list__item__pronouns">Pronouns</p>
-               <p class="collective__list__item__description">
-                  Graphic Designer, Voiceover artist, theatre set designer,
-                  researcher
-               </p>
-            </li>
+					{{ end }}
          </ul>
       </div>
+
    </div>
 {{ end }}
