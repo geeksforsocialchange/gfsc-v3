@@ -30,33 +30,35 @@
          </div>
       </div>
 
-      <div class="page__content">
-         <div
-            class="strip strip--circles strip--divider"
-            role="presentation"
-         >
-         </div>
-         <h3 class="page__header--sectionheader">Members of the collective</h3>
-         <p>
-            Listed below are some of the longest standing members of the Geeks For Social Change Collective. Perhaps a slightly longer introduction is needed here?
-         </p>
-         <ul class="collective__list">
-					{{ $collective := $.Site.GetPage "/team/collective" }}
-					{{ range $collective.Pages}}
-            <li class="collective__list__item">
-               <h4
-                  class="page__header--sectionheader collective__list__item__name"
-               >
-                  {{ .Params.title }}
-               </h4>
-								 <p class="collective__list__item__pronouns">{{ .Params.pronouns }}</p>
-               <p class="collective__list__item__description">
-                  {{ .Params.job }}
-               </p>
-            </li>
-					{{ end }}
-         </ul>
-      </div>
+			{{ if $.Site.GetPage "/team/collective" }}
+				<div class="page__content">
+					 <div
+							class="strip strip--circles strip--divider"
+							role="presentation"
+					 >
+					 </div>
+					 <h3 class="page__header--sectionheader">Members of the collective</h3>
+					 <p>
+							Listed below are some of the longest standing members of the Geeks For Social Change Collective. Perhaps a slightly longer introduction is needed here?
+					 </p>
+					 <ul class="collective__list">
+						{{ $collective := $.Site.GetPage "/team/collective" }}
+						{{ range $collective.Pages}}
+							<li class="collective__list__item">
+								 <h4
+										class="page__header--sectionheader collective__list__item__name"
+								 >
+										{{ .Params.title }}
+								 </h4>
+									 <p class="collective__list__item__pronouns">{{ .Params.pronouns }}</p>
+								 <p class="collective__list__item__description">
+										{{ .Params.job }}
+								 </p>
+							</li>
+						{{ end }}
+					 </ul>
+				</div>
+			{{ end }}
 
    </div>
 {{ end }}
