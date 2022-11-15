@@ -1,14 +1,24 @@
+{{- $classList := .Get "classList" }}
+{{ $urls :=  split (.Get "srcs") " "}}
+{{ $alts :=   split (.Get "alts") "|" }}
 <figure
-   class="image {{ if (.Get 2) }}image--{{ .Get 2 }}{{ end }}"
+   class="image {{ if $classList }}{{ $classList }}{{ end }}"
    markdown="0"
 >
    <div class="image__wrapper image__wrapper--multiple">
-      {{ $urlstring := .Get 0 }}
-      {{ $urls := (split $urlstring " ")}}
-      {{ $alt := .Get 1 }}
-      {{ range $urls }}
-         <img src="{{ . }}" alt="{{ $alt }}" />
-      {{ end }}
+    {{ range $index, $val := $urls }}
+      <img
+        src="{{ $val }}"
+        {{$alt := ""}}
+        {{ if (eq 1 (len $alts))}}
+          {{ $alt := index $alts 0}}
+          alt="{{ $alt }}"
+        {{else}}
+          {{ $alt := index $alts $index}}
+          alt="{{trim $alt " " }}"
+        {{end}}
+        />
+    {{ end }}
    </div>
    <figcaption>
       <span class="icon">

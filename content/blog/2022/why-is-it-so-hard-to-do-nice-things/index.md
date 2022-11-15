@@ -8,7 +8,7 @@ social-image-wide: blog/why-so-hard/together-hands-embroidery.jpg
 social-image-square: blog/why-so-hard/together-hands-embroidery.jpg
 ---
 
-{{<image "together-hands-embroidery.jpg" "An illustration of two sets of hands working on a canvas made of circuit board, thread, and paper, with a lightbulb in the corner. Together these elements spell out the word 'together'.">}}
+{{<image src="together-hands-embroidery.jpg" alt="An illustration of two sets of hands working on a canvas made of circuit board, thread, and paper, with a lightbulb in the corner. Together these elements spell out the word 'together'.">}}
 
 _This article is a bloggified version of the talk I gave at [EMF 2022](https://www.emfcamp.org/schedule/2022/239-why-is-it-so-hard-to-do-nice-things-that-make-a-difference) aimed at a hacker/maker/creator community. It's a bit rougher and more personal than our usual posts, so I hope you like it, and I would love to talk to you all about it over the following months._
 
@@ -22,7 +22,7 @@ Like a lot of long term activists, I was also very burnt out from activism and w
 
 I like to think almost everyone has some form of making, coding, producing, sewing, sculpting, knitting, instrument playing, or other arts and crafts process, as a coping mechanism. An activity that's just for _you_ that brings _you_ joy for its own sake.
 
-{{<image-with-caption/start "art-of-noises-1.jpg" "A photograph of a boardgame I made as part of my PhD. It's called 'art of noises'. Photo shows several cards laid out with words on like 'forest', 'snooker', 'wine', and is surrounded by some colourful plastic instruments" "frame image--center">}}
+{{<image-with-caption/start src="art-of-noises-1.jpg" alt="A photograph of a boardgame I made as part of my PhD. It's called 'art of noises'. Photo shows several cards laid out with words on like 'forest', 'snooker', 'wine', and is surrounded by some colourful plastic instruments" classList="image--frame image--center">}}
 [Art of noises](https://alliscalm.net/art-of-noises/), a game I made in 2014 as a way of playing with concepts in my PhD as a standalone activity to bring me joy 
 {{<image-with-caption/end>}}
 
@@ -46,7 +46,7 @@ I think the effort that is currently needed to begin and maintain these things t
 
 Making is for many our escape from oppressive power structures. Almost every talk in the [EMF program](https://www.emfcamp.org/schedule/2022) is not someone’s day job, or if it is they’ve had to jump through burning hoops to make it their day job. This is what we do for fun. Isn’t it mad that these niche interests, the things that bring us joy, and that bring a field of people together, are pushed so far from the margins that we can’t even imaging this being the main thing we do? We have a potential wellspring of new ideas and the people who want to make a better world, and yet that space is pushed right to the margins.
 
-{{<image-with-caption/start "emfcamp.webp" "An aerial photograph of [EMF camp](https://www.emfcamp.org/) at night showing lit up pathways, big tends, and a glowing purple tent." "frame image--center">}}
+{{<image-with-caption/start src="emfcamp.webp" alt="An aerial photograph of [EMF camp](https://www.emfcamp.org/) at night showing lit up pathways, big tends, and a glowing purple tent." classList="image--frame image--center">}}
 EMF camp at night 
 {{<image-with-caption/end>}}
 
@@ -94,7 +94,7 @@ I hope it is not controversial to say: politics in the UK (and world) _fucking s
 
 We live in extremely disempowering times. It feels like it’s hard to talk about possibility and change right now as we spend so long struggling to exist: the intersecting cost of living crisis, ongoing pandemic, corrupt and fascist government, social isolation and loneliness crisis, upswing in structural racism and hate crime, and highly coordinated and well funded attacks on trans people are creating an incredibly intolerant environment. Covid has torn apart a lot of the normal functionings of how people go and find communities of place and hyperfocussed the ones of interest.
 
-{{<image "blm.avif" "A photograph of BLM protestors in London" "frame image--center">}}
+{{<image src="blm.avif" alt="A photograph of BLM protestors in London" classList="image--frame image--center">}}
 
 I think a lot of us, especially those who are perhaps two or more of trans, disabled, of colour, neurodivergent, working class, queer, carers, and other marginalised groups have never been further from representation at the ballot box. This is the rant part of the talk before I get talking about more constructive things. The Labour Party in waiting looks like Tory-lite, and on some issues is more right wing than the Tory party. The minority parties never look like serious contenders on any issues and don’t seem to have any real teeth outside of just “not that guy”, and the mainstream alternatives to that suck too. Join that up with the billionaire press in this country, and yeah. Not good. A lot of us simply not only see no representation of ourselves at all, we have almost daily attacks on our rights to exist everywhere we look.
 
@@ -112,7 +112,7 @@ An ONS study[^leisure] showed that men have _five hours_ more leisure time a wee
 
 [^leisure]: Office for National Statistics (2018). _Men enjoy five hours more leisure time per week than women: Men in the UK enjoy nearly five more hours of leisure time per week than women, ONS analysis reveals._ [Retrieved online](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/menenjoyfivehoursmoreleisuretimeperweekthanwomen/2018-01-09).
 
-{{<image "leisure-gender.png" "An ONS graph showing that men have five hours more leisure time than women per week" "frame image--center">}}
+{{<image src="leisure-gender.png" alt="An ONS graph showing that men have five hours more leisure time than women per week" classList="image--frame image--center">}}
 
 I think this dynamic by itself results in so much of what we see unfold in terms of hobby group makeup. And a lot of this is because of larger issues to do with the unequal distribution of care labour, unequal pay, etc. But it also ties into a disability activism narrative where if activities are uncritically based around the idea of the normal, normative, able bodied person, who [Grayson Perry coined “Default Man”](https://www.newstatesman.com/long-reads/2014/10/grayson-perry-rise-and-fall-default-man), we are just always going to be reproducing the harmful construct we’re placed within.
 

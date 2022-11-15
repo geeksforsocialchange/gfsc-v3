@@ -14,7 +14,7 @@ subtitle:
 title: What happened to Nuclear Free Manchester?
 ---
 
-{{<image "og-wide.jpg" "Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
+{{<image src="og-wide.jpg" alts="Illustration by Emma Charleston of a circle of nuclear missiles overlaid over a map of Manchester.">}}
 
 Now not only do we have several companies here who manufacture or assist in the production of nuclear missiles and submarines, we put 'em in the regional marketing brochure.
 
@@ -30,7 +30,7 @@ It's the last day of Defence & Security Equipment International (DSEI), one of t
 
 If you want to know where the _really really_ bad people in the world get their guns and ammo, it's here. If you're a repressive government such as Saudia Arabia, UAE or USA looking to buy anything from torture equipment to chemical weapons to helicopters, DSEI has you covered. In fact, the UK government will pay for your delegation to come over, give you a stall to sit on all week while people come and pitch you weapons, and lay on millions of pounds of policing to protect you while you're here. You can even speculate on how many bullets are in a jar and win a prize!
 
-{{<image-with-caption/start "bullets.jpg" "A jar of bullets with a sign reading 'Guess the amount of bullet cores and win a £50 M&S voucher. Place business card in vase for a chance to win" "frame">}}
+{{<image-with-caption/start src="bullets.jpg" alt="A jar of bullets with a sign reading 'Guess the amount of bullet cores and win a £50 M&S voucher. Place business card in vase for a chance to win" classList="image--frame">}}
 Guess the number of bullets and win a prize! Image via [@darren_cullen on Twitter](https://mobile.twitter.com/darren_cullen/status/1436056720921567236) 
 {{<image-with-caption/end>}}
 
@@ -56,9 +56,9 @@ In 2005, one of the architects of this declaration Cllr Bill Risby stated:
 
 in the 1980s-90s the slogan "Manchester: a Nuclear Free City" was widely used on signs. You can still see them around town today. This [Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/truth-iconic-manchester-emblem-top-14925461) longread talks about the history of where it came from.
 
-{{<image-multi-with-caption/start "0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" "Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" "frame">}}
+{{<gallery-with-caption/start srcs="0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" alts="Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" classList="image--frame">}}
 Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester' 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 
 ## So what went wrong?
 
@@ -74,7 +74,7 @@ BAE also own the company that created the [Trident nuclear submarine fleet](http
 
 Sounds bad right? Well, not according to GMCA who literally _[put them in the brochure](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/)_ for the Greater Manchester Strategic Framework, alongside a quote from someone with a truly Bond-villan-esque name and job title.
 
-{{<image-with-caption/start "Screenshot_2021-09-15_at_16.11.03.png" "A page from GMCA's 'Doing Digital Differently' brochure. It has a profile photo of 'Victoria Knight, Strategic Business Director, BAE Systems', a middle-aged white woman with long brown hair. It has a full page quote: We see this as a real thriving tech hub and the aspiration for Greater Manchester to become one of Europe's top 5 digital city regions is absolutely attractive to us." "frame">}}
+{{<image-with-caption/start src="Screenshot_2021-09-15_at_16.11.03.png" alt="A page from GMCA's 'Doing Digital Differently' brochure. It has a profile photo of 'Victoria Knight, Strategic Business Director, BAE Systems', a middle-aged white woman with long brown hair. It has a full page quote: We see this as a real thriving tech hub and the aspiration for Greater Manchester to become one of Europe's top 5 digital city regions is absolutely attractive to us." classList="image--frame">}}
 A page from GMCA's 'Doing Digital Differently' brochure highlighting BAE Systems. 
 {{<image-with-caption/end>}}
 

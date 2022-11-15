@@ -12,7 +12,7 @@ title: Everything is connected, but should it be?
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
 
-{{<image "venus-fly-trap.png" "A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
+{{<image src="venus-fly-trap.png" alts="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
 
 ---
 
@@ -22,7 +22,7 @@ I have worked as a software developer for twenty years. In my lifetime I have se
 
 When I started my career, computers were primarily seen as standalone entities: robot butlers (_fig. 1_) for the technologically privileged (as opposed to the robot symbiotes, or parasites, that we now keep in our homes and our pockets). The robot could only see what it was presented by its human owner. It could not yet read our thoughts or desires, eavesdrop on what we said to our friends and lovers in secret. And if it could, well, it was only a subtle interference. Polite.
 
-{{<image-with-caption/start "ask-jeeves.png" "Screenshot of Ask Jeeves" "frame image--center">}}
+{{<image-with-caption/start src="ask-jeeves.png" alt="Screenshot of Ask Jeeves" classList="image--frame image--center">}}
 Fig 1. The branding of Ask Jeeves (Ask.com) in the early days of the internet exemplified this view of computers as personal assistants. 
 {{<image-with-caption/end>}}
 
@@ -58,7 +58,7 @@ The Mayor of Greater Manchester Andy Burnham now plans to put police officers in
 
 How do technologies like 'VeinID', which is essentially straight out of 1997 sci-fi film _Gattaca_ (starring Ethan Hawke, Jude Law and Uma Thurman), end up not being dismissed as dystopian movie plots, but given regional working groups and financial incentives to operate? The simple answer: because the people in the chrome tower -- developers, funders, politicians, tech evangelists and financiers -- are usually in the tiny minority laid out in the introduction. To them, this is a simple financial convenience that means you don’t need to take your phone or card out your pocket to pay.
 
-{{<image-with-caption/start "fingo.png" "Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." "frame">}}
+{{<image-with-caption/start src="fingo.png" alt="Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK." classList="image--frame">}}
 Fig 3. Instructional image from the website of FinGo, the company who plan to roll out VeinID in the UK. 
 {{<image-with-caption/end>}}
 
@@ -103,9 +103,9 @@ This is, of course, anathema to the current way apps are developed. It’s hard 
 
 ‘Sign up’ and ‘maybe later’, like two options that a pushy guy at a nightclub trying to get you to go home with him might present to you, are now the [default dark pattern](https://blog.prototypr.io/not-now-a91c75ad35b6) for many websites. Many of us will have had “you didn’t complete your order” adverts that seem to inexplicably follow us from site to site -- proof to even the casual user that the websites they visit are not self-contained units.
 
-{{<image-multi-with-caption/start "amtrak.png push-knowledge.png cart-waiting.png" "Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." "1-2 image--frame">}}
+{{<gallery-with-caption/start srcs="amtrak.png push-knowledge.png cart-waiting.png" alts="Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'." classList="image--1-2 image--frame">}}
 Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak asking 'send me offers' or 'maybe later'; SEMrush asking 'okay' or 'ask me later', and an email asking us to 'finish your purchase'. 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 
 Why do they push this? Because getting people to create a user account has inherent value. This is the inevitable consequence of a common marketing methodology called the ‘AAARRR Funnel’ (or ‘Pirate Funnel’). This acronym stands for ‘Awareness, Acquisition, Activation, Retention, Referral, Revenue’, each letter referring to a stage of the process of making a purchase or registering for a service. To implement this methodology, you first need the ability to track each aspect of this - from that first browser cookie, to account creation, to a login, to a re-login, to inviting your friends to join, to making a purchase, a repeat purchase, and so on. I have no doubt this works - as with most marketing tricks, this is the methodology half the web is based on, and why examples like the ones below are becoming more frequent every day.
 
@@ -119,9 +119,9 @@ In the desire to see [data as the new oil](https://www.forbes.com/sites/forbeste
 
 Interaction designer Brett Victor (2006) defines [three kinds of software](http://worrydream.com/MagicInk/): information software, manipulation software, and communication software. Information software is where you want to find something out (Wikipedia). Manipulation software is where you want to make something (Word, Photoshop). Communications software is where you want to communicate with someone else (Email, WhatsApp).
 
-{{<image-multi-with-caption/start "information.png manipulation.png communication.png" "Fig 5. Diagrams of the three kinds of software (Victor, 2006)." "3 image--frame">}}
+{{<gallery-with-caption/start srcs="information.png manipulation.png communication.png" alts="Fig 5. Diagrams of the three kinds of software (Victor, 2006)." classList="image--3 image--frame">}}
 Fig 5. Diagrams of the three kinds of software (Victor, 2006). 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 
 Most software is information software. Most of the time, we want to just find something out or browse. And yet, interactivity is all too often pathologically shoehorned in. All of the major platforms -- Twitter, Facebook, Instagram -- continue to make their apps more complicated, merging so many features into one package until these platforms become more and more indistinguishable from each other. This is because backers correlate increased interactions with increased profit as per the Pirate Funnel.
 
@@ -135,9 +135,9 @@ Even software that is explicitly designed to help vulnerable people often falls 
 
 While I was writing this piece, I got an Instagram ad which perfectly captures the more orthodox position of modern startup design (see below). This app actively encourages people to go around taking photographs of homeless people and uploading them to their server, where we can see their _name and balance_. Before even getting into the root causes of homelessness and what is actually needed in the sector (hint: houses), homelessness, as I have already mentioned, is now grounds for deportation. It only takes a second to realise the harm that could be caused by this initiative. While seemingly extreme, this is not unlike dozens of other ideas I’ve heard in ‘tech for good’ circles.
 
-{{<image-multi-with-caption/start "facedonate-1.jpg facedonate-2.png" "Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." "frame">}}
+{{<gallery-with-caption/start srcs="facedonate-1.jpg facedonate-2.png" alts="Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right)." classList="image--frame">}}
 Fig 6. Instagram advert I received for Face Donate (left) and a screenshot from their website (right). 
-{{<image-multi-with-caption/end>}}
+{{<gallery-with-caption/end>}}
 
 ### But what about when we do need a wider range of people to upload information?
 
@@ -161,7 +161,7 @@ But when push comes to shove (which it always does), interventions which create 
 
 A refusal to take part in this process for the dignity of your service users is a Sisyphean task. I have spoken to dozens of practitioners who have experienced this and privately share this view but are unable to talk about it publically for fear of being financially cast adrift, and dozens of funders who want to “yes, but” me into a corner until I give up. It sucks.
 
-{{<image-with-caption/start "graph-goes-up.jpg" "Fig 7. Meme uploaded ‘unironically’ to r/neoliberal " "frame">}}
+{{<image-with-caption/start src="graph-goes-up.jpg" alt="Fig 7. Meme uploaded ‘unironically’ to r/neoliberal " classList="image--frame">}}
 Fig 7. Meme uploaded ‘unironically’ to [r/neoliberal](https://www.reddit.com/r/neoliberal/comments/ep4bdj/this_but_unironically_repost_because_it_got/)
 {{<image-with-caption/end>}}
 
@@ -169,7 +169,7 @@ I think this, very simply, stems from the unconsciously adopted view both within
 
 Silicon Valley firms spend a whole lot of money promoting that some of the most immoral people in the world today are [maverick t-shirt-wearing inventors](https://www.gq-magazine.co.uk/fashion/article/victoria-hitchcock-stylist-interview) worthy of idolisation, and not frenzied capitalists funded by billions of high risk investment capital overseeing the most efficient transfer of wealth from the poor to the rich in history. We even create superheroes based on their archetype. Is it any wonder that people believe they must be doing something right?
 
-{{<image-with-caption/start "tony-stark.jpg" "Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." "frame">}}
+{{<image-with-caption/start src="tony-stark.jpg" alt="Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere." classList="image--frame">}}
 Fig 8. Arms trader Tony Stark from the Marvel franchise Iron Man, role model for aspiring Elon Musks everywhere. 
 {{<image-with-caption/end>}}
 
@@ -179,7 +179,7 @@ Does your new app truly need users to create an account, or can you just give th
 
 Maybe you truly do need those things. Or maybe the parasitic desire for more data at any cost should be called out for what it is, a fascistic tendency with dire consequences. If we continue churning out softwares and technologies without fundamentally changing how we treat privacy and how we regard users, we will simply be building the final floors of a structure not unlike The Tower, a tarot card from the Major Arcana, which depicts a gigantic high rise built on shaky foundations. Like The Tower, which signifies chaos but also revelation, maybe the crumbling of the tech industry (and those who fund it) from the ground up will be a necessary, and welcome, revelation that will herald a new age. But should we always need prophecies of such apocalyptic scale to come to fruition before we can incite change?
 
-{{<image-with-caption/start "tower.jpg" "Fig 9. ‘The Tower’ tarot card." "center image--scale-down">}}
+{{<image-with-caption/start src="tower.jpg" alt="Fig 9. ‘The Tower’ tarot card." classList="image--center image--scale-down">}}
 Fig 9. ‘The Tower’ tarot card. 
 {{<image-with-caption/end>}}
 

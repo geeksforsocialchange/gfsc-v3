@@ -10,7 +10,7 @@ subtitle: A new space for trans community enabled by technology and collaboratio
 title: Enter... The Trans Dimension!
 ---
 
-{{<image transdimension.png "Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
+{{<image src="transdimension.png" alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
 
 Geeks for Social Change are thrilled to to announce _The Trans Dimension,_ an online community hub which will connect trans communities across the UK by collating news, events and services by and for trans people in one easy-to-reach place.
 
