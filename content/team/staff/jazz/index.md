@@ -3,7 +3,7 @@ title: "Jazz Chatfield"
 firstname: "Jazz"
 pronouns: "He/him"
 job: "Web Developer"
-jobtype: staff
+jobtype: ex-staff
 dataname: jazz
 avatar: "jazz-chatfield@400.jpg"
 ---
