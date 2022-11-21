@@ -7,8 +7,8 @@ themes: anti-racism hulme-and-manchester
 categories: flagship consultancyresearch
 linktourl:
 linktotext:
-image:
-imagealt:
+image: https://images.unsplash.com/photo-1485056616736-b0840bdf4732?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=92f3e02f63678acc8416d044e189f515
+imagealt: police in a line wearing riot gear
 summary: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
 ---
