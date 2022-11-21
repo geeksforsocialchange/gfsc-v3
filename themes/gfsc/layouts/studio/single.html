@@ -16,7 +16,7 @@
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
-				<a class="btn" href="{{ .Params.Buttonlink }}"
+				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
 					 >{{ .Params.Buttontext }}</a
 				>
 			</div>
@@ -32,7 +32,7 @@
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
-				<a class="btn" href="{{ .Params.Buttonlink }}"
+				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
 					 >{{ .Params.Buttontext }}</a
 				>
 			</div>
@@ -48,7 +48,7 @@
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
-				<a class="btn" href="{{ .Params.Buttonlink }}"
+				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
 					 >{{ .Params.Buttontext }}</a
 				>
 			</div>
