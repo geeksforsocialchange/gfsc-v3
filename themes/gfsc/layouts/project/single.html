@@ -1,71 +1,71 @@
 {{ define "main" }}
 <div class="project">
-   <h3 class="project__title">{{ .Title }}</h3>
-   <p class="project__summary">{{ .Summary }}</p>
-   <div class="project__gallery">
-      <script src="/assets/js/gallery.js"></script>
-      <div class="project__image orangify" id="bigimage">
-         <img src="https://source.unsplash.com/random/1000x500/?img=1" />
+  <h3 class="project__title">{{ .Title }}</h3>
+  <p class="project__summary">{{ .Summary }}</p>
+  <div class="project__gallery">
+    <script src="/assets/js/gallery.js"></script>
+    <div class="project__image orangify" id="bigimage">
+      <img src="https://source.unsplash.com/random/1000x500/?img=1" />
+    </div>
+    <div class="project__gallery__thumbnails">
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(0)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=1" />
       </div>
-      <div class="project__gallery__thumbnails">
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(0)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=1" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(1)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=2" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(2)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=3" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(3)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=4" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(4)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=5" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(5)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=6" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(6)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=7" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(7)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=8" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(8)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=9" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(9)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=10" />
-         </div>
-         <div class="project__thumbnail orangify" onClick="showGalleryImage(10)">
-            <img src="https://source.unsplash.com/random/1000x500/?img=11" />
-         </div>
-         <span class="project__gallery__space"></span>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(1)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=2" />
       </div>
-   </div>
-   <div class="project__meta">
-      <p class="project__meta__client">
-         Client:
-         <span class="project__meta__value">{{ .Params.client }}</span>
-      </p>
-      <p class="project__meta__date">
-         Date:
-         <span class="project__meta__value">{{ .Params.when }}</span>
-      </p>
-      <p class="project__meta__team">
-         Team:
-         <span class="project__meta__value">
-            {{ $teamlist := split .Params.who " " }} {{ $teampages := (.GetPage
-            "/team/").RegularPagesRecursive }} {{ range $teamlist }} {{ range
-            (where $teampages ".Params.dataname" . ) }}
-            <a href="{{ .URL }}">{{ .Params.firstname }}</a>
-            {{ end }} {{ end }}
-         </span>
-      </p>
-   </div>
-   <div class="project__content">{{ .Content }}</div>
-   <div class="project__footer">
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(2)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=3" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(3)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=4" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(4)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=5" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(5)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=6" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(6)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=7" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(7)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=8" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(8)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=9" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(9)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=10" />
+      </div>
+      <div class="project__thumbnail orangify" onClick="showGalleryImage(10)">
+        <img src="https://source.unsplash.com/random/1000x500/?img=11" />
+      </div>
+      <span class="project__gallery__space"></span>
+    </div>
+  </div>
+  <div class="project__meta">
+    <p class="project__meta__client">
+      Client:
+      <span class="project__meta__value">{{ .Params.client }}</span>
+    </p>
+    <p class="project__meta__date">
+      Date:
+      <span class="project__meta__value">{{ .Params.when }}</span>
+    </p>
+    <p class="project__meta__team">
+      Team:
+      <span class="project__meta__value">
+        {{ $teamlist := split .Params.who " " }} {{ $teampages := (.GetPage
+        "/team/").RegularPagesRecursive }} {{ range $teamlist }} {{ range (where
+        $teampages ".Params.dataname" . ) }}
+        <a href="{{ .URL }}">{{ .Params.firstname }}</a>
+        {{ end }} {{ end }}
+      </span>
+    </p>
+  </div>
+  <div class="project__content">{{ .Content }}</div>
+  <div class="project__footer">
 		 {{/* 
       <div>
          <a href="/our-work" class="btn btn--up project__footer__button">Go back</a>

@@ -3,7 +3,7 @@ title: "Alexandria O'Leary (Aster)"
 firstname: "Alexandria"
 pronouns: "She/her"
 job: "Developer"
-jobtype: ex-staff
+jobtype: alum
 dataname: alexandria
 avatar: alexandria@400.jpg
 ---
