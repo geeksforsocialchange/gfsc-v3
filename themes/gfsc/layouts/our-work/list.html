@@ -15,18 +15,7 @@
   <hr class="fancy" />
   <ul class="work__projects">
     {{ range (.Paginate (where .Site.RegularPages "Section" "project")).Pages }}
-      <li class="work__project">
-          <div class="work__project__info">
-            <a href="{{ .URL }}" class="work__project__title">
-                <h2 class="work__project__title">{{ .Title }}</h2>
-            </a>
-            <p class="work__project__summary">{{ .Params.summary }}</p>
-            <a class="btn btn--up" href="{{ .URL }}" class="work__project__readmore">Read more</a>
-          </div>
-          <div class="work__project__image orangify">
-						<img alt="{{ .Params.imagealt}}" src="{{ .Params.image}}" />
-          </div>
-      </li>
+			{{- partial "projectindex.html" . -}}
     {{ end }}
   </ul>
   <hr class="fancy" />
