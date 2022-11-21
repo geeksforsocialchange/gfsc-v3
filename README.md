@@ -1,4 +1,4 @@
-# Geeks for Social Change - TEST
+# Geeks for Social Change - TEST2
 
 New site build for [Geeks for Social Change](https://gfsc.studio) using Hugo static site generator.
 
