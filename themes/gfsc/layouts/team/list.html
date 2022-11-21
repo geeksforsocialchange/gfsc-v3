@@ -45,8 +45,8 @@
       <hr class="fancy" />
    {{ end }}
    <h2 class="members__category">Staff</h2>
-   {{ $collective := $.Site.GetPage "/team/staff" }}
-   {{ range (where $collective.Pages ".Params.jobtype" "==" "staff")}}
+   {{ $staff := $.Site.GetPage "/team/staff" }}
+   {{ range (where $staff.Pages ".Params.jobtype" "==" "staff")}}
          {{ $member := .}}
          <div class="member">
             <div class="member__info">
