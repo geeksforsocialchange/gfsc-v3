@@ -24,7 +24,7 @@
             <a class="btn btn--up" href="{{ .URL }}" class="work__project__readmore">Read more</a>
           </div>
           <div class="work__project__image orangify">
-            <img src="https://source.unsplash.com/random/1000x500/?img=1" />
+						<img alt="{{ .Params.imagealt}}" src="{{ .Params.image}}" />
           </div>
       </li>
     {{ end }}
