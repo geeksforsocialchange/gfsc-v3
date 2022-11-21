@@ -66,24 +66,24 @@
   </div>
   <div class="project__content">{{ .Content }}</div>
   <div class="project__footer">
-    <div>
-      <a href="/our-work" class="btn btn--up project__footer__button"
-        >Go back</a
-      >
-    </div>
-    <div class="project__footer__section">
-      <p class="project__meta__themes">
-        Themes:
-        <span class="project__meta__value">
-          {{ $themeslist := split .Params.themes " " }} {{ $themepages :=
-          (.GetPage "/our-work/theme").Pages }} {{ range $themeslist }} {{ range
-          (where $themepages ".Params.key" .) }}
-          <a href="{{ .URL }}">{{- .Title -}}</a>
-          {{ end }} {{ end }}
-        </span>
-      </p>
-    </div>
-  </div>
+		 {{/* 
+      <div>
+         <a href="/our-work" class="btn btn--up project__footer__button">Go back</a>
+      </div>
+      <div class="project__footer__section">
+         <p class="project__meta__themes">
+            Themes:
+            <span class="project__meta__value">
+               {{ $themeslist := split .Params.themes " " }} {{ $themepages :=
+               (.GetPage "/our-work/theme").Pages }} {{ range $themeslist }} {{
+               range (where $themepages ".Params.key" .) }}
+               <a href="{{ .URL }}"> {{ .Title }} </a>
+               {{ end }} {{ end }}
+            </span>
+         </p>
+      </div>
+		 */}}
+	 </div>
 </div>
 <hr class="fancy" />
 {{ end }}
