@@ -55,7 +55,7 @@
     margin: 0
     list-style-type: none
   &__project
-    +border(sides)
+    +border(0 2px 2px 2px)
     padding: 1rem 1.5rem 0 1.5rem
     box-sizing: border-box
     +for-tablet-portrait-up
@@ -76,7 +76,7 @@
       +for-desktop-up
         padding-left: 1rem
         padding-right: 1rem
-        +border(left)
+        +border(sides)
     &__title
       margin: 0
       text-decoration: none
@@ -92,7 +92,7 @@
     &__image
       height: 217px
       margin: 0rem -1.5rem
-      +border(2px 0px)
+      +border(top)
       +for-tablet-portrait-up
         +border(left)
         margin: 0
@@ -106,7 +106,7 @@
       +for-tablet-landscape-up
         width: 341px
       +for-desktop-up
-        +border(sides)
+        +border(right)
 
 .category
   &__title
