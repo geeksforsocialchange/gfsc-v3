@@ -32,13 +32,15 @@ You would then visit (example IP) [192.168.10.10:1313](http://192.168.10.10:1313
 
 ## Deployment
 
-Deploys to [Netlify](https://docs.netlify.com/).
+Deploys to [cloudflare](https://gfsc.pages.dev/).
 
 When a change is committed to the `main` branch the site is rebuilt and deployed.
 
 ## Development
 
-When a pull request is created, a preview site is deployed.
+When a pull request is created, a preview site is deployed. Cloudflares github app will add a comment to pull requests with the url to this preview when changes are made to the relevant branch. Due to an [issue](https://community.cloudflare.com/t/pr-comment-only-made-if-additional-commits-pushed/398008) with the bot if are opening a pull request on a branch that has already been built by cloudflare there will be no comment but you can still access the preview by adding the branch name to the front of cloudflare pages URL.
+
+`https://[branch-name].gfsc.pages.dev`
 
 If the build is successful and the changes are approved it can be merged into `main` which will automatically deploy it.
 
