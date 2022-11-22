@@ -6,7 +6,9 @@
       <p class="work__project__summary">{{ .Params.summary }}</p>
       <a class="btn btn--up" href="{{ .URL }}" class="work__project__readmore">Read more</a>
    </div>
+	 {{ if .Params.image }}
    <div class="work__project__image orangify">
-			<img alt="{{ .Params.imagealt}}" src="{{ .Params.image}}" />
+			<img alt="{{ .Params.imagealt}}" src="{{path.Join .RelPermalink .Params.image}}" />
    </div>
+	 {{end}}
 </li>
