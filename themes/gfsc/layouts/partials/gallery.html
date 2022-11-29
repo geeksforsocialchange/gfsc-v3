@@ -1,4 +1,4 @@
-{{$alttexts := .Param "galleryalt"}}
+{{$alttexts := .Param "galleryalt"}} {{ if $alttexts }}
 <div class="project__gallery">
   <script src="/assets/js/gallery.js"></script>
   <div class="project__image orangify" id="bigimage">
@@ -24,3 +24,12 @@
     {{end}}
   </div>
 </div>
+{{else}}
+<p>
+  oops no alt text - check the
+  <a
+    href="https://github.com/geeksforsocialchange/gfsc-v3/blob/main/documentation/projectImages.md"
+    >docs</a
+  >
+</p>
+{{end}}
