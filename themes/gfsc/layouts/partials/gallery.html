@@ -1,3 +1,4 @@
+{{$alttexts := .Param "galleryalt"}}
 <div class="project__gallery">
   <script src="/assets/js/gallery.js"></script>
   <div class="project__image orangify" id="bigimage">
@@ -9,7 +10,7 @@
       class="project__thumbnail orangify"
       onClick="showGalleryImage({{$index}})"
     >
-      <img src="{{$val}}" />
+      <img alt="{{index $alttexts $index}}" src="{{$val}}" />
     </div>
     {{end}}
   </div>
