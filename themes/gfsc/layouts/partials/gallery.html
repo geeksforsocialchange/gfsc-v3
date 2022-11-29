@@ -5,12 +5,21 @@
     <img src='{{index (.Resources.Match "*jpg") 0}}' />
   </div>
   <div class="project__gallery__thumbnails">
-    {{range $index, $val := .Resources.Match "*jpg"}}
+    {{range $index, $val := .Resources.Match "*jpg"}} {{ $alttext := index
+    $alttexts $index}}
     <div
       class="project__thumbnail orangify"
       onClick="showGalleryImage({{$index}})"
     >
-      <img alt="{{index $alttexts $index}}" src="{{$val}}" />
+      <img
+        src="{{$val}}"
+        {{if
+        $alttext}}
+        alt="{{$alttext}}"
+        {{else}}
+        aria-hidden="true"
+        {{end}}
+      />
     </div>
     {{end}}
   </div>
