@@ -1,13 +1,16 @@
 <div class="project__gallery">
-    <script src="/assets/js/gallery.js"></script>
-    <div class="project__image orangify" id="bigimage">
-			<img src='{{index (.Resources.Match "*jpg") 0}}' />
-    </div>
-    <div class="project__gallery__thumbnails">
-			{{range $index, $val := .Resources.Match "*jpg"}}
-				<div class="project__thumbnail orangify" onClick="showGalleryImage({{$index}})">
-				<img src="{{$val}}" />
-      </div>
-			{{end}}
-    </div>
+  <script src="/assets/js/gallery.js"></script>
+  <div class="project__image orangify" id="bigimage">
+    <img src='{{index (.Resources.Match "*jpg") 0}}' />
   </div>
+  <div class="project__gallery__thumbnails">
+    {{range $index, $val := .Resources.Match "*jpg"}}
+    <div
+      class="project__thumbnail orangify"
+      onClick="showGalleryImage({{$index}})"
+    >
+      <img src="{{$val}}" />
+    </div>
+    {{end}}
+  </div>
+</div>
