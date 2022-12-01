@@ -18,6 +18,6 @@
 			{{- partial "projectindex.html" . -}}
     {{ end }}
   </ul>
-  <hr class="fancy" />
+  <hr class="fancy fancy__borderless--bottom" />
 	 {{ partial "paginator.html" (dict "ctx" . "newer" "Previous page" "older" "Next page" )}}
 {{ end }}
