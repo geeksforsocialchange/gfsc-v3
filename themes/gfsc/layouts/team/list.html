@@ -46,7 +46,7 @@
    {{ end }}
    <h2 class="members__category">Staff</h2>
    {{ $staff := $.Site.GetPage "/team/staff" }}
-   {{ range (where $staff.Pages ".Params.jobtype" "==" "staff")}}
+   {{ range $i, $val := (where $staff.Pages ".Params.jobtype" "==" "staff")}}
          {{ $member := .}}
          <div class="member">
             <div class="member__info">
@@ -91,42 +91,45 @@
                </div>
             </div>
          </div>
-         <hr class="fancy" />
-
+				 {{if eq (add $i 1) (len (where $staff.Pages ".Params.jobtype" "==" "staff"))}}
+					 <hr class="fancy fancy__borderless--bottom" />
+				 {{else}}
+					 <hr class="fancy" />
+				 {{end}}
    {{ end }}
-   <h2 class="members__category">Advisors</h2>
-   <ul class="members__advisors">
    {{ $advisors := $.Site.GetPage "/team/consultants-and-advisors" }}
    {{ with $advisors }}
-      {{ range .Pages }}
-         <li class="members__advisor">
-            <h3 class="member__name">{{ .Params.title }}</h3>
-            <div class="member__pronouns">
-               <div class="infobox">
-                  <span class="icon">
-                     <svg
-                        version="1.1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 5 19"
-                        style="enable-background: new 0 0 5 19"
-                        xml:space="preserve"
-                     >
-                        <path
-                           d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
-                        ></path>
-                     </svg>
-                  </span>
-                  <span class="desc"> {{ .Params.pronouns }} </span>
-               </div>
-            </div>
-            <div class="member__job">{{ .Params.job }}</div>
-         </li>
-      {{ end }}
+		 <h2 class="members__category">Advisors</h2>
+		 <ul class="members__advisors">
+				{{ range .Pages }}
+					 <li class="members__advisor">
+							<h3 class="member__name">{{ .Params.title }}</h3>
+							<div class="member__pronouns">
+								 <div class="infobox">
+										<span class="icon">
+											 <svg
+													version="1.1"
+													xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink"
+													x="0px"
+													y="0px"
+													viewBox="0 0 5 19"
+													style="enable-background: new 0 0 5 19"
+													xml:space="preserve"
+											 >
+													<path
+														 d="M4.3,3.72H0.7V0.38h3.6V3.72z M4.3,18.62H0.7V5.88h3.6V18.62z"
+													></path>
+											 </svg>
+										</span>
+										<span class="desc"> {{ .Params.pronouns }} </span>
+								 </div>
+							</div>
+							<div class="member__job">{{ .Params.job }}</div>
+					 </li>
+				{{ end }}
+		 </ul>
    {{ end }}
-   </ul>
 </div>
 
 
