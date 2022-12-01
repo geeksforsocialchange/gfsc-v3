@@ -2,7 +2,8 @@
   display: grid
   +border(bottom)
   &:last-of-type
-    border-width: 0
+    +for-tablet-portrait-up
+      border-width: 0
   grid-template-columns: 1fr
   +for-tablet-portrait-up
     grid-template-columns: $margin-tablet-portrait 1fr
