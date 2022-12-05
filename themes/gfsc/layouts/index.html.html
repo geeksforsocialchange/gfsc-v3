@@ -46,34 +46,6 @@
    </div>
    {{ end }}
    <hr class="fancy fancy--no-phone" />
-   {{ with $homepage.Resources.GetMatch "themes.md" }}
-      {{ $themes := $.Site.GetPage "/our-work/theme/" }}
-      <div class="homepage__themes">
-         <h2 class="homepage__themes__title">
-            {{ .Title }}
-         </h2>
-         <div class="homepage__themes__content">
-            {{ .Content }}
-         </div>
-         <ul class="windows windows--themes windows--orange">
-            {{ range $themes.RegularPages }}
-               <li class="window">              
-                  <h3 class="window__header">{{ .Title }}</h3>
-                  <p class="window__content">{{ .Params.summary }}</p>
-                  <div class="window__footer">
-                     <div class="window__footer__buttonbox">
-                        <a class="window__footer__button" href="{{ .URL }}">
-                           Browse
-                        </a>
-                     </div>
-                     <span class="window__footer__stripes"></span>
-                  </div>
-               </li>
-            {{ end }}
-         </ul>
-      </div>
-   {{ end }}
-   <hr class="fancy fancy--no-phone" />
    {{ with $homepage.Resources.GetMatch "textboxes.md" }}
    <div class="windows windows--homepage windows--orange">
       <div class="window window--homepage--3">
