@@ -5,7 +5,7 @@ main:
    - name: "The Collective"
      url: /collective/
      weight: 2
-   - name: "The team"
+   - name: "The Team"
      url: /team/
      weight: 4
    - name: "Our Work"
