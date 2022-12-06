@@ -19,7 +19,7 @@ I realise a lot of this knowledge hasn't made it into mainstream tech discourse 
 
 [^arnstein]: Arnstein, S. R. (1969). _A ladder of citizen participation. Journal of the American Institute of planners_, 35(4), 216-224.
 
-{{<image-with-caption/start src="arnstein_ladder_participation.svg" alt="'Ladder of Citizen Participation' (Arnstein, 1969)">}}
+{{<image-with-caption/start src="arnstein_ladder_participation.png" alt="'Ladder of Citizen Participation' (Arnstein, 1969)">}}
 'Ladder of Citizen Participation' (Arnstein, 1969)
 {{<image-with-caption/end>}}
 
