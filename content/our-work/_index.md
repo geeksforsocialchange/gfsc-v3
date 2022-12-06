@@ -1,5 +1,5 @@
 ---
-title: Our work
+title: Our Work
 aliases: "/project/"
 nostrip: true
 ---
