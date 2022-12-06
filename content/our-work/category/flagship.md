@@ -1,5 +1,5 @@
 ---
-title: "Our flagship projects"
+title: "Our Flagship Projects"
 key: "flagship"
 url: "/our-work/flagship/"
 ---
