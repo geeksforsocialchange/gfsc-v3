@@ -20,4 +20,4 @@ To see some examples of the kind of projects we work on as a collective, click h
 Members of the collective offer their time voluntarily, though we strive to pay anyone who ends up contributing a substantial amount of time and skills to any one project. We fund this work in two ways:
 
 1. A percentage of any profits from commercial work
-2. Donations from supporters. You can find out more here [link to donate page]
+2. Donations from supporters. You can find out more [here](/support)
