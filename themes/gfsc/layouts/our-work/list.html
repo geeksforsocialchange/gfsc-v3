@@ -13,11 +13,11 @@
     {{ end }}
   </ul>
   <hr class="fancy" />
-  <ul class="work__projects">
+  <ul id="list" class="work__projects">
     {{ range (.Paginate (where .Site.RegularPages "Section" "project")).Pages }}
 			{{- partial "projectindex.html" . -}}
     {{ end }}
   </ul>
   <hr class="fancy fancy__borderless--bottom" />
-	 {{ partial "paginator.html" (dict "ctx" . "newer" "Previous page" "older" "Next page" )}}
+	 {{ partial "paginator.html" (dict "ctx" . "newer" "Previous page" "older" "Next page" "id" "#list")}}
 {{ end }}

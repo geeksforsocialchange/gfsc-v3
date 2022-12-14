@@ -1,9 +1,11 @@
+	<!-- id param is optional, use it to link to specific portion of the next page -->
+  <!-- (dict "ctx" . "newer" "Previous page" "older" "Next page" "id" "#list") -->
    <div class="paginator">
       <nav aria-label="Blog navigation">
          <ul>
             {{ if .ctx.Paginator.HasPrev }}
                <li>
-								 <a class="btn" href="{{ .ctx.Paginator.Prev.URL }}">{{ .newer}}</a>
+								 <a class="btn" href="{{ .ctx.Paginator.Prev.URL }}{{ .id }}">{{ .newer}}</a>
                </li>
             {{ end }} 
             {{ range .ctx.Paginator.Pagers }}
@@ -11,15 +13,15 @@
                   {{ if (eq $.ctx.Paginator .) }}
                      <a class="disabled">{{ .PageNumber }}</a>
                   {{ else if (eq . $.ctx.Paginator.First) }}
-                     <a class="btn" href="{{ $.ctx.Paginator.First.URL }}">{{ .PageNumber }}</a>
+                     <a class="btn" href="{{ $.ctx.Paginator.First.URL }}{{ $.id }}">{{ .PageNumber }}</a>
                   {{ else }}
-                     <a class="btn" href="{{ .URL }}">{{ .PageNumber }}</a>
+                     <a class="btn" href="{{ .URL }}{{ $.id }}">{{ .PageNumber }}</a>
                   {{ end }}
                </li>
             {{ end }}
             {{ if .ctx.Paginator.HasNext }}
                <li>
-								 <a class="btn" href="{{ .ctx.Paginator.Next.URL }}">{{ .older }}</a>
+								 <a class="btn" href="{{ .ctx.Paginator.Next.URL }}{{ .id }}">{{ .older }}</a>
                </li>
             {{ end }}
          </ul>
