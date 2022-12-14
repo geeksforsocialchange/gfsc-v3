@@ -9,9 +9,9 @@
     grid-template-columns: $margin-tablet-portrait 1fr
     // border: 0
   +for-tablet-landscape-up
-    grid-template-columns: $margin-tablet-landscape 1fr
+    grid-template-columns: calc(#{$margin-tablet-landscape} + 2px) 1fr
   +for-desktop-up
-    grid-template-columns: $margin-desktop 1fr
+    grid-template-columns: calc(#{$margin-desktop} + 2px) 1fr
   &__header
     background-color: $primary-shade
     +border(topless)
