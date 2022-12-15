@@ -2,9 +2,9 @@
 <div class="project">
   <h3 class="project__title">{{ .Title }}</h3>
   <p class="project__summary">{{ .Summary }}</p>
-	{{if .Resources.Match "*jpg"}}
-		{{- partial "gallery.html" . -}}
-	{{end}}
+  {{if .Resources.Match "*jpg"}} {{- partial "gallery.html" . -}} {{ else }}
+  <hr class="fancy fancy--no-phone" />
+  {{end}}
   <div class="project__meta">
     <p class="project__meta__client">
       Client:
