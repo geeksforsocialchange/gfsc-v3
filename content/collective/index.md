@@ -11,11 +11,7 @@ Our focus is on helping each other to create socially impactful and useful tools
 
 Our practice is political. We are experienced activists involved in community, LGBTQ+ and anti-racism organising.
 
-Find out who we are here _[link to about us page, jumps to 'collective' section]_
-
 We can help focus campaigns, establish tech infrastructure for community groups, explore solutions to challenging issues affecting groups most in need of support, and more.
-
-To see some examples of the kind of projects we work on as a collective, click here _[link to 'our work' page, jump to collective section?]_
 
 Members of the collective offer their time voluntarily, though we strive to pay anyone who ends up contributing a substantial amount of time and skills to any one project. We fund this work in two ways:
 
