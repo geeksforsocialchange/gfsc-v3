@@ -14,5 +14,3 @@ We can consult on your projects to help demystify and untangle technology you're
 We can coach you to solve your problems yourself by teaching you enough to get going and understand what's really going on.
 
 We can also work to support you in writing funding applications for collaborative work.
-
-[Book a free 60 min discovery session] with us now, or [find out more about our consultancy packages].
