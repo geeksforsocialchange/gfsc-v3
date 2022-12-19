@@ -10,5 +10,3 @@ After the consultation and research process, we collaboratively establish what t
 We can make websites, apps and tools to revolutionise the working of an organisation, and static brochure sites that directly reflect the work they do.
 
 Because of our in-depth consultation process, clients can be assured that we do not begin this process until we have a clear understanding of what's needed, and can deliver the best possible solutions based on their own unique circumstances and needs.
-
-[Explore some of the things we have built here]
