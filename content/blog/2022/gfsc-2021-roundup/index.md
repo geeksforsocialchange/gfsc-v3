@@ -64,7 +64,7 @@ Fianlly, in further collaboration with GI, the big reveal from just before Chris
 
 [Enter... The Trans Dimension!](https://gfsc.studio/2021/12/14/enter-trans-dimension.html)
 
-The Trans Dimension is a key step to getting our award-winning PlaceCal [link out to info about placecal] technology back on the road with an extremely generous donation from Lankelly Chase. We just did our first “proper” release thanks to loads of work from our lovely new developer Alexandria and we will have more to share on this soon.
+The Trans Dimension is a key step to getting our award-winning [PlaceCal](/project/placecal/) technology back on the road with an extremely generous donation from Lankelly Chase. We just did our first “proper” release thanks to loads of work from our lovely new developer Alexandria and we will have more to share on this soon.
 
 [Release v0.1.0 · geeksforsocialchange/PlaceCal](https://github.com/geeksforsocialchange/PlaceCal/releases/tag/v0.1.0)
 
