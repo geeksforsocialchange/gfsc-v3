@@ -216,7 +216,7 @@ I have no idea but ask us in a year.
 
 Let us know if you want to get involved in this kind of work. We're just starting some big exciting projects and would love to have you with us.
 
--  You can chat to us on the [GFSC discord]
+-  You can chat to us on the [GFSC discord](http://discord.gfsc.studio)
 -  Follow us @gfscstudio on [Twitter](https://twitter.com/gfscstudio) and [Instagram](https://instagram.com/gfscstudio)
 -  Email me: kim@gfsc.studio
 
