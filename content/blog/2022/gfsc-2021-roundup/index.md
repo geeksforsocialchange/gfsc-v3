@@ -32,7 +32,7 @@ The **GFSC Collective** is a group of activists, technologists and creatives who
 
 There will be more on the collective when we do a bit of a website refresh in the coming months. But in the meantime, we finally launched a Discord due to public demand! Come and say hi if you like, and get involved in the discussions!
 
-discord.gfsc.studio
+[discord.gfsc.studio](https://discord.gfsc.studio)
 
 One thing the Collective have been researching is the extent of the **arms industry’s involvement in Manchester.** We are asking how a city that calls itself “Nuclear Free” can put nuclear weapons manufacturers like BAE and Northrop Grumann in its regional marketing materials.
 
