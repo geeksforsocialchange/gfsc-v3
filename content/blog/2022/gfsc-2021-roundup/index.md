@@ -16,7 +16,7 @@ We kicked off the year number crunching the dishonest and worrying stats from GM
 
 [Taser usage by Greater Manchester Police has risen to its highest ever level](https://resistancelab.network/our-work/gmp-taser-update/index.html)
 
-In further work with Resistance Lab, we produced and ran an online panel about the threat of Tasers to residents of Greater Manchester. This was based on our research work and report from 2019 [link], and featured an amazing panel of speakers who have been working on this issue for years. The event is still on YouTube if you want to watch it!
+In further work with Resistance Lab, we produced and ran an online panel about the threat of Tasers to residents of Greater Manchester. This was based on our research work and [report](https://resistancelab.network/our-work/taser-report/index.html) from 2019, and featured an amazing panel of speakers who have been working on this issue for years. The event is still on YouTube if you want to watch it!
 
 [No more Tasers: Live panel event](https://resistancelab.network/news/2021-02-25-no-more-tasers-panel.html)
 
