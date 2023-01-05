@@ -62,3 +62,17 @@ Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak askin
 - `alts:` Alt texts for images separated by the pipe symbol `|`. Images and alt text should follow the same order in the lists. If no `|` is present each image will receive the same alt text. This is an *optional* argument and less alt texts can be supplied than images but please be mindful that this will negatively effect accessibility. If you supply a longer list than the `srcs` unused alt text will be ignored.
 - `classList`: A space separated list of additional classes you would like to apply to the image. See options in `themes/gfsc/assets/sass/components/_images.sass`. *Optional*.
 - Caption body accepts normal markdown as in the rest of the file. It is important to place this between the `start` and `end` shortcodes.
+
+## `kofi-alt`
+
+### Example
+
+```
+{{< kofi-alt txt="Sign up for UnTechCon on Eventbrite now" href="https://www.eventbrite.co.uk/e/untechcon-1-tickets-463633840297" btn="Register now" >}}
+```
+
+### Arguments
+
+- `txt`: The call to action text, defaults to "Make a donation on Ko-fi to help support our work."
+- `href`: the link the button will point to, defaults to `https://ko-fi.com/gfscstudio`
+- `btn`: The text on the button, defaults to "Donate now"
