@@ -67,6 +67,6 @@ Hope to see you there!
 
 ## Still have more questions?
 
-Check out our [FAQ](/2022/11/24/untechcon-faq.html) or get in touch!
+Check out our [FAQ](/blog/2022/untechcon-faq/) or get in touch!
 
 {{< kofi "You can also donate to support UnTechCon on Ko-fi" >}}
