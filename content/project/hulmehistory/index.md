@@ -10,6 +10,7 @@ linktotext:
 image:
 imagealt:
 summary: "How we collaborated with Urbed to create 'Hulme History', an interface for the storage and viewing of historic archival materials, which has since been offered to several other organisations seeking similar solutions."
+weight: 100
 ---
 
 Both GFSC and Urbed are based in or near Hulme, Manchester, and we became aware of several rich sources of local historic archival material which were not accessible to the community whose stories they told, and were in danger of being lost for good. We worked with these individuals and organisations to digitise and rationally organise all these materials — photos, documents, maps and more.

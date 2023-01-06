@@ -10,6 +10,7 @@ linktotext:
 image:
 imagealt:
 summary: "How we worked with Resistance Lab from the start to build their first website and support them with branding and design"
+weight: 2
 ---
 
 Resistance lab is a multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. Resistance Lab was formed in Manchester in 2019, and its members regularly meet to discuss and organise research work that will raise awareness about different forms of state violence, and to support other groups working on those same aims, in Manchester and across the UK.

@@ -14,7 +14,9 @@
   </ul>
   <hr class="fancy" />
   <ul id="list" class="work__projects">
-    {{ range (.Paginate (where .Site.RegularPages "Section" "project")).Pages }}
+		{{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 )}}
+		{{ $unweighted := ( shuffle (where (where .Site.RegularPages "Section" "project") "Params.weight" "==" 100 ) )}}
+    {{ range ( .Paginate ( $weighted | append  $unweighted ) ).Pages }}
 			{{- partial "projectindex.html" . -}}
     {{ end }}
   </ul>

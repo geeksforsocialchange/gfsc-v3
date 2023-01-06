@@ -5,7 +5,9 @@
   </div>
   <hr class="fancy" />
   <ul class="work__projects">
-    {{ range (where .Site.RegularPages ".Params.categories" "!=" nil) }}
+		{{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 )}}
+		{{ $unweighted := ( shuffle (where (where .Site.RegularPages "Section" "project") "Params.weight" "==" 100 ) )}}
+    {{ range ( $weighted | append  $unweighted )}}
       {{ if (in .Params.categories $.Params.key )}}
         {{- partial "projectindex.html" . -}}
       {{ end }}
