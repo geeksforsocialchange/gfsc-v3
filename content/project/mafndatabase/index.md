@@ -10,6 +10,7 @@ linktotext:
 image:
 imagealt:
 summary: "How we created a sophisticated database system for the Manchester Age Friendly Neighbourhoods project, in collaboration with PHASE at Manchester Metropolitan University."
+weight: 100
 ---
 
 Manchester Age Friendly Neighbourhoods was a practice-led research programme that aimed to address the barriers that people face in their daily lives and providing more ways for people to contribute to their communities.
