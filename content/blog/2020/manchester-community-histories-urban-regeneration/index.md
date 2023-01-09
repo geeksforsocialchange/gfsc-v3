@@ -6,7 +6,7 @@ description:
    activists and researchers in participating in the first Hulme & Greenheys Community
    History Day in Manchester.
 social-image-square: og-square.jpg
-social-image-wide: og-wide.jpg
+socialImageWide: og-wide.jpg
 subtitle: A report on our community history day in November 2019
 title: Manchester Community Histories in the Shadow of Urban Regeneration
 ---

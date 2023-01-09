@@ -4,7 +4,7 @@ title: Why is it so hard to do nice things, that make a difference, with other p
 subtitle: Our presentation from Electromagnetic Field Festival 2022
 description: "On the surface of it it seems simple: tech and maker types have skills they enjoy using, and community groups have unmet needs that could be helped by these skills. Why then does it feel so incredibly hard to make these collaborations happen in reality?"
 author: kim
-social-image-wide: blog/why-so-hard/together-hands-embroidery.jpg
+socialImageWide: blog/why-so-hard/together-hands-embroidery.jpg
 social-image-square: blog/why-so-hard/together-hands-embroidery.jpg
 ---
 

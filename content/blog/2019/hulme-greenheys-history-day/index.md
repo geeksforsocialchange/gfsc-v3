@@ -8,7 +8,7 @@ description:
    how the four waves of rapid redevelopment over the last 100 years have affected
    us all, for better and worse.
 social-image-square: blog/hulme-history-day/GFSC_2019_HistoryDay_SQ_3.png
-social-image-wide: blog/hulme-history-day/GFSC_2019_HistoryDay_2-1_3.png
+socialImageWide: blog/hulme-history-day/GFSC_2019_HistoryDay_2-1_3.png
 subtitle: 23rd November at The Old Abbey Taphouse
 title: Join us for Hulme & Greenheys Community History Day!
 ---

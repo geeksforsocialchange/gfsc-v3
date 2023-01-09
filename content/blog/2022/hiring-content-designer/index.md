@@ -4,7 +4,7 @@ title: "We’re looking for someone good with words!"
 subtitle: A part-time role helping us get our message out into the world
 description: We’re looking for someone to help us communicate more effectively about what we do and why. This could take a few different forms and we're interested in people with skills in things like bid writing, authoring articles, social media posts or accessible content design for the web. You don't need to have all these skills are we're open to your interpretations of what this role might look like.
 author: kim
-social-image-wide:	
+socialImageWide:	
 social-image-square: 
 ---
 

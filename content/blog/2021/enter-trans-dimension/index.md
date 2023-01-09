@@ -5,7 +5,7 @@ description:
    Geeks for Social Change are thrilled to to announce The Trans Dimension,
    an online community hub which will connect trans communities across the UK by collating
    news, events and services by and for trans people in one easy-to-reach place.
-social-image-wide: transdimension.png
+socialImageWide: transdimension.png
 subtitle: A new space for trans community enabled by technology and collaboration.
 title: Enter... The Trans Dimension!
 ---

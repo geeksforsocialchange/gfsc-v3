@@ -4,7 +4,7 @@ title: "Announcing: UnTechCon 1!"
 subtitle: UnTechCon is a one-day unconference about creating community digital autonomy, challenging big tech, and creating a future worth living in.
 description: For some time now, we’ve been trying to figure out how to bring some of the exciting conversations that happen between the Geeks for Social Change Collective and our friends and collaborators to a wider audience.
 author: kim
-social-image-wide:	untechcon_1.jpg
+socialImageWide:	untechcon_1.jpg
 social-image-square: untechcon_1.jpg
 ---
 

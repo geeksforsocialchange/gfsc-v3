@@ -7,7 +7,7 @@ description:
    marketing brochure.
 illustrator: emma
 social-image-square: og-square.jpg
-social-image-wide: og-wide.jpg
+socialImageWide: og-wide.jpg
 subtitle:
    Once upon a time, Manchester saw itself as a leading light in the fight
    against nuclear annihilation.

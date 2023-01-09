@@ -40,7 +40,20 @@
       property="og:description"
       content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research."
    />
-   {{ end }} {{/* {{- if isset .Params "social-image-square" }}
+   {{ end }} 
+
+   {{- if .Params.socialImageWide }}
+   <meta
+      name="twitter:image"
+      content="/assets/images/{{ .Params.socialImageWide }}"
+   />
+   <meta
+      property="og:image"
+      content="/assets/images/{{ .Params.socialImageWide }}"
+   />
+   {{ end }}
+
+	 {{/* {{- if isset .Params "social-image-square" }}
    <meta
       property="og:image"
       content="/assets/images/{{ .SocialImageSquare }}"
