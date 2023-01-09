@@ -12,7 +12,12 @@
       {{ with $.Resources.GetMatch "consultancy.md" }}
       <h3 class="page__header--sectionheader" id="consultancy">{{ .Title }}</h3>
       <div class="page__image--marginless page__image--sectionheader orangify">
-         <img src="https://source.unsplash.com/random/1000x500/?img=1" />
+
+      {{ $consultImage := $.Resources.GetMatch "consultancy.jpg" }}
+			{{ $consultImage := $consultImage.Resize "1200x" }}
+			{{ with $consultImage }}
+				<img src="{{ .RelPermalink }}" />
+			{{ end }}
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
@@ -28,7 +33,11 @@
       {{ with $.Resources.GetMatch "research.md" }}
       <h3 class="page__header--sectionheader" id="research">{{ .Title }}</h3>
       <div class="page__image--marginless page__image--sectionheader orangify">
-         <img src="https://source.unsplash.com/random/1000x500/?img=2" />
+      {{ $researchImage := $.Resources.GetMatch "research.jpg" }}
+			{{ $researchImage := $researchImage.Resize "1200x" }}
+			{{ with $researchImage }}
+				<img src="{{ .RelPermalink }}" />
+			{{ end }}
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
@@ -44,7 +53,11 @@
       {{ with $.Resources.GetMatch "development.md" }}
       <h3 class="page__header--sectionheader" id="development">{{ .Title }}</h3>
       <div class="page__image--marginless page__image--sectionheader orangify">
-         <img src="https://source.unsplash.com/random/1000x500/?img=3" />
+      {{ $devImage := $.Resources.GetMatch "development.jpg" }}
+			{{ $devImage := $devImage.Resize "1200x" }}
+			{{ with $devImage }}
+				<img src="{{ .RelPermalink }}" />
+			{{ end }}
       </div>
       <div>{{ .Content }}</div>
 			<div class="studio__elements">
