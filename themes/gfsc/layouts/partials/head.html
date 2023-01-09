@@ -43,14 +43,18 @@
    {{ end }} 
 
    {{- if .Params.socialImageWide }}
-   <meta
-      name="twitter:image"
-      content="/assets/images/{{ .Params.socialImageWide }}"
-   />
-   <meta
-      property="og:image"
-      content="/assets/images/{{ .Params.socialImageWide }}"
-   />
+		 {{ $image := .Resources.GetMatch .Params.socialImageWide}}
+		 {{ $image := $image.Resize "1200x" }}
+		 {{ with $image }}
+			 <meta
+					name="twitter:image"
+					content="{{ .RelPermalink }}"
+			 />
+			 <meta
+					property="og:image"
+					content="{{ .RelPermalink }}"
+			 />
+		 {{ end }}
    {{ end }}
 
 	 {{/* {{- if isset .Params "social-image-square" }}
