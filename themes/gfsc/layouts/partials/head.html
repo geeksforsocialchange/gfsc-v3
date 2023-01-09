@@ -44,7 +44,6 @@
 
    {{- if .Params.socialImageWide }}
 		 {{ $image := .Resources.GetMatch .Params.socialImageWide}}
-		 {{ $image := $image.Resize "1200x" }}
 		 {{ with $image }}
 			 <meta
 					name="twitter:image"
