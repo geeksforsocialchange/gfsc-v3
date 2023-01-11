@@ -295,6 +295,9 @@
 		elem.addEventListener("mouseover", function() {
 			updateHover(elem.id);
 		});
+    elem.addEventListener("click", function() {
+      updateHover(elem.id);
+    });
 		elem.addEventListener("mouseout", function() {
 			clearState()
 		})
