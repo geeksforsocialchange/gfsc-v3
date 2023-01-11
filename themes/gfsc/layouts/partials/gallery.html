@@ -2,7 +2,7 @@
 <div class="project__gallery">
   <script src="/assets/js/gallery.js"></script>
   <div class="project__image orangify" id="bigimage">
-    <img src='{{index (.Resources.Match "*jpg") 0}}' />
+		<img src='{{index (.Resources.Match "*jpg") 0}}' alt="{{index $alttexts 0}}" />
   </div>
   <div class="project__gallery__thumbnails">
     {{range $index, $val := .Resources.Match "*jpg"}} {{ $alttext := index
