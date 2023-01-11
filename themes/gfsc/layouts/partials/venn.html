@@ -226,12 +226,16 @@
 
   var regions = [a, b, c, ab, bc, ac, abc];
 
-  function updateHover(elem) {
+	function clearState() {
     regions.forEach(function (elem) {
       elem.classList.remove("hovered");
       elem.classList.remove("hovered--2");
       elem.classList.remove("selected");
     });
+	}
+
+  function updateHover(elem) {
+		clearState()
     switch (elem) {
       case "a":
         a.classList.add("selected");
@@ -288,8 +292,11 @@
   }
 
   regions.forEach(function (elem) {
-    elem.addEventListener("mouseover", function () {
-      updateHover(elem.id);
-    });
+		elem.addEventListener("mouseover", function() {
+			updateHover(elem.id);
+		});
+		elem.addEventListener("mouseout", function() {
+			clearState()
+		})
   });
 </script>
