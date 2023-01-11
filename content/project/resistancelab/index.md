@@ -7,8 +7,8 @@ themes: anti-racism hulme-and-manchester
 categories: flagship consultancyresearch
 linktourl:
 linktotext:
-image:
-imagealt:
+image: rl-logo.png
+imagealt: resistance lab logo
 summary: "How we worked with Resistance Lab from the start to build their first website and support them with branding and design"
 weight: 2
 galleryalt:

@@ -7,8 +7,8 @@ themes: hulme-and-manchester mutual-aid anti-racism digital-autonomy
 categories: consultancyresearch
 linktourl:
 linktotext:
-image:
-imagealt:
+image: dallas-court.jpg
+imagealt: Illustration of Dallas Court by Michael Collins (CC-BY-NC, Right to Remain)
 summary: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
 galleryalt:
