@@ -1,7 +1,7 @@
 ---
 title: "GI Website"
 client: "Gendered Intelligence"
-when: "?"
+when: "Spring 2021"
 who: kim jazz alexandria katja
 themes: trans-lib digital-autonomy
 categories: software

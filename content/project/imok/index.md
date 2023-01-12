@@ -1,7 +1,7 @@
 ---
 title: "imok"
 client: "GFSC Collective and No Borders Manchester"
-when: "?"
+when: "Summer 2021"
 who: kim
 themes: hulme-and-manchester mutual-aid anti-racism digital-autonomy
 categories: consultancyresearch

@@ -1,7 +1,7 @@
 ---
 title: "TWP Website"
 client: "The White Pube"
-when: "?"
+when: "Summer 2022"
 who: kim jazz
 themes: digital-autonomy
 categories: consultancyresearch software educationtraining

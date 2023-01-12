@@ -1,7 +1,7 @@
 ---
 title: "Taphouse TV Dinners"
 client: "GFSC Collective, Old Abbey Taphouse"
-when: "?"
+when: "Spring 2022"
 who: kim
 themes: hulme-and-manchester mutual-aid
 categories: consultancyresearch software

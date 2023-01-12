@@ -1,7 +1,7 @@
 ---
 title: "Faceloader"
 client: "GFSC Collective"
-when: "?"
+when: "Summer 2021"
 who: kim
 themes: digital-autonomy
 categories: software

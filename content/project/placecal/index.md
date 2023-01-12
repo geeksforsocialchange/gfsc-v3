@@ -1,7 +1,7 @@
 ---
 title: "PlaceCal"
 client: "GFSC Collective, PHASE, Manchester Age Friendly Neighbourhoods"
-when: "?"
+when: "2017 - Present"
 who: kim
 themes: hulme-and-manchester digital-autonomy mutual-aid
 categories: consultancyresearch software flagship designbranding

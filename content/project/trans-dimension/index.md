@@ -1,7 +1,7 @@
 ---
 title: "The Trans Dimension"
 client: "GFSC Collective, Gendered Intelligence"
-when: "?"
+when: "Winter 2022"
 who: kim jazz
 themes: trans-liberation
 categories: consultancyresearch software
