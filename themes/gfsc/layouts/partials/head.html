@@ -25,7 +25,7 @@
 
    <!-- Stylesheet -->
 
-   {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint "sha256" }}
+   {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |  resources.Fingerprint "sha256" }}
    <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
    {{- if isset .Params "description" }}
