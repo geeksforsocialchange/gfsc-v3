@@ -3,7 +3,7 @@ title: "TWP Website"
 client: "The White Pube"
 when: "2021-22"
 who: kim jazz
-themes: digital-autonomy software
+themes: digital-autonomy
 categories: consultancyresearch software educationtraining
 linktourl: https://thewhitepube.co.uk/
 linktotext:
