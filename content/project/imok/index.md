@@ -2,10 +2,10 @@
 title: "imok"
 client: "GFSC Collective and No Borders Manchester"
 when: "Summer 2021"
-who: kim
+who: kim alice iona
 themes: hulme-and-manchester mutual-aid anti-racism digital-autonomy
 categories: consultancyresearch
-linktourl:
+linktourl: https://github.com/geeksforsocialchange/imok
 linktotext:
 image:
 imagealt:

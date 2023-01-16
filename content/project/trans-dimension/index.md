@@ -2,10 +2,10 @@
 title: "The Trans Dimension"
 client: "GFSC Collective, Gendered Intelligence"
 when: "Winter 2022"
-who: kim jazz
+who: kim jazz katja mark
 themes: trans-liberation
 categories: consultancyresearch software
-linktourl:
+linktourl: https://transdimension.uk/
 linktotext:
 image:
 imagealt:

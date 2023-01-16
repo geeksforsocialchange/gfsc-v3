@@ -1,9 +1,9 @@
 ---
 title: "Action Together CRM Consultation"
 client: "Action Together"
-when: "?"
+when: "Winter 2019"
 who: kim
-themes: mutual-aid digital-autonomy hulme-and-manchester
+themes: digital-autonomy hulme-and-manchester
 categories: consultancyresearch
 linktourl:
 linktotext:

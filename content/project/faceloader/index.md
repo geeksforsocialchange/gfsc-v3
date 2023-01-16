@@ -2,7 +2,7 @@
 title: "Faceloader"
 client: "GFSC Collective"
 when: "Summer 2021"
-who: kim
+who: kim alice
 themes: digital-autonomy
 categories: software
 linktourl:

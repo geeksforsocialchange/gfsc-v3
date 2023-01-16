@@ -5,7 +5,7 @@ when: "Winter 2021"
 who: kim jazz alexandria
 themes: trans-lib digital-autonomy
 categories: software
-linktourl:
+linktourl: https://github.com/geeksforsocialchange/enquirywitch
 linktotext:
 image:
 imagealt:

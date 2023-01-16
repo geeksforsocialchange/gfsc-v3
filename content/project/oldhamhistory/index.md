@@ -1,8 +1,8 @@
 ---
 title: "Archival Website"
 client: "Oldham History"
-when: "?"
-who: kim
+when: "2021-23"
+who: kim emma
 themes: hulme-and-manchester local-history digital-autonomy mutual-aid
 categories: consultancyresearch software
 linktourl:

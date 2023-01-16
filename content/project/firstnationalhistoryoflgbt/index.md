@@ -1,11 +1,11 @@
 ---
 title: "First National History of LGBT Communities"
 client: "LGBT History Month"
-when: "?"
-who: kim
-themes: local-history mutual-aid trans-liberation hulme-and-manchester
-categories: designbranding
-linktourl:
+when: "2015"
+who: kim sylvia mark
+themes: local-history trans-liberation hulme-and-manchester
+categories: designbranding software
+linktourl: http://lgbthistoryfestival.org/
 linktotext:
 image:
 imagealt:

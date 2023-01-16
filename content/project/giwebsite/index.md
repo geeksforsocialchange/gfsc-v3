@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we helped Gendered Intelligence migrate their complex, outdated website onto a new CRM that will better enable them to support their users and administrate their workload."
 weight: 100
+draft: true # I'm not sure about this one yet
 ---
 
 Trans charity Gendered Intelligence approached us with a number of tech-related issues that were affecting their day-to-day operations. We helped them take an overarching view of the best way forward across all their issues, including the development of 'Enquiry Witch', researching their needs and building them a new CRM based on Jekyll, and ultimately migrating their old website over onto this new CRM.

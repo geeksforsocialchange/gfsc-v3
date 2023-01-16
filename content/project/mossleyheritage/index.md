@@ -1,11 +1,11 @@
 ---
 title: "Branding, Design and Brochure Website"
 client: "Mossley Heritage"
-when: "?"
-who: kim
+when: "2019"
+who: kim mark
 themes: hulme-and-manchester local-history digital-autonomy
 categories: consultancyresearch software
-linktourl:
+linktourl: https://mossleyheritage.org/
 linktotext:
 image:
 imagealt:

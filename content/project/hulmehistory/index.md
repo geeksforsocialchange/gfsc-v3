@@ -1,11 +1,11 @@
 ---
 title: "Hulme History"
-client: "Urbed"
-when: "?"
-who: kim
+client: "URBED"
+when: "Summer 2015"
+who: kim sylvia
 themes: hulme-and-manchester local-history
-categories: consultancyresearch
-linktourl:
+categories: consultancyresearch, development
+linktourl: http://hulmehistory.info
 linktotext:
 image:
 imagealt:

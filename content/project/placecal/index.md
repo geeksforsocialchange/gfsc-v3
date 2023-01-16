@@ -2,10 +2,10 @@
 title: "PlaceCal"
 client: "GFSC Collective, PHASE, Manchester Age Friendly Neighbourhoods"
 when: "2017 - Present"
-who: kim
+who: kim mark stefan alexandria ivan alfie katja
 themes: hulme-and-manchester digital-autonomy mutual-aid
 categories: consultancyresearch software flagship designbranding
-linktourl:
+linktourl: https://placecal.org/
 linktotext:
 image:
 imagealt:
