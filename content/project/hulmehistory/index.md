@@ -4,7 +4,7 @@ client: "URBED"
 when: "Summer 2015"
 who: kim sylvia
 themes: hulme-and-manchester local-history
-categories: consultancyresearch, development
+categories: consultancyresearch software
 linktourl: http://hulmehistory.info
 linktotext:
 image:
