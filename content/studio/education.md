@@ -1,8 +1,8 @@
 ---
-title: 1. Consultancy and coaching
+title: 1. Education and training
 headless: true
-buttontext: "See our consultancy work"
-buttonlink: "our-work/consultancy-research"
+buttontext: "See our education work"
+buttonlink: "our-work/education-training"
 ---
 
 Recent years have seen technology made harder and harder to understand, by deliberate design of people who want to make money from your lack of understanding. Technology can simultaneously seem like a "magic wand" to fix all your problems, but also an insurmountable and impossible to understand mess.
