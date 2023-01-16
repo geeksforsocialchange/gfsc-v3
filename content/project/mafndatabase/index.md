@@ -1,9 +1,9 @@
 ---
 title: "MAFN Database System"
 client: "Manchester Age Friendly Neighbourhoods"
-when: "?"
-who: kim
-themes: hulme-and-manchester mutual-aid 
+when: "Spring 2017"
+who: kim gabby stefan
+themes: hulme-and-manchester
 categories: consultancyresearch software
 linktourl:
 linktotext:

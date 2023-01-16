@@ -1,11 +1,11 @@
 ---
 title: "Dear Friend"
 client: "GFSC Collective"
-when: "?"
-who: kim
+when: "2016"
+who: kim sylvia
 themes: local-history hulme-and-manchester
 categories: designbranding
-linktourl:
+linktourl: http://dearfriend.org.uk/
 linktotext:
 image:
 imagealt:

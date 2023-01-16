@@ -5,7 +5,7 @@ when: "Summer 2020"
 who: kim emma
 themes: anti-racism hulme-and-manchester
 categories: flagship consultancyresearch
-linktourl:
+linktourl: https://resistancelab.network/our-work/taser-report/index.html
 linktotext:
 image: cops.jpg
 imagealt: police in a line wearing riot gear

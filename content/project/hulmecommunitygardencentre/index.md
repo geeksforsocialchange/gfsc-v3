@@ -1,11 +1,11 @@
 ---
 title: "Website development research package"
 client: "Hulme Community Garden Centre"
-when: "?"
+when: "Autumn 2017"
 who: kim
 themes: hulme-and-manchester environment digital-autonomy
 categories: consultancyresearch
-linktourl:
+linktourl: https://trello.com/b/JG6XDzVT/hcgc-website-user-stories
 linktotext:
 image:
 imagealt:

@@ -1,11 +1,11 @@
 ---
 title: "Taphouse TV Dinners"
 client: "GFSC Collective, Old Abbey Taphouse"
-when: "Spring 2022"
-who: kim
+when: "2020-now"
+who: kim jazz rachele
 themes: hulme-and-manchester mutual-aid
 categories: consultancyresearch software
-linktourl:
+linktourl: https://tvdinners.club/
 linktotext:
 image:
 imagealt:

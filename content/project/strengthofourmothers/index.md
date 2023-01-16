@@ -1,11 +1,11 @@
 ---
 title: "Strength Of Our Mothers"
 client: "National Black Arts Alliance"
-when: "?"
-who: kim
+when: "2018"
+who: kim mark
 themes: local-history anti-racism
 categories: consultancyresearch software designbranding
-linktourl:
+linktourl: https://ourmothers.org/
 linktotext:
 image:
 imagealt:
