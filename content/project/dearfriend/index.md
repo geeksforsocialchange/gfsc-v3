@@ -4,13 +4,14 @@ client: "GFSC Collective"
 when: "2016"
 who: kim sylvia
 themes: local-history hulme-and-manchester
-categories: designbranding
+categories: designbranding software
 linktourl: http://dearfriend.org.uk/
 linktotext:
 image:
 imagealt:
 summary: "How we imagined, developed and ultimately realised a community-led project aimed at celebrating women in public life and telling the stories of past struggles for liberation."
 weight: 100
+draft: true
 ---
 
 GFSC collective member Sylvia Kölling is fascinated by local and regional histories, particularly from a feminist angle. Sylvia became interested in the idea of letter-writing as a mode of public storytelling and sharing, and came up with the idea of 'Dear Friend' — a letter writing project which welcomes submissions from anyone who wants to write a public letter of support to a woman who inspired them or has made a difference in an area of equality: such as the fight against slavery, racial discrimination, or the ongoing fight for peace.
