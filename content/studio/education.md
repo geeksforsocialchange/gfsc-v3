@@ -1,7 +1,7 @@
 ---
 title: 4. Education and training
 headless: true
-buttontext: "See our education work"
+buttontext: "See our education and training work"
 buttonlink: "our-work/education-training"
 ---
 

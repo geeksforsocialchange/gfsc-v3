@@ -1,6 +1,6 @@
 ---
 title: "1. Consultancy and research"
-buttontext: "See our consultancy work"
+buttontext: "See our consultancy and research work"
 buttonlink: "our-work/consultancy-research"
 headless: true
 ---
