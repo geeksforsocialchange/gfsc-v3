@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we worked with a request from Action Together for a new CRM to help them develop a broader strategy and structure to best run the digital facets of their organisation."
 weight: 100
+draft: false
 ---
 
 Action Together support community groups in Oldham, Rochdale and Tameside, helping them grow, develop and become self-sustaining.
