@@ -3,36 +3,15 @@
    <div class="page__content page__content--doublemargin">
       {{ .Content }}
       <div class="studio__elements page__underline page__underline--marginless">
-         <a class="btn" href="#education"
-            >Education and training</a
-         >
          <a class="btn" href="#research">Consultancy and research</a>
          <a class="btn" href="#development">Development</a>
          <a class="btn" href="#design"
             >Design and branding</a
          >
+         <a class="btn" href="#education"
+            >Education and training</a
+         >
       </div>
-      {{ with $.Resources.GetMatch "education.md" }}
-      <h3 class="page__header--sectionheader" id="education">{{ .Title }}</h3>
-      <div class="page__image--marginless page__image--sectionheader orangify">
-
-      {{ $consultImage := $.Resources.GetMatch "education.jpg" }}
-			{{ $consultImage := $consultImage.Resize "1200x" }}
-			{{ with $consultImage }}
-				<img src="{{ .RelPermalink }}" />
-			{{ end }}
-      </div>
-      <div>{{ .Content }}</div>
-			<div class="studio__elements">
-				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
-					 >{{ .Params.Buttontext }}</a
-				>
-			</div>
-      {{ end }}
-      <div
-         class="strip strip--circles strip--divider"
-         role="presentation"
-      ></div>
       {{ with $.Resources.GetMatch "research.md" }}
       <h3 class="page__header--sectionheader" id="research">{{ .Title }}</h3>
       <div class="page__image--marginless page__image--sectionheader orangify">
@@ -79,6 +58,27 @@
       {{ $designImage := $.Resources.GetMatch "design.png" }}
 			{{ $designImage := $designImage.Resize "1200x" }}
 			{{ with $designImage }}
+				<img src="{{ .RelPermalink }}" />
+			{{ end }}
+      </div>
+      <div>{{ .Content }}</div>
+			<div class="studio__elements">
+				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
+					 >{{ .Params.Buttontext }}</a
+				>
+			</div>
+      {{ end }}
+      <div
+         class="strip strip--circles strip--divider"
+         role="presentation"
+      ></div>
+      {{ with $.Resources.GetMatch "education.md" }}
+      <h3 class="page__header--sectionheader" id="education">{{ .Title }}</h3>
+      <div class="page__image--marginless page__image--sectionheader orangify">
+
+      {{ $consultImage := $.Resources.GetMatch "education.jpg" }}
+			{{ $consultImage := $consultImage.Resize "1200x" }}
+			{{ with $consultImage }}
 				<img src="{{ .RelPermalink }}" />
 			{{ end }}
       </div>
