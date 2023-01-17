@@ -1,5 +1,5 @@
 ---
-title: 1. Education and training
+title: 4. Education and training
 headless: true
 buttontext: "See our education work"
 buttonlink: "our-work/education-training"

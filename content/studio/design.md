@@ -1,5 +1,5 @@
 ---
-title: 4. Design and Branding
+title: 3. Design and Branding
 buttontext: "See our design work"
 buttonlink: "our-work/design-branding/"
 headless: true
