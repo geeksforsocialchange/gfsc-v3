@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we helped The White Pube migrate their site from an outdated and user-unfriendly Wix template to a custom static site."
 weight: 3
+draft: true
 ---
 
 The White Pube is the collective identity of Gabrielle de la Puente and Zarina Muhammad, under which they are best known for their writing about the art world, video games, food and more. Their six year old site built on Wix was becoming unwieldy and challenging to manage, and with widespread calls to boycott Wix for its links to Isreal, they felt it was well past time to move on to a new system.

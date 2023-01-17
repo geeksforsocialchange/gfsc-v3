@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
+draft: true
 ---
 
 Members of No Borders Manchester bought our attention to the challenges faced by Asylum seekers in Manchester forced to 'sign on' in Dallas court, which is something the government forces them to do regularly. They are not allowed to bring friends or family in with them, and have their phones confiscated on entry. There have been numerous occasions where this 'signing on' has been used by immigration agents as an opportunity to indefinitely detain, and potentially deport these asylum seekers. Because they have no way of informing friends and family of their plight, there are times when no one is aware that they have been detained until much too late.

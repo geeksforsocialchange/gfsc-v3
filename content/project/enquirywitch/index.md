@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we helped Gendered Intelligence streamline their website communications, respond to enquiries faster, and minimise pressure on their volunteers and employees "
 weight: 100
+draft: true
 ---
 
 Trans charity Gendered Intelligence approached us because they were struggling to manage the quantity and variety of emails they were receiving via their web inquiry form, and it was starting to cause issues of fatigue and stress in their overstretched volunteers.

@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we developed branding and a website for the Strength of Our Mothers project, which tells the story of white women in interracial relationships from the 1940s and onwards."
 weight: 100
+draft: true
 ---
 
 Strength of our mothers was a partnership project led by the National Black Arts Alliance, supported by the Heritage Lottery Fund. It consisted of a book, a series of live performances, and a website.

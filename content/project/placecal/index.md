@@ -11,6 +11,7 @@ image:
 imagealt:
 summary: "How we created PlaceCal, an award winning community calendar system, designed to combat loneliness and isolation in neighbourhoods across the UK and beyond."
 weight: 11
+draft: true
 ---
 
 In collaboration with PHASE at Manchester Metropolitan University and Manchester Age Friendly Neighbourhoods (MAFN) we recognised that many people in the seemingly busy, active community of Hulme, Manchester were unable to access or find out about relevant events happening near them, and had the sense that there was 'nothing to do' in their locality. This was despite massive investments of time and money by big institutions such as city councils and health providers into event listings, asset maps and community directories. 
