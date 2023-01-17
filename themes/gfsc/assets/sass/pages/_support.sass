@@ -1,5 +1,6 @@
 .support
   &__section
+    box-sizing: border-box
     +border(0 2px 2px 2px)
     padding: 1rem
     +for-tablet-portrait-up
@@ -9,7 +10,8 @@
       padding: 1rem 7rem
     +for-desktop-up
       +border(sides)
-      margin: 0 $margin-desktop
+      max-width: 950px
+      margin: 0 auto
       padding: 1.5rem 5rem
     &:last-child
       padding-bottom: 2rem
