@@ -1,6 +1,6 @@
 ---
-title: 2. Development
-buttontext: "See our development work"
+title: 2. Software development
+buttontext: "See our software development work"
 buttonlink: "our-work/software/"
 headless: true
 ---
