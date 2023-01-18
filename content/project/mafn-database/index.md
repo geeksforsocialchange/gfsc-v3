@@ -1,11 +1,11 @@
 ---
-title: "MAFN Database System"
-client: "Manchester Age Friendly Neighbourhoods"
+title: "Manchester Age Friendly Neighbourhoods Research Database"
+client: "Manchester Metropolitan University"
 when: "Spring 2017"
 who: kim gabby stefan
 themes: hulme-and-manchester
 categories: consultancyresearch software
-linktourl:
+linktourl: https://github.com/geeksforsocialchange/mafn-db
 linktotext:
 image:
 imagealt:
@@ -15,4 +15,5 @@ draft: true
 ---
 
 Manchester Age Friendly Neighbourhoods was a practice-led research programme that aimed to address the barriers that people face in their daily lives and providing more ways for people to contribute to their communities.
+
 We ran a consultation process with PHASE at MMU to establish what was required for the specific context of this project, and then we developed a database which met their needs.
