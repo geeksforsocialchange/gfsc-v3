@@ -11,7 +11,7 @@ image:
 imagealt:
 summary: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
-draft: true
+draft: false
 ---
 
 No Borders Manchester approached GFSC to create a tool to support their Signing Support Network. As part of the Tory government’s ‘hostile environment’ policy, people seeking asylum in the UK must regularly ‘sign in’ at one of 14 ‘signing centres’ around the UK. In Manchester, this is Dallas Court Reporting Centre.
