@@ -3,11 +3,6 @@
   <h3 class="project__title">{{ .Title }}</h3>
   <p class="project__summary">
 		{{ .Summary }}
-		{{if .Params.linktourl }}
-			<a href="{{ .Params.linktourl }}" target="_blank">
-				{{if .Params.linktotext }} {{ .Params.linktotext }} {{else}} Visit site.{{end}}
-			</a>
-		{{end}}
 	</p>
   {{if .Resources.Match "*jpg"}} {{- partial "gallery.html" . -}} {{ else }}
   <hr class="fancy fancy--no-phone" />
@@ -32,7 +27,14 @@
       </span>
     </p>
   </div>
-  <div class="project__content">{{ .Content }}</div>
+  <div class="project__content">
+		{{ .Content }}
+		{{if .Params.linktourl }}
+			<a class="btn" href="{{ .Params.linktourl }}" target="_blank">
+				{{if .Params.linktotext }} {{ .Params.linktotext }} {{else}} Find out more {{end}}
+			</a>
+		{{end}}
+	</div>
   {{/* 
     <div class="project__footer">
       <div>
