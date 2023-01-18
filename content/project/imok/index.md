@@ -1,10 +1,10 @@
 ---
-title: "imok"
-client: "GFSC Collective and No Borders Manchester"
+title: "imok: a simple bot to support people undertaking risky activities"
+client: "No Borders Manchester"
 when: "Summer 2021"
 who: kim alice iona
 themes: hulme-and-manchester mutual-aid anti-racism digital-autonomy
-categories: consultancyresearch
+categories: consultancyresearch flagship software
 linktourl: https://github.com/geeksforsocialchange/imok
 linktotext:
 image:
@@ -14,8 +14,24 @@ weight: 100
 draft: true
 ---
 
-Members of No Borders Manchester bought our attention to the challenges faced by Asylum seekers in Manchester forced to 'sign on' in Dallas court, which is something the government forces them to do regularly. They are not allowed to bring friends or family in with them, and have their phones confiscated on entry. There have been numerous occasions where this 'signing on' has been used by immigration agents as an opportunity to indefinitely detain, and potentially deport these asylum seekers. Because they have no way of informing friends and family of their plight, there are times when no one is aware that they have been detained until much too late.
+No Borders Manchester approached GFSC to create a tool to support their Signing Support Network. As part of the Tory government’s ‘hostile environment’ policy, people seeking asylum in the UK must regularly ‘sign in’ at one of 14 ‘signing centres’ around the UK. In Manchester, this is Dallas Court Reporting Centre.
 
-We wanted to develop an extremely simple safety check, which isn't reliant on smart phones or internet access, or on constant staffing. imok is a text-bot which enables asylum seekers to 'check in' to an automated system as they enter the court house. If they do not 'check out' within a certain period of time, the system sends an auto generated message to a nominated contact (friend, family member, or lawyer), who is then able to follow up and ascertain whether they are safe or not, and take action to support them if they have been detained.
+This has repeatedly been described by people seeking asylum as the most dehumanising aspect of the whole asylum process. The #AbolishReporting hashtag is widely used on this issue by a variety of groups including Right to Remain and Migrants Organise. Reporting centres tend to be in the middle of nowhere with no seating or shelter for waiting family members or friends provided. On attending, an immigration official asks a range of inane questions that seem designed to waste everyone’s time, but can theoretically impact your case for asylum. How often you have to check-in depends on how big a risk the government thinks you are, from every day to every quarter.
 
-The text bot is overseen and promoted by No Borders Manchester (who we have worked with to translate it into a number of different languages), and has the potential to be rolled out in other similar settings around the country, as well as in other settings where a lo-fi check in/out safety bot would be useful. 
+If the government **does** decide to deport you, then you can be immediately detained from the centre and taken to the airport for extradition often with no recourse to a phonecall or way of notifying next of kin. This makes the entire process extremely stressful as it can happen at any time with no prior warning. Currently, No Borders Manchester and other groups manually support individuals going in and out of Dallas Court. This is obviously enormously labour intensive and requires a constant on-the-ground presence by volunteers.
+
+## Our solution
+
+imok is a simple bot designed to support people undertaking potentially risky activities. It's primarily aimed at community groups working together to support these people.
+
+The bot lets users 'check in' to the service with a messaging app or SMS message. If users don't 'check out' after 30 minutes (for example), it raises an alarm in a Telegram groupchat that project admins can join.
+
+Other example use cases for it are:
+
+-  Supporting protestors at risk of arrest or kidnapping
+-  Supporting women and LGBTQ+ people walking home at night, or going on dates
+-  Supporting journalists or medical staff in warzones
+
+We released it under an open source (MIT) license. If you'd like to dive in and have a look then go [check it out](https://github.com/geeksforsocialchange/imok) on GitHub, which contains full instructions for setting up your own instance and a list of recommended security precautions.
+
+We've still sadly not got to pilot this due to rapidly changing conditions around reporting during Covid. If you think this would be a useful tool for your group please get in touch.
