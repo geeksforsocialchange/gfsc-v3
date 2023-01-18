@@ -20,7 +20,7 @@
         {{ $teamlist := split .Params.who " " }} {{ $teampages := (.GetPage
         "/team/").RegularPagesRecursive }} {{ range $teamlist }} {{ range (where
         $teampages ".Params.dataname" . ) }}
-        <a href="{{ .URL }}">{{ .Params.firstname }}</a>
+					{{ .Params.firstname }}
         {{ end }} {{ end }}
       </span>
     </p>
