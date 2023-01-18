@@ -1,7 +1,14 @@
 {{ define "main" }}
 <div class="project">
   <h3 class="project__title">{{ .Title }}</h3>
-  <p class="project__summary">{{ .Summary }}</p>
+  <p class="project__summary">
+		{{ .Summary }}
+		{{if .Params.linktourl }}
+			<a href="{{ .Params.linktourl }}" target="_blank">
+				{{if .Params.linktotext }} {{ .Params.linktotext }} {{else}} Visit site.{{end}}
+			</a>
+		{{end}}
+	</p>
   {{if .Resources.Match "*jpg"}} {{- partial "gallery.html" . -}} {{ else }}
   <hr class="fancy fancy--no-phone" />
   {{end}}
