@@ -4,7 +4,7 @@ client: "GFSC Collective, Gendered Intelligence"
 when: "Winter 2022"
 who: kim jazz katja mark
 themes: trans-liberation
-categories: consultancyresearch software
+categories: consultancyresearch software flagship designbranding
 linktourl: https://transdimension.uk/
 linktotext:
 image:
