@@ -5,6 +5,6 @@ buttonlink: "our-work/design-branding/"
 headless: true
 ---
 
-This is the first paragraph about design and branding its a bit bolder than the rest.
+We offer design and branding as both a standalone service and alongside web development or consultation. We have experience from refreshing existing branding to creating whole new design worlds from scratch.
 
-Here's some more info about how we do design and branching, maybe check out some of our previous work
+Depending on the scale of the project, we deliver this design work either from our in-house team, or with the help of some longstanding external consultants and collaborators.
