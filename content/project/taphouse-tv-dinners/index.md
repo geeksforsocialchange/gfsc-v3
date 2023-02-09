@@ -7,10 +7,15 @@ themes: hulme-and-manchester mutual-aid
 categories: consultancyresearch software
 linktourl: https://tvdinners.club/
 linktotext:
-image:
-imagealt:
+image: index.jpg
+imagealt: Taphouse TV Dinners' logo
 summary: "How we worked with the Old Abbey Taphouse during the COVID-19 crisis to create and launch a project distributing free hot meals in the community of Hulme, Manchester."
 weight: 100
+galleryalt:
+- A mobile mockup showing the TV dinners website and registration form
+- A screenshot of the website
+- A photograph of the outside of the Old Abbey Taphouse
+- The TV Dinners logo
 draft: false
 ---
 

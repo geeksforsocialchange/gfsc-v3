@@ -2,7 +2,7 @@
 title: "Dear Friend"
 client: "GFSC Collective"
 when: "2016-18"
-who: kim sylvia
+who: kim sylvia mark hebe
 themes: local-history hulme-and-manchester
 categories: designbranding software
 linktourl: https://dearfriend.org.uk/

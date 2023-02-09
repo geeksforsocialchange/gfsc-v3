@@ -7,10 +7,14 @@ themes: local-history anti-racism
 categories: consultancyresearch software designbranding
 linktourl: https://ourmothers.org/
 linktotext:
-image:
-imagealt:
+image: index.png
+imagealt: Strength of our Mothers' logo
 summary: "How we developed branding and a website for the Strength of Our Mothers project, which tells the story of white women in interracial relationships from the 1940s and onwards."
 weight: 100
+galleryalt:
+- Strength of our Mothers' logo
+- Mockup of the SoM site on tablet
+- Small version of the SoM logo
 draft: false
 ---
 

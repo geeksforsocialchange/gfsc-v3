@@ -1,5 +1,5 @@
 ---
-title: "Website development research package"
+title: "Hulme Community Garden Centre website consultancy"
 client: "Hulme Community Garden Centre"
 when: "Autumn 2017"
 who: kim
@@ -7,10 +7,15 @@ themes: hulme-and-manchester environment digital-autonomy
 categories: consultancyresearch
 linktourl: https://trello.com/b/JG6XDzVT/hcgc-website-user-stories
 linktotext:
-image:
-imagealt:
+image: index.jpg
+imagealt: Hulme Community Garden Centre's logo
 summary: "How we researched Hulme Community Garden Centre's tech needs, and provided them with a package of information and user stories which set them up to develop their perfect website."
 weight: 100
+galleryalt:
+- A photograph of a plant display in Hulme Garden Centre with a hand painted board with the centre's name on it
+- A screenshot of a trello board of user stories 
+- A group photo of some of the staff
+- Hulme Community Garden Centre's logo
 draft: false
 ---
 

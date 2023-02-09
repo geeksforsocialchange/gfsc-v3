@@ -7,10 +7,18 @@ themes: trans-liberation
 categories: consultancyresearch software flagship designbranding
 linktourl: https://transdimension.uk/
 linktotext:
-image:
-imagealt:
+image: index.png
+imagealt: The Trans Dimension logo
 summary: "How we collaborated with Gendered Intelligence to develop a trans-focussed offshoot of our award-winning PlaceCal Community Calendar."
 weight: 100
+galleryalt:
+- The Trans Dimension logo on a space field with brighly coloured icons of trans flags, rockets, planets etc
+- A preview of the branding guidelines
+- Mockups of the website on tablet
+- The Trans Dimension logo alongside five illustrations of trans people
+- Mockups of the website on mobile
+- A photograph of The Trans Dimension pin badges
+- The Trans Dimension logo on its own
 draft: false
 ---
 
