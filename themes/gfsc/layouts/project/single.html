@@ -4,7 +4,7 @@
   <p class="project__summary">
 		{{ .Summary }}
 	</p>
-  {{if .Resources.Match "*jpg"}} {{- partial "gallery.html" . -}} {{ else }}
+  {{if .Resources.ByType "image"}} {{- partial "gallery.html" . -}} {{ else }}
   <hr class="fancy fancy--no-phone" />
   {{end}}
   <div class="project__meta">
