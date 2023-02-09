@@ -7,6 +7,7 @@
    --opacity: 0.99;
    --spacing: 0px;
 }
+
 .orangify {
    background-color: var(--base);
    display: flex;
@@ -18,11 +19,11 @@
 }
 
 .orangify img {
-   /* filter: grayscale(100%) contrast(1.15) blur(var(--blur)); */
+   filter: grayscale(100%) contrast(1.15) blur(var(--blur));
    flex: 1 0 100%;
    height: 100%;
    max-width: 100%;
-   /* mix-blend-mode: var(--bg-blend); */
+   mix-blend-mode: var(--bg-blend);
    object-fit: cover;
    opacity: var(--opacity);
    position: relative;

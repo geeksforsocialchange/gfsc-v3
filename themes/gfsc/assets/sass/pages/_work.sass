@@ -91,21 +91,27 @@
       text-decoration: none
       background-color: $secondary
     &__image
-      height: 217px
+      // height: 217px
       margin: 0rem -1.5rem
+      background-color: $secondary
       +border(top)
+      padding: 0 20%
+      img
+        width: 100%
       +for-tablet-portrait-up
         +border(left)
         margin: 0
-        height: auto
-        width: 213px
+        width: 30%
+        padding: 0
         flex-grow: 0
         flex-shrink: 0
         flex-basis: auto
+        display: grid
+        align-items: center
         img
           object-fit: cover
       +for-tablet-landscape-up
-        width: 341px
+        width: 40%
       +for-desktop-up
         +border(right)
 
