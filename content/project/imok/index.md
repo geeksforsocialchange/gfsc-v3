@@ -7,10 +7,16 @@ themes: hulme-and-manchester mutual-aid anti-racism digital-autonomy
 categories: consultancyresearch flagship software
 linktourl: https://github.com/geeksforsocialchange/imok
 linktotext:
-image:
-imagealt:
+image: index.jpg
+imagealt: I'm OK (imok) logo
 summary: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
+galleryalt:
+- A photo of someone texting with the 'imok' speech bubble logo overlaid
+- No Borders Manchester and GFSC's logos
+- Greyscale line artwork of Dallas Court Reporting Centre and a calendar
+- A screenshot of the translation interface
+- An A6 'bust card' leaflet explaining how imok works
 draft: false
 ---
 

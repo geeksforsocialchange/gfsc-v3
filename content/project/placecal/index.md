@@ -7,10 +7,17 @@ themes: hulme-and-manchester digital-autonomy mutual-aid
 categories: consultancyresearch software flagship designbranding educationtraining
 linktourl: https://placecal.org/
 linktotext:
-image:
-imagealt:
+image: index.png
+imagealt: PlaceCal's logo
 summary: "How we created PlaceCal, an award winning community calendar system, designed to combat loneliness and isolation in neighbourhoods across the UK and beyond."
 weight: 11
+galleryalt:
+- PlaceCal's logo on a background showing the clockface inside a map marker device
+- Mockups of PlaceCal on tablet
+- Posters advertising PlaceCal in a range of colours
+- Mockups of PlaceCal on phone
+- Custom illustration work showing three different figures using PlaceCal
+- Custom illustration work showing PlaceCal as the centre connecting a range of places together
 draft: false
 ---
 

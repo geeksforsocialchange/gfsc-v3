@@ -1,36 +1,37 @@
-{{$alttexts := .Param "galleryalt"}} {{ if $alttexts }}
-<div class="project__gallery">
+{{ $alttexts := .Param "galleryalt" }} 
+{{ $indexImg := "index.png" }}
+
+{{ if $alttexts }}
   <script src="/assets/js/gallery.js"></script>
-  <div class="project__image orangify" id="bigimage">
-		<img src='{{index (.Resources.Match "*jpg") 0}}' alt="{{index $alttexts 0}}" />
-  </div>
-  <div class="project__gallery__thumbnails">
-    {{range $index, $val := .Resources.Match "*jpg"}} {{ $alttext := index
-    $alttexts $index}}
-    <div
-      class="project__thumbnail orangify"
-      onClick="showGalleryImage({{$index}})"
-    >
-      <img
-        src="{{$val}}"
-        {{if
-        $alttext}}
-        alt="{{$alttext}}"
-        {{else}}
-        aria-hidden="true"
-        {{end}}
-      />
+
+  <div class="gallery">
+    <div class="gallery__image" id="bigimage">
+      <img src='{{ index (.Resources.ByType "image") 0 }}' alt="{{ index $alttexts 0 }}" />
     </div>
-    {{end}}
-    <span class="project__gallery__space"></span>
+    <div class="gallery__thumbnails">
+      {{ range $index, $val := .Resources.ByType "image" }} 
+        {{ $alttext := index $alttexts $index }}
+        {{ if not (eq (string $val) $indexImg) }}
+          <div
+            class="gallery__thumbnail"
+            onClick="showGalleryImage({{ $index }})"
+          >
+            <img
+              src="{{ $val }}"
+              {{ if $alttext }}
+                alt="{{ $alttext }}"
+              {{else}}
+                aria-hidden="true"
+              {{ end }}
+            />
+          </div>
+        {{ end }}
+      {{ end }}
+      <div class="gallery__thumbnail gallery__thumbnail--filler"></div>
+    </div>
   </div>
-</div>
-{{else}}
-<p>
-  oops no alt text - check the
-  <a
-    href="https://github.com/geeksforsocialchange/gfsc-v3/blob/main/documentation/projectImages.md"
-    >docs</a
-  >
-</p>
-{{end}}
+{{ else }}
+  <p>
+    oops no alt text - check the <a href="https://github.com/geeksforsocialchange/gfsc-v3/blob/main/documentation/projectImages.md">docs</a>
+  </p>
+{{ end }}

@@ -1,0 +1,24 @@
+.gallery
+  margin: 0 -1rem
+  +for-tablet-portrait-up
+    margin: 0 -5rem
+  &__image
+    +border(2px 0)
+    line-height: 0
+    img
+      width: 100%
+  &__thumbnails
+    display: flex
+    justify-content: flex-start
+    flex-wrap: wrap
+    background-color: $primary
+    img
+      height: 60px
+  &__thumbnail
+    cursor: pointer
+    line-height: 0
+    padding: 0 2px 2px 0
+    &--filler
+      width: auto
+      background-color: transparent
+      
