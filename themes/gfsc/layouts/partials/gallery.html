@@ -4,16 +4,16 @@
 {{ if $alttexts }}
   <script src="/assets/js/gallery.js"></script>
 
-  <div class="project__gallery">
-    <div class="project__image orangify" id="bigimage">
+  <div class="gallery">
+    <div class="gallery__image" id="bigimage">
       <img src='{{ index (.Resources.ByType "image") 0 }}' alt="{{ index $alttexts 0 }}" />
     </div>
-    <div class="project__gallery__thumbnails">
+    <div class="gallery__thumbnails">
       {{ range $index, $val := .Resources.ByType "image" }} 
         {{ $alttext := index $alttexts $index }}
         {{ if not (eq (string $val) $indexImg) }}
           <div
-            class="project__thumbnail orangify"
+            class="gallery__thumbnail"
             onClick="showGalleryImage({{ $index }})"
           >
             <img
@@ -27,7 +27,7 @@
           </div>
         {{ end }}
       {{ end }}
-      <span class="project__gallery__space"></span>
+      <div class="gallery__thumbnail gallery__thumbnail--filler"></div>
     </div>
   </div>
 {{ else }}
