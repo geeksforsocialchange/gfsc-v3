@@ -4,8 +4,8 @@ title: "UnTechCon 1 FAQ"
 subtitle: Some common questions we've had about UnTechCon
 description: A little more information about our studio and what we have planned for the day
 author: emma
-social-image-wide:	
-social-image-square: 
+social:	
+
 ---
 
 

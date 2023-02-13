@@ -5,7 +5,7 @@ subtitle: Co-designing a local history archive with Oldham residents
 description: We are currently in the early stages of working on a number of local history projects, and are trying to come up with some shared tech we can use across all of them. I felt felt that this might be a great project to share a sort of ‘design diary’/’work in progress story’ of, as we go along.
 author: emma, kim
 illustrator: emma
-social-image-wide: blog/raftt-1/cover.jpg
+social: blog/raftt-1/cover.jpg
 ---
 
 {{<image src="cover.jpg" alt="An abstract image featuring a black and white shot of some mills with some white lines and coloured blobs on the top suggesting a user interface">}}

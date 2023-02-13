@@ -5,7 +5,7 @@ description:
    A bit late but thought we’d do a little review of GFSC’s 2021. I thought
    this was gonna be kind of a short list as we’ve got lots on the go that’s not quite
    come to fruition yet but wow, we did a lot!
-social-image-wide: transdimension.png
+social: transdimension.png
 subtitle: A roundup of what we did last year
 title: GFSC 2021 Roundup
 ---

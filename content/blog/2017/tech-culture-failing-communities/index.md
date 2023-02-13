@@ -9,8 +9,8 @@ description:
    yet despite all this technology that’s supposed to bring us together, social isolation
    is a major player in the current epidemic of depression, loneliness, eating disorders,
    suicide, and other social problems. How has this happened?
-social-image-square: blog/tech-culture/og-square.png
-social-image-wide: blog/tech-culture/og-wide.png
+
+social: blog/tech-culture/og-wide.png
 subtitle: We need a roadmap towards truly community-owned technology.
 title: Tech culture is failing communities. How can we make it better?
 ---

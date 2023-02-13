@@ -5,7 +5,7 @@ description:
    We've worked with No Borders Manchester to create a tool for people seeking
    asylum in the UK. We're launching it today and have plans to use it to support many
    other vulnerable groups.
-social-image-square: blog/imok/imok_square.png
+
 subtitle: A simple bot designed to support people undertaking potentially risky activities
 title: imok is released!
 ---
