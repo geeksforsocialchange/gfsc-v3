@@ -1,7 +1,7 @@
 ---
 title: "The Collective"
-bigtext: "“The dream of a peaceful society to me is still the dream of a potluck supper. The society in which all can contribute and all can find friendship.”"
-bigtextcredit: "Ursula Franklin"
+bigtext: "“One of the most vital ways we sustain ourselves is by building communities of resistance, places where we know we are not alone.”"
+bigtextcredit: bell hooks
 type: collective
 ---
 
