@@ -18,12 +18,14 @@
     </p>
     <p class="project__meta__team">
       Team:
-      <span class="project__meta__value">
-        {{ $teamlist := split .Params.who " " }} {{ $teampages := (.GetPage
-        "/team/").RegularPagesRecursive }} {{ range $teamlist }} {{ range (where
-        $teampages ".Params.dataname" . ) }}
-					{{ .Params.firstname }}
-        {{ end }} {{ end }}
+      <span class="project__meta__value word-spacer">
+        {{ $teamlist := split .Params.who " " }} 
+        {{ $teampages := (.GetPage "/team/").RegularPagesRecursive }} 
+        {{ range $teamlist }} 
+          {{ range (where $teampages ".Params.dataname" . ) }}
+           {{ .Params.firstname }}
+          {{ end }} 
+        {{ end }}
       </span>
     </p>
   </div>
