@@ -1,7 +1,7 @@
 ---
 title: "The Studio"
-bigtext: "“Technology involves organisation, procedure, symbols, new words, equations, and most of all, it involves a mind set.”"
-bigtextcredit: "Ursula Franklin"
+bigtext: "“The ultimate, hidden truth of the world is that it is something that we make, and could just as easily make differently.”"
+bigtextcredit: "David Graeber"
 type: studio
 ---
 
