@@ -37,7 +37,7 @@ People who are trans, non-binary or gender diverse experience:
 -  Greater inequalities in health & wellbeing, especially mental health, and
 -  Less opportunity in terms of education, training & employment
 
-As a result, 4 in 5 trans people experienced transphobic hate crime in 2020[^galop]. Experiences like these can be a deterrent to finding crucial and life-saving support networks.
+As a result,[4 in 5 trans people experienced transphobic hate crime in 2020](https://galop.org.uk/resource/hate-crime-report-2021/). Experiences like these can be a deterrent to finding crucial and life-saving support networks.
 
 Right now, NHS waiting lists for trans healthcare are up to five years long, and there is more pressure than ever on mental health services. If we can support our users to build networks and reduce their social isolation, we hope we can build collective resilience and build a national network of trans-led and trans-friendly groups. Together, they can create safe spaces for trans people and battle the seemingly never-ending wave of transphobia sweeping the UK and the world.
 
@@ -61,12 +61,9 @@ We've worked with both GI staff and [Greater Manchester Coalition of Disabled Pe
 
 Listings are moderated centrally by a dedicated staff member at Gendered Intelligence, meaning listings will be relevant and up-to-date. Putting on events is hard and often thankless, and there's very little support for you out there. We hope that we can use The Trans Dimension to support all these groups and create a network of people working together on trans liberation.
 
-We hope that The Trans Dimension will help create a world where trans people of every age and ability can safely access the potentially life saving support of community networks, and where all trans people feel welcome.
-
 > “I am delighted to see the advent of The Trans Dimension. It’s just what the trans community needs. As an organiser of a trans meetup group myself I couldn’t believe how many events were happening each week, most of which I’d never heard of before. This is a great resource and a super way to stay up to date. I can’t wait to see how this evolves in the future.” 
+>
 > Ray Lavery, London Transgender Meetup
 
+We hope that The Trans Dimension will help create a world where trans people of every age and ability can safely access the potentially life saving support of community networks, and where all trans people feel welcome.
 
----
-
-[^galop]: [**Hubbard, L (2021)**. The Hate Crime Report 2021: Supporting LGBT+ Victims of Hate Crime, London: Galop.](https://galop.org.uk/resource/hate-crime-report-2021/)
