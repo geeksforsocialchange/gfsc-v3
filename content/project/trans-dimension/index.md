@@ -9,6 +9,7 @@ linktourl: https://transdimension.uk/
 linktotext:
 image: index.png
 imagealt: The Trans Dimension logo
+social: social.png
 summary: "How we collaborated with Gendered Intelligence to develop a trans-focussed offshoot of our award-winning PlaceCal Community Calendar."
 weight: 100
 galleryalt:
