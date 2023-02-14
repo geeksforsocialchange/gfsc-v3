@@ -4,8 +4,8 @@ title: Announcing the Geeks for Social Change Podcast!
 subtitle: By popular demand our first episode "How government technology limits who we can become" is out today
 description: Mallory Moore, Zara Manoehoetoe, and Dr Kim Foale discuss technologies of state and empire that control our lives. With a special focus on UK trans legal status and lengthy prison sentences given to black teenagers for sending text messages in Manchester.
 author: kim
-social-image-wide: blog/podcast/1.jpg
-social-image-square: blog/podcast/1.jpg
+social: blog/podcast/1.jpg
+
 ---
 
 Thanks to all the lovely people who filled in our [GFSC supporter survey](https://forms.gle/irkDJhVCvpoNtiMy8), we learnt that podcasts are _super_ popular with you all, with over 60% of you listening to them. 

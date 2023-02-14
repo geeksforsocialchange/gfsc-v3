@@ -7,8 +7,7 @@ description:
    write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness,
    or poverty or something.
 illustrator: emma
-social-image-square: blog/technology-isnt-a-magic-wand/og-square.jpg
-social-image-wide: blog/technology-isnt-a-magic-wand/emmacharleston.jpg
+social: blog/technology-isnt-a-magic-wand/emmacharleston.jpg
 subtitle: "...And you still need the right team to get you to that red X."
 title: Technology isn't a magic wand, it's a treasure map.
 ---

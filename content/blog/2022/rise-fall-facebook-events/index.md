@@ -4,8 +4,7 @@ title: The Rise and Fall of Facebook Events
 subtitle: The second episode of the GFSC podcast
 description: David Hayward and Rachele Evaroa join Kim to talk about the infiltration of all our social lives by Facebook, and how things are probably worse for venues now than they were 10 years ago.
 author: kim
-social-image-wide: 2.jpg
-social-image-square: 2.jpg
+social: 2.jpg
 ---
 
 {{<anchorfm "The-Rise-and-Fall-of-Facebook-Events-e1onssn" >}}
