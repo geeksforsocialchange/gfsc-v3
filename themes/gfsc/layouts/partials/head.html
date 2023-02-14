@@ -35,8 +35,13 @@
 <!-- Image -->
 {{- if isset .Params "social" }}
    {{ $image := .Resources.GetMatch $.Params.Social }}
-   {{ $imageFit := $image.Fit "1200x630" }}
-   <meta name="og:image" content="{{ $imageFit.Permalink }}" />
+   {{ if $image }}
+      {{ $imageFit := $image.Fit "1200x630" }}
+      <meta name="og:image" content="{{ $imageFit.Permalink }}" />
+   {{ else }}
+      <!-- Image not found - check the path is right? -->
+      <meta property="og:image" content="/assets/images/social.png" />
+   {{ end }}
 {{- else }}
    <meta property="og:image" content="/assets/images/social.png" />
 {{- end }}
@@ -55,3 +60,4 @@
    ></script>
 {{- end }}
 </head>
+
