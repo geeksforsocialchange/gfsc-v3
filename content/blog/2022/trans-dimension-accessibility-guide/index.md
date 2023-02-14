@@ -5,7 +5,6 @@ subtitle: A first look at our new zine on making events more inclusive for every
 description: "When we asked our collaborators for affirming or positive experiences they’ve had at events we heard “the best I've had is mediocre.” We want to believe that this is not because of a lack of understanding and responsibility, but for a lack of guidance and resources."
 author: kim
 social: transdimension.png
-
 ---
 
 {{<image src="transdimension.png" alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}

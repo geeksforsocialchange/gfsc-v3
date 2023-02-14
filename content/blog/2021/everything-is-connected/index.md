@@ -4,7 +4,6 @@ date: 2021-03-02
 description:
    The dream of utopian connectivity we were promised could not be further
    from our current reality.
-
 social: og-wide.png
 subtitle: What if storing user data at all is a dark pattern?
 title: Everything is connected, but should it be?

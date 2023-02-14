@@ -4,8 +4,7 @@ title: Creating a national network of Community Technology Partnerships
 subtitle: How we are going to transform the relationships between people, technology and place over the next two years, thanks to The National Lottery Community Fund
 description: Working in an ambitious partnership with C2 Connecting Communities, Manchester School of Architecture, The Wellcome Centre for Cultures and Environments of Health, and half a dozen friends and allies, have collectively won £220,000 from the largest funder of community activity in the UK.
 author: kim
-social:	creating-ctps/PlaceCal_16by9_EventsAroundYou.png
-
+social:	PlaceCal_16by9_LocalArea.png
 ---
 {{<image src="PlaceCal_16by9_LocalArea.png" alt="An illustration of a community of place" classList="image--frame">}}
 
