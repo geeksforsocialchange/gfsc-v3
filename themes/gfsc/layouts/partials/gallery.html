@@ -11,7 +11,7 @@
     <div class="gallery__thumbnails">
       {{ range $index, $val := .Resources.ByType "image" }} 
         {{ $alttext := index $alttexts $index }}
-        {{ if not (eq (string $val) $indexImg) }}
+        {{ if not (in "index.png index.jpg social.jpg social.png" (string $val)) }}
           <div
             class="gallery__thumbnail"
             onClick="showGalleryImage({{ $index }})"

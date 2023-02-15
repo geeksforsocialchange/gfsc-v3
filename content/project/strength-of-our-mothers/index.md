@@ -9,6 +9,7 @@ linktourl: https://ourmothers.org/
 linktotext:
 image: index.png
 imagealt: Strength of our Mothers' logo
+social: social.jpg
 summary: "How we developed branding and a website for the Strength of Our Mothers project, which tells the story of white women in interracial relationships from the 1940s and onwards."
 weight: 100
 galleryalt:

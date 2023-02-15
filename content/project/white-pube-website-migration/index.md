@@ -9,6 +9,7 @@ linktourl: https://thewhitepube.co.uk/
 linktotext:
 image: index.jpg
 imagealt: The White Pube's logo
+social: 1.jpg
 summary: "How we helped The White Pube transition from an outdated and user-unfriendly Wix site to a properly structured and accessible static site, and learn basic web skills in the process."
 weight: 3
 galleryalt:
