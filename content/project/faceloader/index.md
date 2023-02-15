@@ -7,7 +7,7 @@ themes: digital-autonomy
 categories: software
 linktourl: https://github.com/geeksforsocialchange/faceloader
 linktotext:
-image: index.jpg
+image: index.png
 imagealt: A photograph of some small badges with 'facebook' and 'thumbs up emoji' logos on them
 summary: "How we developed a tool to help event organisers break free of the siloed Facebook ecosystem, and share their events in more accessible and user-friendly calendar formats"
 weight: 100
