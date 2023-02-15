@@ -7,7 +7,7 @@ themes: digital-autonomy hulme-and-manchester
 categories: consultancyresearch software
 linktourl:
 linktotext:
-image: index.jpg
+image: index.png
 imagealt: Action Together's logo
 summary: "How we worked with a request from Action Together for a new CRM to help them develop a broader strategy and structure to best run the digital facets of their organisation."
 weight: 100

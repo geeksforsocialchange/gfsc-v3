@@ -7,7 +7,7 @@ themes: trans-lib digital-autonomy
 categories: software consultancyresearch
 linktourl: https://github.com/geeksforsocialchange/enquirywitch
 linktotext:
-image: index.jpg
+image: index.png
 imagealt: Enquiry Witch logo
 summary: "How we helped Gendered Intelligence streamline their website communications, respond to enquiries faster, and minimise pressure on their volunteers and employees"
 weight: 100
