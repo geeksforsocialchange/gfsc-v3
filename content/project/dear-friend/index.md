@@ -9,7 +9,7 @@ linktourl: https://dearfriend.org.uk/
 linktotext:
 image:
 imagealt:
-summary: "How we imagined, developed and ultimately realised a community-led project aimed at celebrating women in public life and telling the stories of past struggles for liberation."
+description: "How we imagined, developed and ultimately realised a community-led project aimed at celebrating women in public life and telling the stories of past struggles for liberation."
 weight: 100
 draft: true
 ---

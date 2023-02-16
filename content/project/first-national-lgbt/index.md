@@ -9,7 +9,7 @@ linktourl: http://lgbthistoryfestival.org/
 linktotext:
 image:
 imagealt:
-summary: "How we worked with the organisers of LGBT history month to design and run a festival event in Manchester, and create and author an associated website."
+description: "How we worked with the organisers of LGBT history month to design and run a festival event in Manchester, and create and author an associated website."
 weight: 100
 draft: true
 ---

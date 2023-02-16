@@ -2,7 +2,7 @@
 <div class="project">
   <h3 class="project__title">{{ .Title }}</h3>
   <p class="project__summary">
-		{{ .Summary }}
+		{{ .Description }}
 	</p>
   {{if .Resources.ByType "image"}} {{- partial "gallery.html" . -}} {{ else }}
   <hr class="fancy fancy--no-phone" />

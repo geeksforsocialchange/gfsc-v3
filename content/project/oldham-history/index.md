@@ -9,7 +9,7 @@ linktourl:
 linktotext:
 image:
 imagealt:
-summary: "How we enabled Oldham History to easily update their website, with a static site build that enables any computer user in their organisation to make changes in an intuitive and user-friendly way."
+description: "How we enabled Oldham History to easily update their website, with a static site build that enables any computer user in their organisation to make changes in an intuitive and user-friendly way."
 weight: 100
 draft: true
 ---

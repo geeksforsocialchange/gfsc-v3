@@ -9,7 +9,7 @@ linktourl: https://trello.com/b/JG6XDzVT/hcgc-website-user-stories
 linktotext:
 image: index.png
 imagealt: Hulme Community Garden Centre's logo
-summary: "How we researched Hulme Community Garden Centre's tech needs, and provided them with a package of information and user stories which set them up to develop their perfect website."
+description: "How we researched Hulme Community Garden Centre's tech needs, and provided them with a package of information and user stories which set them up to develop their perfect website."
 weight: 100
 galleryalt:
 - A photograph of a plant display in Hulme Garden Centre with a hand painted board with the centre's name on it
