@@ -9,6 +9,7 @@ linktourl: https://github.com/geeksforsocialchange/imok
 linktotext:
 image: index.png
 imagealt: I'm OK (imok) logo
+social: social.jpg
 description: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
 galleryalt:

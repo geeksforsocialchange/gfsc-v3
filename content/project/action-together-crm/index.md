@@ -9,6 +9,7 @@ linktourl:
 linktotext:
 image: index.png
 imagealt: Action Together's logo
+social: social.jpg
 description: "How we worked with a request from Action Together for a new CRM to help them develop a broader strategy and structure to best run the digital facets of their organisation."
 weight: 100
 galleryalt:

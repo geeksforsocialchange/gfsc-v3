@@ -9,6 +9,7 @@ linktourl: https://github.com/geeksforsocialchange/enquirywitch
 linktotext:
 image: index.png
 imagealt: Enquiry Witch logo
+social: social.png
 description: "How we helped Gendered Intelligence streamline their website communications, respond to enquiries faster, and minimise pressure on their volunteers and employees"
 weight: 100
 galleryalt:

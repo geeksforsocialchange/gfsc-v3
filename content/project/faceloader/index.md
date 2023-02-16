@@ -8,6 +8,7 @@ categories: software
 linktourl: https://github.com/geeksforsocialchange/faceloader
 linktotext:
 image: index.png
+social: social.jpg
 imagealt: A photograph of some small badges with 'facebook' and 'thumbs up emoji' logos on them
 description: "How we developed a tool to help event organisers break free of the siloed Facebook ecosystem, and share their events in more accessible and user-friendly calendar formats"
 weight: 100

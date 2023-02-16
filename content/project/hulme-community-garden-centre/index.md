@@ -9,6 +9,7 @@ linktourl: https://trello.com/b/JG6XDzVT/hcgc-website-user-stories
 linktotext:
 image: index.png
 imagealt: Hulme Community Garden Centre's logo
+social: social.jpg
 description: "How we researched Hulme Community Garden Centre's tech needs, and provided them with a package of information and user stories which set them up to develop their perfect website."
 weight: 100
 galleryalt:
