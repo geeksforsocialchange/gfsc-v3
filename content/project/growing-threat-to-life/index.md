@@ -9,7 +9,7 @@ linktourl: https://resistancelab.network/our-work/taser-report/index.html
 linktotext:
 image: cops.jpg
 imagealt: police in a line wearing riot gear
-summary: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
+description: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
 galleryalt:
 weight: 100

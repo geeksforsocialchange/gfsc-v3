@@ -9,7 +9,8 @@ linktourl: https://github.com/geeksforsocialchange/imok
 linktotext:
 image: index.png
 imagealt: I'm OK (imok) logo
-summary: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
+social: social.jpg
+description: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
 galleryalt:
 - A photo of someone texting with the 'imok' speech bubble logo overlaid

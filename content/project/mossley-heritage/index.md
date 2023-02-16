@@ -10,7 +10,7 @@ linktotext:
 image: index.png
 imagealt: Mossley Heritage's logo
 social: social.png
-summary: "How we helped Mossley Civic Society consolidate their brands with a zero maintenance website -- and even make some museum signs"
+description: "How we helped Mossley Civic Society consolidate their brands with a zero maintenance website -- and even make some museum signs"
 weight: 100
 galleryalt:
 - Mossley Heritage's new logo created by GFSC, showing a stylised chimney and rooftops

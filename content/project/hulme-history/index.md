@@ -9,7 +9,7 @@ linktourl: http://hulmehistory.info
 linktotext:
 image:
 imagealt:
-summary: "How we collaborated with Urbed to create 'Hulme History', an interface for the storage and viewing of historic archival materials, which has since been offered to several other organisations seeking similar solutions."
+description: "How we collaborated with Urbed to create 'Hulme History', an interface for the storage and viewing of historic archival materials, which has since been offered to several other organisations seeking similar solutions."
 weight: 100
 draft: true
 ---

@@ -10,7 +10,7 @@ linktotext:
 image: index.png
 imagealt: PlaceCal's logo
 social: social.png
-summary: "How we created PlaceCal, an award winning community calendar system, designed to combat loneliness and isolation in neighbourhoods across the UK and beyond."
+description: "How we created PlaceCal, an award winning community calendar system, designed to combat loneliness and isolation in neighbourhoods across the UK and beyond."
 weight: 11
 galleryalt:
 - PlaceCal's logo on a background showing the clockface inside a map marker device

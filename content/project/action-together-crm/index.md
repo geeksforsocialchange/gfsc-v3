@@ -9,7 +9,8 @@ linktourl:
 linktotext:
 image: index.png
 imagealt: Action Together's logo
-summary: "How we worked with a request from Action Together for a new CRM to help them develop a broader strategy and structure to best run the digital facets of their organisation."
+social: social.jpg
+description: "How we worked with a request from Action Together for a new CRM to help them develop a broader strategy and structure to best run the digital facets of their organisation."
 weight: 100
 galleryalt:
 - A split image showing a hairdresser cutting an older persons hair, and some young adults in a classroom setting

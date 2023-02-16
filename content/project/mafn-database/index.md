@@ -9,7 +9,7 @@ linktourl: https://github.com/geeksforsocialchange/mafn-db
 linktotext:
 image:
 imagealt:
-summary: "How we created a sophisticated database system for the Manchester Age Friendly Neighbourhoods project, in collaboration with PHASE at Manchester Metropolitan University."
+description: "How we created a sophisticated database system for the Manchester Age Friendly Neighbourhoods project, in collaboration with PHASE at Manchester Metropolitan University."
 weight: 100
 draft: true
 ---

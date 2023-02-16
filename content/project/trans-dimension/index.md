@@ -10,7 +10,7 @@ linktotext:
 image: index.png
 imagealt: The Trans Dimension logo
 social: social.png
-summary: "How we collaborated with Gendered Intelligence to develop a trans-focussed offshoot of our award-winning PlaceCal Community Calendar."
+description: "How we collaborated with Gendered Intelligence to develop a trans-focussed offshoot of our award-winning PlaceCal Community Calendar."
 weight: 100
 galleryalt:
 - The Trans Dimension logo on a space field with brighly coloured icons of trans flags, rockets, planets etc

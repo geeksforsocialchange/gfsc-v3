@@ -9,7 +9,7 @@ linktourl:
 linktotext:
 image:
 imagealt:
-summary: "How we helped Gendered Intelligence migrate their complex, outdated website onto a new CRM that will better enable them to support their users and administrate their workload."
+description: "How we helped Gendered Intelligence migrate their complex, outdated website onto a new CRM that will better enable them to support their users and administrate their workload."
 weight: 100
 draft: true # I'm not sure about this one yet
 ---
