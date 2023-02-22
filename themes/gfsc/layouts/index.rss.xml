@@ -29,7 +29,7 @@
 
 		{{ $projects := where $pages "Section"  "project"}}
 		{{ $blogs := where $pages "Section"  "blog"}}
-    {{ range (union $projects $blogs) }}
+    {{ range sort (union $projects $blogs) "Params.date"  "desc"}}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
