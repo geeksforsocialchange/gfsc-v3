@@ -1,4 +1,5 @@
 ---
+date: 2017-09-02
 title: "PlaceCal"
 client: "Manchester School of Architecture, Manchester Age Friendly Neighbourhoods"
 when: "2017 - now"

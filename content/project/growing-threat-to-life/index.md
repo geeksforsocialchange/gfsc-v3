@@ -1,4 +1,5 @@
 ---
+date: 2019-09-02
 title: "A Growing Threat to Life: Taser Usage by Greater Manchester Police"
 client: "Resistance Lab"
 when: "2020"

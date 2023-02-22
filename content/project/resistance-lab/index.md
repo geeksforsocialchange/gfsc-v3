@@ -1,4 +1,5 @@
 ---
+date: 2019-09-02
 title: "Resistance Lab Launch"
 client: "Resistance Lab"
 when: "2020-22"

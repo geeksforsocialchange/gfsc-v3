@@ -1,4 +1,5 @@
 ---
+date: 2019-09-02
 title: "Archival Website"
 client: "Oldham History"
 when: "2021-23"

@@ -1,4 +1,5 @@
 ---
+date: 2017-09-02
 title: "Hulme Community Garden Centre website consultancy"
 client: "Hulme Community Garden Centre"
 when: "Autumn 2017"

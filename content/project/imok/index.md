@@ -1,4 +1,5 @@
 ---
+date: 2021-06-02
 title: "imok: a simple bot to support people undertaking risky activities"
 client: "No Borders Manchester"
 when: "Summer 2021"

@@ -1,4 +1,5 @@
 ---
+date: 2020-09-02
 title: "Taphouse TV Dinners"
 client: "GFSC Collective, Old Abbey Taphouse"
 when: "2020-now"

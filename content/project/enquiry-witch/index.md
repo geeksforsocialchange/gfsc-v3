@@ -1,4 +1,5 @@
 ---
+date: 2021-11-02
 title: "EnquiryWitch"
 client: "Gendered Intelligence"
 when: "Winter 2021"
