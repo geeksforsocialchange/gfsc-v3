@@ -1,4 +1,5 @@
 ---
+date: 2019-11-02
 title: "Action Together CRM Consultation"
 client: "Action Together"
 when: "Winter 2019"

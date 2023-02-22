@@ -1,4 +1,5 @@
 ---
+date: 2021-09-02
 title: "The White Pube Website Overhaul"
 client: "The White Pube"
 when: "2021-22"

@@ -1,4 +1,5 @@
 ---
+date: 2019-09-02
 title: "Manchester Age Friendly Neighbourhoods Research Database"
 client: "Manchester Metropolitan University"
 when: "Spring 2017"

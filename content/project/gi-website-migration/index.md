@@ -1,4 +1,5 @@
 ---
+date: 2019-09-02
 title: "GI Website"
 client: "Gendered Intelligence"
 when: "Spring 2021"

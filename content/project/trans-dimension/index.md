@@ -1,4 +1,5 @@
 ---
+date: 2022-09-02
 title: "The Trans Dimension"
 client: "GFSC Collective, Gendered Intelligence"
 when: "Winter 2022"

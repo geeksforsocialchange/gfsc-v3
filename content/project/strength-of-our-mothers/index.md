@@ -1,4 +1,5 @@
 ---
+date: 2018-09-02
 title: "Strength Of Our Mothers"
 client: "National Black Arts Alliance"
 when: "2018"

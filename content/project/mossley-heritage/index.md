@@ -1,4 +1,5 @@
 ---
+date: 2019-01-02
 title: "Mossley Heritage: one place to find out about Mossley's rich history"
 client: "Mossley Civic Society"
 when: "2019"
