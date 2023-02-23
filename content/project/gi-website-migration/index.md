@@ -1,5 +1,5 @@
 ---
-date: 2019-09-02
+date: 2021-03-02
 title: "GI Website"
 client: "Gendered Intelligence"
 when: "Spring 2021"

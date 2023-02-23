@@ -1,5 +1,5 @@
 ---
-date: 2019-09-02
+date: 2015-02-02
 title: "First National History of LGBT Communities"
 client: "LGBT History Month"
 when: "2015"
