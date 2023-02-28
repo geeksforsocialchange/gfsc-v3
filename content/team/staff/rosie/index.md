@@ -1,5 +1,5 @@
 ---
-title: "Rosie ferrier"
+title: "Rosie Ferrier"
 firstname: "Rosie"
 pronouns: "She/her"
 job: "Developer"
