@@ -1,7 +1,7 @@
 ---
 title: "Dr. Kim Foale"
 firstname: "Kim"
-pronouns: "They/them"
+pronouns: "They/she"
 job: "Founder & Studio Lead"
 role: lead
 dataname: kim
