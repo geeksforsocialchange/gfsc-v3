@@ -26,3 +26,6 @@ authors:
    - name: Alice
      tag: alice
      avatar: alice@400.jpg
+   - tag: honor
+     name: honor ash
+     avatar: hnr@400.jpg
