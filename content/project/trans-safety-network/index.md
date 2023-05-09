@@ -1,11 +1,11 @@
 ---
 date: 2022-05-01
-title: "Trans Safety Network"
+title: "Trans Safety Network Website and Rebrand"
 client: "Trans Safety Network"
-when: "Autumn 2022"
-who: kim mark
+when: "Autumn-Winter 2022"
+who: kim mark sarah alfie
 themes: trans-lib
-categories: consultancyresearch designbranding
+categories: consultancyresearch designbranding software
 linktourl:
 linktotext:
 image: index.png
