@@ -53,7 +53,9 @@ Under ‘joint enterprise’ legislation designed to make, say, the getaway driv
 
 The Mayor of Greater Manchester Andy Burnham now plans to put police officers in schools[^5], despite [large coordinated public efforts and independent research](https://nopoliceinschools.co.uk/) by campaigners. So when [he also says he wants to start tracking people’s fingerprints and veins in order to use the tram](https://www.business-live.co.uk/economic-development/andy-burnham-business-leaders-explore-19463591), it’s hard to imagine that this data won’t be used in the most totalitarian ways.
 
-{{ include image.html description="Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA." url="/assets/images/blog/everything-is-connected/gattaca.jpg" class="frame" }}
+{{<image-with-caption/start src="gattaca.jpg" alts="Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA." classList="image--frame image--center" >}}
+    Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA.
+{{<image-with-caption/end>}}
 
 How do technologies like 'VeinID', which is essentially straight out of 1997 sci-fi film _Gattaca_ (starring Ethan Hawke, Jude Law and Uma Thurman), end up not being dismissed as dystopian movie plots, but given regional working groups and financial incentives to operate? The simple answer: because the people in the chrome tower -- developers, funders, politicians, tech evangelists and financiers -- are usually in the tiny minority laid out in the introduction. To them, this is a simple financial convenience that means you don’t need to take your phone or card out your pocket to pay.
 
