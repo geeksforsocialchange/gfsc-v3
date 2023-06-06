@@ -19,7 +19,7 @@ This zine is an act of care. It is the result of deliberate and enduring collabo
 
 When we asked our collaborators for affirming or positive experiences they’ve had at events we heard _“The best I've had is mediocre.”_ We want to believe that this is not because of a lack of understanding and responsibility, but for a lack of guidance and resources. Hopefully this zine will help.
 
-We provide this as a free download but **if you are able to support us financially, our suggested donation for the e-zine is £3.** It is still in draft form but we wanted to share it as soon as possible to give people a chance to give us feedback. [The full text of this zine and latest version is here](/publications/trans-dimension-guide-to-inclusive-events).
+We provide this as a free download but **if you are able to support us financially, our suggested donation for the e-zine is £3.** It is still in draft form but we wanted to share it as soon as possible to give people a chance to give us feedback.
 
 {{<kofi "Donate to help us make more free e-zines on trans and disabled liberation.">}}
 
