@@ -2,7 +2,7 @@
 title: "Emma Charleston"
 firstname: "Emma"
 pronouns: "She/her"
-job: "Graphic Designer and Content Strategist"
+job: "Design and Research Lead"
 jobtype: staff
 dataname: emma
 avatar: emma-charleston@400.jpg
