@@ -62,13 +62,16 @@ p
   color: $copy
   margin: 1.4444rem 0
 
-.blog, .page--default .page__content
-  blockquote
-    +border(left)
-    padding-left: 1.5em
-    margin-left: 0
-    font-style: normal
+blockquote  
+  +border(left)
+  padding-left: 1.5em
+  margin-left: 0
+  font-style: normal
+  p, a
+    color: $primary
+    font-size: 1.44rem
 
+.blog, .page--default .page__content
   ol
     margin: 2rem 0
     margin-left: 1em
