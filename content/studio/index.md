@@ -11,4 +11,4 @@ We work collaboratively with our clients to develop websites and apps, create tr
 
 Our speciality is helping to address really difficult and gnarly social problems: where other attempts at introducing digital elements have failed or are not working, where the people involved feel digitally excluded, or where there's a general sense of not knowing what to do. We can help!
 
-Our approach consists of three core elements:
+Our approach consists of four core elements:
