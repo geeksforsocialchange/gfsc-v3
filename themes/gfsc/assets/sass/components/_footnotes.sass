@@ -1,15 +1,26 @@
 .footnotes
-  font-size: 0.8rem
-  line-height: 1.43
+  margin: 0 -1rem
+  padding: 1rem
+  font-size: 1.2rem
+  // line-height: 1.43
   +border(top)
   background-color: #{$primary}20
+  +for-tablet-portrait-up
+    margin: 0 -5rem
+    padding: 1rem 5rem
+  +for-tablet-landscape-up
+    margin: 0 -2.5rem
+    padding: 1rem 2.5rem
+  +for-big-desktop-up
+    margin: 0 -7rem
+    padding: 1rem 7rem
+  hr
+    display: none
   ol
     margin: 0
-    p
-      +for-desktop-up
-        max-width: 70%
     li:before
       font-family: $freight
+      left: 0
 
 .footnote
   color: $primary
