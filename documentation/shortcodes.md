@@ -76,3 +76,17 @@ Fig 4. Various ‘nudge’ messages that don't allow you to say no: Amtrak askin
 - `txt`: The call to action text, defaults to "Make a donation on Ko-fi to help support our work."
 - `href`: the link the button will point to, defaults to `https://ko-fi.com/gfscstudio`
 - `btn`: The text on the button, defaults to "Donate now"
+
+
+## `youtube`
+
+### Example
+
+```
+{{< youtube id="YDb8TazseN4" title="A 90 second introduction to PlaceCal" >}}
+```
+
+### Arguments
+
+- `id`: the id from the end of the youtube URL
+- `title`: a short description for accessibility that gets added to the iframe
