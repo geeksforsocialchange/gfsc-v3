@@ -1,11 +1,11 @@
-{{ if and (or (in .URL "our-work") (in .URL "project")) (not (eq .URL "/our-work/")) }}
+{{ if and (or (in .Permalink "our-work") (in .Permalink "project")) (not (eq .Permalink "/our-work/")) }}
   <div class="title title--borderless">
     {{ $ourwork := $.Site.GetPage "/our-work/" }}
     {{ with $ourwork }}
       <h2 class="title__main">{{ .Title }}</h2>
     {{ end }}
   </div>
-{{ else if and (or (in .URL "blog") (in .URL "project")) (not (eq .URL "/blog/")) }}
+{{ else if and (or (in .Permalink "blog") (in .Permalink "project")) (not (eq .Permalink "/blog/")) }}
   <div class="title title--blog">
     {{ $blog := $.Site.GetPage "/blog/" }}
     {{ with $blog }}
@@ -20,7 +20,7 @@
       <h2 class="title__main">{{ .Title }}</h2>
     {{ end }}
     {{ with .Params.Bigtext }}
-      <div class="title__subtitle{{ if (eq $.URL "/")}} title__subtitle--bigger{{ end }}">
+      <div class="title__subtitle{{ if (eq $.Permalink "/")}} title__subtitle--bigger{{ end }}">
         {{ if eq $.Params.Notitle true }}
           <h2 class="title__subtitle__bigtext">{{ . }}</h2>
         {{ else }}
