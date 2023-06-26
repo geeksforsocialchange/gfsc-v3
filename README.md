@@ -12,7 +12,7 @@ The new site will use Hugo, and feature a redesign as well as new and updated co
 
 - **Git**
 - **Github** account if you would like to make pull requests
-- **Hugo** we are using `hugo_extended_0.88.1` available for download [here](https://github.com/gohugoio/hugo/releases/tag/v0.88.1) or consult the official [documentation](https://gohugo.io/getting-started/installing/)
+- **Hugo** we are using `hugo_extended_0.111.3` available for download [here](https://github.com/gohugoio/hugo/releases/tag/v0.111.3) or consult the official [documentation](https://gohugo.io/getting-started/installing/)
 
 ## Setup & install instructions
 
