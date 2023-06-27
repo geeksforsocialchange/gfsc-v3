@@ -13,7 +13,7 @@ I'm always struck in technical meetings how quickly people dream up imaginary pe
 
 And sure. All those things are possible. But they're fantasies. And it's OK to start with a fantasy -- decades of science fiction have guided science and engineering. Everything starts with an idea, at some level of application. But those ideas rapidly get blown wildly out of proportion. The problem is that by creating these stories and allowing them to persist, they get repeated ad nauseum as _post hoc, ego propter hoc_ justifications.
 
-{{<youtube "HL_vHDjG5Wk">}}
+{{<youtube id="HL_vHDjG5Wk" title="A scene from the West Wing where Jed Bartlett questions the relationship between correlation and causation">}}
 
 User stories[^1] are meant to be _non-fiction_. We should not be in the business of giving any more airtime to _fictional_ user stories than we need to, given how easy it is to gather them. The cart should not lead the horse. I'm sure that if you asked medical staff their top 20 desires, the lighting on the way home wouldn't even factor, and that streetlights are part of a carefully orchestrated city engineering process. And I'm sure that if one really wanted to reduce air pollution, having a networked grid of air quality sensors would give useful information, but do absolutely nothing to tackle the problem of air pollution in cities. And in the vacuum of applications for these ideas, I suspect these "straw users" will have already been referred to half a dozen times as hypothetical benefits[^2].
 

@@ -15,7 +15,7 @@ I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), S
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
-{{<youtube "sTYs_mc0Qgc">}}
+{{<youtube id="sTYs_mc0Qgc" title="a 3 minute video introducing placecal">}}
 
 ---
 
