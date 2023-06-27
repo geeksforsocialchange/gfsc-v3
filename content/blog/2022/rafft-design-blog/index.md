@@ -28,7 +28,7 @@ We also want to make sure that these projects aren’t just disordered dumping r
 
 ## One of our upcoming projects
 
-The first of several local history projects we have coming up is a collaboration with First Choice Homes Oldham (FCHO). We are working with them on a new digital community history project focussed on one small area of Oldham — the project is titled ‘[The Rise and Fall of Two Towers](https://www.oldhamdigitalhistory.co.uk/)’, in commemoration of the two iconic, soon-to-be-demolished tower blocks which stood at the heart of area concerned. FCHO told us there was very little outwardly discoverable community activity, resulting in community engagement for them being a real struggle.
+The first of several local history projects we have coming up is a collaboration with First Choice Homes Oldham (FCHO). We are working with them on a new digital community history project focussed on one small area of Oldham — the project is titled ‘[The Rise and Fall of Two Towers](https://towersoldham.uk/)’, in commemoration of the two iconic, soon-to-be-demolished tower blocks which stood at the heart of area concerned. FCHO told us there was very little outwardly discoverable community activity, resulting in community engagement for them being a real struggle.
 
 So, on the brink of the demolition proceedings, FCHO saw an opportunity to do some real outreach and get closer relationships with their customers. We worked with them to apply for funding from the National Lottery Heritage Fund that would expand that work into a hyperlocal digital history project.
 

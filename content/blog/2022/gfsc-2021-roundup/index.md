@@ -26,7 +26,7 @@ This work was part of the inspiration behind our first studio ‘long read’ fo
 
 Off the back of our ongoing research and writing around tech, in February we were invited to deliver a provocation at the wonderful Hattusia’s community meetup, where we made some lovely new friends! We talked about how the tools you use influence the things you can make, in subtle and not-so-subtle ways.
 
-[The revolution will not be hosted on Amazon Web Services - a provocation by Dr Kim Foale](https://www.hattusia.com/post/the-revolution-will-not-be-hosted-on-amazon-web-services)
+[The revolution will not be hosted on Amazon Web Services - a provocation by Dr Kim Foale](https://alicethwaite.wixsite.com/hattusia/post/the-revolution-will-not-be-hosted-on-amazon-web-services)
 
 The **GFSC Collective** is a group of activists, technologists and creatives who have been meeting every couple of weeks since October 2019. We discuss all kinds of topics which are of interest to us, and collaboratively work out how we can build the technology that mutual aid, antiracist and anti-transphobic groups need.
 
@@ -62,7 +62,7 @@ The source code is here, although we still need to give it a bit of TLC, and rel
 
 Fianlly, in further collaboration with GI, the big reveal from just before Christmas was our first announcement and preview of The Trans Dimension, a trans listings site for London funded by Comic Relief. We’ve gone on about this loads so won’t go over it again here, but you can check this post out for the full details of the project.
 
-[Enter... The Trans Dimension!](https://gfsc.studio/2021/12/14/enter-trans-dimension.html)
+[Enter... The Trans Dimension!](/blog/2021/enter-trans-dimension/)
 
 The Trans Dimension is a key step to getting our award-winning [PlaceCal](/project/placecal/) technology back on the road with an extremely generous donation from Lankelly Chase. We just did our first “proper” release thanks to loads of work from our lovely new developer Alexandria and we will have more to share on this soon.
 
