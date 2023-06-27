@@ -5,6 +5,7 @@ subtitle: ...but are afraid to tell you because we can't afford to piss you off
 description: In the third episode of the Geeks For Social Change podcast, Dr Kim Foale and Rachele Evaroa deliver a talk as part of an NHS Start With People event in March 2023. 
 author: honor
 social: 1.png
+aliases: /podcast/3
 ---
 
 {{<anchorfm "Everything-we-want-to-tell-you-about-your-funding-scheme-but-are-afraid-to-tell-you-e25lnko" >}}

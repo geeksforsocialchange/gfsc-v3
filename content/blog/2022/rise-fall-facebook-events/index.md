@@ -5,6 +5,7 @@ subtitle: The second episode of the GFSC podcast
 description: David Hayward and Rachele Evaroa join Kim to talk about the infiltration of all our social lives by Facebook, and how things are probably worse for venues now than they were 10 years ago.
 author: kim
 social: 2.jpg
+aliases: /podcast/2
 ---
 
 {{<anchorfm "The-Rise-and-Fall-of-Facebook-Events-e1onssn" >}}
