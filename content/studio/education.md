@@ -5,7 +5,7 @@ buttontext: "See our education and training work"
 buttonlink: "our-work/education-training"
 ---
 
-Recent years have seen technology made harder and harder to understand, by deliberate design of people who want to make money from your lack of understanding. Technology can simultaneously seem like a "magic wand" to fix all your problems, but also an insurmountable and impossible to understand mess.
+Technology can simultaneously seem like a "magic wand" to fix all your problems, but also an insurmountable and impossible to understand mess.
 
 It's therefore really common that you have a really good understanding of what your current situation is, an idea that what you want to accomplish, and a rough idea how to do it, but then have no idea where to go from there. This is where we come in!
 
