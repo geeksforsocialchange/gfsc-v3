@@ -5,10 +5,8 @@ on:
   - cron: 0 14 * * 5
 
 jobs:
-  run-html-proofer:
+  run-html-link-check:
     runs-on: ubuntu-latest
     steps:
-      - name: HTMLProofer
-        uses: chabad360/htmlproofer@v2
-        with: 
-          directory: "./themes/gfsc/layouts"
+      - name: Hugo Broken Link Check
+        uses: marccampbell/hugo-linkcheck-action@v0.1.3
