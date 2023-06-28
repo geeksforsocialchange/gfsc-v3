@@ -1,1 +1,4 @@
 DirectoryPath: ./dist
+IgnoreDirectoryMissingTrailingSlash: true
+IgnoreURLs:
+  - twitter.com
