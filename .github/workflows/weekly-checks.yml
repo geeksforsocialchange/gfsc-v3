@@ -17,7 +17,7 @@ jobs:
         with:
           hugo-version: "0.111.3"
       - name: Run Hugo
-        run: hugo -s site -d $GITHUB_WORKSPACE/dist
+        run: hugo -s . -d $GITHUB_WORKSPACE/dist
       - name: Test HTML
         continue-on-error: true
         uses: wjdp/htmltest-action@master
