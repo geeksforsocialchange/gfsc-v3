@@ -1,0 +1,13 @@
+name: Weekly checks
+on:
+  schedule:
+  - cron: 0 14 * * 5
+
+jobs:
+  run-html-proofer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HTMLProofer
+        uses: chabad360/htmlproofer@v2
+        with:
+          directory: "./public"
