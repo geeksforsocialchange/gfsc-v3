@@ -8,5 +8,18 @@ jobs:
   run-html-link-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Hugo Broken Link Check
-        uses: marccampbell/hugo-linkcheck-action@v0.1.3
+      - name: Check out repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.111.3"
+      - name: Run Hugo
+        run: hugo -s site -d $GITHUB_WORKSPACE/dist
+      - name: Test HTML
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
+        with:
+          config: .htmltest.yml
