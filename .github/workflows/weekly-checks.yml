@@ -20,5 +20,5 @@ jobs:
       - name: Run Hugo
         run: hugo -s . -d $GITHUB_WORKSPACE/dist
       - name: Test HTML
-        continue-on-error: true
+        continue-on-error: false
         uses: wjdp/htmltest-action@master
