@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: HTMLProofer
         uses: chabad360/htmlproofer@v2
+        with: 
+          directory: "."
