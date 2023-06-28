@@ -15,7 +15,8 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.111.3-extended"
+          hugo-version: "0.111.3"
+          extended: true
       - name: Run Hugo
         run: hugo -s . -d $GITHUB_WORKSPACE/dist
       - name: Test HTML
