@@ -104,7 +104,7 @@ Thanks to the National Lottery funding we've hired three wonderful people to wor
 
 - **David Hayward**, project manager. David also organises [Feral Vector](https://feral-vector.com/), where he makes videogame developers do non-digital stuff and go outside. His background includes running hackspaces, community events, and commercial events.
 - **Rachele Evaroa**, community organiser for North of England. Rachele is the landlady of the Old Abbey Taphouse, and was recently voted the most [eccentric landlady in the UK](https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/manchesters-most-eccentric-pub-named-24908941).
-- **Coral Freeman**, community organiser for South of England. Coral founded [Idle Games Club](https://www.idlegamesclub.co.uk/), a Community Games Lounge located in South Devon, and is also the Volunteer Co-ordinator at Torbay Domestic Abuse Service.
+- **Coral Freeman**, community organiser for South of England. Coral founded Idle Games Club, a Community Games Lounge located in South Devon, and is also the Volunteer Co-ordinator at Torbay Domestic Abuse Service.
 
 The project is currently three months in and we are discovering so much already about how, why and where tech is failing people locally.
 

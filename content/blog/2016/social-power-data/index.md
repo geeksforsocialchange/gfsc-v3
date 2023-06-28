@@ -30,7 +30,7 @@ Then it hit me: we have the data, but choose to ignore it. Much as racism [^3] i
 
 We have an enormous amount of data spanning decades on the institutional racism in the UK. 1578 deaths in police custody or following contact with the police since 1990, with 0 convictions[^4]. We know that Muslim candidates are 2.5 times less likely to get a job than their Caucasian counterparts with identical CVs[^5]. Identifying barriers to Muslim integration in France. We know that black people are 17 times more likely to be stop and searched than white in some areas[^6]. So where is our "big data" and "data science" for racism?
 
-[^4]: [inquest.org.uk](http://www.inquest.org.uk/statistics/deaths-in-police-custody)
+[^4]: [inquest.org.uk](https://www.inquest.org.uk/deaths-in-police-custody)
 [^5]: [Adida et. al (2010)](http://www.pnas.org/content/107/52/22384)
 [^6]: [The Independent, August 2015](http://www.independent.co.uk/news/uk/crime/black-people-still-far-more-likely-to-be-stopped-and-searched-by-police-than-other-ethnic-groups-10444436.html)
 

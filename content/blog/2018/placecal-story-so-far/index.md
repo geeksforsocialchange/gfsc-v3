@@ -11,7 +11,7 @@ subtitle: Creating a low social capital social network for Manchester.
 title: "PlaceCal: The Story So Far"
 ---
 
-I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), Smart City project [CityVerve](https://cityverve.org.uk/), and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
+I’ve spent the last 9 months working with PHASE@MMU, Smart City project CityVerve, and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
@@ -21,7 +21,7 @@ To start at the end: here’s a little clip from our launch party on 1st Dec 201
 
 ## Where it all began: Manchester Age Friendly Neighbourhoods
 
-[Manchester Age Friendly Neighbourhoods](http://mafn.org.uk/) (MAFN) is a project centred around four resident-led neighbourhood partnerships in different areas of Manchester, led by the PHASE consultancy at Manchester School of Architecture. It’s part of [_Age Friendly Manchester_](http://www.manchester.gov.uk/info/200091/older_people/7116/our_age-friendly_work/1), itself part of the World Heath Organisation’s [_Age Friendly Cities_](http://www.who.int/ageing/publications/Global_age_friendly_cities_Guide_English.pdf) program. PHASE stands for “Place, Health, Architecture, Space and Environment”, which hints at the range of perspectives used in the project: we will return to this later.
+Manchester Age Friendly Neighbourhoods (MAFN) was a project centred around four resident-led neighbourhood partnerships in different areas of Manchester, led by the PHASE consultancy at Manchester School of Architecture. It’s part of _Age Friendly Manchester_, itself part of the World Heath Organisation’s _Age Friendly Cities_ program. PHASE stands for “Place, Health, Architecture, Space and Environment”, which hints at the range of perspectives used in the project: we will return to this later.
 
 MAFN set up four resident-led age-friendly partnerships in different areas of Manchester in 2015. These partnerships aim bring people together from diverse organisations such as public health providers, emergency services, housing associations, community organisations, residents’ associations, local councils and neighbourhood teams. The partnerships are designed to help tackle issues in each area by enabling residents and organisations to work together to identify problems, and then research, design, produce and evaluate solutions together. _Resident-led_ is the key term here. Rather than a top-down approach where the remit of the work to be done is decided in advance, this kind of partnership allows people who live in an area to decide what the important issues are and get access to regional providers who might be able to fix those problems.
 

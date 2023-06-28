@@ -32,7 +32,7 @@ Manchester (where I’m writing this) has a long and proud history of labour and
 
 {{<smallsignup "Enjoying this so far? Get more like this into your inbox by joining our mailing list.">}}
 
-What follows is a list of overall values for a CTP manifesto. It was pointed out to me an event on [post-fact politics](http://www.postfactpolitics.com/) the other weekend that the former concepts are all human; the latter ones all inhuman or robotic and part of that Californian ideology that I critiqued at the start of this article. So maybe it really does all start on this basic, structural level.
+What follows is a list of overall values for a CTP manifesto. It was pointed out to me an event on post-fact politics the other weekend that the former concepts are all human; the latter ones all inhuman or robotic and part of that Californian ideology that I critiqued at the start of this article. So maybe it really does all start on this basic, structural level.
 
 ## Complete > Perfect
 
@@ -92,7 +92,7 @@ By owning our own information and publishing it in a structured way, we can open
 
 {{<image src="5.png" classList="image--float">}}
 
-Fundamentally, computers are not that interesting (at least to me). The internet can be thought of as a giant mechanism for handing around Post-It notes — the interest is in what is on them and who they are being passed between, not the notes themselves. Technology professionals have so neglected human needs that now an entire sub-industry has had to be created with job titles like “human centred design”, “user interface design”, and “usability designer”. In my experience, talks at technical events almost never feature feedback from people who use the platform, focussing instead on technical minutiae and [evidence-less theorising](http://gfsc.network/2016/10/10/no-false-users.html). The industry’s current focus is on getting [toasters and toothbrushes online](https://twitter.com/internetofshit) — apparently more interesting goals than getting poor people, old people, or people with learning difficulties online.
+Fundamentally, computers are not that interesting (at least to me). The internet can be thought of as a giant mechanism for handing around Post-It notes — the interest is in what is on them and who they are being passed between, not the notes themselves. Technology professionals have so neglected human needs that now an entire sub-industry has had to be created with job titles like “human centred design”, “user interface design”, and “usability designer”. In my experience, talks at technical events almost never feature feedback from people who use the platform, focussing instead on technical minutiae and [evidence-less theorising](/blog/2016/no-false-users/). The industry’s current focus is on getting [toasters and toothbrushes online](https://twitter.com/internetofshit) — apparently more interesting goals than getting poor people, old people, or people with learning difficulties online.
 
 A CTP prioritises people’s needs directly. The goals are education, cooperation, and building community strength. The technologies we use to do this should reflect community needs. The digital divide is growing again, and [evidence suggests](http://journals.sagepub.com/doi/abs/10.1177/1461444813487959) that as time goes on internet use will come to simply reflect existing social divides.
 
@@ -130,7 +130,7 @@ _Reuse_ means that people are constantly re-inventing the wheel at a low level. 
 
 _Recycle_ means that we should have a patternbook of solved problems for small organisations that can be easily used as off-the-shelf fixes. For example this could be bits of code to convert a Google Calendar or Facebook Events feed into a static page on a website, or a set of supported, tested templates for organisational brochure sites.
 
-This post is the start of a discussion about the axioms of the technology we product: the things we think so self-evident we barely inspect them. It’s time to start being more critical about the nature of the things we are making, who they are for, and what impact they have on people, community, and planet. We need to get back to a more holistic, community-grounded technology culture that we own and develop ourselves, for the good of everyone. I’ll leave you with Tony Benn’s [classic five questions](https://www.thenation.com/article/tony-benn-and-five-essential-questions-democracy/) about democracy that we should perhaps start applying to to technology we use and create as well:
+This post is the start of a discussion about the axioms of the technology we product: the things we think so self-evident we barely inspect them. It’s time to start being more critical about the nature of the things we are making, who they are for, and what impact they have on people, community, and planet. We need to get back to a more holistic, community-grounded technology culture that we own and develop ourselves, for the good of everyone. I’ll leave you with Tony Benn’s [classic five questions](https://www.thenation.com/article/archive/tony-benn-and-five-essential-questions-democracy/) about democracy that we should perhaps start applying to to technology we use and create as well:
 
 -  What power have you got?
 -  Where did you get it from?
@@ -138,8 +138,8 @@ This post is the start of a discussion about the axioms of the technology we pro
 -  To whom are you accountable?
 -  How can we get rid of you?
 
-Stay tuned for more on the CTP concept, including details on the pilots due to start in the next few months! Comments and suggestions welcomed with open arms. If you like, find out more about my work and practice on my agency site: [Geeks for Social Change](http://gfsc.network).
+Stay tuned for more on the CTP concept, including details on the pilots due to start in the next few months! Comments and suggestions welcomed with open arms. If you like, find out more about my work and practice on my agency site: [Geeks for Social Change](http://gfsc.studio).
 
 {{<kofi "Buy us a Ko-fi so we can write more articles like this!">}}
 
-_Artwork by [Rebecca Michalak](http://www.remichalak.com/). Thanks to everyone who contributed to or gave feedback on this draft, and especially to [Erik Davis](https://twitter.com/erik_davis) for the reminder California is a big place._
+_Artwork by Rebecca Michalak. Thanks to everyone who contributed to or gave feedback on this draft, and especially to [Erik Davis](https://twitter.com/erik_davis) for the reminder California is a big place._

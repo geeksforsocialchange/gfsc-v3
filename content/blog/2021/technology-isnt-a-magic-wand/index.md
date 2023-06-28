@@ -96,5 +96,5 @@ Jazz spent four days procrastinating on the editorial for this article but someh
 
 Words by Dr Kim Foale. Literary spice and Nicolas Cage content by Jazz Chatfield. Illustration by [Emma Charleston](https://www.emmacharleston.co.uk/).
 
-[^1]: [Nick Biggs, _Innovations Catalogue_, 2004 ISBN-13 978-0747573463](https://www.bloomsbury.com/au/innovations-catalogue-9780747573463/).
+[^1]: [Nick Biggs, _Innovations Catalogue_, 2004 ISBN-13 978-0747573463](https://www.abebooks.co.uk/9780747573463/Innovations-Catalogue-0747573468/plp).
 [^2]: Obviously, this isn't a real listing, but it fooled Kim until the third read-through. From _National Treasure_ (2004).

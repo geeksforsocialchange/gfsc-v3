@@ -28,7 +28,7 @@ This article explores our first two years of developing PlaceCal, examining how 
 
 _This article was written for a publication based the workshop "Challenges of a Digital City for Disadvantaged Neighbourhoods[^1]" that we attended in October 2018 in Berlin. You can find out more about this workshop on the hosts' websites: [vhw](https://www.vhw.de/) & [Stadtkümmerei](https://www.stadtkuemmerei.de/). Thanks to the hosts for a wonderful time and the inspiration to write this!_
 
-[^1]: [More information about the workshop including proceedings is on their website.](https://www.stadtkuemmerei.de/108/)
+[^1]: [More information about the workshop including proceedings is on their website.](https://www.stadtkuemmerei.de/de/integrierte-stadtentwicklung/ciudad-digital/internationale-symposien-und-workshops)
 
 ## What’s the problem?
 
@@ -62,7 +62,7 @@ This creates a Catch-22 where there is no point in many older people being onlin
 
 The effects of this are enormous. Social isolation and loneliness are among the biggest killers in the UK today. A long term longitudinal health study found that being socially isolated is as bad for your health as smoking 15 cigarettes a day, and twice as impactful as not taking regular exercise[^3].
 
-[^3]: [Campaign to End Loneliness](https://www.campaigntoendloneliness.org/about-loneliness/)
+[^3]: [Campaign to End Loneliness](https://www.campaigntoendloneliness.org/health-impact/)
 
 The UK government and health sector is pushing for doctors and community workers to “socially prescribe”, or direct people to local groups that would be good for their wellbeing[^5]. Currently however, this is not possible due to this lack of joined up community information. It is almost impossible for each GP to collate their own list based on the flyers and emails they get every day (like in our photo above), meaning it’s almost impossible to give useful information to patients in an average 7 minute GP appointment. This means that people are not getting redirected to the nearby services that need and welcome these kinds of connections, and making it harder for people to take control of their own health.
 
