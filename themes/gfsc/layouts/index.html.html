@@ -28,21 +28,40 @@
 <hr class="fancy fancy--no-phone" />
 {{ with $homepage.Resources.GetMatch "themes.md" }}
   {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+  get projects, count projects with category
+
   <div class="homepage__themes">
     <h2 class="homepage__themes__title">{{ .Title }}</h2>
     <div class="homepage__themes__content">{{ .Content }}</div>
     <ul class="windows windows--themes windows--orange">
+      {{ $projects := (where .Site.RegularPages "Section" "project") }}
+
       {{ range $themes.RegularPages }}
-        <li class="window">
-          <h3 class="window__header">{{ .Title }}</h3>
-          <p class="window__content">{{ .Description }}</p>
-          <div class="window__footer">
-            <div class="window__footer__buttonbox">
-              <a class="window__footer__button btn" href="{{ .Permalink }}">Browse</a>
-            </div>
-            <span class="window__footer__stripes"></span>
-          </div>
-        </li>
+         {{ $theme := . }}
+         {{ $project_count := 0 }}
+
+         {{ range $projects }}
+            {{ $project_themes := (split .Params.themes " ") }}
+
+            {{ if (in $project_themes $theme.Params.key) }}
+               {{ $project_count = (add $project_count 1) }}
+            {{ end }}
+         {{ end }}
+
+         {{ if (gt $project_count 0 )}}
+            <li class="window">
+               <h3 class="window__header">{{ .Title }}</h3>
+               <p class="window__content">{{ .Description }}</p>
+               <p>{{ $project_count }} projects found.</p>
+
+               <div class="window__footer">
+                  <div class="window__footer__buttonbox">
+                  <a class="window__footer__button btn" href="{{ .Permalink }}">Browse</a>
+                  </div>
+                  <span class="window__footer__stripes"></span>
+               </div>
+            </li>
+         {{ end }}
       {{ end }}
     </ul>
   </div>
