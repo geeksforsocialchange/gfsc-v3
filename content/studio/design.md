@@ -3,6 +3,7 @@ title: 3. Design and branding
 buttontext: "See our design and branding work"
 buttonlink: "our-work/design-branding/"
 headless: true
+alt: "an illustration of a benu flytrap pot plant, except the fly traps are laptops, with a person watering it"
 ---
 
 We offer design and branding as both a standalone service and alongside web development or consultation. We have experience from refreshing existing branding to creating whole new design worlds from scratch.

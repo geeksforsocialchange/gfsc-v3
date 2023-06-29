@@ -3,6 +3,7 @@ title: "1. Consultancy and research"
 buttontext: "See our consultancy and research work"
 buttonlink: "our-work/consultancy-research"
 headless: true
+alt: "an illustration of a pile of innovations magazines with futuristic gadgets and useless inventions"
 ---
 
 Like technology, research can seem a scary, daunting and expensive prospect.

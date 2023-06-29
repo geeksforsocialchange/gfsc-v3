@@ -79,7 +79,7 @@ This means no one is left behind, helping to close the ‘digital divide’.
 
 PlaceCal won the AAL Smart Ageing prize in 2018, and Nesta's "Tech to Connect" prize in 2019. We have since set up a new company, Place Health Technology CIC, and raised £220,000 from the National Lottery Community Fund in 2021 to expand the initiative nationwide. We're currently planning a national rollout.
 
-We've also launched The Trans Dimension, our first standalone application of our methodology. This is for the London trans community in collaboration with Gendered Intelligence, and you can [read more about it here](blog/2021/enter-trans-dimension/).
+We've also launched The Trans Dimension, our first standalone application of our methodology. This is for the London trans community in collaboration with Gendered Intelligence, and you can [read more about it here](/blog/2021/enter-trans-dimension/).
 
 We are actively seeking both funding and clients for PlaceCal, which we not-so-humbly are calling "the next Wikipedia" -- please do get in touch if you have a community you want to use it with!
 

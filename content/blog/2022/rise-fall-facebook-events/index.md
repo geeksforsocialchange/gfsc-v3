@@ -38,7 +38,7 @@ You can listen to it in the player above, or on [anchor.fm](https://anchor.fm/gf
 
 - [Feral Vector festival](https://feral-vector.com/)
 - [@histoftech's tweet about cheese graters and atomic bombs](https://twitter.com/histoftech/status/1401281599119974408)
-- [A brief introduction to PlaceCal](/2019/04/19/brief-introduction-placecal.html)
+- [A brief introduction to PlaceCal](/blog/2019/brief-introduction-placecal)
 
 ### Credits
 

@@ -1,4 +1,14 @@
-DirectoryPath: ./dist
+DirectoryPath: ./public
 IgnoreDirectoryMissingTrailingSlash: true
+# This is to prevent quite so many 403 errors from external sites
+HTTPHeaders: 
+  User-Agent: GFSC/123
+# These generate 403 errors no matter what we change so we can't check these
 IgnoreURLs:
   - twitter.com
+  - tandfonline.com
+  - discord.com
+  - journals.sagepub.com
+  - raytheon.co.uk
+  - poeditor.com
+  - pnas.org

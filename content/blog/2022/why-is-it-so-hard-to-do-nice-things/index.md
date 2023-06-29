@@ -145,7 +145,7 @@ It is this we try and tackle head on in our work.
 
 ## Part 3: on Community Technology Partnerships
 
-In the last section I’m gonna talk about GFSC’s approach to navigating all this stuff, and how we sort of want to take apart how people think about tech and put it back together again in a way that overcomes these ideas from the ground up. Despite working on this idea [since 2017](/2017/03/16/tech-culture-failing-communities.html) we’re still working through this and are very much at the start of our journey so please come talk to us about it. You can join our [discord server](http://discord.gfsc.studio) if you like, or send us a tweet or email!
+In the last section I’m gonna talk about GFSC’s approach to navigating all this stuff, and how we sort of want to take apart how people think about tech and put it back together again in a way that overcomes these ideas from the ground up. Despite working on this idea [since 2017](/blog/2017/tech-culture-failing-communities) we’re still working through this and are very much at the start of our journey so please come talk to us about it. You can join our [discord server](http://discord.gfsc.studio) if you like, or send us a tweet or email!
 
 ### To recap...
 
@@ -189,9 +189,9 @@ The explicit goal of this approach is therefore to increase collective power to 
 
 This is enough for one blog but a few examples from our work we will go into another article:
 
--  With [imok](/2021/05/12/imok-is-launched.html), we worked with No Borders Manchester to make a tool that replicated their existing process,
+-  With [imok](/blog/2021/imok-is-launched), we worked with No Borders Manchester to make a tool that replicated their existing process,
 -  [Taphouse TV Dinners](https://tvdinners.club/vulnerable-isolated-not-recieved-help/) was a collaboration between multiple groups working in Hulme and Greenheys to provide free food for vulnerable residents,
--  [PlaceCal](/2019/04/19/brief-introduction-placecal.html) is our flagship tool that has set up a new nonprofit partnership of local community groups who want to work together to publish information about events and services
+-  [PlaceCal](/blog/2019/brief-introduction-placecal) is our flagship tool that has set up a new nonprofit partnership of local community groups who want to work together to publish information about events and services
 
 None of these interventions really resemble an 'app', or what people think of when they talk about tech. They're all complex mixes of community development work, some software either old or new, and a commitment to training and education. This work is really hard to talk about at the moment in much more detail than that because we’re trying to create a basis for emergent systems, not deterministic ones, and we are barely off the starting blocks working on it.
 

@@ -12,7 +12,7 @@ subtitle: "...And you still need the right team to get you to that red X."
 title: Technology isn't a magic wand, it's a treasure map.
 ---
 
-{{<image src="emmacharleston.jpg" alts="A colourful illustration of a fake Innovations catalogue cover.">}}
+{{<image src="emmacharleston.jpg" alt="A colourful illustration of a fake Innovations catalogue cover.">}}
 
 I used to love the _Innovations_ catalogue dropping through the door with the weekend paper. For an entertainment-starved tween, it was a mix of ludicrosity and earnestness that made for ideal Sunday browsing.
 

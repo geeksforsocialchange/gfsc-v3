@@ -10,11 +10,13 @@ linktourl: https://github.com/geeksforsocialchange/faceloader
 linktotext:
 image: index.png
 social: social.jpg
+alttext: A photograph of some small badges with 'facebook' and 'thumbs up emoji' logos on them
 imagealt: A photograph of some small badges with 'facebook' and 'thumbs up emoji' logos on them
 description: "How we developed a tool to help event organisers break free of the siloed Facebook ecosystem, and share their events in more accessible and user-friendly calendar formats"
 weight: 100
 galleryalt:
 - A stock photo of someone in a denim jacket using google calendar
+- A stock photo of someone in a denim jacket using a tablet
 - A stock photo of a mobile screen showing the facebook login screen
 draft: false
 ---
