@@ -44,6 +44,10 @@ When a pull request is created, a preview site is deployed. Cloudflares github a
 
 If the build is successful and the changes are approved it can be merged into `main` which will automatically deploy it.
 
+## Testing
+
+To check if links are working and images have alt text, you can run `hugo` and then `bin/htmltest`
+
 ## License
 
 ## Contributing
