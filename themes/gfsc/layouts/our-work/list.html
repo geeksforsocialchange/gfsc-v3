@@ -10,28 +10,47 @@
     </a>
   </div>
   <ul class="work__filters">
-    {{ $categories := $.Site.GetPage "/our-work/category" }}
-    {{ $themes := $.Site.GetPage "/our-work/theme" }}
-    {{ with $categories }}
-      {{ range .Pages }}
-        <li class="work__filter work__category">
-            <h3 class="work__name">{{.Title}}</h3>
-            <div class="work__stripes">
-              <a href="{{ .Permalink }}" class="work__link">Browse</a>
-            </div>
-        </li>
+    {{ $categories := $.Site.GetPage "/our-work/category/" }}
+    {{ $projects := (where .Site.RegularPages "Section" "project") }}
+    {{ range $categories.RegularPages }}
+         {{ $category := . }}
+         {{ $project_count := 0 }}
+         {{ range $projects }}
+            {{ $project_categories := (split .Params.categories " ") }}
+            {{ if (in $project_categories $category.Params.key) }}
+               {{ $project_count = (add $project_count 1) }}
+            {{ end }}
+         {{ end }}
+         {{ if (gt $project_count 0 )}}
+          <li class="work__filter work__category">
+              <h3 class="work__name">{{.Title}}</h3>
+              <div class="work__stripes">
+                <a href="{{ .Permalink }}" class="work__link">Browse</a>
+              </div>
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-    {{ with $themes }}
-      {{ range .Pages }}
-        <li class="work__filter work__theme">
-            <h3 class="work__name">{{.Title}}</h3>
-            <div class="work__stripes">
-              <a href="{{ .Permalink }}" class="work__link">Browse</a>
-            </div>
-        </li>
+
+      {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+      {{ $projects := (where .Site.RegularPages "Section" "project") }}
+      {{ range $themes.RegularPages }}
+           {{ $theme := . }}
+           {{ $project_count := 0 }}
+           {{ range $projects }}
+              {{ $project_themes := (split .Params.themes " ") }}
+              {{ if (in $project_themes $theme.Params.key) }}
+                 {{ $project_count = (add $project_count 1) }}
+              {{ end }}
+           {{ end }}
+           {{ if (gt $project_count 0 )}}
+            <li class="work__filter work__theme">
+                <h3 class="work__name">{{.Title}}</h3>
+                <div class="work__stripes">
+                  <a href="{{ .Permalink }}" class="work__link">Browse</a>
+                </div>
+            </li>
+          {{ end }}
       {{ end }}
-    {{ end }}
   </ul>
   <hr class="fancy" />
   <ul id="list" class="work__projects">
