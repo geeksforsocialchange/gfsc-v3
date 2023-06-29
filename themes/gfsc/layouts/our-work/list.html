@@ -1,12 +1,33 @@
 {{ define "main" }}
-  <ul class="work__categories">
+<script src="/assets/js/filters.js"></script>
+
+  <div class="work__types">
+    <a class="work__types-btn-theme btn" onClick="showFilters('theme')">
+      Filter by theme
+    </a>
+    <a class="work__types-btn-category btn" onClick="showFilters('category')">
+      Filter by project type
+    </a>
+  </div>
+  <ul class="work__filters">
     {{ $categories := $.Site.GetPage "/our-work/category" }}
+    {{ $themes := $.Site.GetPage "/our-work/theme" }}
     {{ with $categories }}
       {{ range .Pages }}
-        <li class="work__category">
-            <h3 class="work__category__name">{{.Title}}</h3>
-            <div class="work__category__stripes">
-              <a href="{{ .Permalink }}" class="work__category__link">Browse</a>
+        <li class="work__filter work__category">
+            <h3 class="work__name">{{.Title}}</h3>
+            <div class="work__stripes">
+              <a href="{{ .Permalink }}" class="work__link">Browse</a>
+            </div>
+        </li>
+      {{ end }}
+    {{ end }}
+    {{ with $themes }}
+      {{ range .Pages }}
+        <li class="work__filter work__theme">
+            <h3 class="work__name">{{.Title}}</h3>
+            <div class="work__stripes">
+              <a href="{{ .Permalink }}" class="work__link">Browse</a>
             </div>
         </li>
       {{ end }}
