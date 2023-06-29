@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{$section := index (split .Path "/") 1}}
   <h3 class="category__title">{{ .Title }}</h3>
   <div class="category__content">
     {{ .Content }}
@@ -8,8 +9,15 @@
 		{{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 )}}
 		{{ $unweighted := ( shuffle (where (where .Site.RegularPages "Section" "project") "Params.weight" "==" 100 ) )}}
     {{ range ( $weighted | append  $unweighted )}}
-      {{ if (in .Params.categories $.Params.key )}}
-        {{- partial "projectindex.html" . -}}
+			{{ if ( eq $section "category") }}
+				{{ if (in .Params.categories $.Params.key )}}
+					{{- partial "projectindex.html" . -}}
+				{{ end }}
+      {{ end }}
+			{{ if ( eq $section "theme") }}
+				{{ if (in .Params.themes $.Params.key )}}
+					{{- partial "projectindex.html" . -}}
+				{{ end }}
       {{ end }}
     {{ end }}
   </ul>
