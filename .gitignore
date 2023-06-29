@@ -2,3 +2,5 @@
 resources
 public
 .DS_Store
+tmp
+bin/htmltest

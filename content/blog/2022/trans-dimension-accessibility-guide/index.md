@@ -9,7 +9,7 @@ social: transdimension.png
 
 {{<image src="transdimension.png" alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}
 
-We've previously [blogged](/2021/12/14/enter-trans-dimension.html) and tweeted about _The Trans Dimension_, a new space for trans community enabled by technology and collaboration that we're working on in collaboration with Gendered Intelligence. We will have some news on this soon and are hoping to launch this at the start of July.
+We've previously [blogged](/blog/2021/enter-trans-dimension) and tweeted about _The Trans Dimension_, a new space for trans community enabled by technology and collaboration that we're working on in collaboration with Gendered Intelligence. We will have some news on this soon and are hoping to launch this at the start of July.
 
 In the meantime, we thought we'd share with you some work we've done to help trans groups work together to make events more accessible for everyone. We conducted workshops with [Gendered Intelligence](https://genderedintelligence.co.uk/) staff and young people, as well as [Greater Manchester Coalition of Disabled People](https://gmcdp.com/) to produce a zine called _The Trans Dimension Guide to Inclusive Events_.
 
@@ -23,6 +23,6 @@ We provide this as a free download but **if you are able to support us financial
 
 {{<kofi "Donate to help us make more free e-zines on trans and disabled liberation.">}}
 
-We welcome thoughts and comments on this guide and are planning to release at least one additional version before launch. You can email [kim@gfsc.studio](kim@gfsc.studio) to direct feedback to GFSC, or [info@transdimension.uk](info@transdimension.uk) to direct it to GI.
+We welcome thoughts and comments on this guide and are planning to release at least one additional version before launch. You can email [kim@gfsc.studio](mailto:kim@gfsc.studio) to direct feedback to GFSC, or [info@transdimension.uk](mailto:info@transdimension.uk) to direct it to GI.
 
 {{<transzine>}}

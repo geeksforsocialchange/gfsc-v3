@@ -16,7 +16,7 @@ Geeks for Social Change are thrilled to to announce _The Trans Dimension,_ an on
 
 We're developing it in collaboration with [Gendered Intelligence](http://genderedintelligence.co.uk/), a trans-led national charity improving the lives of trans and non-binary people. Geeks for Social Change is a studio led by trans and disabled people, so this is a real dream collaboration and hopefully the first of many announcements we're going to be making over the coming months.
 
-It's been funded by the [Comic Relief Tech for Good "Build" fund](https://techforgoodhub.co.uk/build-fund-2021), and builds on GFSC's existing work on the [PlaceCal](https://placecal.org/) initiative. Our pilot will focus on London, after which we will plan a UK-wide launch.
+It's been funded by the Comic Relief Tech for Good "Build" fund, and builds on GFSC's existing work on the [PlaceCal](https://placecal.org/) initiative. Our pilot will focus on London, after which we will plan a UK-wide launch.
 
 This graphic is a first look of the coming website, featuring illustration by the wonderful [Harry Woodgate](https://www.harrywoodgate.com/) and logo from frequent GFSC collaborator [Squid](https://studiosquid.co.uk/).
 

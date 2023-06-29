@@ -3,6 +3,7 @@ title: 4. Education and training
 headless: true
 buttontext: "See our education and training work"
 buttonlink: "our-work/education-training"
+alt: "an illustration of four hands belonging to different people working to embroider, solder, and draw the word 'together' onto a piece of material"
 ---
 
 Technology can simultaneously seem like a "magic wand" to fix all your problems, but also an insurmountable and impossible to understand mess.

@@ -17,8 +17,8 @@
       <div class="page__image--marginless page__image--sectionheader orangify">
       {{ $researchImage := $.Resources.GetMatch "research.jpg" }}
 			{{ $researchImage := $researchImage.Resize "1200x" }}
-			{{ with $researchImage }}
-				<img src="{{ .RelPermalink }}" />
+			{{ if $researchImage }}
+				<img src="{{ $researchImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
 			{{ end }}
       </div>
       <div>{{ .Content }}</div>
@@ -37,8 +37,8 @@
       <div class="page__image--marginless page__image--sectionheader orangify">
       {{ $devImage := $.Resources.GetMatch "development.jpg" }}
 			{{ $devImage := $devImage.Resize "1200x" }}
-			{{ with $devImage }}
-				<img src="{{ .RelPermalink }}" />
+			{{ if $devImage }}
+				<img src="{{ $devImage.RelPermalink }}" alt="{{ .Params.Alt }}" />
 			{{ end }}
       </div>
       <div>{{ .Content }}</div>
@@ -57,8 +57,8 @@
       <div class="page__image--marginless page__image--sectionheader orangify">
       {{ $designImage := $.Resources.GetMatch "design.png" }}
 			{{ $designImage := $designImage.Resize "1200x" }}
-			{{ with $designImage }}
-				<img src="{{ .RelPermalink }}" />
+			{{ if $designImage }}
+				<img src="{{ $designImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
 			{{ end }}
       </div>
       <div>{{ .Content }}</div>
@@ -78,8 +78,8 @@
 
       {{ $consultImage := $.Resources.GetMatch "education.jpg" }}
 			{{ $consultImage := $consultImage.Resize "1200x" }}
-			{{ with $consultImage }}
-				<img src="{{ .RelPermalink }}" />
+			{{ if $consultImage }}
+				<img src="{{ $consultImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
 			{{ end }}
       </div>
       <div>{{ .Content }}</div>

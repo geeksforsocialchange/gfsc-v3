@@ -40,7 +40,7 @@ One thing the Collective have been researching is the extent of the **arms indus
 
 Our first actual tech/software release as a collective was **imok**, a simple bot to support people undertaking risky activities. This was a collaboration with No Borders Manchester. You can read about it and find links to the source code here:
 
-[imok is released!](https://gfsc.studio/2021/05/12/imok-is-launched.html)
+[imok is released!](https://gfsc.studio/blog/2021/imok-is-launched.html)
 
 We were hoping to run a pilot last year before a full software launch but due to Covid-19, the signing centres have been mostly shut. (The bot was originally designed with asylum seekers who are forced to ‘sign on’ in mind, as they are sometimes unexpectedly detained and even deported at these sign-ons, with no way of informing family or friends). This temporary closure and suspension of the signing on system is obviously great for the people usually forced to use it, but has meant we’ve not been able to get any user testing done. Plans are in the works, as the process of signing on is unlikely to go away, and once it returns, we hope to be able to hit the ground running with imok.
 

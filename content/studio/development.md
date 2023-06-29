@@ -3,6 +3,7 @@ title: 2. Software development
 buttontext: "See our software development work"
 buttonlink: "our-work/software/"
 headless: true
+alt: "a view of a city taken from above with an overlay of website wireframe"
 ---
 
 After the consultation and research process, we collaboratively establish what tech solutions you might need to best achieve your aims.

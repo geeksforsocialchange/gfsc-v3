@@ -11,7 +11,7 @@ title: Everything is connected, but should it be?
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
 
-{{<image src="venus-fly-trap.png" alts="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
+{{<image src="venus-fly-trap.png" alt="A colourful illustration of a venus fly trap being watered. The venus fly traps resemble laptops and the pot is reminiscent of a database icon.">}}
 
 ---
 
@@ -53,7 +53,7 @@ Under ‘joint enterprise’ legislation designed to make, say, the getaway driv
 
 The Mayor of Greater Manchester Andy Burnham now plans to put police officers in schools[^5], despite [large coordinated public efforts and independent research](https://nopoliceinschools.co.uk/) by campaigners. So when [he also says he wants to start tracking people’s fingerprints and veins in order to use the tram](https://www.business-live.co.uk/economic-development/andy-burnham-business-leaders-explore-19463591), it’s hard to imagine that this data won’t be used in the most totalitarian ways.
 
-{{<image-with-caption/start src="gattaca.jpg" alts="Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA." classList="image--frame image--center" >}}
+{{<image-with-caption/start src="gattaca.jpg" alt="Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA." classList="image--frame image--center" >}}
     Fig 2. In Gattaca (1997), finger prick blood tests are used to discriminate against those with ‘inferior’ non-genetically enhanced DNA.
 {{<image-with-caption/end>}}
 

@@ -19,7 +19,7 @@ I realise a lot of this knowledge hasn't made it into mainstream tech discourse 
 
 [^arnstein]: Arnstein, S. R. (1969). _A ladder of citizen participation. Journal of the American Institute of planners_, 35(4), 216-224.
 
-{{<image-with-caption/start src="arnstein_ladder_participation.png" alt="'Ladder of Citizen Participation' (Arnstein, 1969)">}}
+{{<image-with-caption/start src="arnstein_ladder_participation.png" alt="'Ladder of Citizen Participation' (Arnstein, 1969)" alt="Ladder of Citizen Participation book">}}
 'Ladder of Citizen Participation' (Arnstein, 1969)
 {{<image-with-caption/end>}}
 
@@ -75,7 +75,7 @@ At the top of the ladder is what I believe to be the only way to achieve genuine
 -  Delegated power: "Negotiations between citizens and public officials result in citizens achieving dominant decision-making authority over a particular plan or program ... Citizens hold the significant cards to assure accountability of the program to them. Powerholders need to start the bargaining process rather than respond to pressure from the other end."
 -  Citizen control: "A degree of power (or control) which guarantees that participants can govern a program or an institution, [and] be in full charge of policy and managerial aspects ... A neighbourhood corporation with no intermediaries between it and the source of funds is the model most frequently advocated."
 
-By way of example, [PlaceCal](https://placecal.org/) came out of a 'citizen control' project managed by GFSC's Prof Stefan White called [Manchester Age Friendly Neighbourhoods](http://msaphase.org/work/manchester-age-friendly-neighbourhoods/) (MAFN). This project gained funding to spend over four years on making four areas of Manchester more age friendly[^areas]. The approach, on paper, was simple: hire the minimum staff needed to develop a partnership, manage the project and produce an evaluation over the four years, and then allocate all the rest to the partnerships (44% or £324,000) to decide what they wanted to spend it on.
+By way of example, [PlaceCal](https://placecal.org/) came out of a 'citizen control' project managed by GFSC's Prof Stefan White called Manchester Age Friendly Neighbourhoods (MAFN). This project gained funding to spend over four years on making four areas of Manchester more age friendly[^areas]. The approach, on paper, was simple: hire the minimum staff needed to develop a partnership, manage the project and produce an evaluation over the four years, and then allocate all the rest to the partnerships (44% or £324,000) to decide what they wanted to spend it on.
 
 [^areas]: Hulme and Moss Side (one area), Moston, Burnage, and Miles Platting.
 
