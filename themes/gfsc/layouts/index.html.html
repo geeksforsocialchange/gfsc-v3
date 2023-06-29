@@ -28,7 +28,6 @@
 <hr class="fancy fancy--no-phone" />
 {{ with $homepage.Resources.GetMatch "themes.md" }}
   {{ $themes := $.Site.GetPage "/our-work/theme/" }}
-  get projects, count projects with category
 
   <div class="homepage__themes">
     <h2 class="homepage__themes__title">{{ .Title }}</h2>
@@ -52,8 +51,6 @@
             <li class="window">
                <h3 class="window__header">{{ .Title }}</h3>
                <p class="window__content">{{ .Description }}</p>
-               <p>{{ $project_count }} projects found.</p>
-
                <div class="window__footer">
                   <div class="window__footer__buttonbox">
                   <a class="window__footer__button btn" href="{{ .Permalink }}">Browse</a>
