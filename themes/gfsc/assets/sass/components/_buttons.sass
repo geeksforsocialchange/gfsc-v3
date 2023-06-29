@@ -1,4 +1,4 @@
-a.btn, .btn a
+.btn
   display: inline-block
   text-decoration: none
   border: 2px solid $primary
@@ -15,10 +15,10 @@ a.btn, .btn a
     background-position: -95% 0
   &--up
     background-size: 100% 220%
-    background-image: linear-gradient(to top,  $primary 50%, transparent 50%)
+    background-image: linear-gradient(to top, $primary 50%, transparent 50%)
   &--up:hover
     color: $secondary
-    background-position: 0 95%;
+    background-position: 0 95%
 
 a.btn--invert, .btn--invert a
   display: inline-block
@@ -37,10 +37,10 @@ a.btn--invert, .btn--invert a
     background-position: -95% 0
   &--up
     background-size: 100% 220%
-    background-image: linear-gradient(to top,  $secondary 50%, $primary 50%)
+    background-image: linear-gradient(to top, $secondary 50%, $primary 50%)
   &--up:hover
     color: $primary
-    background-position: 0 95%;
+    background-position: 0 95%
 
 a.link
   display: inline-block
