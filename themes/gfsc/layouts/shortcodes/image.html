@@ -10,8 +10,13 @@
          <img src="{{ $filename }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
       {{ else }}       
          {{- $src := .Page.Resources.GetMatch $filename }}
-         {{- $image := $src.Resize "900x" }}
-         <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
+         {{ if gt $src.Width 900 }}
+           {{- $image := $src.Resize "900x" }}
+					 <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
+         {{ else }}
+           {{- $image := $src }}
+					 <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
+         {{ end }}
       {{ end }}
    </div>
 </figure>
