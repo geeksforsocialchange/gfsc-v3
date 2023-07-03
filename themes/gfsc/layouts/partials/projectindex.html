@@ -11,7 +11,7 @@
       <a href="{{ .Permalink }}" class="work__project__title">
          <h2 class="work__project__title">{{ .Title }}</h2>
       </a>
-			<ul>
+			<ul role="list" class="theme-tags">
 				{{ range $projectThemes}}
 				<li><a href=" {{ (index $themes .).link}} "> {{ (index $themes .).title}} </a></li>
 				{{end}}
