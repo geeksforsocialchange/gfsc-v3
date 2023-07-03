@@ -12,8 +12,12 @@
          <h2 class="work__project__title">{{ .Title }}</h2>
       </a>
 			<ul role="list" class="theme-tags">
-				{{ range $projectThemes}}
-				<li><a href=" {{ (index $themes .).link}} "> {{ (index $themes .).title}} </a></li>
+				{{ range $index, $val := $projectThemes}}
+			    {{if ( ge   (add $index 1 ) ( len $projectThemes ))}}
+				    <li><a href=" {{ (index $themes $val).link}} "> {{ (index $themes $val).title}} </a></li>
+				  {{else}}
+				    <li><a href=" {{ (index $themes $val).link}} "> {{ (index $themes $val).title}}, </a></li>
+				  {{end}}
 				{{end}}
 			</ul>
       <p class="work__project__summary">{{ .Description }}</p>
