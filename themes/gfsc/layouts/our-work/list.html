@@ -1,57 +1,59 @@
 {{ define "main" }}
 <script src="/assets/js/filters.js"></script>
 
-  <div class="work__types">
-    <a class="work__types-btn-theme btn" onClick="showFilters('theme')">
-      Filter by theme
-    </a>
-    <a class="work__types-btn-category btn" onClick="showFilters('category')">
-      Filter by project type
-    </a>
-  </div>
-  <ul class="work__filters">
-    {{ $categories := $.Site.GetPage "/our-work/category/" }}
-    {{ $projects := (where .Site.RegularPages "Section" "project") }}
-    {{ range $categories.RegularPages }}
-         {{ $category := . }}
-         {{ $project_count := 0 }}
-         {{ range $projects }}
-            {{ $project_categories := (split .Params.categories " ") }}
-            {{ if (in $project_categories $category.Params.key) }}
-               {{ $project_count = (add $project_count 1) }}
-            {{ end }}
-         {{ end }}
-         {{ if (gt $project_count 0 )}}
-          <li class="work__filter work__category">
-              <h3 class="work__name">{{.Title}}</h3>
-              <div class="work__stripes">
-                <a href="{{ .Permalink }}" class="work__link">Browse</a>
-              </div>
-          </li>
-        {{ end }}
-      {{ end }}
-
-      {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+  <div aria-live="polite" >
+    <div class="work__types">
+      <a class=" work__btn--active work__types-btn btn" onClick="showFilters()">
+        Filter by theme
+      </a>
+      <a class="work__types-btn btn" onClick="showFilters()">
+        Filter by project type
+      </a>
+    </div>
+    <ul class="work__filters">
+      {{ $categories := $.Site.GetPage "/our-work/category/" }}
       {{ $projects := (where .Site.RegularPages "Section" "project") }}
-      {{ range $themes.RegularPages }}
-           {{ $theme := . }}
-           {{ $project_count := 0 }}
-           {{ range $projects }}
-              {{ $project_themes := (split .Params.themes " ") }}
-              {{ if (in $project_themes $theme.Params.key) }}
-                 {{ $project_count = (add $project_count 1) }}
+      {{ range $categories.RegularPages }}
+            {{ $category := . }}
+            {{ $project_count := 0 }}
+            {{ range $projects }}
+              {{ $project_categories := (split .Params.categories " ") }}
+              {{ if (in $project_categories $category.Params.key) }}
+                  {{ $project_count = (add $project_count 1) }}
               {{ end }}
-           {{ end }}
-           {{ if (gt $project_count 0 )}}
-            <li class="work__filter work__theme">
+            {{ end }}
+            {{ if (gt $project_count 0 )}}
+            <li class="work__filter work__filter--hidden">
                 <h3 class="work__name">{{.Title}}</h3>
                 <div class="work__stripes">
                   <a href="{{ .Permalink }}" class="work__link">Browse</a>
                 </div>
             </li>
           {{ end }}
-      {{ end }}
-  </ul>
+        {{ end }}
+
+        {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+        {{ $projects := (where .Site.RegularPages "Section" "project") }}
+        {{ range $themes.RegularPages }}
+              {{ $theme := . }}
+              {{ $project_count := 0 }}
+              {{ range $projects }}
+                {{ $project_themes := (split .Params.themes " ") }}
+                {{ if (in $project_themes $theme.Params.key) }}
+                    {{ $project_count = (add $project_count 1) }}
+                {{ end }}
+              {{ end }}
+              {{ if (gt $project_count 0 )}}
+              <li class="work__filter">
+                  <h3 class="work__name">{{.Title}}</h3>
+                  <div class="work__stripes">
+                    <a href="{{ .Permalink }}" class="work__link">Browse</a>
+                  </div>
+              </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+  </div>
   <hr class="fancy" />
   <ul id="list" class="work__projects">
 		{{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 )}}

@@ -12,14 +12,14 @@
       padding: 2.25rem 0rem 0rem
       justify-content: center
 
-  &__types-btn-theme
-    flex: 1
-    +for-tablet-portrait-up
-      flex: unset
-    &:hover
-      cursor: pointer
+  &__btn--active
+    color: $secondary
+    background-color: $primary
 
-  &__types-btn-category
+  &__filter--hidden
+    display: none
+
+  &__types-btn
     flex: 1
     +for-tablet-portrait-up
       flex: unset
