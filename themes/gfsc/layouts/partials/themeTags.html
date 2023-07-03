@@ -1,0 +1,18 @@
+{{ $themes := dict }}
+{{ $themePages := $.Site.GetPage "/our-work/theme/" }}
+{{ range $themePages.RegularPages}}
+  {{$themes = merge $themes (dict .Params.key (dict "title" .Title  "link" .Permalink ))}}
+{{end}}
+
+{{ $projectThemes := split .Params.themes " "}}
+
+
+<ul role="list" class="theme-tags">
+	{{ range $index, $val := $projectThemes}}
+		{{if ( ge   (add $index 1 ) ( len $projectThemes ))}}
+			<li><a href=" {{ (index $themes $val).link}} "> {{ (index $themes $val).title}} </a></li>
+		{{else}}
+			<li><a href=" {{ (index $themes $val).link}} "> {{ (index $themes $val).title}}, </a></li>
+		{{end}}
+	{{end}}
+</ul>
