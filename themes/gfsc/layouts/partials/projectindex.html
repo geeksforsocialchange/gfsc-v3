@@ -1,8 +1,21 @@
+{{ $themes := dict }}
+{{ $themePages := $.Site.GetPage "/our-work/theme/" }}
+{{ range $themePages.RegularPages}}
+  {{$themes = merge $themes (dict .Params.key (dict "title" .Title  "link" .Permalink ))}}
+{{end}}
+
+{{ $projectThemes := split .Params.themes " "}}
+
 <li class="work__project">
    <div class="work__project__info">
       <a href="{{ .Permalink }}" class="work__project__title">
          <h2 class="work__project__title">{{ .Title }}</h2>
       </a>
+			<ul>
+				{{ range $projectThemes}}
+				<li><a href=" {{ (index $themes .).link}} "> {{ (index $themes .).title}} </a></li>
+				{{end}}
+			</ul>
       <p class="work__project__summary">{{ .Description }}</p>
       <a class="btn btn--up" href="{{ .Permalink }}" class="work__project__readmore">Read more</a>
    </div>
