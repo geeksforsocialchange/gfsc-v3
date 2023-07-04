@@ -10,6 +10,12 @@
       </header>
 
       <div class="blog__body">{{ .Content }}</div>
+
+      {{ if not (eq (.Lastmod.Format "02 January 2006") (.Date.Format "02 January 2006")) }}
+      <time class="blog__lastmod" datetime="{{ .Lastmod }}">
+         Last updated at {{ .Lastmod.Format "02 January 2006" }}
+      </time>
+      {{ end }}
    </div>
 
    <aside class="blog__aside">
