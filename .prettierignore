@@ -1,0 +1,12 @@
+.hugo_build.lock
+resources
+public
+.DS_Store
+tmp
+bin/htmltest
+
+# node generated files
+node_modules
+npm-debug.log
+
+
