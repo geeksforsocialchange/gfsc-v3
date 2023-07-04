@@ -216,6 +216,10 @@ This Dean Spade book - Mutual Aid: Building Solidarity During this Crisis (and t
 
 I think this is something Rach said earlier but, sometimes you need to deal with the prerequisite step before you can deal with the latest hype thing. So like, how can we do work, or do projects if people aren’t eating? Or they’re not heating their house? Or they don’t have internet and a lot of the times this is just directly blocking people from being able to engage in any of these things we were talking about. So I think sometimes stuff gets really ahead of itself and we need to backtrack a bit.
 
+I think this is something Rach said earlier but, sometimes you need to deal with the prerequisite step before you can deal with the latest hype thing. So like, how can we do work, or do projects if people aren’t eating? Or they’re not heating their house? Or they don’t have internet and a lot of the times this is just directly blocking people from being able to engage in any of these things we were talking about. So I think sometimes stuff gets really ahead of itself and we need to backtrack a bit.
+
+> > > > > > > main
+
 And then finally just to say it again, this is more of a national campaign, I know none of us have the control here but ironically, during lockdown, when we had the furlough scheme, which said that anyone who has got an office job can maintain their salary because they somehow deserve more money than other people, we had the kickstarter scheme but just allowing institutions to get workers in to help out, it’s amazing, you can just get things done. You just have hours to apply to problems and you don’t have to think about it and because most of this work we’re doing is work we want to do anyway, that they’re already doing for free, but that makes it perpetually unsustainable. So if we had a Universal Basic Income, I think that would have the single biggest health impact of anything else I can imagine on a policy level. I mean, I don’t think the tories are probably gonna do it but, there you go. _00:40:34_
 
 Outro music _00:40:38_

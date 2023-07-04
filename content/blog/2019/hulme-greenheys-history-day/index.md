@@ -1,6 +1,7 @@
 ---
 author: kim
 date: "2019-10-14T00:00:00Z"
+lastmod: 2019-11-13
 description:
   Join us in a day of celebration of Hulme & Greenheys’ diverse history.
   We are a group of grassroots historians, residents and academics who have come together
@@ -47,5 +48,3 @@ _All events at [Old Abbey Taphouse](https://goo.gl/maps/jW2eVPYtBw8QGm738), Guil
 _Organised by Geeks for Social Change & The Old Abbey Taphouse._
 
 _Generously sponsored by SALC @ Manchester University._
-
-_Last updated 13th November 2019._

@@ -1,6 +1,7 @@
 ---
 author: kim
 date: 2021-09-08
+lastmod: 2021-10-11
 description:
   Geeks for Social Change are looking for a backend or full stack Ruby
   on Rails developer to work 24 hours a week. The initial focus of your work will

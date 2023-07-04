@@ -1,6 +1,7 @@
 ---
 author: kim
 date: 2018-03-26
+lastmod: 2019-04-16
 description:
   I’ve spent the last 9 months working with PHASE@MMU, CityVerve, and Manchester
   City Council to deliver PlaceCal, a crowd-sourced community events calendar. It’s
@@ -186,8 +187,6 @@ I hope this article has given you an insight into not just the PlaceCal design p
 If you want to keep up to date then you can follow us here, on [Twitter](https://twitter.com/placecal) or [Facebook](https://www.facebook.com/placecal). If you’re an organisation looking to get involved in the platform, or a neighbourhood partnership, health provider or local authority who would like to have a chat with us about rolling our PlaceCal in your area, don’t hesitate to contact us by email: [support@placecal.org](mailto:support@placecal.org). The PlaceCal design and illustration is by the awesome [Squid](http://studiosquid.co.uk/).
 
 {{<kofi "Wanna come to our next party? Join our mailing list to get the latest news from us first!">}}
-
-Last updated 16th April 2019
 
 {{<image-with-caption/start src="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" alt="Oh yeah — and we had a photobooth!" classList="image--center">}}
 Oh yeah — and we had a photobooth!
