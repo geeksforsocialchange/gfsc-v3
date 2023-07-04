@@ -31,7 +31,7 @@ The conference will be held on the GFSC Discord Server on Sat 10th December, 11-
 
 An unconference is a conference where there's no preset agenda or speaker list, under a loose overall theme. The lines between attendee and speaker are blurred and all attendees are encouraged to give talks, lead discussions, run workshops, etc, with the schedule open for anyone to place their own thing in. You're also welcome to come and just listen if that's your jam, too.
 
-We felt that this format would offer the most exciting and accessible space possible for what we’re trying to do here. It lowers the bar to both entry and participation, by offering a dip-in/dip-out style event where hopefully any attendee might feel able to host their own *thing*.
+We felt that this format would offer the most exciting and accessible space possible for what we’re trying to do here. It lowers the bar to both entry and participation, by offering a dip-in/dip-out style event where hopefully any attendee might feel able to host their own _thing_.
 
 ## And what about ‘untech’?
 
@@ -41,7 +41,7 @@ We opted for ‘untechnology’ rather than ‘anti-technology’, because actua
 
 All you need to do to join is sign up on [Eventbrite](https://www.eventbrite.co.uk/e/untechcon-1-tickets-463633840297). We will have a separate area of our Discord server set up for the conference to keep it nice and intimate — so everyone needs to register, even our regs.
 
-All you need to do is show up! We actively encourage lack of preparation — the best talks are often spontaneous and unprepared. 
+All you need to do is show up! We actively encourage lack of preparation — the best talks are often spontaneous and unprepared.
 
 We hope to have conference software set up to manage the talks and make sure that there aren’t too many things happening at once so everyone gets heard.
 
@@ -53,16 +53,15 @@ Want inspiration? We’ve put together this nebulous list of potential topics th
 
 Here’s a list of some concepts to get the creative juices flowing. A special note that we are especially keen to hear case studies of things you’ve actually done!
 
-(On/offline) Agency | Algorithms / AI / ML | Anarchism | Antiracism | Antifascism | Bleeps | Bloops | (No) Borders | Case studies | Capability approach | Community development | Community technology partnerships | Crypto hate | Distributed networks | Disability activism | DIY repair | DIY HRT | Digital inclusion | FLOSS | Genderhacking | Hardware | Low power computing | Luddites | Military-industrial complex | Permacomputing | Prison abolition | Privacy | Programming socks | Reuse | Salvage | Supply chains | Surveillance capitalism | Sustainability | Technosolutionism | [Trans/glitch/xeno/???] + feminism | Web 1.0 
+(On/offline) Agency | Algorithms / AI / ML | Anarchism | Antiracism | Antifascism | Bleeps | Bloops | (No) Borders | Case studies | Capability approach | Community development | Community technology partnerships | Crypto hate | Distributed networks | Disability activism | DIY repair | DIY HRT | Digital inclusion | FLOSS | Genderhacking | Hardware | Low power computing | Luddites | Military-industrial complex | Permacomputing | Prison abolition | Privacy | Programming socks | Reuse | Salvage | Supply chains | Surveillance capitalism | Sustainability | Technosolutionism | [Trans/glitch/xeno/???] + feminism | Web 1.0
 
-## How much does it cost? 
+## How much does it cost?
 
 UnTechCon is free if you want it to be. As we build creative interpretations for the future of UnTech we’re also engaged with rebalancing the economies that have fuelled and funded tech monopolies. That said, we also want to resist funder-led models that rely entirely on grants to support liberatory tech so if you have the means we would welcome your financial support. If you come and feel moved to donate after, you can also do so on [Ko-Fi](https://ko-fi.com/gfscstudio) or [OpenCollective](https://opencollective.com/gfscstudio), or through a bank transfer (we will share our details nearer the time).
 
 We suggest £0 for unemployed or minimum wage workers or anyone who wouldn't come if they had to pay, £3 for low waged, £10 for higher waged, and £100 if it's coming out your work conference allowance anyway 😎. Anything left after covering our costs will go into our (currently dormant) [OpenCollective account](https://opencollective.com/gfscstudio) to fund future projects.
 
 Hope to see you there!
-
 
 ## Still have more questions?
 

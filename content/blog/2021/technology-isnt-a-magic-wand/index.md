@@ -2,10 +2,10 @@
 author: kim, jazz
 date: 2021-11-05
 description:
-   Due to the massive amounts of money and hubris that reside in the tech
-   sector, we now seem to believe that the same methodology used to sell pens that
-   write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness,
-   or poverty or something.
+  Due to the massive amounts of money and hubris that reside in the tech
+  sector, we now seem to believe that the same methodology used to sell pens that
+  write upside down with a built-in dictaphone can somehow be adapted to fixing homelessness,
+  or poverty or something.
 illustrator: emma
 social: blog/technology-isnt-a-magic-wand/emmacharleston.jpg
 subtitle: "...And you still need the right team to get you to that red X."
@@ -25,7 +25,7 @@ If permitted to take up space in a more general-purpose living room, they would 
 ---
 
 {{<image-with-caption/start src="pocketchainsaw.jpg" alt="Scan of an Innovations product called 'Pocket Chainsaw'." classList="image--frame image--center">}}
-Evidence of this is largely not online but I was able to pick up a paperback of some of the best bits.[^1] 
+Evidence of this is largely not online but I was able to pick up a paperback of some of the best bits.[^1]
 {{<image-with-caption/end>}}
 
 _Innovations_ gave a spotlight to niche 'inventions' that aimed to solve mundane problems with over-the-top gadgetry. Palm pilots and calculator watches and clock radio toilet roll holders. (_Everything_ had a clock radio.)
@@ -37,7 +37,7 @@ It fitted in that gap between "I need that!" and "But do I really?", the gap tha
 But a lot of inventions of this era were seemingly designed to fit in this _Innovations_ sized-hole. The promise that all of society's smallest problems could be improved by upscaling your toaster was an intoxicating one.
 
 {{<gallery-with-caption/start srcs="scarecat.jpg gianthand.jpg" alts="Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right)." classList="image--frame">}}
-Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1] 
+Some items listed barely pass as innovations. Scare Cat (left) and Giant Hands (right).[^1]
 {{<gallery-with-caption/end>}}
 
 ---
@@ -85,7 +85,7 @@ With all the lasers and 3D printers in the world, you still need a team of peopl
 ---
 
 {{<image-with-caption/start src="oculardevice.png" alt="A Photoshopped satire of an Innovations magazine listing of the Ocular Device from the film National Treasure, starring Nicolas Cage." classList="image--frame image--center">}}
-Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2] 
+Jazz spent four days procrastinating on the editorial for this article but somehow made this in ten minutes.[^2]
 {{<image-with-caption/end >}}
 
 {{<smallsignup "Sign up to our mailing list to get our latest articles delivered straight to your inbox.">}}

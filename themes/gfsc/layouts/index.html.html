@@ -1,119 +1,123 @@
 {{ define "main" }}
-{{ $homepage := .Site.GetPage "homepage" }}
-{{ $vennData := $homepage.Resources.GetMatch "venn.md" }}
-{{ with $vennData }}
-   <div aria-hidden="true" class="venn">
+  {{ $homepage := .Site.GetPage "homepage" }}
+  {{ $vennData := $homepage.Resources.GetMatch "venn.md" }}
+  {{ with $vennData }}
+    <div aria-hidden="true" class="venn">
       <h2 class="venn__title">The people we work with</h2>
       {{ partial "venn.html" . }}
       <p class="venn__subtitle">
-         *such as campaigns, charities, social enterprises, health and wellbeing
-         initatives, the NHS, and neighbourhood teams.
+        *such as campaigns, charities, social enterprises, health and wellbeing
+        initatives, the NHS, and neighbourhood teams.
       </p>
-      <p class="venn__subtitle venn__subtitle--mobile">And everyone in between.</p>
-   </div>
-	 <div class="screen-reader-only">
+      <p class="venn__subtitle venn__subtitle--mobile">
+        And everyone in between.
+      </p>
+    </div>
+    <div class="screen-reader-only">
       <h2>The people we work with</h2>
-			<h3>{{$vennData.Params.circle1name}}</h3>
-			<p>{{$vennData.Params.circle1description}}</p>
-			<h3>{{$vennData.Params.circle2name}}</h3>
-			<p>{{$vennData.Params.circle2description}}</p>
-			<h3>{{$vennData.Params.circle3name}}</h3>
-			<p>{{$vennData.Params.circle3description}}</p>
-			<h3>{{$vennData.Params.center}}</h3>
-			<p>{{$vennData.Params.centerdescription}}</p>
-	 </div>
-{{ end }}
+      <h3>{{ $vennData.Params.circle1name }}</h3>
+      <p>{{ $vennData.Params.circle1description }}</p>
+      <h3>{{ $vennData.Params.circle2name }}</h3>
+      <p>{{ $vennData.Params.circle2description }}</p>
+      <h3>{{ $vennData.Params.circle3name }}</h3>
+      <p>{{ $vennData.Params.circle3description }}</p>
+      <h3>{{ $vennData.Params.center }}</h3>
+      <p>{{ $vennData.Params.centerdescription }}</p>
+    </div>
+  {{ end }}
 
 
-<hr class="fancy fancy--no-phone" />
-{{ with $homepage.Resources.GetMatch "themes.md" }}
-  {{ $themes := $.Site.GetPage "/our-work/theme/" }}
+  <hr class="fancy fancy--no-phone" />
+  {{ with $homepage.Resources.GetMatch "themes.md" }}
+    {{ $themes := $.Site.GetPage "/our-work/theme/" }}
 
-  <div class="homepage__themes">
-    <h2 class="homepage__themes__title">{{ .Title }}</h2>
-    <div class="homepage__themes__content">{{ .Content }}</div>
-    <ul class="windows windows--themes windows--orange">
-      {{ $projects := (where .Site.RegularPages "Section" "project") }}
 
-      {{ range $themes.RegularPages }}
-         {{ $theme := . }}
-         {{ $project_count := 0 }}
+    <div class="homepage__themes">
+      <h2 class="homepage__themes__title">{{ .Title }}</h2>
+      <div class="homepage__themes__content">{{ .Content }}</div>
+      <ul class="windows windows--themes windows--orange">
+        {{ $projects := (where .Site.RegularPages "Section" "project") }}
 
-         {{ range $projects }}
+        {{ range $themes.RegularPages }}
+          {{ $theme := . }}
+          {{ $project_count := 0 }}
+
+          {{ range $projects }}
             {{ $project_themes := (split .Params.themes " ") }}
 
             {{ if (in $project_themes $theme.Params.key) }}
-               {{ $project_count = (add $project_count 1) }}
+              {{ $project_count = (add $project_count 1) }}
             {{ end }}
-         {{ end }}
+          {{ end }}
 
-         {{ if (gt $project_count 0 )}}
+          {{ if (gt $project_count 0 ) }}
             <li class="window">
-               <h3 class="window__header">{{ .Title }}</h3>
-               <p class="window__content">{{ .Description }}</p>
-               <div class="window__footer">
-                  <div class="window__footer__buttonbox">
-                  <a class="window__footer__button btn" href="{{ .Permalink }}">Browse</a>
-                  </div>
-                  <span class="window__footer__stripes"></span>
-               </div>
+              <h3 class="window__header">{{ .Title }}</h3>
+              <p class="window__content">{{ .Description }}</p>
+              <div class="window__footer">
+                <div class="window__footer__buttonbox">
+                  <a class="window__footer__button btn" href="{{ .Permalink }}"
+                    >Browse</a
+                  >
+                </div>
+                <span class="window__footer__stripes"></span>
+              </div>
             </li>
-         {{ end }}
-      {{ end }}
-    </ul>
-  </div>
-{{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
 
-<hr class="fancy fancy--no-phone" />
-{{ with $homepage.Resources.GetMatch "textboxes.md" }}
-   <div class="windows windows--homepage">
+
+  <hr class="fancy fancy--no-phone" />
+  {{ with $homepage.Resources.GetMatch "textboxes.md" }}
+    <div class="windows windows--homepage">
       <div class="window window--homepage--1">
-         <h2 class="window__header">{{ .Params.whotitle }}</h2>
-         <p class="window__content">
-            {{ .Params.whodescription }}
-         </p>
-         <div class="window__footer">
-            <div class="window__footer__buttonbox">
-               <a href="/team" class="window__footer__button">
-                  Find out more
-               </a>
-            </div>
-            <span class="window__footer__stripes"></span>
-         </div>
+        <h2 class="window__header">{{ .Params.whotitle }}</h2>
+        <p class="window__content">
+          {{ .Params.whodescription }}
+        </p>
+        <div class="window__footer">
+          <div class="window__footer__buttonbox">
+            <a href="/team" class="window__footer__button"> Find out more </a>
+          </div>
+          <span class="window__footer__stripes"></span>
+        </div>
       </div>
       <div class="window window--homepage--2">
-         <h2 class="window__header">{{ .Params.whattitle }}</h2>
-         <p class="window__content">
-            {{ .Params.whatdescription }}
-         </p>
-         <div class="window__footer">
-            <div class="window__footer__buttonbox">
-               <a href="/our-work" class="window__footer__button">
-                  Find out more
-               </a>
-            </div>
-            <span class="window__footer__stripes"></span>
-         </div>
+        <h2 class="window__header">{{ .Params.whattitle }}</h2>
+        <p class="window__content">
+          {{ .Params.whatdescription }}
+        </p>
+        <div class="window__footer">
+          <div class="window__footer__buttonbox">
+            <a href="/our-work" class="window__footer__button">
+              Find out more
+            </a>
+          </div>
+          <span class="window__footer__stripes"></span>
+        </div>
       </div>
-   </div>
-   {{ end }}
-   <hr class="fancy fancy--no-phone" />
-   {{ with $homepage.Resources.GetMatch "textboxes.md" }}
-   <div class="windows windows--homepage windows--orange">
+    </div>
+  {{ end }}
+  <hr class="fancy fancy--no-phone" />
+  {{ with $homepage.Resources.GetMatch "textboxes.md" }}
+    <div class="windows windows--homepage windows--orange">
       <div class="window window--homepage--3">
-         <h2 class="window__header">{{ .Params.contacttitle }}</h2>
-         <p class="window__content">
-            {{ .Params.contactdescription }}
-         </p>
-         <div class="window__footer">
-            <div class="window__footer__buttonbox">
-               <a href="/contact" class="window__footer__button">
-                  {{ .Params.contactbutton }}
-               </a>
-            </div>
-            <span class="window__footer__stripes"></span>
-         </div>
+        <h2 class="window__header">{{ .Params.contacttitle }}</h2>
+        <p class="window__content">
+          {{ .Params.contactdescription }}
+        </p>
+        <div class="window__footer">
+          <div class="window__footer__buttonbox">
+            <a href="/contact" class="window__footer__button">
+              {{ .Params.contactbutton }}
+            </a>
+          </div>
+          <span class="window__footer__stripes"></span>
+        </div>
       </div>
-   </div>
-   {{ end }}
+    </div>
+  {{ end }}
 {{ end }}

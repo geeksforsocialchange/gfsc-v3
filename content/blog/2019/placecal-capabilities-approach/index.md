@@ -2,10 +2,10 @@
 author: kim, stefan
 date: "2019-07-30T00:00:00Z"
 description:
-   We discuss how a capability approach to information technology in neighbourhoods
-   with low social capital can create embedded and sustainable Community Technology
-   Partnerships (CTPs) that connect residents and institutions together, reducing barriers
-   to social participation and collaborative action.
+  We discuss how a capability approach to information technology in neighbourhoods
+  with low social capital can create embedded and sustainable Community Technology
+  Partnerships (CTPs) that connect residents and institutions together, reducing barriers
+  to social participation and collaborative action.
 subtitle: PlaceCal and the capabilities approach
 title: Making a place for technology in communities
 ---

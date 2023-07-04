@@ -2,7 +2,7 @@ name: Weekly checks
 on:
   workflow_dispatch:
   schedule:
-  - cron: 0 14 * * 5
+    - cron: 0 14 * * 5
 
 jobs:
   run-html-link-check:

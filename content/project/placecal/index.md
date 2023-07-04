@@ -14,12 +14,12 @@ social: social.png
 description: "How we created PlaceCal, an award winning community calendar system, designed to combat loneliness and isolation in neighbourhoods across the UK and beyond."
 weight: 11
 galleryalt:
-- PlaceCal's logo on a background showing the clockface inside a map marker device
-- Mockups of PlaceCal on tablet
-- Posters advertising PlaceCal in a range of colours
-- Mockups of PlaceCal on phone
-- Custom illustration work showing three different figures using PlaceCal
-- Custom illustration work showing PlaceCal as the centre connecting a range of places together
+  - PlaceCal's logo on a background showing the clockface inside a map marker device
+  - Mockups of PlaceCal on tablet
+  - Posters advertising PlaceCal in a range of colours
+  - Mockups of PlaceCal on phone
+  - Custom illustration work showing three different figures using PlaceCal
+  - Custom illustration work showing PlaceCal as the centre connecting a range of places together
 draft: false
 ---
 
@@ -82,4 +82,3 @@ PlaceCal won the AAL Smart Ageing prize in 2018, and Nesta's "Tech to Connect" p
 We've also launched The Trans Dimension, our first standalone application of our methodology. This is for the London trans community in collaboration with Gendered Intelligence, and you can [read more about it here](/blog/2021/enter-trans-dimension/).
 
 We are actively seeking both funding and clients for PlaceCal, which we not-so-humbly are calling "the next Wikipedia" -- please do get in touch if you have a community you want to use it with!
-

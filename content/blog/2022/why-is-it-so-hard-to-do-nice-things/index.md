@@ -22,7 +22,7 @@ Like a lot of long term activists, I was also very burnt out from activism and w
 I like to think almost everyone has some form of making, coding, producing, sewing, sculpting, knitting, instrument playing, or other arts and crafts process, as a coping mechanism. An activity that's just for _you_ that brings _you_ joy for its own sake.
 
 {{<image-with-caption/start src="art-of-noises-1.jpg" alt="A photograph of a boardgame I made as part of my PhD. It's called 'art of noises'. Photo shows several cards laid out with words on like 'forest', 'snooker', 'wine', and is surrounded by some colourful plastic instruments" classList="image--frame image--center">}}
-[Art of noises](https://alliscalm.net/art-of-noises/), a game I made in 2014 as a way of playing with concepts in my PhD as a standalone activity to bring me joy 
+[Art of noises](https://alliscalm.net/art-of-noises/), a game I made in 2014 as a way of playing with concepts in my PhD as a standalone activity to bring me joy
 {{<image-with-caption/end>}}
 
 It feels like we can’t change a lot in the world at the moment and things are pretty grim, but we can at least make some cool doodads. The process of making (or producing) can be therapeutic, keeps us mindful, lets us use our hands, work in non-hierarchical ways, and generally fuck around and find out with low stakes.
@@ -46,7 +46,7 @@ I think the effort that is currently needed to begin and maintain these things t
 Making is for many our escape from oppressive power structures. Almost every talk in the [EMF program](https://www.emfcamp.org/schedule/2022) is not someone’s day job, or if it is they’ve had to jump through burning hoops to make it their day job. This is what we do for fun. Isn’t it mad that these niche interests, the things that bring us joy, and that bring a field of people together, are pushed so far from the margins that we can’t even imaging this being the main thing we do? We have a potential wellspring of new ideas and the people who want to make a better world, and yet that space is pushed right to the margins.
 
 {{<image-with-caption/start src="emfcamp.webp" alt="An aerial photograph of [EMF camp](https://www.emfcamp.org/) at night showing lit up pathways, big tends, and a glowing purple tent." classList="image--frame image--center">}}
-EMF camp at night 
+EMF camp at night
 {{<image-with-caption/end>}}
 
 The joy I'm talking about here isn't the joy you get from going to a party or taking drugs, say. I’m talking about the satisfaction of setting your mind to a hard problem and fixing it. This is about the stuff that gives life meaning and makes you feel alive, gives you agency over months and years, not days and weeks. Doing good projects that matter and accomplishing things you thought previously impossible can be one of the most rewarding things there is. Anyone whose been part of putting on a big event or producing some collective artwork generally has a huge sense of pride about it. These are the things that form part if our identities, and change who we are, how we think, and what we think possible.
@@ -125,15 +125,15 @@ Jos Boys talks about this basic tension in a disability studies context:
 
 Anyone whose tried to organise anything can attest to how utterly thankless it is most of the time. I think especially for the political spaces, a bunch of the following are common experiences I’ve heard over and over that I paraphrase here:
 
--  "I tried to help out with some activist stuff, but everyone was just too busy yelling at each other and I didn't feel I could contribute"
--  "People on the left are complete dicks and I got in shit for some stuff I don’t really understand and no-one bothered to explain to me"
--  "I tried to help out at a community centre but they were just really disorganised and never get back to me"
+- "I tried to help out with some activist stuff, but everyone was just too busy yelling at each other and I didn't feel I could contribute"
+- "People on the left are complete dicks and I got in shit for some stuff I don’t really understand and no-one bothered to explain to me"
+- "I tried to help out at a community centre but they were just really disorganised and never get back to me"
 
 From the other side, for groups needing help this can be just as frustrating:
 
--  "People keep coming to us with what they want to do and not asking what we need. The real issues here are complex and layered and don’t have simple fixes or someone would have done them."
--  "We had a volunteer make a website but they didn’t really listen to us and no-one knows how to operate it. We've now got to make a new one without upsetting anyone."
--  "Volunteers keep coming and promising us the world and then vanishing. It makes it really hard to plan things and means we have to assume the worst a lot."
+- "People keep coming to us with what they want to do and not asking what we need. The real issues here are complex and layered and don’t have simple fixes or someone would have done them."
+- "We had a volunteer make a website but they didn’t really listen to us and no-one knows how to operate it. We've now got to make a new one without upsetting anyone."
+- "Volunteers keep coming and promising us the world and then vanishing. It makes it really hard to plan things and means we have to assume the worst a lot."
 
 There’s no easy fixes to any of this stuff. Because of the vast underfunding of this sector by the Tories, groups can have an awareness they’re putting people off but don’t feel they can make the time to find out why.
 
@@ -189,9 +189,9 @@ The explicit goal of this approach is therefore to increase collective power to 
 
 This is enough for one blog but a few examples from our work we will go into another article:
 
--  With [imok](/blog/2021/imok-is-launched), we worked with No Borders Manchester to make a tool that replicated their existing process,
--  [Taphouse TV Dinners](https://tvdinners.club/vulnerable-isolated-not-recieved-help/) was a collaboration between multiple groups working in Hulme and Greenheys to provide free food for vulnerable residents,
--  [PlaceCal](/blog/2019/brief-introduction-placecal) is our flagship tool that has set up a new nonprofit partnership of local community groups who want to work together to publish information about events and services
+- With [imok](/blog/2021/imok-is-launched), we worked with No Borders Manchester to make a tool that replicated their existing process,
+- [Taphouse TV Dinners](https://tvdinners.club/vulnerable-isolated-not-recieved-help/) was a collaboration between multiple groups working in Hulme and Greenheys to provide free food for vulnerable residents,
+- [PlaceCal](/blog/2019/brief-introduction-placecal) is our flagship tool that has set up a new nonprofit partnership of local community groups who want to work together to publish information about events and services
 
 None of these interventions really resemble an 'app', or what people think of when they talk about tech. They're all complex mixes of community development work, some software either old or new, and a commitment to training and education. This work is really hard to talk about at the moment in much more detail than that because we’re trying to create a basis for emergent systems, not deterministic ones, and we are barely off the starting blocks working on it.
 
@@ -215,9 +215,9 @@ I have no idea but ask us in a year.
 
 Let us know if you want to get involved in this kind of work. We're just starting some big exciting projects and would love to have you with us.
 
--  You can chat to us on the [GFSC discord](http://discord.gfsc.studio)
--  Follow us @gfscstudio on [Twitter](https://twitter.com/gfscstudio) and [Instagram](https://instagram.com/gfscstudio)
--  Email me: kim@gfsc.studio
+- You can chat to us on the [GFSC discord](http://discord.gfsc.studio)
+- Follow us @gfscstudio on [Twitter](https://twitter.com/gfscstudio) and [Instagram](https://instagram.com/gfscstudio)
+- Email me: kim@gfsc.studio
 
 _Thanks to Dr Colleen Morgan for her utterly invaluable input into this piece._
 

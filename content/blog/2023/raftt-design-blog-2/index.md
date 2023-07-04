@@ -18,23 +18,25 @@ First Choice Homes Oldham (FCHO), the housing association who have managed and r
 
 And so, in early 2021, the [demolition of the towers commenced](https://www.youtube.com/watch?v=r46hDI5bMq8). However, FCHO recognised the significant place that the towers might well hold in the hearts of the local residents, and wanted to find a way of exploring and documenting that — both to commemorate the towers, and to engage with their residents and the surrounding community. GFSC worked with them to apply for funding from the National Lottery Heritage Fund, so that together, we could build a hyperlocal digital history project focussing on the towers.
 
-I am continuing to refer to the project as RAFTT in the title of this blog for clarity and continuity, but since I last wrote, FCHO have decided to change the name of the project, and it is now titled: “The Towers: A history of Summervale and Crossbank”. 
+I am continuing to refer to the project as RAFTT in the title of this blog for clarity and continuity, but since I last wrote, FCHO have decided to change the name of the project, and it is now titled: “The Towers: A history of Summervale and Crossbank”.
 
 ### The aims of the project
+
 The aims of the project were twofold —
+
 1.  to create a digital space that tells the story of the towers, their residents, and the close surrounding area, and
-2. to involve local residents in the project in ways which would increase and develop their own digital skills.
+2.  to involve local residents in the project in ways which would increase and develop their own digital skills.
 
 Firstly, we have always been imagining some kind of stimulating and easy to explore online archive containing old images, news stories, and — most importantly of all, first-hand stories, anecdotes and memories from people who actually lived in or near the towers. Local storytellers have first-hand verbal histories, which can so often be lost if specific efforts aren’t made to gather them.
 
-Our original goal was that we would be able to support some of these storytellers to learn digital skills that would — in the first instance, aid them in telling us their stories (and get their stories into a digital form so that they are storied and documented for posterity) — and in the longer term, generally be useful to them in their day-to-day lives. 
+Our original goal was that we would be able to support some of these storytellers to learn digital skills that would — in the first instance, aid them in telling us their stories (and get their stories into a digital form so that they are storied and documented for posterity) — and in the longer term, generally be useful to them in their day-to-day lives.
 
 Some concrete examples of this might include:
 
--   Using a word processor to write down their memories
--   Using a voice-note tool on their phones to record verbal stories
--   Scanning old photos and other artefacts, and learning how to safely file and store them digitally
--   (For more advanced folks) using basic photo editing tools to enhance their old photos.
+- Using a word processor to write down their memories
+- Using a voice-note tool on their phones to record verbal stories
+- Scanning old photos and other artefacts, and learning how to safely file and store them digitally
+- (For more advanced folks) using basic photo editing tools to enhance their old photos.
 
 And other similar tasks.
 
@@ -113,7 +115,7 @@ To consider some of these potential challenges in more depth:
 
 3d) Another interesting issue that emerged from Sam’s conversations and research was the dissonance between the stated goals of the project and the reality of the area concerned. The project is meant to be a ‘celebration’ of the history of the towers and local area — but the reality is that this part of Oldham has a long history of challenges and deprivation, and many of the stories that centre around the towers are quite dark. Take for example, [the murder of Debbie Remorozo in her flat in 2002](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/unsolved-murder-debbie-remorozo-stabbed-862426), or the fact that one of the ‘penthouse’ top floor flats was for years occupied by one of Manchester’s most notorious drug barons before he was sent to prison for multiple murders and other crimes. Perhaps the contrast between the upbeat tone of the project’s promotional materials, and most local people’s knowledge of some of the lived realities of the area were too contrasting to square.
 
-4b) As Sam uncovered, 'FHCO had not asked to keep the residents updated about the future of the flats when they were doing consultations and moving out (Benbow, 2022 p.66). This lack of foresight meant that many residents who were able to be identified, weren't able to be contacted for inclusion in this project as they'd not explicitly given their consent under GDPR. It was suggested that 'this was likely in part because FCHO were unsure whether they would get the funding. The lack of confidence implies that more could be done by funders [...] to make heritage projects become accessible as it is much harder for a “lasting difference” (Heritage Fund 2019, 13) to be made if the organisations they are hoping to support are unconfident in being granted the funding.' (ibid.) 
+4b) As Sam uncovered, 'FHCO had not asked to keep the residents updated about the future of the flats when they were doing consultations and moving out (Benbow, 2022 p.66). This lack of foresight meant that many residents who were able to be identified, weren't able to be contacted for inclusion in this project as they'd not explicitly given their consent under GDPR. It was suggested that 'this was likely in part because FCHO were unsure whether they would get the funding. The lack of confidence implies that more could be done by funders [...] to make heritage projects become accessible as it is much harder for a “lasting difference” (Heritage Fund 2019, 13) to be made if the organisations they are hoping to support are unconfident in being granted the funding.' (ibid.)
 
 But, moving forwards…
 
@@ -123,10 +125,10 @@ We do have some storytellers. FCHO’s community events and other initiatives ov
 
 These people have shared their stories, verbally and/or in writing, and after one final push with one last event in late 2022, as well as a workshop with our already recruited storytellers to facilitate more memory sharing, GFSC is cracking on with the task of actually figuring out the shape of the final outcome, based on the source material we have to work with. The site will be going live, and shared with the public, at the end of May!
 
-The process of getting to this point has been so interesting, as well as challenging. The insights we've gained along the way will go on to inform our approach to future projects. 
+The process of getting to this point has been so interesting, as well as challenging. The insights we've gained along the way will go on to inform our approach to future projects.
 
-___ 
+---
 
-1. Benbow, S. (2022). *An evaluation of community heritage projects to consider how successful they are at achieving their aims* [Unpublished master's thesis]. University of York
+1. Benbow, S. (2022). _An evaluation of community heritage projects to consider how successful they are at achieving their aims_ [Unpublished master's thesis]. University of York
 
 {{<kofi "Want to support our local history work? Support us with a donation.">}}

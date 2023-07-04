@@ -1,14 +1,14 @@
 DirectoryPath: ./public
 IgnoreDirectoryMissingTrailingSlash: true
 # This is to prevent quite so many 403 errors from external sites
-HTTPHeaders: 
+HTTPHeaders:
   User-Agent: GFSC/123
 # These generate 403 errors no matter what we change so we can't check these
 IgnoreURLs:
   - blog.prototypr.io
   - cdn-images-1.medium.com
   - discord.com
-  - greatermanchester-ca.gov.uk/ 
+  - greatermanchester-ca.gov.uk/
   - journals.sagepub.com
   - ko-fi.com
   - poeditor.com

@@ -2,18 +2,29 @@
 {{- $btn := .Get "btn" }}
 {{- $href := .Get "href" }}
 <aside class="kofi kofi--alt" markdown="0">
-   <p class="kofi__text">
-      {{ if $txt }} {{ $txt }} {{ else }} Make a donation on Ko-fi to help
-      support our work. {{ end }}
-   </p>
-   <div class="kofi__button__container">
-      <a
-         href="{{ if $href }}{{$href}}{{ else }}https://ko-fi.com/gfscstudio{{ end }}"
-         class="kofi__button"
-         target="_blank"
-         download
-         >
-				 {{ if $btn }} {{ $btn }} {{ else }}Donate now{{ end }}
-			</a>
-   </div>
+  <p class="kofi__text">
+    {{ if $txt }}
+      {{ $txt }}
+    {{ else }}
+      Make a donation on Ko-fi to help support our work.
+    {{ end }}
+  </p>
+  <div class="kofi__button__container">
+    <a
+      href="{{ if $href }}
+        {{ $href }}
+      {{ else }}
+        https://ko-fi.com/gfscstudio
+      {{ end }}"
+      class="kofi__button"
+      target="_blank"
+      download
+    >
+      {{ if $btn }}
+        {{ $btn }}
+      {{ else }}
+        Donate now
+      {{ end }}
+    </a>
+  </div>
 </aside>

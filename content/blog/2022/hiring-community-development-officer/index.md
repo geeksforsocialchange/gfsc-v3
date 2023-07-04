@@ -28,11 +28,11 @@ In order to roll out PlaceCal and the CTP approach and enable it to be truly co-
 
 We are looking for a community development officer who has:
 
--  Experience with grassroots local mutual aid groups, local political organising, or running your own events. Basically, we need people who get our politics and preferably have experience assisting with community work. This could be: queer or anti-racist organising; community and mutual aid groups; DIY arts music; writing and artists groups; culture collectives and festivals; or any other experience you think fits this description.
--  A high degree of comfort working with complex and beta-quality software. If you’re comfortable setting up complex CRM systems, configuring things in AirTable, or have ever done any hands on software development, you are probably more than qualified.
--  Lots of patience. Getting new partnerships off the ground is slow, careful work. Training people up in new IT systems is also slow, careful work. This role will require you to do both. We’re ideally looking for a candidate with experience creating things from the ground up and who knows what it takes to get things going.
--  Desirable: experience working with a software team to deliver a SaaS project. This includes writing bug tickets, understanding general Agile project flow, communicating when things go wrong, etc.
--  Desirable: existing strong connections to activist organising in Greater Manchester. We would love to have someone already known to our initial cohorts who can hit the ground running.
+- Experience with grassroots local mutual aid groups, local political organising, or running your own events. Basically, we need people who get our politics and preferably have experience assisting with community work. This could be: queer or anti-racist organising; community and mutual aid groups; DIY arts music; writing and artists groups; culture collectives and festivals; or any other experience you think fits this description.
+- A high degree of comfort working with complex and beta-quality software. If you’re comfortable setting up complex CRM systems, configuring things in AirTable, or have ever done any hands on software development, you are probably more than qualified.
+- Lots of patience. Getting new partnerships off the ground is slow, careful work. Training people up in new IT systems is also slow, careful work. This role will require you to do both. We’re ideally looking for a candidate with experience creating things from the ground up and who knows what it takes to get things going.
+- Desirable: experience working with a software team to deliver a SaaS project. This includes writing bug tickets, understanding general Agile project flow, communicating when things go wrong, etc.
+- Desirable: existing strong connections to activist organising in Greater Manchester. We would love to have someone already known to our initial cohorts who can hit the ground running.
 
 Experience matters less to us than cultural fit, motivation and passion. We are looking to form long term relationships with committed people. You will be working with two other people on this project: a project manager, and the same role as this for the South of England. A lot of your day-to-day work will be done solo but there are opportunities for collaboration, idea sharing, working out problems together.
 
@@ -54,10 +54,10 @@ Think this sounds for you, or want a no commitment chat about it?
 
 Email jobs@gfsc.studio with:
 
--  A short statement about your experience in community groups / activism, including any Greater Manchester connections you might have
--  A short description of your experience working with complex database software and with developers on software projects
--  A recent CV (please don't worry about customising this for us we just want an idea of who you are!)
--  A link to any projects you’ve been part of you think we might want to have a look at
+- A short statement about your experience in community groups / activism, including any Greater Manchester connections you might have
+- A short description of your experience working with complex database software and with developers on software projects
+- A recent CV (please don't worry about customising this for us we just want an idea of who you are!)
+- A link to any projects you’ve been part of you think we might want to have a look at
 
 Deadline: ~May 16th~ extended to 10am on May 23rd. Then we will take it from there!
 

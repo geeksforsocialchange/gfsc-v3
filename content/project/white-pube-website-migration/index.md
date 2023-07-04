@@ -14,10 +14,10 @@ social: social.png
 description: "How we helped The White Pube transition from an outdated and user-unfriendly Wix site to a properly structured and accessible static site, and learn basic web skills in the process."
 weight: 3
 galleryalt:
-- A screenshot of The White Pube's website
-- A photo of Zarina and Gabrielle from The White Pube
-- A mockup of the White Pube website on mobile
-- A screenshot of the games section of the White Pube's website
+  - A screenshot of The White Pube's website
+  - A photo of Zarina and Gabrielle from The White Pube
+  - A mockup of the White Pube website on mobile
+  - A screenshot of the games section of the White Pube's website
 draft: false
 ---
 

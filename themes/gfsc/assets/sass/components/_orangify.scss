@@ -1,45 +1,45 @@
 :root {
-   --base: #ea5b0c;
-   --bg-blend: screen;
-   --blur: 0px;
-   --fg-blend: multiply;
-   --foreground: #f1f4d1;
-   --opacity: 0.99;
-   --spacing: 0px;
+  --base: #ea5b0c;
+  --bg-blend: screen;
+  --blur: 0px;
+  --fg-blend: multiply;
+  --foreground: #f1f4d1;
+  --opacity: 0.99;
+  --spacing: 0px;
 }
 
 .orangify {
-   background-color: var(--base);
-   display: flex;
-   flex: 1 1 100%;
-   height: 100%;
-   overflow: hidden;
-   padding: var(--spacing);
-   position: relative;
+  background-color: var(--base);
+  display: flex;
+  flex: 1 1 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: var(--spacing);
+  position: relative;
 }
 
 .orangify img {
-   filter: grayscale(100%) contrast(1.15) blur(var(--blur));
-   flex: 1 0 100%;
-   height: 100%;
-   max-width: 100%;
-   mix-blend-mode: var(--bg-blend);
-   object-fit: cover;
-   opacity: var(--opacity);
-   position: relative;
-   width: 100%;
+  filter: grayscale(100%) contrast(1.15) blur(var(--blur));
+  flex: 1 0 100%;
+  height: 100%;
+  max-width: 100%;
+  mix-blend-mode: var(--bg-blend);
+  object-fit: cover;
+  opacity: var(--opacity);
+  position: relative;
+  width: 100%;
 }
 
 .orangify::before {
-   background-color: var(--foreground);
-   bottom: 0;
-   content: "";
-   height: 100%;
-   left: 0;
-   mix-blend-mode: var(--fg-blend);
-   position: absolute;
-   right: 0;
-   top: 0;
-   width: 100%;
-   z-index: 1;
+  background-color: var(--foreground);
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  mix-blend-mode: var(--fg-blend);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }

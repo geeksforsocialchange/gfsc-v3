@@ -1,64 +1,69 @@
 {{ define "main" }}
-   <div class="page page--default studio">
-      <div class="page__content page__content--doublemargin">
-         {{ .Content }}
-         <div
-            class="strip strip--circles strip--divider"
-            role="presentation"
-         >
-         </div>
-         <h3 class="page__header--sectionheader">How to support us</h3>
-         <div class="page__image--marginless page__image--sectionheader orangify">
-            <img src="/boba-jaglicic-Mkk_9x42Sbg-unsplash.jpg" alt="photograph of bees in a beehive"/>
-         </div>
-         <div class="windows windows--alternating windows--orange">
-            {{ with $.Resources.GetMatch "donate.md" }}
-               {{ partial "textbox.html"
-                  (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
-               }}
-            {{ end }}
-            {{ with $.Resources.GetMatch "newsletter.md" }}
-               {{ partial "textbox.html"
-                  (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
-               }}
-            {{ end }}
-            {{ with $.Resources.GetMatch "join.md" }}
-               {{ partial "textbox.html"
-                  (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
-               }}
-            {{ end }}
-         </div>
+  <div class="page page--default studio">
+    <div class="page__content page__content--doublemargin">
+      {{ .Content }}
+      <div
+        class="strip strip--circles strip--divider"
+        role="presentation"
+      ></div>
+      <h3 class="page__header--sectionheader">How to support us</h3>
+      <div class="page__image--marginless page__image--sectionheader orangify">
+        <img
+          src="/boba-jaglicic-Mkk_9x42Sbg-unsplash.jpg"
+          alt="photograph of bees in a beehive"
+        />
       </div>
+      <div class="windows windows--alternating windows--orange">
+        {{ with $.Resources.GetMatch "donate.md" }}
+          {{ partial "textbox.html"
+            (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
+          }}
+        {{ end }}
+        {{ with $.Resources.GetMatch "newsletter.md" }}
+          {{ partial "textbox.html"
+            (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
+          }}
+        {{ end }}
+        {{ with $.Resources.GetMatch "join.md" }}
+          {{ partial "textbox.html"
+            (dict "title" .Title "content" .Content "linktext" .Params.Buttontext "linkto" .Params.Buttonlink)
+          }}
+        {{ end }}
+      </div>
+    </div>
 
-			{{ if $.Site.GetPage "/team/collective" }}
-				<div class="page__content">
-					 <div
-							class="strip strip--circles strip--divider"
-							role="presentation"
-					 >
-					 </div>
-					 <h3 class="page__header--sectionheader">Members of the collective</h3>
-					 <p>
-							Listed below are some of the longest standing members of the Geeks For Social Change Collective. Perhaps a slightly longer introduction is needed here?
-					 </p>
-					 <ul class="collective__list">
-						{{ $collective := $.Site.GetPage "/team/collective" }}
-						{{ range $collective.Pages}}
-							<li class="collective__list__item">
-								 <h4
-										class="page__header--sectionheader collective__list__item__name"
-								 >
-										{{ .Params.title }}
-								 </h4>
-									 <p class="collective__list__item__pronouns">{{ .Params.pronouns }}</p>
-								 <p class="collective__list__item__description">
-										{{ .Params.job }}
-								 </p>
-							</li>
-						{{ end }}
-					 </ul>
-				</div>
-			{{ end }}
+    {{ if $.Site.GetPage "/team/collective" }}
+      <div class="page__content">
+        <div
+          class="strip strip--circles strip--divider"
+          role="presentation"
+        ></div>
+        <h3 class="page__header--sectionheader">Members of the collective</h3>
+        <p>
+          Listed below are some of the longest standing members of the Geeks For
+          Social Change Collective. Perhaps a slightly longer introduction is
+          needed here?
+        </p>
+        <ul class="collective__list">
+          {{ $collective := $.Site.GetPage "/team/collective" }}
+          {{ range $collective.Pages }}
+            <li class="collective__list__item">
+              <h4
+                class="page__header--sectionheader collective__list__item__name"
+              >
+                {{ .Params.title }}
+              </h4>
+              <p class="collective__list__item__pronouns">
+                {{ .Params.pronouns }}
+              </p>
+              <p class="collective__list__item__description">
+                {{ .Params.job }}
+              </p>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
 
-   </div>
+  </div>
 {{ end }}

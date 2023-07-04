@@ -19,11 +19,11 @@ Alt text is required to render the gallery. It can be added in the projects fron
 
 ```yaml
 galleryalt:
-- a line of police
-- 
-- mountain view 2
-- mountain view 3
-- mountain view 4
+  - a line of police
+  -
+  - mountain view 2
+  - mountain view 3
+  - mountain view 4
 ```
 
 - The order of the array should match the order the images are presented
@@ -33,7 +33,7 @@ If you would like to add a gallery of images without alt text / all hidden from 
 
 ```yaml
 galleryalt:
--
+  -
 ```
 
 But there should be a good reason for doing this, like debugging.

@@ -1,22 +1,25 @@
 {{- $filename := .Get "src" }}
 {{- $classList := .Get "classList" }}
 {{- $alt := .Get "alt" }}
-<figure
-   class="image {{ if $classList }}{{ $classList }}{{ end }}"
-   markdown="0"
->
-   <div class="image__wrapper image__wrapper--single">
-      {{ if or (or (in $filename "http") (in $filename ".svg")) (in $filename ".avif") }}
-         <img src="{{ $filename }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
-      {{ else }}       
-         {{- $src := .Page.Resources.GetMatch $filename }}
-         {{ if gt $src.Width 900 }}
-           {{- $image := $src.Resize "900x" }}
-					 <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
-         {{ else }}
-           {{- $image := $src }}
-					 <img src="{{ $image.RelPermalink }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
-         {{ end }}
+<figure class="image {{ if $classList }}{{ $classList }}{{ end }}" markdown="0">
+  <div class="image__wrapper image__wrapper--single">
+    {{ if or (or (in $filename "http") (in $filename ".svg")) (in $filename ".avif") }}
+      <img src="{{ $filename }}" alt="{{ if $alt }}{{ $alt }}{{ end }}" />
+    {{ else }}
+      {{- $src := .Page.Resources.GetMatch $filename }}
+      {{ if gt $src.Width 900 }}
+        {{- $image := $src.Resize "900x" }}
+        <img
+          src="{{ $image.RelPermalink }}"
+          alt="{{ if $alt }}{{ $alt }}{{ end }}"
+        />
+      {{ else }}
+        {{- $image := $src }}
+        <img
+          src="{{ $image.RelPermalink }}"
+          alt="{{ if $alt }}{{ $alt }}{{ end }}"
+        />
       {{ end }}
-   </div>
+    {{ end }}
+  </div>
 </figure>

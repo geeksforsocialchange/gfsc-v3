@@ -6,14 +6,13 @@ description: We’re looking for someone with prior experience working as a soft
 author: kim
 ---
 
-
 We at Geeks for Social Change are looking for a developer to join our team. We’re a small predominantly trans, disabled, and neurodiverse studio trying to make a fairer society using activism, technology, and research. We are an atypical tech studio. Our work is based on anarcho-feminist principles, aims to be antifascist and antiracist, decolonise the tech sector, fight state violence, and work towards liberation of trans and disabled people among other things. Our big thing is about [Community Technology Partnerships](https://gfsc.studio/2022/10/11/national-network-community-technology-partnerships.html), working directly with communities to co-create solutions to the challenges they’re facing. Have a look at [our website](https://gfsc.studio/) to understand more about who we are and what we do.
 
 ## The role
 
 We’re looking for someone with some prior experience working as a software developer. You’d need to be a confident enough programmer to be able to start from a vague bug report or feature request, turn that into a ticket, pick up that ticket, do nearly all of the development involved in that ticket on your own, making small decisions as you go, and see your work through to deployment and release. You wouldn’t always do all the parts of that process, but you would need to be able to do any part of it, often picking up from where someone else left off. You do code review as part of your normal practice, not as a gatekeeping process but as part of working collaboratively with your team. Ideally, you’d also be comfortable helping to work out what we’re doing, taking an active role in planning.
 
-We primarily use three different technology stacks depending on the context of what we’re doing. 
+We primarily use three different technology stacks depending on the context of what we’re doing.
 
 - If we’re building a complex application where we want server-side features we usually reach for Ruby on Rails.
 - If we’re building a client-side application that relies on existing APIs (ours or others) we use Elm.
@@ -41,5 +40,4 @@ The deadline for applications is 11:00 on 16 January 2023.
 
 If you have any questions about the role or who we are, or if you’re not sure if you’re the right fit and want to talk it through, please reach out to F (f@gfsc.studio) or Katja (katja@gfsc.studio) and we’d love to chat.
 
-*please note gfsc are on winter break now until January. We will respond to any messages then, thankyou for your interest!*
-
+_please note gfsc are on winter break now until January. We will respond to any messages then, thankyou for your interest!_

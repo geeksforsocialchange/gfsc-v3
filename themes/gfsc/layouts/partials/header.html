@@ -1,43 +1,40 @@
 <header>
-   <div class="header">
-      <h2 class="header__title">
-         <a href="/">
-            <div class="header__h2">Geeks for Social Change</div>
-            <div class="header__logo" role="presentation"></div>
-         </a>
-      </h2>
-      <nav class="header__nav nav" id="js-nav">
-         <ul>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-               <li {{ if eq .URL $currentPage.RelPermalink }}class="active"{{ end }}>
-                  <a href="{{ .URL }}">{{ .Name }}</a>
-               </li>
-            {{ end }}
-         </ul>
-      </nav>
-      <button class="header__toggle nav__toggle" id="js-toggle">
-         Menu
-         <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="33"
-            viewBox="0 0 30 33"
-         >
-            <g transform="translate(-308 -37.5)">
-               <line x2="30" transform="translate(308 44)" />
-               <line x2="30" transform="translate(308 54)" />
-               <line x2="30" transform="translate(308 64)" />
-            </g>
-         </svg>
-      </button>
-      <div
-         class="header__strip--1 strip strip--circles"
-         role="presentation"
-      ></div>
-      <div
-         class="header__strip--2 strip strip--lines"
-         role="presentation"
-      ></div>
-   </div>
+  <div class="header">
+    <h2 class="header__title">
+      <a href="/">
+        <div class="header__h2">Geeks for Social Change</div>
+        <div class="header__logo" role="presentation"></div>
+      </a>
+    </h2>
+    <nav class="header__nav nav" id="js-nav">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li {{ if eq .URL $currentPage.RelPermalink }}class="active"{{ end }}>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+    <button class="header__toggle nav__toggle" id="js-toggle">
+      Menu
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="33"
+        viewBox="0 0 30 33"
+      >
+        <g transform="translate(-308 -37.5)">
+          <line x2="30" transform="translate(308 44)" />
+          <line x2="30" transform="translate(308 54)" />
+          <line x2="30" transform="translate(308 64)" />
+        </g>
+      </svg>
+    </button>
+    <div
+      class="header__strip--1 strip strip--circles"
+      role="presentation"
+    ></div>
+    <div class="header__strip--2 strip strip--lines" role="presentation"></div>
+  </div>
 </header>

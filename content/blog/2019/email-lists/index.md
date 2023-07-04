@@ -2,9 +2,9 @@
 author: kim
 date: 2019-09-02
 description:
-   When starting a new community group or campaign of any type, one of the
-   first things to get right is group communication. Despite dozens of tools claiming
-   to sort out this kind of thing, in my experience nothing beats an email list. Why?
+  When starting a new community group or campaign of any type, one of the
+  first things to get right is group communication. Despite dozens of tools claiming
+  to sort out this kind of thing, in my experience nothing beats an email list. Why?
 subtitle: Tips and tricks on getting off on the right foot.
 title: Why an email list is the most important tool for community groups
 ---

@@ -1,6 +1,6 @@
 ---
 title: ""
-date: {{ time.Format "2006-01-02" .Date  }}
+date: { { time.Format "2006-01-02" .Date } }
 client: ""
 when: ""
 who: ""

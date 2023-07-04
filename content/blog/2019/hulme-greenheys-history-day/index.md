@@ -2,11 +2,11 @@
 author: kim
 date: "2019-10-14T00:00:00Z"
 description:
-   Join us in a day of celebration of Hulme & Greenheys’ diverse history.
-   We are a group of grassroots historians, residents and academics who have come together
-   to explore the history of our area. We’ve organised this day to help us understand
-   how the four waves of rapid redevelopment over the last 100 years have affected
-   us all, for better and worse.
+  Join us in a day of celebration of Hulme & Greenheys’ diverse history.
+  We are a group of grassroots historians, residents and academics who have come together
+  to explore the history of our area. We’ve organised this day to help us understand
+  how the four waves of rapid redevelopment over the last 100 years have affected
+  us all, for better and worse.
 social: blog/hulme-history-day/GFSC_2019_HistoryDay_2-1_3.png
 subtitle: 23rd November at The Old Abbey Taphouse
 title: Join us for Hulme & Greenheys Community History Day!
@@ -36,11 +36,11 @@ _All events at [Old Abbey Taphouse](https://goo.gl/maps/jW2eVPYtBw8QGm738), Guil
 
 **2pm - 6pm. Talks.**
 
--  2:00pm. [**Elizabeth Faye and Kay Welsh**](https://squareroots.webs.com/) are cousins and both Manchester girls, who come from a long line of strong, inspirational Northern women. “Square Roots” is their first joint fictional novel, set in the Greenheys area of Manchester, where they grew up and is inspired by true events of love, loss and intrigue that occurred within their family amidst the backdrop of two World Wars. Hear how their attempt at a first novel, all began by a mis-sent text and the many interesting coincidences that have occurred along the way.
--  2:45pm. [**Sylvia Kӧlling**](https://cassowaryproject.org). Understanding modern Manchester through baths and wash-houses in the 19th century, with a special focus on Leaf St Baths in Hulme. Sylvia is an independent researcher who will discuss her investigation into Manchester and Salford Baths and Laundries Company.
--  3:30pm. [**David Rudlin**](http://urbed.coop/). The end of an era, Hulme 30 years ago... a turbulent period of crusties and squatters, creativity and squalor, tenants and students, occupations and cooperatives, punx picnics, flying PIGs and Dogs in Heaven. David is Principal and a director of URBED (Urbanism Environment and Design), Chair of the Academy of Urbanism and an Honorary Professor at Manchester University.
--  4:15pm. [**SuAndi OBE**](https://ourmothers.org/). Revealing the concealed by celebrating the unseen and questioning accepted histories, in particular the lives, experiences and contribution of our local Black Community since 1925. SuAndi is a historian, poet, writer and playwright, coordinator of National Black Arts Alliance, and previous organizer of Black History Month GM.
--  5:00pm. **Kerry Pimblott**. Want to learn more about how to do community-based history of urban renewal in Hulme and Greenheys? Kerry Pimblott will talk about her work using the collections at the [AIU Race Relations Centre](http://www.racearchive.manchester.ac.uk/) which offer a window into the community’s history, culture, and resistance. Kerry is a radical educator and scholar based at the University of Manchester. Her work focuses on African diaspora history and movements for racial change during the long twentieth century. She will be presenting this with **Ruth Tait** from the AIU Race Relations Centre.
+- 2:00pm. [**Elizabeth Faye and Kay Welsh**](https://squareroots.webs.com/) are cousins and both Manchester girls, who come from a long line of strong, inspirational Northern women. “Square Roots” is their first joint fictional novel, set in the Greenheys area of Manchester, where they grew up and is inspired by true events of love, loss and intrigue that occurred within their family amidst the backdrop of two World Wars. Hear how their attempt at a first novel, all began by a mis-sent text and the many interesting coincidences that have occurred along the way.
+- 2:45pm. [**Sylvia Kӧlling**](https://cassowaryproject.org). Understanding modern Manchester through baths and wash-houses in the 19th century, with a special focus on Leaf St Baths in Hulme. Sylvia is an independent researcher who will discuss her investigation into Manchester and Salford Baths and Laundries Company.
+- 3:30pm. [**David Rudlin**](http://urbed.coop/). The end of an era, Hulme 30 years ago... a turbulent period of crusties and squatters, creativity and squalor, tenants and students, occupations and cooperatives, punx picnics, flying PIGs and Dogs in Heaven. David is Principal and a director of URBED (Urbanism Environment and Design), Chair of the Academy of Urbanism and an Honorary Professor at Manchester University.
+- 4:15pm. [**SuAndi OBE**](https://ourmothers.org/). Revealing the concealed by celebrating the unseen and questioning accepted histories, in particular the lives, experiences and contribution of our local Black Community since 1925. SuAndi is a historian, poet, writer and playwright, coordinator of National Black Arts Alliance, and previous organizer of Black History Month GM.
+- 5:00pm. **Kerry Pimblott**. Want to learn more about how to do community-based history of urban renewal in Hulme and Greenheys? Kerry Pimblott will talk about her work using the collections at the [AIU Race Relations Centre](http://www.racearchive.manchester.ac.uk/) which offer a window into the community’s history, culture, and resistance. Kerry is a radical educator and scholar based at the University of Manchester. Her work focuses on African diaspora history and movements for racial change during the long twentieth century. She will be presenting this with **Ruth Tait** from the AIU Race Relations Centre.
 
 **6pm - onwards. Lots of chats and discussions about what we learned!**
 

@@ -1,48 +1,56 @@
 {{ define "main" }}
-   <div class="support">
-      <div class="support__content">{{ .Content }}</div>
-      <div class="support__section">
-         {{ with $.Resources.GetMatch "how-we-fund.md" }}
-            <h3 class="support__header">{{ .Title }}</h3>
-            <ul class="support__circles">
-               <li class="support__circle">{{ .Params.circle1 }}</li>
-               <li class="support__circle">{{ .Params.circle2 }}</li>
-               <li class="support__circle">{{ .Params.circle3 }}</li>
-            </ul>
-            <div class="support__content">
-               {{ .Content }}
-            </div>
-         {{ end }}
-      </div>
-      <hr class="fancy" />
-      <div class="support__section">
-         {{ with $.Resources.GetMatch "projects.md" }}
-            <h3 class="support__header">{{ .Title }}</h3>
-            <ul class="windows windows--alternating windows--orange">
-               {{ range .Params.projects }}
-                  {{ if isset . "url" }}
-                     {{ partial "textbox.html"
-                        (dict "title" .name "content" .description "linktext" "Read more" "linkto" .url)
-                     }}
-                  {{ else }}
-                     {{ partial "textbox.html"
-                        (dict "title" .name "content" .description)
-                     }}
-                  {{ end }}
-               {{ end }}
-            </ul>
-         {{ end }}
-      </div>
-      <hr class="fancy" />
-      <div id="donate" class="support__section">
-         {{ with $.Resources.GetMatch "donate.md" }}
-            <h3 class="support__header">{{ .Title }}</h3>
-            <div class="support__content">
-               {{ .Content }}
-            </div>
-            <a href="https://opencollective.com/gfscstudio" class="btn--invert btn--invert--up">Open collective</a>
-            <a href="https://ko-fi.com/gfscstudio" class="btn--invert btn--invert--up">Ko-fi</a>
-         {{ end }}
-      </div>
-   </div>
+  <div class="support">
+    <div class="support__content">{{ .Content }}</div>
+    <div class="support__section">
+      {{ with $.Resources.GetMatch "how-we-fund.md" }}
+        <h3 class="support__header">{{ .Title }}</h3>
+        <ul class="support__circles">
+          <li class="support__circle">{{ .Params.circle1 }}</li>
+          <li class="support__circle">{{ .Params.circle2 }}</li>
+          <li class="support__circle">{{ .Params.circle3 }}</li>
+        </ul>
+        <div class="support__content">
+          {{ .Content }}
+        </div>
+      {{ end }}
+    </div>
+    <hr class="fancy" />
+    <div class="support__section">
+      {{ with $.Resources.GetMatch "projects.md" }}
+        <h3 class="support__header">{{ .Title }}</h3>
+        <ul class="windows windows--alternating windows--orange">
+          {{ range .Params.projects }}
+            {{ if isset . "url" }}
+              {{ partial "textbox.html"
+                (dict "title" .name "content" .description "linktext" "Read more" "linkto" .url)
+              }}
+            {{ else }}
+              {{ partial "textbox.html"
+                (dict "title" .name "content" .description)
+              }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+    <hr class="fancy" />
+    <div id="donate" class="support__section">
+      {{ with $.Resources.GetMatch "donate.md" }}
+        <h3 class="support__header">{{ .Title }}</h3>
+        <div class="support__content">
+          {{ .Content }}
+        </div>
+        <a
+          href="https://opencollective.com/gfscstudio"
+          class="btn--invert btn--invert--up"
+          >Open collective</a
+        >
+        <a
+          href="https://ko-fi.com/gfscstudio"
+          class="btn--invert btn--invert--up"
+          >Ko-fi</a
+        >
+      {{ end }}
+    </div>
+  </div>
 {{ end }}

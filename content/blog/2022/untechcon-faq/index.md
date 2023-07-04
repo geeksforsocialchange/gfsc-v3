@@ -6,20 +6,19 @@ description: A little more information about our studio and what we have planned
 author: emma
 ---
 
-
 ## Who are Geeks for Social Change?
 
 We are a research and tech studio, who are interested in the gnarly challenges that present themselves where real-world, grassroots communities and technology collide. Our work began in Hulme, Manchester, but we now work across the UK with structurally disadvantaged groups.
 
 Our practice is rooted in community organising and development — projects centred around fighting state violence, supporting trans rights, widening accessibility, combating environmental harms, and exploring untold community histories (amongst many other things) are what get us excited.
 
-Our approach differs from a lot of purported 'tech for good', in that we strive to be rooted in the communities we work with — and we do the work *with*, not just *for* them.
+Our approach differs from a lot of purported 'tech for good', in that we strive to be rooted in the communities we work with — and we do the work _with_, not just _for_ them.
 
-As well as being a studio, GFSC is also a collective. The collective is made up of a diverse range of practitioners from many fields, with a shared interest in working towards positive and collaborative social change. Our focus is on helping each other to create socially impactful and useful tools for a better society, and having conversations about how tech can shape this work. The collective has moved through many phases, from a book group, to a discord, to active fortnightly meetings, and has spawned a variety of collaborative projects. During the pandemic, the collective struggled — as many other groups and organisations did — to maintain momentum and focus. Latterly, these exciting conversations have started to happen again, and it was in the collective that the idea of hosting UnTechCon was first floated. 
+As well as being a studio, GFSC is also a collective. The collective is made up of a diverse range of practitioners from many fields, with a shared interest in working towards positive and collaborative social change. Our focus is on helping each other to create socially impactful and useful tools for a better society, and having conversations about how tech can shape this work. The collective has moved through many phases, from a book group, to a discord, to active fortnightly meetings, and has spawned a variety of collaborative projects. During the pandemic, the collective struggled — as many other groups and organisations did — to maintain momentum and focus. Latterly, these exciting conversations have started to happen again, and it was in the collective that the idea of hosting UnTechCon was first floated.
 
 ## Why are we using Discord?
 
-We use Discord to run our day to day studio operations, and it’s also where the Collective meets and chats — we are hosting here at the request of the Collective. A lot of people are using it locally, and we are invested in being where people actually are, rather than where we wish they were. 
+We use Discord to run our day to day studio operations, and it’s also where the Collective meets and chats — we are hosting here at the request of the Collective. A lot of people are using it locally, and we are invested in being where people actually are, rather than where we wish they were.
 
 Crucially, it works really well and has a lot of nice features for this kind of event. It also means we’re able to lean on the experience of other organisers who have run these kinds of events. Ultimately, we are keen to minimise effort spent on tech so that we can concentrate on providing the best possible experience and content for attendees.
 
@@ -35,9 +34,9 @@ Part of the challenge is that we don’t even know what alternative we would use
 
 That said, we are currently looking into other options for future events, including a presence in the Fediverse, but this is what’s worked best for us so far, despite all its flaws.
 
-We know this answer probably won’t be good enough for some folks who are interested in this event, but we would like to assure you that we hope this event will be the first of many, and we don’t imagine they will be on Discord forever. 
+We know this answer probably won’t be good enough for some folks who are interested in this event, but we would like to assure you that we hope this event will be the first of many, and we don’t imagine they will be on Discord forever.
 
-We absolutely welcome suggestions for the hosting of subsequent events in different spaces, so if you have any expertise in running anything like this, please reach out to us and share your experience (or even do a talk about it :) 
+We absolutely welcome suggestions for the hosting of subsequent events in different spaces, so if you have any expertise in running anything like this, please reach out to us and share your experience (or even do a talk about it :)
 
 ## What accessibility features will there be?
 
@@ -49,7 +48,7 @@ Please let us know if you are planning to attend and have any other requirements
 
 ## Will sessions be recorded?
 
-This unconference will not be recorded. This kind of event is specifically designed to welcome a wide variety of people, including those who might be anxious about speaking, or have done limited preparation for their sessions. This is the fun of it! Recording such sessions could put people off contributing, so we want to keep the event as welcoming and low-key for speakers as possible.  
+This unconference will not be recorded. This kind of event is specifically designed to welcome a wide variety of people, including those who might be anxious about speaking, or have done limited preparation for their sessions. This is the fun of it! Recording such sessions could put people off contributing, so we want to keep the event as welcoming and low-key for speakers as possible.
 
 We hope as many of you as possible will be able to join us live on the day, this will also contribute to making the event a more fun place to be!
 

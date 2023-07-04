@@ -2,9 +2,9 @@
 author: kim
 date: 2016-10-10
 description:
-   User stories are meant to be non-fiction. We should not be in the business
-   of giving any more airtime to fictional user stories than we need to, given how
-   easy it is to gather them.
+  User stories are meant to be non-fiction. We should not be in the business
+  of giving any more airtime to fictional user stories than we need to, given how
+  easy it is to gather them.
 subtitle: Don't confuse fact and fiction when creating ad-hoc user stories.
 title: No False Users
 ---
