@@ -13,18 +13,26 @@
   &__title
     margin-block-start: 0
     margin-block-end: 0
-    padding-bottom: 1rem
+    padding-bottom: 1.5rem
     font-family: $freight
     font-size: 1.666666rem
     line-height: 1.1em
     +for-tablet-portrait-up
       font-size: 2.222222rem
+      padding-bottom: 2rem
+  &__themes
+    +border(nosides)
+    margin: 0 -1rem
+    padding: 1rem  1rem
+    +for-tablet-portrait-up
+      margin: 0 -5rem
+      padding: 1rem  5rem
   &__summary
     font-weight: 900
     +for-tablet-portrait-up
       font-weight: normal
       font-size: 1.444444rem
-      margin: 0.5rem 0 2.5rem 0
+      margin: 2rem 0 2.5rem 0
   &__meta
     display: none
     +for-tablet-portrait-up
