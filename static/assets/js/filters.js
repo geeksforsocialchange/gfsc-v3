@@ -5,5 +5,12 @@ const showFilters = () => {
 
   document
     .querySelectorAll(".work__filter")
-    .forEach((button) => button.classList.toggle("work__filter--hidden"));
+    .forEach(
+      (button) => {
+        if(button.style.display == 'none') {
+          button.style.display = 'flex';
+        } else {
+          button.style.display = 'none';
+        }
+      });
 };

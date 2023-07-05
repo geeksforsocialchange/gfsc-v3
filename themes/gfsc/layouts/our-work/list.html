@@ -23,7 +23,7 @@
           {{ end }}
         {{ end }}
         {{ if (gt $project_count 0 ) }}
-          <li class="work__filter work__filter--hidden">
+          <li class="work__filter" style="display: none">
             <h3 class="work__name">{{ .Title }}</h3>
             <div class="work__stripes">
               <a href="{{ .Permalink }}" class="work__link">Browse</a>
