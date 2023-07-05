@@ -15,17 +15,12 @@
   &__btn--active
     color: $secondary
     background-color: $primary
-
-  &__filter--hidden
-    display: none
-
   &__types-btn
     flex: 1
     +for-tablet-portrait-up
       flex: unset
     &:hover
       cursor: pointer
-
   &__filters
     padding: 0.25rem 0.25rem
     margin: 0
@@ -39,7 +34,6 @@
       justify-content: center
     +for-desktop-up
       flex-wrap: nowrap
-
   &__category
     display: none
   &__filter
@@ -52,6 +46,8 @@
     +for-tablet-portrait-up
       width: 156px
       margin: 0.75rem
+  &__filter--hidden  // must be after `&__filter` to work
+    display: none
   &__name
     padding: 0.5rem
     margin: 0
