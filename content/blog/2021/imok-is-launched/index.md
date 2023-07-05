@@ -2,9 +2,9 @@
 author: kim
 date: 2021-05-12
 description:
-   We've worked with No Borders Manchester to create a tool for people seeking
-   asylum in the UK. We're launching it today and have plans to use it to support many
-   other vulnerable groups.
+  We've worked with No Borders Manchester to create a tool for people seeking
+  asylum in the UK. We're launching it today and have plans to use it to support many
+  other vulnerable groups.
 subtitle: A simple bot designed to support people undertaking potentially risky activities
 title: imok is released!
 ---
@@ -15,10 +15,10 @@ The bot lets users 'check in' to the service with a messaging app or SMS message
 
 Examples use cases are:
 
--  Supporting protestors at risk of arrest or kidnapping
--  Supporting women and LGBTQ+ people walking home at night, or going on dates
--  Supporting journalists or medical staff in warzones
--  Supporting people seeking asylum through 'signing in' processes
+- Supporting protestors at risk of arrest or kidnapping
+- Supporting women and LGBTQ+ people walking home at night, or going on dates
+- Supporting journalists or medical staff in warzones
+- Supporting people seeking asylum through 'signing in' processes
 
 We released it today under an open source (MIT) license. If you'd like to dive in and have a look then go [check it out](https://github.com/geeksforsocialchange/imok) on GitHub, which contains full instructions for setting up your own instance and a list of recommended security precautions.
 

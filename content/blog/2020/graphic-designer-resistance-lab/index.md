@@ -2,9 +2,9 @@
 author: kim
 date: 2020-04-16
 description:
-   Following a successful grant application to Nesta Democracy Pioneers
-   program, we are delighted to be able to recruit a graphic designer on a freelance
-   basis.
+  Following a successful grant application to Nesta Democracy Pioneers
+  program, we are delighted to be able to recruit a graphic designer on a freelance
+  basis.
 subtitle: Resistance Lab are hiring
 title: Graphic designer for anti state violence project wanted!
 ---
@@ -15,11 +15,11 @@ Through several workshops and meetings, we have been working together to analyse
 
 Following a successful grant application to [Nesta Democracy Pioneers program](https://www.nesta.org.uk/blog/meet-19-pioneers-shaking-democracy/), we are delighted to be able to recruit a graphic designer on a freelance basis to create:
 
--  A logo and branding guidelines
--  Social media assets
--  A simple website layout (max 5 different page layouts)
--  A simple flyer layout
--  A cover jacket for a forthcoming zine (front and back pages and inner cover)
+- A logo and branding guidelines
+- Social media assets
+- A simple website layout (max 5 different page layouts)
+- A simple flyer layout
+- A cover jacket for a forthcoming zine (front and back pages and inner cover)
 
 For this work **the total budget is £1,250** (calculated as 5 days at £250). You will be managed by Kim Foale (Geeks for Social Change) for this work, who will be creating the website itself.
 

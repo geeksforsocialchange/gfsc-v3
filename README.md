@@ -13,6 +13,7 @@ The new site will use Hugo, and feature a redesign as well as new and updated co
 - **Git**
 - **Github** account if you would like to make pull requests
 - **Hugo** we are using `hugo_extended_0.111.3` available for download [here](https://github.com/gohugoio/hugo/releases/tag/v0.111.3) or consult the official [documentation](https://gohugo.io/getting-started/installing/)
+- **node**
 
 ## Setup & install instructions
 
@@ -25,6 +26,15 @@ If you need test the site on multiple devices locally you can bind the address t
 `hugo server --bind 192.168.10.10 --baseURL http://192.168.10.10`
 
 You would then visit (example IP) [192.168.10.10:1313](http://192.168.10.10:1313)
+
+### Formatting
+
+To set up our pre-commit hook for formatting you will need to run the following
+
+```sh
+npm i
+npm run prepare
+```
 
 ## Build
 

@@ -14,10 +14,10 @@ social: social.png
 description: "How we helped Gendered Intelligence streamline their website communications, respond to enquiries faster, and minimise pressure on their volunteers and employees"
 weight: 100
 galleryalt:
-- A screenshot showing Gendered Intelligence's rearranged contact page powered by EnquiryWitch
-- A screenshot showing EnquiryWitch running on mobile
-- A screenshot showing an example of an enquiry Gendered Intelligence can't help with
-- The EnquiryWitch logo
+  - A screenshot showing Gendered Intelligence's rearranged contact page powered by EnquiryWitch
+  - A screenshot showing EnquiryWitch running on mobile
+  - A screenshot showing an example of an enquiry Gendered Intelligence can't help with
+  - The EnquiryWitch logo
 draft: false
 ---
 
@@ -33,6 +33,6 @@ We did desk research of about 400 emails along with interviewing key staff to un
 
 After investigating a few options we eventually settled on adapting [Twine](https://twinery.org/), software usually used for interactive fiction. This software allows creation of simple "choose your own adventure" stories which then compile down to simple HTML and Javascript, so there's no chatbot server to run and everything can be edited using the existing, very well developed editor. We added functionality to let it send emails using Netlify serverless functions. And voila -- a "pseudo chatbot" that boils down to a single page of HTML that can be embedded in any website. [You can see it on GI's contact page](https://genderedintelligence.co.uk/contact/contact.html)
 
-The final product may not look look like much but this complete review and consolidation of incoming emails has completely transformed Gendered Intelligence's incoming communications, they estimate saving a 3 days a month of staff time across the organisation. 
+The final product may not look look like much but this complete review and consolidation of incoming emails has completely transformed Gendered Intelligence's incoming communications, they estimate saving a 3 days a month of staff time across the organisation.
 
 We now want to release this properly to make it easier for others to use -- get in touch if you think this is something your organisation could benefit from.

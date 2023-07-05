@@ -1,0 +1,16 @@
+.hugo_build.lock
+resources
+public
+.DS_Store
+tmp
+bin/htmltest
+
+# node generated files
+node_modules
+npm-debug.log
+
+# things prettier refuses to format
+themes/gfsc/layouts/shortcodes/image-with-caption/end.html
+themes/gfsc/layouts/shortcodes/gallery-with-caption/end.html
+themes/gfsc/layouts/project/single.html
+themes/gfsc/layouts/partials/footer.html

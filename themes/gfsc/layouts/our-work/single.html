@@ -1,23 +1,23 @@
 {{ define "main" }}
-{{$section := index (split .Path "/") 1}}
+  {{ $section := index (split .Path "/") 1 }}
   <h3 class="category__title">{{ .Title }}</h3>
   <div class="category__content">
     {{ .Content }}
   </div>
   <hr class="fancy" />
   <ul class="work__projects">
-		{{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 )}}
-		{{ $unweighted := ( shuffle (where (where .Site.RegularPages "Section" "project") "Params.weight" "==" 100 ) )}}
-    {{ range ( $weighted | append  $unweighted )}}
-			{{ if ( eq $section "category") }}
-				{{ if (in .Params.categories $.Params.key )}}
-					{{- partial "projectindex.html" . -}}
-				{{ end }}
+    {{ $weighted := (where (where .Site.RegularPages "Section" "project") "Params.weight" "!=" 100 ) }}
+    {{ $unweighted := ( shuffle (where (where .Site.RegularPages "Section" "project") "Params.weight" "==" 100 ) ) }}
+    {{ range ( $weighted | append  $unweighted ) }}
+      {{ if ( eq $section "category") }}
+        {{ if (in .Params.categories $.Params.key ) }}
+          {{- partial "projectindex.html" . -}}
+        {{ end }}
       {{ end }}
-			{{ if ( eq $section "theme") }}
-				{{ if (in .Params.themes $.Params.key )}}
-					{{- partial "projectindex.html" . -}}
-				{{ end }}
+      {{ if ( eq $section "theme") }}
+        {{ if (in .Params.themes $.Params.key ) }}
+          {{- partial "projectindex.html" . -}}
+        {{ end }}
       {{ end }}
     {{ end }}
   </ul>

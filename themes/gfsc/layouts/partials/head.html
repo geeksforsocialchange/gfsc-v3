@@ -1,62 +1,70 @@
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css" />
-   <!-- Favicons -->
-   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-   <link rel="manifest" href="/site.webmanifest" />
-   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ea5b0c" />
-   <meta name="msapplication-TileColor" content="#f1f4d1" />
-   <meta name="theme-color" content="#f1f4d1" />
-   <!-- Stylesheet -->
-   {{- $style := resources.Get "sass/main.scss" | resources.ToCSS |  resources.Fingerprint "sha256" }}
-   <link rel="stylesheet" href="{{ $style.Permalink }}" />
-   <!-- Site info -->
-   <meta property="og:site_name" content="Geeks for Social Change" />
-   <meta property="og:type" content="website" />
-   <meta property="og:url" content="{{ $.Permalink }}" />
-   <link rel="canonical" href="{{ $.Permalink }}"/>
-   <meta property="og:locale" content="en_GB">
-   <meta name="twitter:site" content="@gfscstudio" />
-   <meta name="twitter:creator" content="@gfscstudio" />
-   <meta name="twitter:card" content="summary_large_image" />
-   <!-- Title -->
-   <title>{{ .Title }} | Geeks for Social Change</title>
-   <meta property="og:title" content="{{ $.Title }}" />
-   <!-- Description -->
-{{- if isset .Params "description" }}
-   <meta property="og:description" content="{{ $.Params.Description }}" />
-{{- else }}
-   <meta property="og:description" content="Tools and processes for community liberation." />
-{{ end }}
-<!-- Image -->
-{{- if isset .Params "social" }}
-   {{ $image := .Resources.GetMatch $.Params.Social }}
-   {{ if $image }}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ea5b0c" />
+  <meta name="msapplication-TileColor" content="#f1f4d1" />
+  <meta name="theme-color" content="#f1f4d1" />
+  <!-- Stylesheet -->
+  {{- $style := resources.Get "sass/main.scss" | resources.ToCSS |  resources.Fingerprint "sha256" }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  <!-- Site info -->
+  <meta property="og:site_name" content="Geeks for Social Change" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ $.Permalink }}" />
+  <link rel="canonical" href="{{ $.Permalink }}" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="twitter:site" content="@gfscstudio" />
+  <meta name="twitter:creator" content="@gfscstudio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Title -->
+  <title>{{ .Title }} | Geeks for Social Change</title>
+  <meta property="og:title" content="{{ $.Title }}" />
+  <!-- Description -->
+  {{- if isset .Params "description" }}
+    <meta property="og:description" content="{{ $.Params.Description }}" />
+  {{- else }}
+    <meta
+      property="og:description"
+      content="Tools and processes for community liberation."
+    />
+  {{ end }}
+  <!-- Image -->
+  {{- if isset .Params "social" }}
+    {{ $image := .Resources.GetMatch $.Params.Social }}
+    {{ if $image }}
       {{ $imageFit := $image.Fit "1200x630" }}
       <meta name="og:image" content="{{ $imageFit.Permalink }}" />
-   {{ else }}
+    {{ else }}
       <!-- Image not found - check the path is right? -->
-      <meta property="og:image" content="https://gfsc.studio/assets/images/social.png" />
-   {{ end }}
-{{- else }}
-   <meta property="og:image" content="https://gfsc.studio/assets/images/social.png" />
-{{- end }}
-   <meta property="og:image:width" content="1200" />
-   <meta property="og:image:height" content="630" />
-<!-- Image description -->
-{{- if isset .Params "socialalt" }}
-   <meta property="og:image:alt" content="{{ $.Params.Socialalt }}" />
-{{- end }}
+      <meta
+        property="og:image"
+        content="https://gfsc.studio/assets/images/social.png"
+      />
+    {{ end }}
+  {{- else }}
+    <meta
+      property="og:image"
+      content="https://gfsc.studio/assets/images/social.png"
+    />
+  {{- end }}
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- Image description -->
+  {{- if isset .Params "socialalt" }}
+    <meta property="og:image:alt" content="{{ $.Params.Socialalt }}" />
+  {{- end }}
 
-{{- if hugo.IsProduction }}
-   <script
+  {{- if hugo.IsProduction }}
+    <script
       defer
       data-domain="gfsc.studio"
       src="https://plausible.io/js/plausible.js"
-   ></script>
-{{- end }}
+    ></script>
+  {{- end }}
 </head>
-

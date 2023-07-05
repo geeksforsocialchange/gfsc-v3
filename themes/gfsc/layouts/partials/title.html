@@ -13,14 +13,27 @@
     {{ end }}
   </div>
 {{ else }}
-  <div class="title{{ if eq .Params.Notitle true }} title--notitle{{end}}{{ if and (eq .Params.Nostrip true) (eq (isset .Params "bigtext") false)}} title--borderless{{end}}">
+  <div
+    class="title{{ if eq .Params.Notitle true }}
+      title--notitle
+    {{ end }}{{ if and (eq .Params.Nostrip true) (eq (isset .Params "bigtext") false) }}
+      title--borderless
+    {{ end }}"
+  >
     {{ if eq .Params.Notitle true }}
-      <div class="title__strip title__strip--top strip strip--circles" role="presentation"></div>
+      <div
+        class="title__strip title__strip--top strip strip--circles"
+        role="presentation"
+      ></div>
     {{ else }}
       <h2 class="title__main">{{ .Title }}</h2>
     {{ end }}
     {{ with .Params.Bigtext }}
-      <div class="title__subtitle{{ if (eq $.Permalink "/")}} title__subtitle--bigger{{ end }}">
+      <div
+        class="title__subtitle{{ if (eq $.Permalink "/") }}
+          title__subtitle--bigger
+        {{ end }}"
+      >
         {{ if eq $.Params.Notitle true }}
           <h2 class="title__subtitle__bigtext">{{ . }}</h2>
         {{ else }}
@@ -33,7 +46,10 @@
     {{ end }}
     {{ if eq .Params.Nostrip true }}
     {{ else }}
-      <div class="title__strip title__strip--bottom strip strip--circles" role="presentation"></div>
+      <div
+        class="title__strip title__strip--bottom strip strip--circles"
+        role="presentation"
+      ></div>
     {{ end }}
   </div>
 {{ end }}

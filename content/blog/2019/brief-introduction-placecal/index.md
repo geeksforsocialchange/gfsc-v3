@@ -2,10 +2,10 @@
 author: kim
 date: 2019-04-19
 description:
-   PlaceCal is a package of calendar software, education and community development.
-   It makes it easier for residents to publish events, find information about their
-   area, and see how to get involved in local groups. This helps people become active
-   in their community by connecting them to events that are happening nearby.
+  PlaceCal is a package of calendar software, education and community development.
+  It makes it easier for residents to publish events, find information about their
+  area, and see how to get involved in local groups. This helps people become active
+  in their community by connecting them to events that are happening nearby.
 subtitle: How we made Hulme & Moss Side's go-to resource to find out what's on.
 title: A brief introduction to PlaceCal
 ---
@@ -109,7 +109,7 @@ Rather than asking people to contribute to yet another system, we simply find ou
 For example, if a group is using Outlook internally for their email, that means they have access to Outlook Calendar too. We can help them make a shared calendar of public events that can be managed with other people in the organisation. By using these existing tools that people are already familiar with, it makes people far more likely that this information will stay up to date, and not be “just another” thing to remember.
 
 {{<image-with-caption/start src="2.png" alt="Illustrative diagram of how PlaceCal imports feeds" classList="image--frame">}}
-Illustrative diagram of how PlaceCal imports feeds 
+Illustrative diagram of how PlaceCal imports feeds
 {{<image-with-caption/end>}}
 
 Giving organisations the skills to manage their own information has hugely increased the accuracy and completeness of their information. One organization we worked with published twice as many events when given this skill as their representative was able to tell us face-to-face.

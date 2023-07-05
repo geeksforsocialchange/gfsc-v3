@@ -14,13 +14,13 @@ social: social.jpg
 description: "How we developed branding and a website for the Strength of Our Mothers project, which tells the story of white women in interracial relationships from the 1940s and onwards."
 weight: 100
 galleryalt:
-- Strength of our Mothers' logo
-- Mockup of the SoM site on tablet
-- Small version of the SoM logo
+  - Strength of our Mothers' logo
+  - Mockup of the SoM site on tablet
+  - Small version of the SoM logo
 draft: false
 ---
 
-Strength of our Mothers was a project led by the National Black Arts Alliance, supported by the National Lottery Heritage Fund. 
+Strength of our Mothers was a project led by the National Black Arts Alliance, supported by the National Lottery Heritage Fund.
 
 The project documents the lives of 23 white women in interracial relationships with African and African-Caribbean men from the 1940s to 2000. Each woman's story is told in her own voice, or by her children.
 

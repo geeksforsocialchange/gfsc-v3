@@ -2,14 +2,14 @@
 author: kim, alice
 date: 2021-09-17
 description:
-   Now not only do we have several companies here who manufacture or assist
-   in the production of nuclear missiles and submarines, we put 'em in the regional
-   marketing brochure.
+  Now not only do we have several companies here who manufacture or assist
+  in the production of nuclear missiles and submarines, we put 'em in the regional
+  marketing brochure.
 illustrator: emma
 social: og-wide.jpg
 subtitle:
-   Once upon a time, Manchester saw itself as a leading light in the fight
-   against nuclear annihilation.
+  Once upon a time, Manchester saw itself as a leading light in the fight
+  against nuclear annihilation.
 title: What happened to Nuclear Free Manchester?
 ---
 
@@ -30,7 +30,7 @@ It's the last day of Defence & Security Equipment International (DSEI), one of t
 If you want to know where the _really really_ bad people in the world get their guns and ammo, it's here. If you're a repressive government such as Saudia Arabia, UAE or USA looking to buy anything from torture equipment to chemical weapons to helicopters, DSEI has you covered. In fact, the UK government will pay for your delegation to come over, give you a stall to sit on all week while people come and pitch you weapons, and lay on millions of pounds of policing to protect you while you're here. You can even speculate on how many bullets are in a jar and win a prize!
 
 {{<image-with-caption/start src="bullets.jpg" alt="A jar of bullets with a sign reading 'Guess the amount of bullet cores and win a £50 M&S voucher. Place business card in vase for a chance to win" classList="image--frame">}}
-Guess the number of bullets and win a prize! Image via [@darren_cullen on Twitter](https://mobile.twitter.com/darren_cullen/status/1436056720921567236) 
+Guess the number of bullets and win a prize! Image via [@darren_cullen on Twitter](https://mobile.twitter.com/darren_cullen/status/1436056720921567236)
 {{<image-with-caption/end>}}
 
 ## Sounds bad, so what's this got to do with Manchester?
@@ -56,7 +56,7 @@ In 2005, one of the architects of this declaration Cllr Bill Risby stated:
 in the 1980s-90s the slogan "Manchester: a Nuclear Free City" was widely used on signs. You can still see them around town today. This [Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/truth-iconic-manchester-emblem-top-14925461) longread talks about the history of where it came from.
 
 {{<gallery-with-caption/start srcs="0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" alts="Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" classList="image--frame">}}
-Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester' 
+Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'
 {{<gallery-with-caption/end>}}
 
 ## So what went wrong?
@@ -74,17 +74,17 @@ BAE also own the company that created the [Trident nuclear submarine fleet](http
 Sounds bad right? Well, not according to GMCA who literally _[put them in the brochure](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/)_ for the Greater Manchester Strategic Framework, alongside a quote from someone with a truly Bond-villan-esque name and job title.
 
 {{<image-with-caption/start src="Screenshot_2021-09-15_at_16.11.03.png" alt="A page from GMCA's 'Doing Digital Differently' brochure. It has a profile photo of 'Victoria Knight, Strategic Business Director, BAE Systems', a middle-aged white woman with long brown hair. It has a full page quote: We see this as a real thriving tech hub and the aspiration for Greater Manchester to become one of Europe's top 5 digital city regions is absolutely attractive to us." classList="image--frame">}}
-A page from GMCA's 'Doing Digital Differently' brochure highlighting BAE Systems. 
+A page from GMCA's 'Doing Digital Differently' brochure highlighting BAE Systems.
 {{<image-with-caption/end>}}
 
 Other companies who presented at DSEI 2021 actively welcomed by various parts of GMCA include:
 
--  Northrop Grumann, who as cannot be stressed enough, make nuclear missiles, and sponsor research articles with names like "[The Downsides of Downsizing: Why the United States Needs Four Hundred ICBMs](https://www.atlanticcouncil.org/wp-content/uploads/2021/03/Nuclear-Force-Sizing-IB-032621.pdf)". GMCA see their operations in Greater Manchester as a ["Cyber Ecosystem Milestone" on their website](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/global-digital-influencer/greater-manchester-cyber-ecosystem/milestones-and-achievements/).
--  CACI, a huge conglomerate implicated in war crimes including torture outsourced to them by the CIA at Abu Ghraib prison. Transport for Greater Manchester (TFGM) saw fit to [commission them to do research on bike hire schemes](https://www.gmcc.org.uk/wp-content/uploads/2013/11/TfGM_Cycle_Hire_Study.pdf).
--  Elbit Systems (previously Elbit Ferranti), Israel's largest privately-owned arms company which mainly ships unmanned drones to Israel that are used to bomb Palestinians. You can read more about [Elbit on Palestine Action's website](https://www.palestineaction.org/uav-tactical-systems/). And by the way, Manchester University has been more than happy to help [with the research to make them even better](http://www.labournet.net/other/1804/entangled.pdf).
--  The effect of this concentration of arms and cybersecurity companies is so powerful companies like [UK Fast are pivoting to defence](https://www.ans.co.uk/public-sector-cloud/defence-industry/), proudly stating on their website they provide hosting for MBDA systems who provide missiles to the [Saudia Air Force to bomb Yemen](https://caat.org.uk/data/companies/mbda-bae-systems-airbus-leonardo).
--  Co-op Digital worked with Thales, [who provide equipment to the UK army to stop migrants crossing the channel](https://caat.org.uk/data/companies/thales/) among other things, [to teach children](https://digitalblog.coop.co.uk/2016/10/28/hack-manchester-junior/) to code (presumably 'how to stop children just like you reaching our shores!')[^coop].
--  All the big companies seem to be at it on the education from too. [Raytheon cyber academy](https://www.raytheon.co.uk/cyber-academy) is also part of the "Cyber Ecosystem Milestones", and Raytheon are involved in [sponsoring training for women](https://girlswhocode.com/news/girls-who-code-announces-local-charity-board-of-directors-in-united-kingdom) to "get into code". BAE Systems have [opened an academy](https://caat.org.uk/news/disarming-our-schools/) to train people how to build nuclear submarines in Barrow, Cumbria. And through [GMCA's Cyber Advisory Group](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/global-digital-influencer/greater-manchester-cyber-ecosystem/greater-manchester-cyber-security-advisory-group/) these companies form a panel with all the local universities and authorities.
+- Northrop Grumann, who as cannot be stressed enough, make nuclear missiles, and sponsor research articles with names like "[The Downsides of Downsizing: Why the United States Needs Four Hundred ICBMs](https://www.atlanticcouncil.org/wp-content/uploads/2021/03/Nuclear-Force-Sizing-IB-032621.pdf)". GMCA see their operations in Greater Manchester as a ["Cyber Ecosystem Milestone" on their website](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/global-digital-influencer/greater-manchester-cyber-ecosystem/milestones-and-achievements/).
+- CACI, a huge conglomerate implicated in war crimes including torture outsourced to them by the CIA at Abu Ghraib prison. Transport for Greater Manchester (TFGM) saw fit to [commission them to do research on bike hire schemes](https://www.gmcc.org.uk/wp-content/uploads/2013/11/TfGM_Cycle_Hire_Study.pdf).
+- Elbit Systems (previously Elbit Ferranti), Israel's largest privately-owned arms company which mainly ships unmanned drones to Israel that are used to bomb Palestinians. You can read more about [Elbit on Palestine Action's website](https://www.palestineaction.org/uav-tactical-systems/). And by the way, Manchester University has been more than happy to help [with the research to make them even better](http://www.labournet.net/other/1804/entangled.pdf).
+- The effect of this concentration of arms and cybersecurity companies is so powerful companies like [UK Fast are pivoting to defence](https://www.ans.co.uk/public-sector-cloud/defence-industry/), proudly stating on their website they provide hosting for MBDA systems who provide missiles to the [Saudia Air Force to bomb Yemen](https://caat.org.uk/data/companies/mbda-bae-systems-airbus-leonardo).
+- Co-op Digital worked with Thales, [who provide equipment to the UK army to stop migrants crossing the channel](https://caat.org.uk/data/companies/thales/) among other things, [to teach children](https://digitalblog.coop.co.uk/2016/10/28/hack-manchester-junior/) to code (presumably 'how to stop children just like you reaching our shores!')[^coop].
+- All the big companies seem to be at it on the education from too. [Raytheon cyber academy](https://www.raytheon.co.uk/cyber-academy) is also part of the "Cyber Ecosystem Milestones", and Raytheon are involved in [sponsoring training for women](https://girlswhocode.com/news/girls-who-code-announces-local-charity-board-of-directors-in-united-kingdom) to "get into code". BAE Systems have [opened an academy](https://caat.org.uk/news/disarming-our-schools/) to train people how to build nuclear submarines in Barrow, Cumbria. And through [GMCA's Cyber Advisory Group](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/global-digital-influencer/greater-manchester-cyber-ecosystem/greater-manchester-cyber-security-advisory-group/) these companies form a panel with all the local universities and authorities.
 
 [^coop]: This is extra weird when you consider the banking division of the co-op has an [ethical policy prohbiting this](https://www.co-operativebank.co.uk/assets/pdf/bank/values-and-ethics/ethical-policy.pdf).
 

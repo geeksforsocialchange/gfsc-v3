@@ -1,75 +1,76 @@
-{{ define "main"}}
-{{ $blogauthors := split .Params.Author ", " }}
-<div class="blog">
-   <div class="blog__content">
+{{ define "main" }}
+  {{ $blogauthors := split .Params.Author ", " }}
+  <div class="blog">
+    <div class="blog__content">
       <header>
-         <h1 class="blog__title">{{ .Title }}</h1>
-         {{ if isset .Params "subtitle" }}
-         <p class="blog__subtitle">{{ .Params.Subtitle }}</p>
-         {{ end }}
-         {{ if not (eq (.Lastmod.Format "02 January 2006") (.Date.Format "02 January 2006")) }}
-         <time class="blog__lastmod" datetime="{{ .Lastmod }}">
-            Last updated on {{ .Lastmod.Format "02 January 2006" }}
-         </time>
-         {{ end }}
-         </header>
+        <h1 class="blog__title">{{ .Title }}</h1>
+        {{ if isset .Params "subtitle" }}
+          <p class="blog__subtitle">{{ .Params.Subtitle }}</p>
+        {{ end }}
+        {{ if not (eq (.Lastmod.Format "02 January 2006") (.Date.Format "02 January 2006")) }}
+          <time class="blog__lastmod" datetime="{{ .Lastmod }}">
+            Last updated on
+            {{ .Lastmod.Format "02 January 2006" }}
+          </time>
+        {{ end }}
+      </header>
 
       <div class="blog__body">{{ .Content }}</div>
-   </div>
+    </div>
 
-   <aside class="blog__aside">
+    <aside class="blog__aside">
       <time class="blog__meta blog__meta--date" datetime="{{ .Date }}"
-         >{{ .Date.Format "02 January 2006" }}</time
+        >{{ .Date.Format "02 January 2006" }}</time
       >
       <div class="blog__meta blog__meta--author" rel="author">
-         By
-         {{ range $index, $authortag := $blogauthors }}
-            {{ $findauthor := where $.Site.Data.authors.authors "tag" $authortag }}
-            {{ $author := index $findauthor 0 }}
-            {{ if ge (sub (len $blogauthors) $index) 2 }}
-               {{ $author.name }},
-            {{ else }}
-               {{ $author.name }}
-            {{ end }}
-         {{ end }}
+        By
+        {{ range $index, $authortag := $blogauthors }}
+          {{ $findauthor := where $.Site.Data.authors.authors "tag" $authortag }}
+          {{ $author := index $findauthor 0 }}
+          {{ if ge (sub (len $blogauthors) $index) 2 }}
+            {{ $author.name }},
+          {{ else }}
+            {{ $author.name }}
+          {{ end }}
+        {{ end }}
       </div>
       {{ range $blogauthors }}
-         {{ $findauthor := where $.Site.Data.authors.authors "tag" . }}
-         {{ $author := index $findauthor 0 }}
-         <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
-            <picture>
-               <img
-                  src="/assets/images/authors/{{ $author.avatar }}"
-                  alt="A photo of {{ $author.name }}"
-                  class="blog__meta--avatar--image"
-               />
-            </picture>
-         </div>
+        {{ $findauthor := where $.Site.Data.authors.authors "tag" . }}
+        {{ $author := index $findauthor 0 }}
+        <div class="blog__meta blog__meta--avatar blog__meta--avatar--author">
+          <picture>
+            <img
+              src="/assets/images/authors/{{ $author.avatar }}"
+              alt="A photo of {{ $author.name }}"
+              class="blog__meta--avatar--image"
+            />
+          </picture>
+        </div>
       {{ end }}
       {{ if isset .Params "illustrator" }}
-         {{ $findillus := where $.Site.Data.authors.authors "tag" .Params.illustrator }}
-         {{ $illustrator := index $findillus 0 }}
-         <div
-            class="blog__meta blog__meta--author blog__meta--illustrator"
-            rel="illustrator"
-         >
-            Illustration by {{ $illustrator.name }}
-         </div>
-         <div
-            class="blog__meta blog__meta--avatar blog__meta--avatar--illustrator"
-         >
-            <picture>
-               <img
-                  src="/assets/images/authors/{{ $illustrator.avatar }}"
-                  alt="A photo of {{ $illustrator.name }}"
-                  class="blog__meta--avatar--image"
-               />
-            </picture>
-         </div>
+        {{ $findillus := where $.Site.Data.authors.authors "tag" .Params.illustrator }}
+        {{ $illustrator := index $findillus 0 }}
+        <div
+          class="blog__meta blog__meta--author blog__meta--illustrator"
+          rel="illustrator"
+        >
+          Illustration by
+          {{ $illustrator.name }}
+        </div>
+        <div
+          class="blog__meta blog__meta--avatar blog__meta--avatar--illustrator"
+        >
+          <picture>
+            <img
+              src="/assets/images/authors/{{ $illustrator.avatar }}"
+              alt="A photo of {{ $illustrator.name }}"
+              class="blog__meta--avatar--image"
+            />
+          </picture>
+        </div>
       {{ else }}
-      <span></span><span></span>
+        <span></span><span></span>
       {{ end }}
-   </aside>
-</div>
-
+    </aside>
+  </div>
 {{ end }}

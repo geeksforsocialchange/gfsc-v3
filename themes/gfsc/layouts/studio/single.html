@@ -1,94 +1,108 @@
 {{ define "main" }}
-<div class="page page--default studio">
-   <div class="page__content page__content--doublemargin">
+  <div class="page page--default studio">
+    <div class="page__content page__content--doublemargin">
       {{ .Content }}
       <div class="studio__elements page__underline page__underline--marginless">
-         <a class="btn" href="#research">Consultancy and research</a>
-         <a class="btn" href="#development">Software development</a>
-         <a class="btn" href="#design"
-            >Design and branding</a
-         >
-         <a class="btn" href="#education"
-            >Education and training</a
-         >
+        <a class="btn" href="#research">Consultancy and research</a>
+        <a class="btn" href="#development">Software development</a>
+        <a class="btn" href="#design">Design and branding</a>
+        <a class="btn" href="#education">Education and training</a>
       </div>
       {{ with $.Resources.GetMatch "research.md" }}
-      <h3 class="page__header--sectionheader" id="research">{{ .Title }}</h3>
-      <div class="page__image--marginless page__image--sectionheader orangify">
-      {{ $researchImage := $.Resources.GetMatch "research.jpg" }}
-			{{ $researchImage := $researchImage.Resize "1200x" }}
-			{{ if $researchImage }}
-				<img src="{{ $researchImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
-			{{ end }}
-      </div>
-      <div>{{ .Content }}</div>
-			<div class="studio__elements">
-				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
-					 >{{ .Params.Buttontext }}</a
-				>
-			</div>
+        <h3 class="page__header--sectionheader" id="research">{{ .Title }}</h3>
+        <div
+          class="page__image--marginless page__image--sectionheader orangify"
+        >
+          {{ $researchImage := $.Resources.GetMatch "research.jpg" }}
+          {{ $researchImage := $researchImage.Resize "1200x" }}
+          {{ if $researchImage }}
+            <img
+              src="{{ $researchImage.RelPermalink }}"
+              alt="{{ .Params.Alt }}"
+            />
+          {{ end }}
+        </div>
+        <div>{{ .Content }}</div>
+        <div class="studio__elements">
+          <a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
+            >{{ .Params.Buttontext }}</a
+          >
+        </div>
       {{ end }}
       <div
-         class="strip strip--circles strip--divider"
-         role="presentation"
+        class="strip strip--circles strip--divider"
+        role="presentation"
       ></div>
       {{ with $.Resources.GetMatch "development.md" }}
-      <h3 class="page__header--sectionheader" id="development">{{ .Title }}</h3>
-      <div class="page__image--marginless page__image--sectionheader orangify">
-      {{ $devImage := $.Resources.GetMatch "development.jpg" }}
-			{{ $devImage := $devImage.Resize "1200x" }}
-			{{ if $devImage }}
-				<img src="{{ $devImage.RelPermalink }}" alt="{{ .Params.Alt }}" />
-			{{ end }}
-      </div>
-      <div>{{ .Content }}</div>
-			<div class="studio__elements">
-				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
-					 >{{ .Params.Buttontext }}</a
-				>
-			</div>
+        <h3 class="page__header--sectionheader" id="development">
+          {{ .Title }}
+        </h3>
+        <div
+          class="page__image--marginless page__image--sectionheader orangify"
+        >
+          {{ $devImage := $.Resources.GetMatch "development.jpg" }}
+          {{ $devImage := $devImage.Resize "1200x" }}
+          {{ if $devImage }}
+            <img src="{{ $devImage.RelPermalink }}" alt="{{ .Params.Alt }}" />
+          {{ end }}
+        </div>
+        <div>{{ .Content }}</div>
+        <div class="studio__elements">
+          <a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
+            >{{ .Params.Buttontext }}</a
+          >
+        </div>
       {{ end }}
       <div
-         class="strip strip--circles strip--divider"
-         role="presentation"
+        class="strip strip--circles strip--divider"
+        role="presentation"
       ></div>
       {{ with $.Resources.GetMatch "design.md" }}
-      <h3 class="page__header--sectionheader" id="design">{{ .Title }}</h3>
-      <div class="page__image--marginless page__image--sectionheader orangify">
-      {{ $designImage := $.Resources.GetMatch "design.png" }}
-			{{ $designImage := $designImage.Resize "1200x" }}
-			{{ if $designImage }}
-				<img src="{{ $designImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
-			{{ end }}
-      </div>
-      <div>{{ .Content }}</div>
-			<div class="studio__elements">
-				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
-					 >{{ .Params.Buttontext }}</a
-				>
-			</div>
+        <h3 class="page__header--sectionheader" id="design">{{ .Title }}</h3>
+        <div
+          class="page__image--marginless page__image--sectionheader orangify"
+        >
+          {{ $designImage := $.Resources.GetMatch "design.png" }}
+          {{ $designImage := $designImage.Resize "1200x" }}
+          {{ if $designImage }}
+            <img
+              src="{{ $designImage.RelPermalink }}"
+              alt="{{ .Params.Alt }}"
+            />
+          {{ end }}
+        </div>
+        <div>{{ .Content }}</div>
+        <div class="studio__elements">
+          <a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
+            >{{ .Params.Buttontext }}</a
+          >
+        </div>
       {{ end }}
       <div
-         class="strip strip--circles strip--divider"
-         role="presentation"
+        class="strip strip--circles strip--divider"
+        role="presentation"
       ></div>
       {{ with $.Resources.GetMatch "education.md" }}
-      <h3 class="page__header--sectionheader" id="education">{{ .Title }}</h3>
-      <div class="page__image--marginless page__image--sectionheader orangify">
-
-      {{ $consultImage := $.Resources.GetMatch "education.jpg" }}
-			{{ $consultImage := $consultImage.Resize "1200x" }}
-			{{ if $consultImage }}
-				<img src="{{ $consultImage.RelPermalink }}" alt="{{ .Params.Alt }}"/>
-			{{ end }}
-      </div>
-      <div>{{ .Content }}</div>
-			<div class="studio__elements">
-				<a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
-					 >{{ .Params.Buttontext }}</a
-				>
-			</div>
+        <h3 class="page__header--sectionheader" id="education">{{ .Title }}</h3>
+        <div
+          class="page__image--marginless page__image--sectionheader orangify"
+        >
+          {{ $consultImage := $.Resources.GetMatch "education.jpg" }}
+          {{ $consultImage := $consultImage.Resize "1200x" }}
+          {{ if $consultImage }}
+            <img
+              src="{{ $consultImage.RelPermalink }}"
+              alt="{{ .Params.Alt }}"
+            />
+          {{ end }}
+        </div>
+        <div>{{ .Content }}</div>
+        <div class="studio__elements">
+          <a class="btn" href="{{ path.Join "/" .Params.Buttonlink }}"
+            >{{ .Params.Buttontext }}</a
+          >
+        </div>
       {{ end }}
-   </div>
-</div>
+    </div>
+  </div>
 {{ end }}

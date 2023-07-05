@@ -3,9 +3,9 @@ author: kim
 date: 2021-09-08
 lastmod: 2021-10-11
 description:
-   Geeks for Social Change are looking for a backend or full stack Ruby
-   on Rails developer to work 24 hours a week. The initial focus of your work will
-   be PlaceCal, our award-winning community calendar platform
+  Geeks for Social Change are looking for a backend or full stack Ruby
+  on Rails developer to work 24 hours a week. The initial focus of your work will
+  be PlaceCal, our award-winning community calendar platform
 subtitle: Backend or full stack Rails developer needed for community web project
 title: We're hiring!
 ---
@@ -32,10 +32,10 @@ Our commercial work ('the studio') currently comprises a small team of about 3 F
 
 We are looking for a Ruby on Rails developer with:
 
--  At least some experience in or knowledge of grassroots local mutual aid groups, local political organising, or running your own events. Basically, we need people who get our politics and preferably have experience assisting with community work. This could be: queer or anti-racist organising; community and mutual aid groups; DIY arts music; writing and artists groups; culture collectives and festivals; or any other experience you think fits this description.
--  At least two years' coding experience and one year's experience developing Ruby on Rails, with some backend experience. This can be on professional or personal projects, but preferably we will be able to see your code. You will be doing some reasonably complicated database stuff from the get-go so it's important you're comfortable with this kind of work.
--  Desirable: experience in a range of different programming languages or other frameworks: maybe Django, JavaScript, React, Go, Python, R, etc. Our collective projects use a wide range of programming languages so we're very keen on people who have dabbled.
--  Desirable: experience using scrum, agile, XP, or whatever you want to call it. We would really benefit from some expertise in these areas.
+- At least some experience in or knowledge of grassroots local mutual aid groups, local political organising, or running your own events. Basically, we need people who get our politics and preferably have experience assisting with community work. This could be: queer or anti-racist organising; community and mutual aid groups; DIY arts music; writing and artists groups; culture collectives and festivals; or any other experience you think fits this description.
+- At least two years' coding experience and one year's experience developing Ruby on Rails, with some backend experience. This can be on professional or personal projects, but preferably we will be able to see your code. You will be doing some reasonably complicated database stuff from the get-go so it's important you're comfortable with this kind of work.
+- Desirable: experience in a range of different programming languages or other frameworks: maybe Django, JavaScript, React, Go, Python, R, etc. Our collective projects use a wide range of programming languages so we're very keen on people who have dabbled.
+- Desirable: experience using scrum, agile, XP, or whatever you want to call it. We would really benefit from some expertise in these areas.
 
 That being said, experience matters less to us than cultural fit, motivation and passion. We are looking to form long term relationships with committed people. You would be working with two other developers on this project. A lot of the work will be done solo but there are opportunities for collaboration, idea sharing, working out problems together.
 
@@ -57,11 +57,11 @@ Think this sounds for you, or want a no commitment chat about it?
 
 Email jobs@gfsc.studio with:
 
--  A short statement about your experience in community groups / activism
--  A short description of your Rails experience especially on more technical backend projects
--  A short description of your non-Rails experience
--  A recent CV (please don't worry about customising this for us we just want an idea of who you are!)
--  A link to a portfolio if you have one, or just a few links to sites you've worked on, a project on GitHub, etc.
+- A short statement about your experience in community groups / activism
+- A short description of your Rails experience especially on more technical backend projects
+- A short description of your non-Rails experience
+- A recent CV (please don't worry about customising this for us we just want an idea of who you are!)
+- A link to a portfolio if you have one, or just a few links to sites you've worked on, a project on GitHub, etc.
 
 Then we will take it from there!
 

@@ -2,10 +2,10 @@
 author: kim
 date: 2019-09-18
 description:
-   There's a lot of discussion about co-production, co-design and other
-   impressive-sounding terms starting with 'co-' at the moment in tech circles. This
-   article discusses a seminar paper from the 1960s, and examines how we can rethink
-   how technology products are made made and who they're for.
+  There's a lot of discussion about co-production, co-design and other
+  impressive-sounding terms starting with 'co-' at the moment in tech circles. This
+  article discusses a seminar paper from the 1960s, and examines how we can rethink
+  how technology products are made made and who they're for.
 subtitle: Revisiting Arnstein's "Ladder of Citizen Participation"
 title: Why tech co-production practice is barely scratching the surface
 alias: ladder_citizen_participation
@@ -34,13 +34,13 @@ I think therapy refers to where the focus is shifted off the actual focus. For e
 [^busstop]: Image from [Justin Li on Twitter](https://twitter.com/justinnhli/status/1003703021321142272)
 
 {{<image-with-caption/start src="facebook.jpeg" alt="A Facebook bus stop ad" classList="image--frame">}}
-A Facebook bus stop ad 
+A Facebook bus stop ad
 {{<image-with-caption/end>}}
 
 Despite how obvious these methods can seem, somehow the internal logic of large bureaucratic organisations manages to perpetually convince themselves that this works, that the product is fine and it is it the user that is at fault. Overall, in every community I've worked in this has led to 'consultation fatigue'. Community memory is much, much longer than any funded project, webapp, or commission. People will and do notice if your engagement process, however well designed, has no actual potential to change whatever it is you're developing.
 
 {{<image-with-caption/start src="simpsons.jpg" alt="Every big tech company" classList="image--frame">}}
-Every big tech company 
+Every big tech company
 {{<image-with-caption/end>}}
 
 {{<kofi "Buy us a Ko-fi to fuel the writing of more articles like this.">}}
@@ -71,9 +71,9 @@ I think the better tech initiatives fall into this category: well meaning, but f
 
 At the top of the ladder is what I believe to be the only way to achieve genuine progressive social change, direct citizen participation with the groups and people you are seeking to help. The three forms of this: 'partnership', 'delegated power' and 'citizen control' to me mostly refer to exactly how far power is delegated: from control over the budgets and project outlines of a few dedicated programs, to total power over entire commissions. Briefly:
 
--  Partnership: "Power is ... redistributed through negotiation between citizens and powerholders. They agree to share planning and decision-making responsibilities through such structures as joint policy boards, planning committees and mechanisms for resolving impasses."
--  Delegated power: "Negotiations between citizens and public officials result in citizens achieving dominant decision-making authority over a particular plan or program ... Citizens hold the significant cards to assure accountability of the program to them. Powerholders need to start the bargaining process rather than respond to pressure from the other end."
--  Citizen control: "A degree of power (or control) which guarantees that participants can govern a program or an institution, [and] be in full charge of policy and managerial aspects ... A neighbourhood corporation with no intermediaries between it and the source of funds is the model most frequently advocated."
+- Partnership: "Power is ... redistributed through negotiation between citizens and powerholders. They agree to share planning and decision-making responsibilities through such structures as joint policy boards, planning committees and mechanisms for resolving impasses."
+- Delegated power: "Negotiations between citizens and public officials result in citizens achieving dominant decision-making authority over a particular plan or program ... Citizens hold the significant cards to assure accountability of the program to them. Powerholders need to start the bargaining process rather than respond to pressure from the other end."
+- Citizen control: "A degree of power (or control) which guarantees that participants can govern a program or an institution, [and] be in full charge of policy and managerial aspects ... A neighbourhood corporation with no intermediaries between it and the source of funds is the model most frequently advocated."
 
 By way of example, [PlaceCal](https://placecal.org/) came out of a 'citizen control' project managed by GFSC's Prof Stefan White called Manchester Age Friendly Neighbourhoods (MAFN). This project gained funding to spend over four years on making four areas of Manchester more age friendly[^areas]. The approach, on paper, was simple: hire the minimum staff needed to develop a partnership, manage the project and produce an evaluation over the four years, and then allocate all the rest to the partnerships (44% or £324,000) to decide what they wanted to spend it on.
 

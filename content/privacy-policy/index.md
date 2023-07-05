@@ -15,4 +15,3 @@ We sometimes use third party services for example [Plausable Analytics](https://
 - email newsletter signup
 - no cookies
 - hmmm, anchor.fm and youtube embeds? do they count?
-

@@ -14,11 +14,11 @@ social: social.jpg
 description: "How we worked with No Borders Manchester on a simple text bot to support and protect Asylum seekers who are forced to 'sign on'."
 weight: 100
 galleryalt:
-- A photo of someone texting with the 'imok' speech bubble logo overlaid
-- No Borders Manchester and GFSC's logos
-- Greyscale line artwork of Dallas Court Reporting Centre and a calendar
-- A screenshot of the translation interface
-- An A6 'bust card' leaflet explaining how imok works
+  - A photo of someone texting with the 'imok' speech bubble logo overlaid
+  - No Borders Manchester and GFSC's logos
+  - Greyscale line artwork of Dallas Court Reporting Centre and a calendar
+  - A screenshot of the translation interface
+  - An A6 'bust card' leaflet explaining how imok works
 draft: false
 ---
 
@@ -36,9 +36,9 @@ The bot lets users 'check in' to the service with a messaging app or SMS message
 
 Other example use cases for it are:
 
--  Supporting protestors at risk of arrest or kidnapping
--  Supporting women and LGBTQ+ people walking home at night, or going on dates
--  Supporting journalists or medical staff in warzones
+- Supporting protestors at risk of arrest or kidnapping
+- Supporting women and LGBTQ+ people walking home at night, or going on dates
+- Supporting journalists or medical staff in warzones
 
 We released it under an open source (MIT) license. If you'd like to dive in and have a look then go [check it out](https://github.com/geeksforsocialchange/imok) on GitHub, which contains full instructions for setting up your own instance and a list of recommended security precautions.
 

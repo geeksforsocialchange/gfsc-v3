@@ -2,12 +2,12 @@
 {{- $title := .Get "title" }}
 <div class="video">
   <iframe
-      src="https://www.youtube-nocookie.com/embed/{{$id}}?wmode=opaque&modestbranding=1&rel=0&hl=gb&showinfo=0&color=white"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-			{{with $title}}
-			  title={{$title}}
-			{{end}}
-   ></iframe>
+    src="https://www.youtube-nocookie.com/embed/{{ $id }}?wmode=opaque&modestbranding=1&rel=0&hl=gb&showinfo=0&color=white"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    {{ with $title }}
+      title={{ $title }}
+    {{ end }}
+  ></iframe>
 </div>

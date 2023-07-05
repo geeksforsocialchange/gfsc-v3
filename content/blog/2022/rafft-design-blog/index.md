@@ -82,11 +82,11 @@ But regardless of these considerations, it feels to us like an exciting and enga
 
 Some emerging themes so far include:
 
--  The towers as a navigational device
--  Parties and celebrations
--  Community centre/s
--  Key local personalities
--  Deprivation and challenges
+- The towers as a navigational device
+- Parties and celebrations
+- Community centre/s
+- Key local personalities
+- Deprivation and challenges
 
 And more still growing and forming.
 

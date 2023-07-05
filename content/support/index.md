@@ -4,5 +4,3 @@ bigtext: "“We live in capitalism. Its power seems inescapable. So did the divi
 bigtextcredit: Ursula Le Guin
 type: support
 ---
-
-

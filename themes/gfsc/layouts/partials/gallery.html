@@ -1,4 +1,4 @@
-{{ $alttexts := .Param "galleryalt" }} 
+{{ $alttexts := .Param "galleryalt" }}
 {{ $indexImg := "index.png" }}
 
 {{ if $alttexts }}
@@ -6,10 +6,13 @@
 
   <div class="gallery">
     <div class="gallery__image" id="bigimage">
-      <img src='{{ index (.Resources.ByType "image") 0 }}' alt="{{ index $alttexts 0 }}" />
+      <img
+        src="{{ index (.Resources.ByType "image") 0 }}"
+        alt="{{ index $alttexts 0 }}"
+      />
     </div>
     <div class="gallery__thumbnails">
-      {{ range $index, $val := .Resources.ByType "image" }} 
+      {{ range $index, $val := .Resources.ByType "image" }}
         {{ $alttext := index $alttexts $index }}
         {{ if not (in "index.png index.jpg social.jpg social.png" (string $val)) }}
           <div
@@ -20,7 +23,7 @@
               src="{{ $val }}"
               {{ if $alttext }}
                 alt="{{ $alttext }}"
-              {{else}}
+              {{ else }}
                 aria-hidden="true"
               {{ end }}
             />
@@ -32,6 +35,10 @@
   </div>
 {{ else }}
   <p>
-    oops no alt text - check the <a href="https://github.com/geeksforsocialchange/gfsc-v3/blob/main/documentation/projectImages.md">docs</a>
+    oops no alt text - check the
+    <a
+      href="https://github.com/geeksforsocialchange/gfsc-v3/blob/main/documentation/projectImages.md"
+      >docs</a
+    >
   </p>
 {{ end }}

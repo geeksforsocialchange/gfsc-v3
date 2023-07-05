@@ -1,31 +1,31 @@
 authors:
-   - tag: kim
-     name: Dr Kim Foale
-     avatar: kim-foale@400.jpg
-   - tag: jazz
-     name: Jazz Chatfield
-     avatar: jazz-chatfield@400.jpg
-   - tag: emma
-     name: Emma Charleston
-     avatar: emma-charleston@400.jpg
-   - tag: stefan
-     avatar: stefan-white@400.jpg
-     name: Prof Stefan White
-   - tag: justin
-     avatar: justin-hellings@400.jpg
-     name: Justin Hellings
-   - tag: mark
-     name: Mark Dormand
-     avatar: mark-dormand@400.jpg
-   - tag: sylvia
-     name: Sylvia Kölling
-     avatar: sylvia-koelling@400.jpg
-   - tag: kerry
-     name: Dr Kerry Pimblott
-     avatar: kerry-pimblott@400.jpg
-   - name: Alice
-     tag: alice
-     avatar: alice@400.jpg
-   - tag: honor
-     name: honor ash
-     avatar: hnr@400.jpg
+  - tag: kim
+    name: Dr Kim Foale
+    avatar: kim-foale@400.jpg
+  - tag: jazz
+    name: Jazz Chatfield
+    avatar: jazz-chatfield@400.jpg
+  - tag: emma
+    name: Emma Charleston
+    avatar: emma-charleston@400.jpg
+  - tag: stefan
+    avatar: stefan-white@400.jpg
+    name: Prof Stefan White
+  - tag: justin
+    avatar: justin-hellings@400.jpg
+    name: Justin Hellings
+  - tag: mark
+    name: Mark Dormand
+    avatar: mark-dormand@400.jpg
+  - tag: sylvia
+    name: Sylvia Kölling
+    avatar: sylvia-koelling@400.jpg
+  - tag: kerry
+    name: Dr Kerry Pimblott
+    avatar: kerry-pimblott@400.jpg
+  - name: Alice
+    tag: alice
+    avatar: alice@400.jpg
+  - tag: honor
+    name: honor ash
+    avatar: hnr@400.jpg

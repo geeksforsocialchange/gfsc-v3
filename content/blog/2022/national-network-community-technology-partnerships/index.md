@@ -4,8 +4,9 @@ title: Creating a national network of Community Technology Partnerships
 subtitle: How we are going to transform the relationships between people, technology and place over the next two years, thanks to The National Lottery Community Fund
 description: Working in an ambitious partnership with C2 Connecting Communities, Manchester School of Architecture, The Wellcome Centre for Cultures and Environments of Health, and half a dozen friends and allies, have collectively won £220,000 from the largest funder of community activity in the UK.
 author: kim
-social:	PlaceCal_16by9_LocalArea.png
+social: PlaceCal_16by9_LocalArea.png
 ---
+
 {{<image src="PlaceCal_16by9_LocalArea.png" alt="An illustration of a community of place" classList="image--frame">}}
 
 We’re delighted to announce that Geeks for Social Change, working in an ambitious partnership with C2 Connecting Communities, Manchester School of Architecture, The Wellcome Centre for Cultures and Environments of Health, and half a dozen friends and allies, have collectively won £220,000 from The National Lottery Community Fund, the largest funder of community activity in the UK.
@@ -35,7 +36,7 @@ All over the UK there are local groups who want to improve their communities —
 For too long, disadvantaged communities have been seen as ‘the problem’ - when we know in fact that they understand the issues they want to address better than anyone else.
 
 > "Disadvantaged communities and their people are not the problem – they are the solution"
-> 
+>
 > -- Hazel Stuteley OBE (Chair C2 Connecting Communities)
 
 GFSC have an established track-record of helping communities transform themselves and their environments by developing digital solutions to support community action. However, there needs to be a step-change in supporting the digital autonomy of local communities. We need to build momentum.
@@ -109,4 +110,3 @@ Thanks to the National Lottery funding we've hired three wonderful people to wor
 The project is currently three months in and we are discovering so much already about how, why and where tech is failing people locally.
 
 We look forward to sharing our progress with you as we go!
-

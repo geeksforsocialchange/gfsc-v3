@@ -2,13 +2,13 @@
 author: kim
 date: 2017-03-16
 description:
-   The shift in internet and technology culture over the last decade has
-   been phenomenal. Most of the services we use today haven’t been around long at all
-   — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone
-   — and arguably with it the modern concept of an “app” — was released in 2007. And
-   yet despite all this technology that’s supposed to bring us together, social isolation
-   is a major player in the current epidemic of depression, loneliness, eating disorders,
-   suicide, and other social problems. How has this happened?
+  The shift in internet and technology culture over the last decade has
+  been phenomenal. Most of the services we use today haven’t been around long at all
+  — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone
+  — and arguably with it the modern concept of an “app” — was released in 2007. And
+  yet despite all this technology that’s supposed to bring us together, social isolation
+  is a major player in the current epidemic of depression, loneliness, eating disorders,
+  suicide, and other social problems. How has this happened?
 social: blog/tech-culture/og-wide.png
 subtitle: We need a roadmap towards truly community-owned technology.
 title: Tech culture is failing communities. How can we make it better?
@@ -46,11 +46,11 @@ Some of these systems are more prescriptive than others. Taking the Facebook eve
 
 Clearly, real-life is not like this. Community information is huge, and varied, and a tiny fraction of it ends up online in an organised way. Messy knowledge ends up being word of mouth, and reaches very few people. Some examples of this might be:
 
--  You can book a free room in a community campus building (if you know who to talk to)
--  There is an underused computer suite in a local housing estate
--  The local library runs free computer classes
--  The community garden centre is looking for new directors
--  A new planning application that would affect the area
+- You can book a free room in a community campus building (if you know who to talk to)
+- There is an underused computer suite in a local housing estate
+- The local library runs free computer classes
+- The community garden centre is looking for new directors
+- A new planning application that would affect the area
 
 Yes, you might find these things out via a chance post on social media, if you use it. But we do not have even the mechanisms to store these things and present them to the community in an accessible way. Corporate apps work fine for solved problems for engaged users; they do not work well to enable community resilience. A CTP aims to collect knowledge first, and worry about what to do with it later. Our systems should not be deciding what the important information is: we should.
 
@@ -132,11 +132,11 @@ _Recycle_ means that we should have a patternbook of solved problems for small o
 
 This post is the start of a discussion about the axioms of the technology we product: the things we think so self-evident we barely inspect them. It’s time to start being more critical about the nature of the things we are making, who they are for, and what impact they have on people, community, and planet. We need to get back to a more holistic, community-grounded technology culture that we own and develop ourselves, for the good of everyone. I’ll leave you with Tony Benn’s [classic five questions](https://www.thenation.com/article/archive/tony-benn-and-five-essential-questions-democracy/) about democracy that we should perhaps start applying to to technology we use and create as well:
 
--  What power have you got?
--  Where did you get it from?
--  In whose interests do you exercise it?
--  To whom are you accountable?
--  How can we get rid of you?
+- What power have you got?
+- Where did you get it from?
+- In whose interests do you exercise it?
+- To whom are you accountable?
+- How can we get rid of you?
 
 Stay tuned for more on the CTP concept, including details on the pilots due to start in the next few months! Comments and suggestions welcomed with open arms. If you like, find out more about my work and practice on my agency site: [Geeks for Social Change](http://gfsc.studio).
 

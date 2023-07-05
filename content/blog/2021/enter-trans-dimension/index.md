@@ -2,9 +2,9 @@
 author: kim
 date: 2021-12-14
 description:
-   Geeks for Social Change are thrilled to to announce The Trans Dimension,
-   an online community hub which will connect trans communities across the UK by collating
-   news, events and services by and for trans people in one easy-to-reach place.
+  Geeks for Social Change are thrilled to to announce The Trans Dimension,
+  an online community hub which will connect trans communities across the UK by collating
+  news, events and services by and for trans people in one easy-to-reach place.
 social: transdimension.png
 subtitle: A new space for trans community enabled by technology and collaboration.
 title: Enter... The Trans Dimension!
@@ -26,10 +26,10 @@ This graphic is a first look of the coming website, featuring illustration by th
 
 People who are trans, non-binary or gender diverse experience:
 
--  Higher levels of social isolation, exclusion & loneliness
--  Higher levels of discrimination, shame, abuse & violence
--  Greater inequalities in health & wellbeing, especially mental health, and
--  Less opportunity in terms of education, training & employment
+- Higher levels of social isolation, exclusion & loneliness
+- Higher levels of discrimination, shame, abuse & violence
+- Greater inequalities in health & wellbeing, especially mental health, and
+- Less opportunity in terms of education, training & employment
 
 As a result, 4 in 5 trans people experienced transphobic hate crime in 2020[^galop]. Experiences like these can be a deterrent to finding crucial and life-saving support networks.
 

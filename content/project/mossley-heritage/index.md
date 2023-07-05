@@ -14,12 +14,12 @@ social: social.png
 description: "How we helped Mossley Civic Society consolidate their brands with a zero maintenance website -- and even make some museum signs"
 weight: 100
 galleryalt:
-- Mossley Heritage's new logo created by GFSC, showing a stylised chimney and rooftops
-- Mockups of their website on tablet
-- An alternate version of their logo
-- Mockups of their website on phones
-- Some pages from the style guide
-- A photograph of the new signage outside Mossley Heritage Centre
+  - Mossley Heritage's new logo created by GFSC, showing a stylised chimney and rooftops
+  - Mockups of their website on tablet
+  - An alternate version of their logo
+  - Mockups of their website on phones
+  - Some pages from the style guide
+  - A photograph of the new signage outside Mossley Heritage Centre
 draft: false
 ---
 

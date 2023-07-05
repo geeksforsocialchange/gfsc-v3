@@ -3,11 +3,11 @@ author: kim
 date: 2018-03-26
 lastmod: 2019-04-16
 description:
-   I’ve spent the last 9 months working with PHASE@MMU, CityVerve, and Manchester
-   City Council to deliver PlaceCal, a crowd-sourced community events calendar. It’s
-   been an extremely busy time with a lot of learning in a very short amount of time,
-   and as we head into Phase 2 of our development I thought it’d be a good time to
-   recap the process so far.
+  I’ve spent the last 9 months working with PHASE@MMU, CityVerve, and Manchester
+  City Council to deliver PlaceCal, a crowd-sourced community events calendar. It’s
+  been an extremely busy time with a lot of learning in a very short amount of time,
+  and as we head into Phase 2 of our development I thought it’d be a good time to
+  recap the process so far.
 subtitle: Creating a low social capital social network for Manchester.
 title: "PlaceCal: The Story So Far"
 ---

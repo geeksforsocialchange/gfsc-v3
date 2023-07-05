@@ -2,9 +2,9 @@
 author: kim
 date: 2022-01-05
 description:
-   A bit late but thought we’d do a little review of GFSC’s 2021. I thought
-   this was gonna be kind of a short list as we’ve got lots on the go that’s not quite
-   come to fruition yet but wow, we did a lot!
+  A bit late but thought we’d do a little review of GFSC’s 2021. I thought
+  this was gonna be kind of a short list as we’ve got lots on the go that’s not quite
+  come to fruition yet but wow, we did a lot!
 social: transdimension.png
 subtitle: A roundup of what we did last year
 title: GFSC 2021 Roundup
@@ -82,14 +82,14 @@ Finally, another long read that aims to sum up GFSC’s approach to technology. 
 
 In 2022 we have SO MUCH MORE TO SHARE! Including:
 
--  A long-overdue website update explaining where we’re at as a studio and collective, and sharing much more detail about our work
--  The launch of the Trans Dimension at a very cool London location
--  An update on our local history work with residents in Oldham
--  A full plan for a UK-wide PlaceCal rollout including a vision for activist and mutual aid groups up and down the country
--  Some very exciting projects created with and for the trans community that we can’t go into any more detail about yet
--  Activist education data science courses
--  A podcast??????
--  ... basically watch this space, 2022 will be our year.
+- A long-overdue website update explaining where we’re at as a studio and collective, and sharing much more detail about our work
+- The launch of the Trans Dimension at a very cool London location
+- An update on our local history work with residents in Oldham
+- A full plan for a UK-wide PlaceCal rollout including a vision for activist and mutual aid groups up and down the country
+- Some very exciting projects created with and for the trans community that we can’t go into any more detail about yet
+- Activist education data science courses
+- A podcast??????
+- ... basically watch this space, 2022 will be our year.
 
 To stay up to date, sign up to our newsletter here
 
