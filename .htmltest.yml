@@ -6,7 +6,6 @@ HTTPHeaders:
 # These generate 403 errors no matter what we change so we can't check these
 IgnoreURLs:
   - blog.prototypr.io
-  - cdn-images-1.medium.com
   - discord.com
   - greatermanchester-ca.gov.uk/
   - journals.sagepub.com
