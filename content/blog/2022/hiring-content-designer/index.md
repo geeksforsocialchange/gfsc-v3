@@ -6,7 +6,7 @@ description: We’re looking for someone to help us communicate more effectively
 author: kim
 ---
 
-We at Geeks for Social Change are looking for a writer or content designer to join our team. We’re a small predominantly trans, disabled, and neurodiverse studio trying to make a fairer society using activism, technology, and research. We are an atypical tech studio. Our work is based on anarcho-feminist principles, aims to be antifascist and antiracist, decolonise the tech sector, fight state violence, and work towards liberation of trans and disabled people among other things. Our big thing is about [Community Technology Partnerships](https://gfsc.studio/2022/10/11/national-network-community-technology-partnerships.html), working directly with communities to co-create solutions to the challenges they’re facing. Have a look at [our website](https://gfsc.studio/) to understand more about who we are and what we do.
+We at Geeks for Social Change are looking for a writer or content designer to join our team. We’re a small predominantly trans, disabled, and neurodiverse studio trying to make a fairer society using activism, technology, and research. We are an atypical tech studio. Our work is based on anarcho-feminist principles, aims to be antifascist and antiracist, decolonise the tech sector, fight state violence, and work towards liberation of trans and disabled people among other things. Our big thing is about [Community Technology Partnerships](/blog/2022/national-network-community-technology-partnerships), working directly with communities to co-create solutions to the challenges they’re facing. Have a look at [our website](https://gfsc.studio/) to understand more about who we are and what we do.
 
 ## The role
 

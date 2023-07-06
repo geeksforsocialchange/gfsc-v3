@@ -22,7 +22,7 @@ In further work with Resistance Lab, we produced and ran an online panel about t
 
 This work was part of the inspiration behind our first studio ‘long read’ for some time. Modern tech is seen in many circles as something good or neutral that creates jobs and opportunities. However, we think the sector and the culture behind it can often be exploitative and harmful, in ways that will never be acknowledged by those at the heart of it. You can read our thoughts in full here:
 
-[Everything is connected, but should it be?](https://gfsc.studio/2021/03/02/everything-is-connected.html)
+[Everything is connected, but should it be?](/blog/2021/everything-is-connected)
 
 Off the back of our ongoing research and writing around tech, in February we were invited to deliver a provocation at the wonderful Hattusia’s community meetup, where we made some lovely new friends! We talked about how the tools you use influence the things you can make, in subtle and not-so-subtle ways.
 
@@ -36,11 +36,11 @@ There will be more on the collective when we do a bit of a website refresh in th
 
 One thing the Collective have been researching is the extent of the **arms industry’s involvement in Manchester.** We are asking how a city that calls itself “Nuclear Free” can put nuclear weapons manufacturers like BAE and Northrop Grumann in its regional marketing materials.
 
-[What happened to Nuclear Free Manchester?](https://gfsc.studio/2021/09/17/what-happened-to-nuclear-free-manchester.html)
+[What happened to Nuclear Free Manchester?](/blog/2021/what-happened-to-nuclear-free-manchester)
 
 Our first actual tech/software release as a collective was **imok**, a simple bot to support people undertaking risky activities. This was a collaboration with No Borders Manchester. You can read about it and find links to the source code here:
 
-[imok is released!](https://gfsc.studio/blog/2021/imok-is-launched.html)
+[imok is released!](/blog/2021/imok-is-launched)
 
 We were hoping to run a pilot last year before a full software launch but due to Covid-19, the signing centres have been mostly shut. (The bot was originally designed with asylum seekers who are forced to ‘sign on’ in mind, as they are sometimes unexpectedly detained and even deported at these sign-ons, with no way of informing family or friends). This temporary closure and suspension of the signing on system is obviously great for the people usually forced to use it, but has meant we’ve not been able to get any user testing done. Plans are in the works, as the process of signing on is unlikely to go away, and once it returns, we hope to be able to hit the ground running with imok.
 
@@ -78,7 +78,7 @@ You can read more about Faceloader here:
 
 Finally, another long read that aims to sum up GFSC’s approach to technology. In short — much tech is sold as some kind of magic way to fix problems in and of itself. Instead of this, we should think of technology as providing tools we can utilise to achieve our goals using a wide range of different approaches that extend beyond ‘tech’ as the start and end point. You can read this piece here:
 
-[Technology isn't a magic wand, it's a treasure map.](https://gfsc.studio/2021/11/05/technology-isnt-a-magic-wand.html)
+[Technology isn't a magic wand, it's a treasure map.](/blog/2021/technology-isnt-a-magic-wand)
 
 In 2022 we have SO MUCH MORE TO SHARE! Including:
 
