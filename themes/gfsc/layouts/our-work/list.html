@@ -6,10 +6,12 @@
       <a class=" work__btn--active work__types-btn btn" onClick="showFilters()">
         Filter by theme
       </a>
-      <a class="work__types-btn btn" onClick="showFilters()">
+      <a class="work__types-btn btn" 
+      onClick="showFilters()">
         Filter by project type
       </a>
     </div>
+
     <ul class="work__filters">
       {{ $categories := $.Site.GetPage "/our-work/category/" }}
       {{ $projects := (where .Site.RegularPages "Section" "project") }}
