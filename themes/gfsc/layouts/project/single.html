@@ -1,9 +1,11 @@
 {{ define "main" }}
 <div class="project">
   <h3 class="project__title">{{ .Title }}</h3>
-	<div class="project__themes">
-		{{- partial "themeTags.html" . -}}
-	</div>
+	{{ if .Params.themes }}
+		<div class="project__themes">
+			{{- partial "themeTags.html" . -}}
+		</div>
+	{{ end }}
   <p class="project__summary">
 		{{ .Description }}
 	</p>
