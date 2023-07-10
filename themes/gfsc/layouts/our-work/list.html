@@ -3,12 +3,15 @@
 
   <div aria-live="polite">
     <div class="work__types">
-      <a class=" work__btn--active work__types-btn btn" onClick="showFilters()">
+      <button
+        class=" work__btn--active work__types-btn btn"
+        onClick="showFilters()"
+      >
         Filter by theme
-      </a>
-      <a class="work__types-btn btn" onClick="showFilters()">
+      </button>
+      <button class="work__types-btn btn" onClick="showFilters()">
         Filter by project type
-      </a>
+      </button>
     </div>
     <ul class="work__filters">
       {{ $categories := $.Site.GetPage "/our-work/category/" }}
