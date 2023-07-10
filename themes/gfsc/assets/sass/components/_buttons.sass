@@ -1,5 +1,8 @@
 .btn
+  background-color: $secondary
   display: inline-block
+  font-family: $balboa
+  font-size: 18px
   text-decoration: none
   border: 2px solid $primary
   padding: 0.66666rem 1rem
@@ -10,6 +13,9 @@
   -webkit-transition: 0.2s
   -moz-transition: 0.2s
   transition: 0.2s
+  +for-tablet-portrait-up
+    font-size: 1.22222rem
+    line-height: 1.454545
   &:hover
     color: $secondary
     background-position: -95% 0
