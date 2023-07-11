@@ -30,7 +30,7 @@ This is methodology is called _asset-based community development_ or _ABCD_: aid
 
 _Before continuing, it’s worth noting how hard it can be to write up this kind of work. What “the partnership” is or means to anyone at any given moment can be extremely hard (and often undesirable) to pin down. Decentralised resident-led groups, like most things in society, are complex structures that we believe offer the only real possibility for genuine change: however in doing so they make it extremely hard to write about exactly who did what when without making it sound like credit is being taken for the actions of a wider group. Therefore: when the rest of this article refers to “the partnership” or “we” it is referring specifically to me (Kim Foale), the Hulme Age Friendly Board, and PHASE@MMU working together to create PlaceCal and its requisite theoretical background. If anyone has any ideas how to resolve this issue with language, we are all ears!_
 
-{{<gallery-with-caption/start srcs="1.png 2.png" alts="1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme" classList="image--frame">}}
+{{<gallery-with-caption/start srcs="1.png 2.png" alts="1. A photo of a neighbourhood partnership in action | 2. A snapshot of a board meeting in Hulme" classList="image--frame">}}
 {{<rawhtml>}}1. A photo of a neighbourhood partnership in action. 2. A snapshot of a board meeting in Hulme{{</rawhtml>}}
 {{<gallery-with-caption/end>}}
 
@@ -46,7 +46,7 @@ This story is a great example of how the things that prevent community wellness 
 
 This brings us back to the role of the architect in partnership work. Architects are commonly seen as people who simply design buildings. In this case, building a disabled toilet is something a second year undergraduate student or a decent plumber could do: and of course, someone does have to design the thing. The much harder work lies in identifying the problem using the available data: starting from analysing maps of bus routes and public health data, through talking to residents to find the reason for the problems, to creating the conditions to make the change itself.
 
-{{<gallery-with-caption/start srcs="3.png 4.jpeg" alts="The final result: not too complex!" classList="image--toilet">}}
+{{<gallery-with-caption/start srcs="3.png 4.jpeg" alts="An architectural layout drawing for a disabled toilet | A photograph of a disabled toilet" classList="image--toilet">}}
 The final result: not too complex!
 {{<gallery-with-caption/end>}}
 
@@ -172,13 +172,13 @@ The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbi
 
 Between us we distributed 10,000 leaflets and posters down the major shopping streets in Hulme and Moss Side, put them through people’s letter boxes, gave them to parents at schools, and generally plastered the area. By now you’re probably getting the point that by making one really good source of information together, we multiplied our capacity and reach. Through this process we had loads of conversations with local shops and businesses, made some more connections, and got some great feedback. We’re looking forward to being able to go back and see how people got on!
 
-{{<gallery-with-caption/start srcs="9.jpeg 10.jpeg" alts="10,000 leaflets is a lot of leaflets…" classList="image--frame">}}
+{{<gallery-with-caption/start srcs="9.jpeg 10.jpeg" alts="A box of hulme winter lights switch on leaflets | A selection of hulme winter lights switch on leaflets laid on a table" classList="image--frame">}}
 10,000 leaflets is a lot of leaflets…
 {{<gallery-with-caption/end>}}
 
 The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to _Gangnam Style_ just before wrapup!
 
-{{<gallery-with-caption/start srcs="11.jpeg 12.jpeg 12.jpeg 14.jpeg 15.jpeg 16.jpeg 17.jpeg 18.jpeg" alts="Photos from our launch" classList="image--frame">}}
+{{<gallery-with-caption/start srcs="11.jpeg 12.jpeg 12.jpeg 14.jpeg 15.jpeg 16.jpeg 17.jpeg 18.jpeg" alts="Musicians playing in front of a mural | a crowd gathered outside near a fire engine with artificial snow | a crowd gathered outside | school children singing on a bus | a presentation of placecal being given | a busy canteen at christmas time | an audience listening to a presentation | a community space filled with children doing craft activities and dancing" classList="image--frame">}}
 Photos from our launch
 {{<gallery-with-caption/end>}}
 
