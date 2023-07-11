@@ -2,7 +2,7 @@
   <div class="title title--borderless">
     {{ $ourwork := $.Site.GetPage "/our-work/" }}
     {{ with $ourwork }}
-      <h2 class="title__main">{{ .Title }}</h2>
+      <h1 class="title__main">{{ .Title }}</h1>
     {{ end }}
   </div>
 {{ else if and (or (in .Permalink "blog") (in .Permalink "project")) (not (eq .Permalink "/blog/")) }}
@@ -26,7 +26,7 @@
         role="presentation"
       ></div>
     {{ else }}
-      <h2 class="title__main">{{ .Title }}</h2>
+      <h1 class="title__main">{{ .Title }}</h1>
     {{ end }}
     {{ with .Params.Bigtext }}
       <div
@@ -35,7 +35,7 @@
         {{ end }}"
       >
         {{ if eq $.Params.Notitle true }}
-          <h2 class="title__subtitle__bigtext">{{ . }}</h2>
+          <h1 class="title__subtitle__bigtext">{{ . }}</h1>
         {{ else }}
           <p class="title__subtitle__bigtext">{{ . }}</p>
         {{ end }}
