@@ -29,7 +29,12 @@
           <li class="work__filter work__filter--hidden">
             <h3 class="work__name">{{ .Title }}</h3>
             <div class="work__stripes">
-              <a href="{{ .Permalink }}" class="work__link">Browse</a>
+              <a
+                href="{{ .Permalink }}"
+                class="work__link"
+                aria-label="Apply category filter {{ .Title }}"
+                >Browse</a
+              >
             </div>
           </li>
         {{ end }}
@@ -50,7 +55,12 @@
           <li class="work__filter">
             <h3 class="work__name">{{ .Title }}</h3>
             <div class="work__stripes">
-              <a href="{{ .Permalink }}" class="work__link">Browse</a>
+              <a
+                href="{{ .Permalink }}"
+                class="work__link"
+                aria-label="Apply theme filter {{ .Title }}"
+                >Browse</a
+              >
             </div>
           </li>
         {{ end }}
