@@ -60,7 +60,10 @@
                     class="window__footer__button btn"
                     href="{{ .Permalink }}"
                     aria-label="Browse {{ .Title }} projects"
-                    >Browse</a
+                    >Browse
+                    <span class="screen-reader-only"
+                      >about {{ .Title }}</span
+                    ></a
                   >
                 </div>
                 <span class="window__footer__stripes"></span>
@@ -89,6 +92,9 @@
               aria-label="Find out more about {{ .Params.whotitle }}"
             >
               Find out more
+              <span class="screen-reader-only"
+                >about {{ .Params.whotitle }}</span
+              >
             </a>
           </div>
           <span class="window__footer__stripes"></span>
@@ -107,6 +113,9 @@
               aria-label="Find out more about {{ .Params.whattitle }}"
             >
               Find out more
+              <span class="screen-reader-only"
+                >about {{ .Params.whattitle }}</span
+              >
             </a>
           </div>
           <span class="window__footer__stripes"></span>
