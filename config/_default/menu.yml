@@ -2,21 +2,35 @@ main:
   - name: "The Studio"
     url: /studio/
     weight: 1
+    params:
+      summary: "[cCc] What we aim to do"
   - name: "The Collective"
     url: /collective/
     weight: 2
+    params:
+      summary: "[cCc] What we aim to do"
   - name: "The Team"
     url: /team/
     weight: 4
+    params:
+      summary: "[cCc] Who we are"
   - name: "Our Work"
     url: /our-work/
     weight: 3
+    params:
+      summary: "[cCc] What we have done"
   - name: "Support Us"
     url: /support/
     weight: 5
+    params:
+      summary: "[cCc]"
   - name: "Contact"
     url: /contact/
     weight: 7
+    params:
+      summary: "[cCc] Get in touch"
   - name: "Blog"
     url: /blog/
     weight: 6
+    params:
+      summary: "[cCc] Our lives, thoughts, projects, fears, etc."

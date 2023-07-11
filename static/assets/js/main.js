@@ -3,8 +3,12 @@
     toggle: document.getElementById("js-toggle"),
     nav: document.getElementById("js-nav"),
     doToggle: function (e) {
+      e.preventDefault();
+
       this.toggle.classList.toggle("expanded");
       this.nav.classList.toggle("expanded");
+
+      return false;
     },
   };
 

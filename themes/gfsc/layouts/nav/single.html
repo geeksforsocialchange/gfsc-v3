@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <ul>
+    {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a> {{ .Params.summary }}</li>
+    {{ end }}
+  </ul>
+{{ end }}
