@@ -2,9 +2,12 @@
 <html lang="en">
   {{- partial "head.html" . -}}
   <body>
+    <a href="#content" class="screen-reader-only screen-reader-only--focus"
+      >Skip to content</a
+    >
     <div class="page__wrapper">
       {{- partial "header.html" . -}}
-      <main>
+      <main id="content">
         {{- partial "title.html" . -}}
         {{- block "main" . }}{{- end }}
       </main>
