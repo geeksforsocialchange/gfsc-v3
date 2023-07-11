@@ -1,12 +1,12 @@
 <aside class="signupsmall" markdown="0">
-  <p class="signupsmall__title">
+  <label for="signup_small_field_email" class="signupsmall__title">
     {{ if (.Get 0) }}
       {{ .Get 0 }}
     {{ else }}
       Support our mission of a fairer world using technology & join our email
       list.
     {{ end }}
-  </p>
+  </label>
   <form
     class="signupsmall__form"
     action="https://static.mailerlite.com/webforms/submit/g2r6z4"
@@ -14,9 +14,6 @@
     method="post"
     target="_blank"
   >
-    <label class="signupsmall__label" for="signup_small_field_email">
-      Email Address
-    </label>
     <input
       id="signup_small_field_email"
       class="signupsmall__input"
