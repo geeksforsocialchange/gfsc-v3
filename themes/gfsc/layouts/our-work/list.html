@@ -33,7 +33,10 @@
                 href="{{ .Permalink }}"
                 class="work__link"
                 aria-label="Apply category filter {{ .Title }}"
-                >Browse</a
+                >Browse
+                <span class="screen-reader-only"
+                  >&nbsp; by category filter {{ .Title }}</span
+                ></a
               >
             </div>
           </li>
@@ -59,7 +62,10 @@
                 href="{{ .Permalink }}"
                 class="work__link"
                 aria-label="Apply theme filter {{ .Title }}"
-                >Browse</a
+                >Browse
+                <span class="screen-reader-only"
+                  >&nbsp; by theme filter {{ .Title }}</span
+                ></a
               >
             </div>
           </li>
