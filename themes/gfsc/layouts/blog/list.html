@@ -20,7 +20,13 @@
         <div class="teaser__excerpt">
           {{ $page.Params.Description | markdownify }}
           <p>
-            <a href="{{ $page.Permalink }}" class="btn btn--up">Read more</a>
+            <a
+              href="{{ $page.Permalink }}"
+              class="btn btn--up"
+              aria-label="Read more about {{ $page.Title }}"
+            >
+              Read more
+            </a>
           </p>
         </div>
       </div>
