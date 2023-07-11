@@ -56,7 +56,10 @@
               <p class="window__content">{{ .Description }}</p>
               <div class="window__footer">
                 <div class="window__footer__buttonbox">
-                  <a class="window__footer__button btn" href="{{ .Permalink }}"
+                  <a
+                    class="window__footer__button btn"
+                    href="{{ .Permalink }}"
+                    aria-label="Browse {{ .Title }} projects"
                     >Browse</a
                   >
                 </div>
@@ -80,7 +83,13 @@
         </p>
         <div class="window__footer">
           <div class="window__footer__buttonbox">
-            <a href="/team" class="window__footer__button"> Find out more </a>
+            <a
+              href="/team"
+              class="window__footer__button"
+              aria-label="Find out more about {{ .Params.whotitle }}"
+            >
+              Find out more
+            </a>
           </div>
           <span class="window__footer__stripes"></span>
         </div>
@@ -92,7 +101,11 @@
         </p>
         <div class="window__footer">
           <div class="window__footer__buttonbox">
-            <a href="/our-work" class="window__footer__button">
+            <a
+              href="/our-work"
+              class="window__footer__button"
+              aria-label="Find out more about {{ .Params.whattitle }}"
+            >
               Find out more
             </a>
           </div>
