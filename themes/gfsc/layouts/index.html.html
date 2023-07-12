@@ -2,6 +2,17 @@
   {{ $homepage := .Site.GetPage "homepage" }}
   {{ $vennData := $homepage.Resources.GetMatch "venn.md" }}
   {{ with $vennData }}
+    <div class="screen-reader-only">
+      <h2>The people we work with</h2>
+      <h3>{{ $vennData.Params.circle1name }}</h3>
+      <p>{{ $vennData.Params.centerdescription }}</p>
+      <p>{{ $vennData.Params.circle1description }}</p>
+      <h3>{{ $vennData.Params.circle2name }}</h3>
+      <p>{{ $vennData.Params.circle2description }}</p>
+      <h3>{{ $vennData.Params.circle3name }}</h3>
+      <p>{{ $vennData.Params.circle3description }}</p>
+      <h3>{{ $vennData.Params.center }}</h3>
+    </div>
     <div aria-hidden="true" class="venn">
       <h2 class="venn__title">The people we work with</h2>
       {{ partial "venn.html" . }}
@@ -12,17 +23,6 @@
       <p class="venn__subtitle venn__subtitle--mobile">
         And everyone in between.
       </p>
-    </div>
-    <div class="screen-reader-only">
-      <h2>The people we work with</h2>
-      <h3>{{ $vennData.Params.circle1name }}</h3>
-      <p>{{ $vennData.Params.circle1description }}</p>
-      <h3>{{ $vennData.Params.circle2name }}</h3>
-      <p>{{ $vennData.Params.circle2description }}</p>
-      <h3>{{ $vennData.Params.circle3name }}</h3>
-      <p>{{ $vennData.Params.circle3description }}</p>
-      <h3>{{ $vennData.Params.center }}</h3>
-      <p>{{ $vennData.Params.centerdescription }}</p>
     </div>
   {{ end }}
 
