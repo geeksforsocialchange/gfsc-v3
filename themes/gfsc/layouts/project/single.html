@@ -24,12 +24,12 @@
     <p class="project__meta__team">
       Team:
       <span class="project__meta__value word-spacer">
-        {{ $teamlist := split .Params.who " " }} 
-        {{ $teampages := (.GetPage "/team/").RegularPagesRecursive }} 
-        {{ range $teamlist }} 
+        {{ $teamlist := split .Params.who " " }}
+        {{ $teampages := (.GetPage "/team/").RegularPagesRecursive }}
+        {{ range $teamlist }}
           {{ range (where $teampages ".Params.dataname" . ) }}
            {{ .Params.firstname }}
-          {{ end }} 
+          {{ end }}
         {{ end }}
       </span>
     </p>
@@ -38,11 +38,11 @@
 		{{ .Content }}
 		{{if .Params.linktourl }}
 			<a class="btn" href="{{ .Params.linktourl }}" target="_blank">
-				{{if .Params.linktotext }} {{ .Params.linktotext }} {{else}} Find out more {{end}}
+				{{if .Params.linktotext }} {{ .Params.linktotext }} {{else}} Visit {{ .Title }} site {{end}}
 			</a>
 		{{end}}
 	</div>
-  {{/* 
+  {{/*
     <div class="project__footer">
       <div>
          <a href="/our-work" class="btn btn--up project__footer__button">Go back</a>
