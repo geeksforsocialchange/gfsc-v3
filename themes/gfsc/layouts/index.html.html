@@ -56,14 +56,8 @@
               <p class="window__content">{{ .Description }}</p>
               <div class="window__footer">
                 <div class="window__footer__buttonbox">
-                  <a
-                    class="window__footer__button btn"
-                    href="{{ .Permalink }}"
-                    aria-label="Browse {{ .Title }} projects"
-                    >Browse
-                    <span class="screen-reader-only"
-                      >about {{ .Title }}</span
-                    ></a
+                  <a class="window__footer__button btn" href="{{ .Permalink }}"
+                    >Browse</a
                   >
                 </div>
                 <span class="window__footer__stripes"></span>
@@ -86,16 +80,7 @@
         </p>
         <div class="window__footer">
           <div class="window__footer__buttonbox">
-            <a
-              href="/team"
-              class="window__footer__button"
-              aria-label="Find out more about {{ .Params.whotitle }}"
-            >
-              Find out more
-              <span class="screen-reader-only"
-                >about {{ .Params.whotitle }}</span
-              >
-            </a>
+            <a href="/team" class="window__footer__button"> Find out more </a>
           </div>
           <span class="window__footer__stripes"></span>
         </div>
@@ -113,9 +98,6 @@
               aria-label="Find out more about {{ .Params.whattitle }}"
             >
               Find out more
-              <span class="screen-reader-only"
-                >about {{ .Params.whattitle }}</span
-              >
             </a>
           </div>
           <span class="window__footer__stripes"></span>

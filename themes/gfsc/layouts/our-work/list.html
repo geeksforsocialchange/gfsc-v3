@@ -33,10 +33,7 @@
                 href="{{ .Permalink }}"
                 class="work__link"
                 aria-label="Apply category filter {{ .Title }}"
-                >Browse
-                <span class="screen-reader-only"
-                  >&nbsp; by category filter {{ .Title }}</span
-                ></a
+                >Browse</a
               >
             </div>
           </li>
@@ -58,15 +55,7 @@
           <li class="work__filter">
             <h3 class="work__name">{{ .Title }}</h3>
             <div class="work__stripes">
-              <a
-                href="{{ .Permalink }}"
-                class="work__link"
-                aria-label="Apply theme filter {{ .Title }}"
-                >Browse
-                <span class="screen-reader-only"
-                  >&nbsp; by theme filter {{ .Title }}</span
-                ></a
-              >
+              <a href="{{ .Permalink }}" class="work__link">Browse</a>
             </div>
           </li>
         {{ end }}
