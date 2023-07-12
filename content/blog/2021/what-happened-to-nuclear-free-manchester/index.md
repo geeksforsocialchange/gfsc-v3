@@ -55,7 +55,7 @@ In 2005, one of the architects of this declaration Cllr Bill Risby stated:
 
 in the 1980s-90s the slogan "Manchester: a Nuclear Free City" was widely used on signs. You can still see them around town today. This [Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/truth-iconic-manchester-emblem-top-14925461) longread talks about the history of where it came from.
 
-{{<gallery-with-caption/start srcs="0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" alts="Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" classList="image--frame">}}
+{{<gallery-with-caption/start srcs="0_Nuclear-Free-2.jpg 0_Nuclear1.jpg" alts="A poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background | A booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'" classList="image--frame">}}
 Left: a poster saying 'Manchester: Working for a Nuclear Free City'. The text is gold and there is a white sillouhette of a dove on a blue background. Right: a booklet published by Manchester City Council entitled 'Emergency Planning and Nuclear War in Greater Manchester'
 {{<gallery-with-caption/end>}}
 
