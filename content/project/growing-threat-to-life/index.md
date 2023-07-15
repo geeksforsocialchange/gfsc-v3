@@ -14,7 +14,7 @@ description: "How we helped Resistance Lab publish their first report in both an
 layout: project
 galleryalt:
 weight: 100
-draft: true
+draft: false
 ---
 
 Resistance Lab is a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
