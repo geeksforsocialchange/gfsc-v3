@@ -17,7 +17,7 @@ weight: 100
 draft: false
 ---
 
-Resistance Lab is a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
+Resistance Lab was a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
 
 Following multiple conversations, workshops, data analysis and collective meetings, we finally decided on a crucial first topic: the alarming rise in the rate of Taser use by UK police, and the general transition to an armed force in general.
 
