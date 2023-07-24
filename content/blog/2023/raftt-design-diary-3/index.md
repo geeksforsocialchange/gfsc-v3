@@ -1,5 +1,5 @@
 ---
-title: "RAFTT design diary #2"
+title: "RAFTT design diary #3"
 date: 2023-07-20
 subtitle: Co-designing a local history archive with Oldham residents
 description: Exploring the design choices behind the final ‘Towers’ site, and how our experiences of gathering data along the way fed into the final layout and structure.
