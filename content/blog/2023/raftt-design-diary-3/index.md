@@ -1,19 +1,21 @@
 ---
 title: "RAFTT design diary #2"
 date: 2023-07-20
-subtitle: 
-description: 
-author: emma
-illustrator: emma, honor, rebecca
+subtitle: Co-designing a local history archive with Oldham residents
+description: Exploring the design choices behind the final ‘Towers’ site, and how our experiences of gathering data along the way fed into the final layout and structure.
+author: emma, honor, rebecca
+illustrator: emma
 social: cover.jpg
 aliases: /raftt-design-blog-3
 ---
 
+{{<image src="cover.jpg" alt="A black and white shot of two towers at a junction with colourful writing across it reading 'The Towers' and 'A history of Summervale and Crossbank'">}}
+
 Welcome to the final instalment of this mini series of blogs about our recent local history project undertaken in Oldham. Here’s [part one](https://gfsc.studio/blog/2022/rafft-design-blog/) and [part two,](https://gfsc.studio/blog/2023/raftt-design-blog-2/) plus you can view the final project website at [towersoldham.uk](https://towersoldham.uk/).
 
-To recap in brief, RAFTT stands for ‘Rise and Fall of Two Towers’, which was the project’s initial name. It ended up being titled “The Towers: A history of Summervale and Crossbank”. ~~For those new to the project,~~ Summervale House and Crossbank House were two tower blocks of flats built in Oldham in the 1970s. Slated for demolition and replacement with low rise housing which was more needed by the community, GFSC worked with the owners of the Towers, First Choice Homes Oldham (FCHO), to put together a funded project proposal, which was ultimately supported by the Heritage Lottery Fund.
+To recap in brief, RAFTT stands for ‘Rise and Fall of Two Towers’, which was the project’s initial name. It ended up being titled “The Towers: A history of Summervale and Crossbank”. Summervale House and Crossbank House were two tower blocks of flats built in Oldham in the 1970s. Slated for demolition and replacement with low rise housing which was more needed by the community, GFSC worked with the owners of the Towers, First Choice Homes Oldham (FCHO), to put together a funded project proposal, which was ultimately supported by the Heritage Lottery Fund.
 
-The project’s aims ~~were twofold~~ — 
+The project’s aims — 
 
 1) to collect and document the history of the area, which might otherwise be lost as the towers residents end up scattered far and wide
 
@@ -76,9 +78,11 @@ In terms of colours, I wanted the palette to feel like it fitted with the Claren
 For the main colour of the site, perhaps controversially, I’ve gone with this lovely (?) mustard yellow or ‘baby poo’, as one of our devs less charitably put it 😂. I think this is an under-appreciated hue and one which speaks very strongly to me of municipal buildings, signage, furniture, fashion and more from the 1970s.
 
 ![A mustard coloured chair with wooden legs in the ‘mid century modern’ style](chair.png)
+
 *For just £477 you can buy this chair based edition of the site: https://www.etsy.com/uk/listing/698082102/mid-century-mustard-yellow-armchair-b310*
 
 ![David Bowie in a mustard coloured suit, sitting on a chair, holding some scissors](david_bowie.png)
+
 *David Bowie knew what was up https://www.theguardian.com/fashion/2013/mar/12/david-bowie-eight-classic-looks-pictures*
 
 # Accessibility
@@ -102,6 +106,8 @@ We also realised that we would need to build in some pop-ups specifically for th
 Hopefully the little magnifying glasses in the corner of the clouds make clear to any user that they can view the images bigger, and the lightbox is of a sufficiently simple design that any user would easily be able to close them and return to the main scroll. 
 
 One of our devs did reflect to me that modals (pop-ups) like the lightboxes are really complex for screen readers to parse, and as he was considering that aspect of accessibility in the build, it did prove challenging. He said he’d prefer to avoid building them in future if possible, so this is certainly something for me to reflect on when designing future sites. How can we achieve a balanced flow of image and text, and get to the highest possible level of user accessibility?
+
+{{<smallsignup "Sign up to our mailing list to get updates on our innovative local history work.">}}
 
 # Conclusion
 
