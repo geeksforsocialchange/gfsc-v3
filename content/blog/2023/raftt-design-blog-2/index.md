@@ -7,6 +7,7 @@ author: emma, honor
 illustrator: emma
 social: cover.jpg
 aliases: /raftt-design-diary-2
+project: the-towers
 ---
 
 {{<image src="cover.jpg" alt="A black and white shot of a tower being demolished by a tall piece of heavy machinery with colourful birds flying from the wreckage">}}

@@ -7,6 +7,7 @@ author: emma, kim
 illustrator: emma
 social: cover.jpg
 aliases: /raftt-design-diary
+project: the-towers
 ---
 
 {{<image src="cover.jpg" alt="An abstract image featuring a black and white shot of some mills with some white lines and coloured blobs on the top suggesting a user interface">}}
