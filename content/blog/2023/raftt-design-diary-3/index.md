@@ -7,7 +7,8 @@ author: emma, honor, rebecca
 illustrator: emma
 social: cover.jpg
 aliases: /raftt-design-blog-3
-project: the-towers
+projects:
+  - the-towers
 ---
 
 {{<image src="cover.jpg" alt="A black and white shot of two towers at a junction with colourful writing across it reading 'The Towers' and 'A history of Summervale and Crossbank'">}}
