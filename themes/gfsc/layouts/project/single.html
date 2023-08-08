@@ -70,7 +70,7 @@
 	</div>
 	<hr class="fancy " />
   {{ range $index, $page := $related }}
-		{{ partial "relatedBlogTeaser.html" $page }}
+		{{ partial "blogTeaser.html" $page }}
     {{ if gt (sub (len $related) $index) 1 }}
       <hr class="fancy fancy__borderless--top" />
     {{ end }}

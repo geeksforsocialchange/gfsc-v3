@@ -1,16 +1,26 @@
 {{ $page := . }}
 {{ $blogauthors := split $page.Params.Author ", " }}
+{{ $relatedClass := "" }}
+{{ if not (in .RelPermalink "/blog/" ) }}
+  {{ $relatedClass =  "teaser__content--related" }}
+{{ end }}
 <article
   itemscope
   itemtype="http://schema.org/BlogPosting"
   role="article"
   class="teaser"
 >
-  <div class="teaser__content">
+  <div class="teaser__content {{ $relatedClass }}">
     <header>
-      <h2 class="teaser__title" itemprop="name">
-        <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
-      </h2>
+      {{ if not (in .RelPermalink "/blog/" ) }}
+        <h2 class="teaser__title" itemprop="name">
+          <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
+        </h2>
+      {{ else }}
+        <h3 class="h2 teaser__title" itemprop="name">
+          <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
+        </h3>
+      {{ end }}
       {{ if isset $page.Params "subtitle" }}
         <p class="teaser__subtitle">{{ $page.Params.Subtitle }}</p>
       {{ end }}
