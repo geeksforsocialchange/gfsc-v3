@@ -5,8 +5,6 @@
 {{ end }}
 
 {{ $projectThemes := split .Params.themes " " }}
-
-
 <ul role="list" class="theme-tags">
   {{ range $index, $val := $projectThemes }}
     {{ if ( ge   (add $index 1 ) ( len $projectThemes )) }}
