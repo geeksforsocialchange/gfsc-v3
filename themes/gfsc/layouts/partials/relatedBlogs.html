@@ -1,0 +1,9 @@
+{{ $key := index   ( split .RelPermalink  "/" ) 2 }}
+{{ $blogs := where .Site.RegularPages "Section" "blog" }}
+{{ $related := slice }}
+{{ range $blogs }}
+  {{ if in .Params.Projects $key }}
+    {{ $related = $related | append . }}
+  {{ end }}
+{{ end }}
+{{ return $related }}
