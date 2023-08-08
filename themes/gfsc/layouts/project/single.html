@@ -64,9 +64,13 @@
 </div>
 {{ $related := partial "relatedBlogs.html" . }}
 {{ with $related}}
+	<hr class="fancy" />
+	<div class="project-related">
+		<h2>Relate blog posts</h2>
+	</div>
 	<hr class="fancy " />
   {{ range $index, $page := $related }}
-		{{ partial "blogTeaser.html" $page }}
+		{{ partial "relatedBlogTeaser.html" $page }}
     {{ if gt (sub (len $related) $index) 1 }}
       <hr class="fancy fancy__borderless--top" />
     {{ end }}

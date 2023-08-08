@@ -1,0 +1,49 @@
+{{ $page := . }}
+{{ $blogauthors := split $page.Params.Author ", " }}
+<article
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+  role="article"
+  class="teaser"
+>
+  <div class="teaser__content">
+    <header>
+      <h3 class="teaser__title" itemprop="name">
+        <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
+      </h3>
+      {{ if isset $page.Params "subtitle" }}
+        <p class="teaser__subtitle">{{ $page.Params.Subtitle }}</p>
+      {{ end }}
+    </header>
+    <div class="teaser__excerpt">
+      {{ $page.Params.Description | markdownify }}
+      <p>
+        <a href="{{ $page.Permalink }}" class="btn btn--up">Read more</a>
+      </p>
+    </div>
+  </div>
+  <aside class="teaser__aside">
+    <time class="teaser__meta" datetime="{{ .Date }}">
+      {{ .Date.Format "02 January 2006" }}
+    </time>
+    <div class="teaser__meta teaser__meta--author" rel="author">
+      {{ range $index, $authortag := $blogauthors }}
+        {{ $findauthor := where $.Site.Data.authors.authors "tag" $authortag }}
+        {{ $author := index $findauthor 0 }}
+        {{ if eq $index 0 }}
+          {{ if eq (len $blogauthors) 1 }}
+            <span>By {{ $author.name }}</span>
+          {{ else }}
+            <span>By {{ $author.name }}, </span>
+          {{ end }}
+        {{ else }}
+          {{ if ge (sub (len $blogauthors) $index) 2 }}
+            <span>{{ $author.name }}, </span>
+          {{ else }}
+            <span>{{ $author.name }}</span>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </aside>
+</article>
