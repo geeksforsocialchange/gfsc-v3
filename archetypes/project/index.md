@@ -12,6 +12,9 @@ image: ""
 imagealt: ""
 description: ""
 weight: 100
+ctaButtons:
+  - text: ""
+    url: ""
 ---
 
 Blah blah
