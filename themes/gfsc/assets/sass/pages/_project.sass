@@ -1,9 +1,9 @@
 .project
   +border(0 2px 2px 2px)
-  padding: 1.5rem 1rem 1rem 1rem
+  padding: 0 1rem
   +for-tablet-portrait-up
     +border(none)
-    padding: 2rem 5rem
+    padding: 0 5rem
   +for-desktop-up
     margin: 0 $margin-desktop
     +border(sides)
@@ -11,24 +11,26 @@
   .fancy
     margin: 0 -5rem
   &__title
-    margin-block-start: 0
-    margin-block-end: 0
-    padding-bottom: 1.5rem
     font-family: $freight
     font-size: 1.666666rem
     line-height: 1.1em
+    margin: 0 -1rem
+    padding: 1.5rem 1rem
+    +border(bottom)
     +for-tablet-portrait-up
       font-size: 2.222222rem
-      padding-bottom: 2rem
+      margin: 0 -5rem
+      padding: 2rem 5rem
   &__themes
-    +border(nosides)
+    +border(top)
     margin: 0 -1rem
-    padding: 1rem  1rem
+    padding: 1rem 1rem
     +for-tablet-portrait-up
       margin: 0 -5rem
-      padding: 1rem  5rem
+      padding: 1rem 5rem
   &__summary
     font-weight: 900
+    margin: 1.444444rem 0
     +for-tablet-portrait-up
       font-weight: normal
       font-size: 1.444444rem
@@ -60,7 +62,7 @@
     &__team
       +border(top)
       grid-row: 2 / 3
-      grid-column: 1 / 3   
+      grid-column: 1 / 3
       +for-tablet-landscape-up
         padding-left: 5rem
       +for-desktop-up
@@ -74,6 +76,9 @@
         color: $primary
         margin: 0 0.25rem
   &__content
+    padding-bottom: 1.5rem
+    +for-tablet-portrait-up
+      padding: 2rem 0
     ul
       list-style-type: none
       margin: 2rem 0
