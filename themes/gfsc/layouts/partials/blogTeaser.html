@@ -1,7 +1,8 @@
-{{ $page := . }}
-{{ $blogauthors := split $page.Params.Author ", " }}
+{{ $post := .post }}
+{{ $ctx := .ctx }}
+{{ $blogauthors := split $post.Params.Author ", " }}
 {{ $relatedClass := "" }}
-{{ if not (in .RelPermalink "/blog/" ) }}
+{{ if not (in $ctx.RelPermalink "/blog/" ) }}
   {{ $relatedClass =  "teaser__content--related" }}
 {{ end }}
 <article
@@ -12,23 +13,23 @@
 >
   <div class="teaser__content {{ $relatedClass }}">
     <header>
-      {{ if not (in .RelPermalink "/blog/" ) }}
-        <h2 class="teaser__title" itemprop="name">
-          <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
-        </h2>
-      {{ else }}
+      {{ if not (in $ctx.RelPermalink "/blog/" ) }}
         <h3 class="h2 teaser__title" itemprop="name">
-          <a href="{{ $page.Permalink }}" itemprop="url">{{ $page.Title }}</a>
+          <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
         </h3>
+      {{ else }}
+        <h2 class="teaser__title" itemprop="name">
+          <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
+        </h2>
       {{ end }}
-      {{ if isset $page.Params "subtitle" }}
-        <p class="teaser__subtitle">{{ $page.Params.Subtitle }}</p>
+      {{ if isset $post.Params "subtitle" }}
+        <p class="teaser__subtitle">{{ $post.Params.Subtitle }}</p>
       {{ end }}
     </header>
     <div class="teaser__excerpt">
-      {{ $page.Params.Description | markdownify }}
+      {{ $post.Params.Description | markdownify }}
       <p>
-        <a href="{{ $page.Permalink }}" class="btn btn--up">Read more</a>
+        <a href="{{ $post.Permalink }}" class="btn btn--up">Read more</a>
       </p>
     </div>
   </div>
@@ -38,7 +39,7 @@
     </time>
     <div class="teaser__meta teaser__meta--author" rel="author">
       {{ range $index, $authortag := $blogauthors }}
-        {{ $findauthor := where $.Site.Data.authors.authors "tag" $authortag }}
+        {{ $findauthor := where $ctx.Site.Data.authors.authors "tag" $authortag }}
         {{ $author := index $findauthor 0 }}
         {{ if eq $index 0 }}
           {{ if eq (len $blogauthors) 1 }}
