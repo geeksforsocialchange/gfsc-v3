@@ -1,0 +1,9 @@
+{{ with . }}
+  <div class="cta-buttons">
+    {{ range . }}
+      <a class="btn" href="{{ .url }}">
+        {{ .text }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
