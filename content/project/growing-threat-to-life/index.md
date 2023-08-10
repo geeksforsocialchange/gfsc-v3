@@ -5,16 +5,18 @@ client: "Resistance Lab"
 when: "2020"
 who: kim emma
 themes: anti-racism hulme-and-manchester
-categories: flagship consultancyresearch software
-linktourl: https://resistancelab.network/our-work/taser-report/index.html
-linktotext:
-image: cops.jpg
-imagealt: police in a line wearing riot gear
+categories: flagship consultancyresearch software publications
+image: index.png
+imagealt: resistance lab logo
 description: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
 galleryalt:
+  - police in a line wearing riot gear
 weight: 100
 draft: false
+ctaButtons:
+  - text: get the report
+    url: https://resistancelab.network/our-work/taser-report/index.html
 ---
 
 Resistance Lab was a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
