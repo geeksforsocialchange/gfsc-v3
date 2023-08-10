@@ -6,6 +6,8 @@ description: In the third episode of the Geeks For Social Change podcast, Dr Kim
 author: honor
 social: 1.png
 aliases: /podcast/3
+projects:
+  - placecal
 ---
 
 {{<anchorfm "Everything-we-want-to-tell-you-about-your-funding-scheme-but-are-afraid-to-tell-you-e25lnko" >}}
