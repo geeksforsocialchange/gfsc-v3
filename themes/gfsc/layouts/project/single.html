@@ -1,11 +1,6 @@
 {{ define "main" }}
 <div class="project">
   <h3 class="project__title">{{ .Title }}</h3>
-	{{ if .Params.themes }}
-		<div class="project__themes">
-			{{- partial "themeTags.html" . -}}
-		</div>
-	{{ end }}
   <p class="project__summary">
 		{{ .Description }}
 	</p>
@@ -34,6 +29,7 @@
       </span>
     </p>
   </div>
+  {{- partial "ctabuttons.html" .Params.ctaButtons -}}
   <div class="project__content">
 		{{ .Content }}
 		{{if .Params.linktourl }}
@@ -42,6 +38,12 @@
 			</a>
 		{{end}}
 	</div>
+  {{ if .Params.themes }}
+    <div class="project__themes">
+      <span>See more:</span>
+      {{- partial "themeTags.html" . -}}
+    </div>
+  {{ end }}
   {{/* 
     <div class="project__footer">
       <div>
