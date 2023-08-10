@@ -11,7 +11,10 @@ imagealt: resistance lab logo
 description: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
 galleryalt:
-  - police in a line wearing riot gear
+  - A growing threat to life report cover, bold graphic design in red and black
+  - An open spread from the growing threat to life report
+  - Another spread showing a graph breaking down police taser use statistics
+  - A spread showing a drawing of a police interview
 weight: 100
 draft: false
 ctaButtons:
