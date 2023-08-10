@@ -1,0 +1,28 @@
+.text-grid 
+  display: grid
+  grid-template-areas: "middle"
+  grid-template-columns: 1fr
+  +for-tablet-landscape-up
+    grid-template-areas: "left middle "
+    grid-template-columns: $margin-tablet-landscape 1fr
+  +for-desktop-up
+    grid-template-areas: "left middle"
+    grid-template-columns: $margin-desktop 1fr
+  +for-big-desktop-up
+    grid-template-areas: "left middle right"
+    grid-template-columns: $margin-desktop 1fr $margin-desktop
+
+.text
+  grid-area: middle
+  padding: 0 1rem
+  max-width: 100%
+  overflow: hidden
+  +for-tablet-portrait-up
+    +border(0)
+    padding: 0 5rem
+  +for-tablet-landscape-up
+    +border(left)
+    padding: 0 2.5rem
+  +for-big-desktop-up
+    +border(sides)
+    padding: 0 7rem
