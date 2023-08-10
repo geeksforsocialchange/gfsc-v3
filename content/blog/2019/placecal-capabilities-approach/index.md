@@ -8,6 +8,8 @@ description:
   to social participation and collaborative action.
 subtitle: PlaceCal and the capabilities approach
 title: Making a place for technology in communities
+projects:
+  - placecal
 ---
 
 _This post is a draft of a journal paper by Prof. Stefan White and I on our application of the capability approach to community technology in Hulme and Moss Side. We're hoping it will be published next year, in the mean time please let us know if you have any thoughts on the draft! If you prefer, you can download it in [pdf form.](/assets/pdf/WhiteFoale_PlaceCal-Capabilities_DRAFT.pdf)_
