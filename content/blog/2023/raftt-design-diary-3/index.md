@@ -27,7 +27,7 @@ Ultimately the project was not very successful in tying parts 1 and 2 together �
 
 This blog focuses specifically on the ‘documenting’ aspect, which occurred at the final stage of the project. You can get a deeper look at the challenges we had on the ‘collection’ side of things in [_RAFTT Design Diary #2_](https://gfsc.studio/blog/2023/raftt-design-blog-2/)!
 
-# Structuring the site
+## Structuring the site
 
 In [_RAFTT Design Diary #1_](https://gfsc.studio/blog/2022/rafft-design-blog/) we had already started to consider the underlying structure of our final explorable online archive of content. We asked questions about the narrative flow of the site, and considered what would be the most appropriate interface for people to explore the gathered data. We ruled out ‘Pincushion maps’, mostly because we don’t like them ([see this article by studio founder Kim for more on that](https://cassowaryproject.org/visualising-qualitative-data-on-maps/)) but also because, given the data is concentrated in such a small area, it wouldn’t be relevant for this project.
 
@@ -41,13 +41,13 @@ We realised that a timeline structure would offer the best way of visualising th
 
 We also mentioned in the first design journal that we were excited by the idea of shaping the site around ‘themes’. We have offered theme filtering in the final site, but this is a secondary navigation device, as ultimately the themes which emerged from the stories were a tad less evocative than we might have hoped. For example, ‘Deprivation and Challenges’ wasn’t really something FCHO were keen to go into too much depth on. The themes serve more as a navigational tool (e.g. ‘I want to read a particular person’s stories’, or ‘I only want to read stories about the surrounding estate’) rather than the rich seams of connection we had hoped for.
 
-# Designing the site
+## Designing the site
 
 Unfortunately, due to scheduling delays caused by the challenges of gathering content, we were much more pressed for time than we would have liked when it came to actually designing and building the site. The lottery had a deadline for when they needed to see a live site, and so we were obligated to work to this.
 
 Despite this end-stage pressure, as a designer I had of course been thinking for some time about some key details of the site.
 
-# Towers and clouds
+## Towers and clouds
 
 One of the most exciting design decisions for me was how to differentiate between the ‘before the towers’ and ‘after the towers’ phases. I had a silly idea while falling asleep one night of creating an ‘infinite scroll’ illustration of the Towers, so as you move down the site, you can see these (very tall) versions of the buildings in the background. I wasn’t sure whether to pursue it or not, but, unprompted, one of our dev team told me he’d had the same idea, so I decided to push ahead with it!
 
@@ -55,7 +55,7 @@ It proved surprisingly difficult to create a totally seamless version of the ill
 
 Another ‘silly’ idea which ended up making it to the final site was ‘clouds’ for the images. There was something quite entertaining to me about the phenomenal height of these background towers illustrations, so I figured that the tops of them would almost certainly be sitting up amongst the clouds, right? So I put all the imagery into cloud-shaped cut outs, and ultimately it brought a bit of life and fun to the site, so we decided to stick with it.
 
-# Colours and typeface
+## Colours and typeface
 
 I was keen to choose a colour scheme and typeface that felt in keeping with the era the Towers were built. It would have felt somehow disingenuous to make a site that felt too visually cutting edge and contemporary, and I also felt that by using some (currently) less used type styles and colours, it would feel like something a bit different — somehow both nostalgic and fresh.
 
@@ -87,7 +87,7 @@ _For just £477 you can buy this chair based edition of the site: https://www.et
 
 _David Bowie knew what was up https://www.theguardian.com/fashion/2013/mar/12/david-bowie-eight-classic-looks-pictures_
 
-# Accessibility
+## Accessibility
 
 We are always mindful of accessibility in our site design, and strive to meet at least [AA standards](https://www.w3.org/WAI/WCAG2AA-Conformance) in all areas. This meant a fair bit of tweaking to the theme/filter colours to ensure peak legibility in all contexts.
 
@@ -111,7 +111,7 @@ One of our devs did reflect to me that modals (pop-ups) like the lightboxes are 
 
 {{<smallsignup "Sign up to our mailing list to get updates on our innovative local history work.">}}
 
-# Conclusion
+## Conclusion
 
 Overall this has been a challenging but fascinating project from start to finish. It was the first project I worked on at GFSC, and that is unfortunately a slightly damning indictment of how far behind schedule it ended up falling — I have now been working here for two years!
 
