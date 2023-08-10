@@ -1,7 +1,13 @@
 {{ with . }}
   <div class="cta-buttons">
     {{ range . }}
-      <a class="btn" href="{{ .url }}">
+      <a
+        class="btn"
+        href="{{ .url }}"
+        {{ if in .url "pdf" }}
+          target="_blank" download
+        {{ end }}
+      >
         {{ .text }}
       </a>
     {{ end }}
