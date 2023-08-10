@@ -12,6 +12,7 @@ projects:
   - placecal
   - trans-dimension
   - imok
+  - resistance-lab
 ---
 
 For now though, here’s some of our 2021 highlights!
