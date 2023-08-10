@@ -15,8 +15,10 @@ galleryalt:
 weight: 100
 draft: false
 ctaButtons:
-  - text: get the report
+  - text: Read online
     url: https://resistancelab.network/our-work/taser-report/index.html
+  - text: Explore the observable notebook for this report
+    url: https://observablehq.com/@resistancelab/a-growing-threat-to-life-taser-usage-by-greater-manchester-p
 ---
 
 Resistance Lab was a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
