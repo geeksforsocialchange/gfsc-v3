@@ -12,7 +12,7 @@ image: index.png
 imagealt: resistance lab logo
 description: "How we worked with Resistance Lab from the start to build their first website and support them with branding and design"
 weight: 2
-draft: false
+draft: true
 social: social.jpg
 galleryalt:
   - Light and dark mode logos for the resistance lab, a striking font in black and red or white and red against a white or black background
