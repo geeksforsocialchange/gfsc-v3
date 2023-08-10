@@ -10,6 +10,10 @@ subtitle: How we made Hulme & Moss Side's go-to resource to find out what's on.
 title: A brief introduction to PlaceCal
 projects:
   - placecal
+  - hulme-history
+  - hulme-community-garden-centre
+  - mossley-history
+  - oldham-history
 ---
 
 PlaceCal is a package of calendar software, education and community development. It makes it easier for residents to publish events, find information about their area, and see how to get involved in local groups. This helps people become active in their community by connecting them to events that are happening nearby. The result of this is a more connected neighbourhood that works better for everyone.

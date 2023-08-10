@@ -13,6 +13,10 @@ projects:
   - trans-dimension
   - imok
   - resistance-lab
+  - growing-threat-to-life
+  - enquiry-witch
+  - faceloader
+  - gi-website-migration
 ---
 
 For now though, here’s some of our 2021 highlights!
