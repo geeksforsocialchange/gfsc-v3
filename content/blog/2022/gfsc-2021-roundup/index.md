@@ -10,6 +10,7 @@ subtitle: A roundup of what we did last year
 title: GFSC 2021 Roundup
 projects:
   - placecal
+  - trans-dimension
 ---
 
 For now though, here’s some of our 2021 highlights!

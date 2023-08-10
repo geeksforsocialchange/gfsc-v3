@@ -8,6 +8,7 @@ social: 1.png
 aliases: /podcast/3
 projects:
   - placecal
+  - trans-dimension
 ---
 
 {{<anchorfm "Everything-we-want-to-tell-you-about-your-funding-scheme-but-are-afraid-to-tell-you-e25lnko" >}}
