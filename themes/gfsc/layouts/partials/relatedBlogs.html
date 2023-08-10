@@ -6,15 +6,4 @@
     {{ $related = $related | append . }}
   {{ end }}
 {{ end }}
-
-{{ with $related }}
-  <ul>
-    {{ range $related }}
-      <li>
-        <a href="{{ .Permalink }}">
-          {{ .Title }}
-        </a>
-      </li>
-    {{ end }}
-  </ul>
-{{ end }}
+{{ return $related }}

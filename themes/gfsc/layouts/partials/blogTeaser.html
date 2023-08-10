@@ -1,0 +1,60 @@
+{{ $post := .post }}
+{{ $ctx := .ctx }}
+{{ $blogauthors := split $post.Params.Author ", " }}
+{{ $relatedClass := "" }}
+{{ if not (in $ctx.RelPermalink "/blog/" ) }}
+  {{ $relatedClass =  "teaser__content--related" }}
+{{ end }}
+<article
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+  role="article"
+  class="teaser"
+>
+  <div class="teaser__content {{ $relatedClass }}">
+    <header>
+      {{ if not (in $ctx.RelPermalink "/blog/" ) }}
+        <h3 class="h2 teaser__title" itemprop="name">
+          <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
+        </h3>
+      {{ else }}
+        <h2 class="teaser__title" itemprop="name">
+          <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
+        </h2>
+      {{ end }}
+      {{ if isset $post.Params "subtitle" }}
+        <p class="teaser__subtitle">{{ $post.Params.Subtitle }}</p>
+      {{ end }}
+    </header>
+    <div class="teaser__excerpt">
+      {{ $post.Params.Description | markdownify }}
+      <p>
+        <a href="{{ $post.Permalink }}" class="btn btn--up">Read more</a>
+      </p>
+    </div>
+  </div>
+  <aside class="teaser__aside">
+    <time class="teaser__meta" datetime="{{ .Date }}">
+      {{ .Date.Format "02 January 2006" }}
+    </time>
+    <div class="teaser__meta teaser__meta--author" rel="author">
+      {{ range $index, $authortag := $blogauthors }}
+        {{ $findauthor := where $ctx.Site.Data.authors.authors "tag" $authortag }}
+        {{ $author := index $findauthor 0 }}
+        {{ if eq $index 0 }}
+          {{ if eq (len $blogauthors) 1 }}
+            <span>By {{ $author.name }}</span>
+          {{ else }}
+            <span>By {{ $author.name }}, </span>
+          {{ end }}
+        {{ else }}
+          {{ if ge (sub (len $blogauthors) $index) 2 }}
+            <span>{{ $author.name }}, </span>
+          {{ else }}
+            <span>{{ $author.name }}</span>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </aside>
+</article>
