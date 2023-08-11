@@ -7,6 +7,7 @@ who: kim emma
 themes: anti-racism hulme-and-manchester
 categories: flagship consultancyresearch software publications
 image: index.png
+social: 1.jpg
 imagealt: resistance lab logo
 description: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
