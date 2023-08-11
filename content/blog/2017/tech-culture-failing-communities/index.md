@@ -12,6 +12,8 @@ description:
 social: og-wide.png
 subtitle: We need a roadmap towards truly community-owned technology.
 title: Tech culture is failing communities. How can we make it better?
+projects:
+  - placecal
 ---
 
 Californian design principles have taken over the internet, turning people into products. We need a roadmap towards truly community-owned technology.

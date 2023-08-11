@@ -7,6 +7,8 @@ description:
   other vulnerable groups.
 subtitle: A simple bot designed to support people undertaking potentially risky activities
 title: imok is released!
+projects:
+  - imok
 ---
 
 imok is a simple bot designed to support people undertaking potentially risky activities. It's primarily aimed at community groups working together to support these people.

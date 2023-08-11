@@ -8,6 +8,15 @@ description:
 social: transdimension.png
 subtitle: A roundup of what we did last year
 title: GFSC 2021 Roundup
+projects:
+  - placecal
+  - trans-dimension
+  - imok
+  - resistance-lab
+  - growing-threat-to-life
+  - enquiry-witch
+  - faceloader
+  - gi-website-migration
 ---
 
 For now though, here’s some of our 2021 highlights!

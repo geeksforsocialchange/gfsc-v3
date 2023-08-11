@@ -9,6 +9,8 @@ description:
 subtitle: Revisiting Arnstein's "Ladder of Citizen Participation"
 title: Why tech co-production practice is barely scratching the surface
 alias: ladder_citizen_participation
+projects:
+  - placecal
 ---
 
 There's a lot of discussion about co-production, co-design and other impressive-sounding terms starting with 'co-' at the moment in tech[^tech] circles. These terms long predate tech and generally have their roots in urban planning and civic policy. Despite all the hip methodologies such as 'service mapping' and 'human centred design', many in tech seem to miss the original point of these methodologies: _to give complete power to the community that work is being done 'on behalf' of_. In other words, there's nothing special about any design methodology. Change happens when the balance of power is shifted, otherwise it's just potentially well done and engaged market research.
