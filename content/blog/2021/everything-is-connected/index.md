@@ -9,6 +9,7 @@ subtitle: What if storing user data at all is a dark pattern?
 title: Everything is connected, but should it be?
 projects:
   - resistance-lab
+  - growing-threat-to-life
 ---
 
 Content note: This article contains discussions of classism, police brutality, incarceration, sexism & misogyny, forced deportation and racism, with brief mentions of rape, violence, blood & needles, death and genocide.[^2]
