@@ -5,19 +5,29 @@ client: "Resistance Lab"
 when: "2020"
 who: kim emma
 themes: anti-racism hulme-and-manchester
-categories: flagship consultancyresearch software
-linktourl: https://resistancelab.network/our-work/taser-report/index.html
-linktotext:
-image: cops.jpg
-imagealt: police in a line wearing riot gear
+categories: flagship consultancyresearch software publications
+image: index.png
+social: 1.jpg
+imagealt: resistance lab logo
 description: "How we helped Resistance Lab publish their first report in both analogue and digital versions"
 layout: project
 galleryalt:
+  - A growing threat to life report cover, bold graphic design in red and black
+  - An open spread from the growing threat to life report
+  - Another spread showing a graph breaking down police taser use statistics
+  - A spread showing a drawing of a police interview
 weight: 100
-draft: true
+draft: false
+ctaButtons:
+  - text: Read online
+    url: https://resistancelab.network/our-work/taser-report/index.html
+  - text: Explore the observable notebook for this report
+    url: https://observablehq.com/@resistancelab/a-growing-threat-to-life-taser-usage-by-greater-manchester-p
+  - text: Download PDF
+    url: /assets/pdf/resistance-lab-taser-usage-report.pdf
 ---
 
-Resistance Lab is a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
+Resistance Lab was a Manchester-based multi-disciplinary team of activists, campaigners and researchers who are aiming to dismantle the causes of state violence. GFSC were a founding member of Resistance Lab in 2019.
 
 Following multiple conversations, workshops, data analysis and collective meetings, we finally decided on a crucial first topic: the alarming rise in the rate of Taser use by UK police, and the general transition to an armed force in general.
 
