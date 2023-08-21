@@ -1,5 +1,7 @@
 {{ define "main" }}
-<div class="homepage__themes">
-  <h2 class="venn__title">The page you are looking for does not exist.</h2>
-</div>
+  <div class="homepage__themes">
+    <div aria-hidden="true" class="venn-404__container">
+      {{ partial "venn-404.html" . }}
+    </div>
+  </div>
 {{ end }}

@@ -54,6 +54,30 @@
       stroke-miterlimit: 10
       stroke-width: 2
 
+.venn-404
+  text-align: center
+  &__container
+    width: 100%
+    overflow: hidden
+  &__diagram
+    margin: 1rem 0
+    transform: translateX(-22%)
+    width: 180%
+    +for-tablet-portrait-up
+      margin: none
+      transform: none
+      width: 100%
+    path
+      fill: transparent
+    text
+      +balboa
+      fill: $primary
+    ellipse
+      fill: transparent
+      stroke: $primary
+      stroke-miterlimit: 10
+      stroke-width: 2
+
 #venn-mobile
   +for-tablet-portrait-up
     display: none
@@ -152,3 +176,17 @@
       fill: $primary-shadier
     &.three path
       fill: $primary-shadier
+
+#venn-404
+  max-width: 1300px
+  display: block
+  text-align: center
+  text
+    text-anchor: middle
+    alignment-baseline: middle
+    cursor: pointer
+  .one text
+    font-size: 2rem
+    text-transform: uppercase
+  .three text
+    font-size: 1.6rem
