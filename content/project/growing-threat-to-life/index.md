@@ -21,7 +21,7 @@ draft: false
 ctaButtons:
   - text: Read online
     url: https://resistancelab.network/our-work/taser-report/index.html
-  - text: Explore the observable notebook for this report
+  - text: Explore the Observable Notebook for this report
     url: https://observablehq.com/@resistancelab/a-growing-threat-to-life-taser-usage-by-greater-manchester-p
   - text: Download PDF
     url: /assets/pdf/resistance-lab-taser-usage-report.pdf
