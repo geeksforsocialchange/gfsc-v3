@@ -1,7 +1,7 @@
 ---
 date: 2022-05-12
 title: "The Trans Dimension Guide to Inclusive Events"
-client: "GFSC Collective, Gendered Intelligence"
+client: "Gendered Intelligence"
 when: "Spring 2022"
 who: 
 themes: trans-lib disability-activism
