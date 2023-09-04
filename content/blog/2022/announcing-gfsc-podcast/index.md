@@ -6,6 +6,8 @@ description: Mallory Moore, Zara Manoehoetoe, and Dr Kim Foale discuss technolog
 author: kim
 social: 1.jpg
 aliases: /podcast/1
+projects:
+  - podcast
 ---
 
 Thanks to all the lovely people who filled in our [GFSC supporter survey](https://forms.gle/irkDJhVCvpoNtiMy8), we learnt that podcasts are _super_ popular with you all, with over 60% of you listening to them.

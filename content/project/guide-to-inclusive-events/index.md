@@ -3,7 +3,7 @@ date: 2022-05-12
 title: "The Trans Dimension Guide to Inclusive Events"
 client: "Gendered Intelligence"
 when: "Spring 2022"
-who: 
+who: sarah kim emma mark jazz katja 
 themes: trans-lib disability-activism
 categories: publications designbranding
 image: index.png
@@ -22,9 +22,9 @@ ctaButtons:
   - text: Download a PDF
     url: /assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf
   - text: Buy the zine on Pen Fight
-    url: 
+    url: https://penfightdistro.com/shop/the-trans-dimension-zine/
   - text: Buy the badges on Pen Fight
-    url: 
+    url: https://penfightdistro.com/shop/the-trans-dimension-pin/
 draft: false
 ---
 
