@@ -9,7 +9,7 @@ categories: publications consultancyresearch
 image: index.jpg
 imagealt: Making a place for technology in communities - PlaceCal and the capabilities approach Stefan White & Kim Foale
 social: 1.png
-description: "Dr Stefan White and studio founder Dr Kim Foale introduce Community Technology Partnerships"
+description: "Dr Stefan White and studio founder Dr Kim Foale introduce Community Technology Partnerships."
 weight: 100
 galleryalt:
   - CTP approach schematic from the PlaceCal ‘Commissioner’ handbook. Featured within the paper.

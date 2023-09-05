@@ -9,7 +9,7 @@ categories: publications
 image: index.jpg
 imagealt: The Geeks for Social Change Podcast
 social: social.jpg
-description: "A podcast about navigating technology, ethics, and activism in our day to day lives and work, created with our friends, collaborators and co-conspirators."
+description: "A podcast about navigating technology, ethics, and activism in our day-to-day lives and work, created with our friends, collaborators and co-conspirators."
 weight: 100
 galleryalt:
   - A graphic reading 'Introducing... The Geeks for Social Change Podcast' with faces of podcast contributors beneath

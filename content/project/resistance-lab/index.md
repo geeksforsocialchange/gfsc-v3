@@ -10,7 +10,7 @@ linktourl: https://resistancelab.network/
 linktotext:
 image: index.png
 imagealt: resistance lab logo
-description: "How we worked with Resistance Lab from the start to build their first website and support them with branding and design"
+description: "How we worked with Resistance Lab from the start to build their first website and support them with branding and design."
 weight: 2
 draft: true
 social: social.jpg
