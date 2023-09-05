@@ -3,16 +3,19 @@ date: 2022-08-11
 title: "GFSC Podcast"
 client: "GFSC Collective"
 when: "2022 - now"
-who: kim honor 
+who: kim rachele mallory zara david honor
 themes: digital-autonomy anti-racism trans-lib hulme-and-manchester mutual-aid
 categories: publications
-image: index.png
-imagealt: 
-social: social.png
-description: ""
-weight: 80
+image: index.jpg
+imagealt: The Geeks for Social Change Podcast
+social: social.jpg
+description: "A podcast about navigating technology, ethics, and activism in our day to day lives and work, created with our friends, collaborators and co-conspirators."
+weight: 100
 galleryalt:
-  - 
+  - A graphic reading 'Introducing... The Geeks for Social Change Podcast' with faces of podcast contributors beneath
+  - A graphic reading 'How government technology limits who we can become' with faces of contributors beneath it
+  - The rise and fall of Facebook Events with contributors photos
+  - Everything we want to tell you about your funding scheme but are afraid to tell you with contributors photos
 ctaButtons:
   - text: RSS 
     url: https://anchor.fm/s/a948e35c/podcast/rss

@@ -5,14 +5,16 @@ client: "Place Health Technology CIC"
 when: "2020"
 who: kim stefan
 themes: digital-autonomy hulme-and-manchester mutual-aid
-categories: publications
+categories: publications consultancyresearch
 image: index.png
-imagealt: 
+imagealt: Making a place for technology in communities - PlaceCal and the capabilities approach Stefan White & Kim Foale
 social: 1.png
 description: "Dr Stefan White and studio founder Dr Kim Foale introduce Community Technology Partnerships"
-weight: 80
+weight: 100
 galleryalt:
-  - 
+  - CTP approach schematic from the PlaceCal ‘Commissioner’ handbook. Featured within the paper.
+  - A selection of the current community information needed to find out everything going on in the area. Featured within the paper.
+  - A local GP Dr Honeyman, at work using PlaceCal (right hand screen). Featured within the paper.
 ctaButtons:
   - text: Read online
     url: https://www.tandfonline.com/doi/full/10.1080/1369118X.2020.1767173

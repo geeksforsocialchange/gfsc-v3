@@ -8,13 +8,13 @@ themes: digital-autonomy local-history anti-racism mutual-aid
 categories: publications
 image: index.png
 social: social.png
-imagealt: 
+imagealt: The UnTechCon flyer image
 description: "We hosted an online unconference with our community around the theme of 'un-tech' and we learned a lot!"
 layout: project
 galleryalt:
   - a graphic with the information for UnTechCon 1. it has a subheading reading 'A one-day online unconference about creating community digital autonomy, challenging big tech, and creating a future worth living in'
   - a black and white diagram showing the themes and topics visually organised, showing overlapping areas between themes
-weight: 40
+weight: 100
 draft: false
 ctaButtons:
   - text: Read the zine online

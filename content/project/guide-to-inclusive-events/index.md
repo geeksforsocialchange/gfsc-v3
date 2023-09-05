@@ -8,9 +8,9 @@ themes: trans-lib disability-activism
 categories: publications designbranding
 image: index.png
 imagealt: The Trans Dimension logo on a space themed cloud with a drop shadow
-social: social.png
+social: social.jpg
 description: "How we worked with Gendered Intelligence and the Greater Manchester Coalition of Disabled people to put together a zine about event accessibility from an intersectional perspective."
-weight: 80
+weight: 100
 galleryalt:
   - Printed zines with a purple and pink cover with an enamel badge of The Trans Dimension logo in a plastic wrap
   - A pile of Trans Dimension enamel badges 

@@ -1,7 +1,7 @@
 ---
 date: 2017-09-02
 title: "PlaceCal"
-client: "Manchester School of Architecture, Manchester Age Friendly Neighbourhoods"
+client: "Manchester School of Architecture, Manchester Age Friendly Neighbourhoods, Place Health Technology CIC"
 when: "2017 - now"
 who: kim mark stefan jazz ivan alfie katja david rachele coral alexandria
 themes: hulme-and-manchester digital-autonomy mutual-aid
