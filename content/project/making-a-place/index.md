@@ -6,7 +6,7 @@ when: "2020"
 who: kim stefan
 themes: digital-autonomy hulme-and-manchester mutual-aid
 categories: publications consultancyresearch
-image: index.png
+image: index.jpg
 imagealt: Making a place for technology in communities - PlaceCal and the capabilities approach Stefan White & Kim Foale
 social: 1.png
 description: "Dr Stefan White and studio founder Dr Kim Foale introduce Community Technology Partnerships"
