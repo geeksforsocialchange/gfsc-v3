@@ -40,7 +40,7 @@ We haven’t been able do as much with this as we would’ve liked, but we’re 
 
 ![The zine in front of a blurred background of light pink, blue and white balloons](3.png)
 
-You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). 
+You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). You can [read more about the zine in our portfolio](/portfolio/guide-to-inclusive-events).
 
 We also had some pin badges made!! These were mostly given away at the launch but we have given a small stock to Pen Fight to sell. Any proceeds from this will go into the project fund.
 
@@ -56,7 +56,7 @@ Last December we ran our inaugural UnTechCon event, where we invited people to t
 
 ![A page from the zine showing the themes discussed during UnTechCon 1 in a diagram showing which talks relate to which themes](6.png)
 
-You can [buy the zine on Pen Fight](https://penfightdistro.com/shop/untechcon-1-an-untech-unconference-documentation-zine/), [download the PDF directly from us](/assets/pdf/untechcon_web.pdf), or [read a plain text version](/text/untechcon-1). 
+You can [buy the zine on Pen Fight](https://penfightdistro.com/shop/untechcon-1-an-untech-unconference-documentation-zine/), [download the PDF directly from us](/assets/pdf/untechcon_web.pdf), or [read a plain text version](/text/untechcon-1). You can also [read more about UnTechCon in our portfolio](/portfolio/untechcon).
 
 ### Resistance Lab “A Growing Threat to Life: Taser Usage by Greater Manchester Police” zine
 
@@ -80,7 +80,7 @@ Finally, we didn’t have anywhere on our website you could see all our podcast 
 
 ![A graphic reading 'Introducing... The Geeks for Social Change Podcast' with faces of podcast contributors beneath](9.png)
 
-We will be relaunching our podcast before the end of the year! [Visit the podcast page](/project/podcast).
+We will be relaunching our podcast before the end of the year! [Visit the podcast page in our portfolio](/project/podcast).
 
 ## Looking forwards
 
