@@ -5,6 +5,8 @@ subtitle: UnTechCon is a one-day unconference about creating community digital a
 description: For some time now, we’ve been trying to figure out how to bring some of the exciting conversations that happen between the Geeks for Social Change Collective and our friends and collaborators to a wider audience.
 author: kim
 social: untechcon_1.jpg
+projects:
+  - untechcon
 ---
 
 {{< image src="untechcon_1.jpg" alt="UnTechCon flyer with the same info as below" >}}

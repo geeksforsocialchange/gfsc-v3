@@ -9,6 +9,7 @@ aliases: /podcast/2
 projects:
   - placecal
   - faceloader
+  - podcast
 ---
 
 {{<anchorfm "The-Rise-and-Fall-of-Facebook-Events-e1onssn" >}}

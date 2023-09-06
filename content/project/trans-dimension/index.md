@@ -1,7 +1,7 @@
 ---
 date: 2022-09-02
 title: "The Trans Dimension"
-client: "GFSC Collective, Gendered Intelligence"
+client: "Gendered Intelligence"
 when: "Winter 2022"
 who: kim jazz katja mark harry ivan alfie
 themes: trans-lib

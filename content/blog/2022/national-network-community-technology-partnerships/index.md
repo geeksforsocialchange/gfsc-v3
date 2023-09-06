@@ -7,6 +7,7 @@ author: kim
 social: PlaceCal_16by9_LocalArea.png
 projects:
   - placecal
+  - making-a-place
 ---
 
 {{<image src="PlaceCal_16by9_LocalArea.png" alt="An illustration of a community of place" classList="image--frame">}}

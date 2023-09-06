@@ -11,7 +11,7 @@ linktotext:
 image: index.png
 imagealt: Trans Safety Network logo
 social: social.png
-description: "How we rebranded Trans Safety Network and helped them instill trust in their high quality journalistic reporting."
+description: "How we rebranded Trans Safety Network and helped them instil trust in their high quality journalistic reporting."
 weight: 100
 galleryalt:
   - The Trans Safety Network logo, which features white text on a pink background
@@ -29,6 +29,6 @@ We worked with them to understand their key audiences and build a new brand whic
 
 Something really vital to this project was a sense of _demystifying_. We wanted to make sure that anyone who approached the site would be able to understand it, and that nothing relied too heavily on assumed prior knowledge. This informed the web design process and made sure that access to information was prioritised throughout. We worked with frequent collaborator, [Squid](https://studiosquid.co.uk/), on the branding and visual identity of this project.
 
-The redesigned website can now instill a sense of trust in first-time visitors. By ensuring that all content is presented in a consistent, professional, and clear manner, TSN are better equipped to claim their position as a trusted source for counter-narratives against the increasingly hostile world of anti-trans organised harm.
+The redesigned website can now instil a sense of trust in first-time visitors. By ensuring that all content is presented in a consistent, professional, and clear manner, TSN are better equipped to claim their position as a trusted source for counter-narratives against the increasingly hostile world of anti-trans organised harm.
 
 If you're able, you can support Trans Safety Network [on Ko-Fi](https://ko-fi.com/transsafetynetwork), or by sharing their articles as a means of countering anti-trans narratives. [Visit the Trans Safety Network's website.](https://transsafety.network/)
