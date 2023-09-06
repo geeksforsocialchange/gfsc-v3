@@ -10,6 +10,7 @@ subtitle: A new space for trans community enabled by technology and collaboratio
 title: Enter... The Trans Dimension!
 projects:
   - trans-dimension
+  - guide-to-inclusive-events
 ---
 
 {{<image src="transdimension.png" alt="Promo artwork for The Trans Dimension. It's an illustration of outer space. The foreground has five figures of a range of ages, genders and abilities waving trans flags and reading books. The background has trans-shaped constellations, space worms, rockets, nebulas and planets.">}}

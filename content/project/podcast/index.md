@@ -1,5 +1,5 @@
 ---
-date: 2022-08-11
+date: 2023-06-20
 title: "GFSC Podcast"
 client: "GFSC Collective"
 when: "2022 - now"
@@ -37,6 +37,6 @@ We also include some special episodes — members of the studio occasionally del
 
 In a 2022 survey we discovered that over 60% of our extended community regularly listen to podcasts. Many members of the studio also find podcasts a vital and enriching medium for knowledge sharing and entertainment. 
 
-Our podcast does not currently operate to a fixed schedule, as this enables us to ensure the highest possible quality and relevance for each episode (basically, we make them when we feel like it!) — be sure to subscribe via your podcasting service of choice, to make sure you never miss an episode.
+Our podcast does not currently operate to a fixed schedule, as this enables us to ensure the highest possible quality and relevance for each episode (basically, we make them when we feel like it!) — be sure to subscribe via your podcasting service of choice, to make sure you never miss an episode. We also publish transcripts to our blog – you can find those below! 
 
 You can find us on [Spotify](https://open.spotify.com/show/5W8FIdNNr3i1jPj02uUevO), [Radio Public](https://radiopublic.com/geeks-for-social-change-60Xbpb), [Apple Podcasts](https://podcasts.apple.com/us/podcast/geeks-for-social-change/id1639344512), [Amazon Music](https://music.amazon.co.uk/podcasts/e37fd22d-7c11-4cc9-a282-951cc205733c/geeks-for-social-change) or [Spotify for Podcasters](https://anchor.fm/gfscstudio/), or subscribe via [RSS](https://anchor.fm/s/a948e35c/podcast/rss).
