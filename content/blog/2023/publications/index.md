@@ -18,7 +18,7 @@ We’ve spent a lot of this year reflecting and working out how to standardise w
 
 Like everyone else, we’ve also seen social media go from feeling like something that felt fun and engaging – a place to share photos from nights out and exchange memes – to its true form: a fairly terrifying piece of the military industrial surveillance complex that’s threatening to end life as we know it on Earth. We got pretty bored of what billionaires think and do, so in “relaunching” ourselves on social media are trying to work out how to embed our ethics more in the ways we communicate.
 
-While we develop that methodology (and we welcome your input via [our Discord server](https://discord.gfsc.studio), or maybe follow us on [Mastodon](https://social.gfsc.studio/@gfsc)?), here’s a little roundup of a big addition to our sie:
+While we develop that methodology (and we welcome your input via [our Discord server](https://discord.gfsc.studio), or maybe follow us on [Mastodon](https://social.gfsc.studio/@gfsc)?), here’s a little roundup of a big addition to our site:
 
 ## Publications!
 
