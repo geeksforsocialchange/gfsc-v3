@@ -40,7 +40,7 @@ We haven’t been able do as much with this as we would’ve liked, but we’re 
 
 ![The zine in front of a blurred background of light pink, blue and white balloons](3.png)
 
-You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). You can [read more about the zine in our portfolio](/portfolio/guide-to-inclusive-events).
+You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). You can [read more about the zine in our portfolio](/project/guide-to-inclusive-events).
 
 We also had some pin badges made!! These were mostly given away at the launch but we have given a small stock to Pen Fight to sell. Any proceeds from this will go into the project fund.
 
