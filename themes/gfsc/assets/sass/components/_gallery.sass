@@ -10,15 +10,17 @@
   &__thumbnails
     display: flex
     justify-content: flex-start
-    flex-wrap: wrap
     background-color: $primary
-    img
-      height: 60px
+    gap: 0 2px
+    +border(bottom)
+    overflow: auto;
   &__thumbnail
     cursor: pointer
     line-height: 0
-    padding: 0 2px 2px 0
-    &--filler
-      width: auto
-      background-color: transparent
+    background-color: $secondary
+    height: 60px
+    aspect-ratio: 2 / 1
+  &__filler
+    flex-grow: 1
+    background-color: $secondary
       
