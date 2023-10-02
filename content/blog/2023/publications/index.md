@@ -18,7 +18,7 @@ We’ve spent a lot of this year reflecting and working out how to standardise w
 
 Like everyone else, we’ve also seen social media go from feeling like something that felt fun and engaging – a place to share photos from nights out and exchange memes – to its true form: a fairly terrifying piece of the military industrial surveillance complex that’s threatening to end life as we know it on Earth. We got pretty bored of what billionaires think and do, so in “relaunching” ourselves on social media are trying to work out how to embed our ethics more in the ways we communicate.
 
-While we develop that methodology (and we welcome your input via [our Discord server](https://discord.gfsc.studio), or maybe follow us on [Mastodon](https://social.gfsc.studio/@gfsc)?), here’s a little roundup of a big addition to our sie:
+While we develop that methodology (and we welcome your input via [our Discord server](https://discord.gfsc.studio), or maybe follow us on [Mastodon](https://social.gfsc.studio/@gfsc)?), here’s a little roundup of a big addition to our site:
 
 ## Publications!
 
@@ -40,7 +40,7 @@ We haven’t been able do as much with this as we would’ve liked, but we’re 
 
 ![The zine in front of a blurred background of light pink, blue and white balloons](3.png)
 
-You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). You can [read more about the zine in our portfolio](/portfolio/guide-to-inclusive-events).
+You can [get a copy of the zine on Pen Fight](https://penfightdistro.com/shop/the-trans-dimension-zine/), [download the PDF from us](/assets/pdf/Trans-Dimension-Guide-To-Inclusive-Events_1.0.pdf), or [read a plain text version](/text/inclusive-events). You can [read more about the zine in our portfolio](/project/guide-to-inclusive-events).
 
 We also had some pin badges made!! These were mostly given away at the launch but we have given a small stock to Pen Fight to sell. Any proceeds from this will go into the project fund.
 
