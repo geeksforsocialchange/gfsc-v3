@@ -31,7 +31,7 @@ The questions we asked were:
 
 ## Analysis of the interviews
 
-Once all interviews had been completed, we carried out a quantitative data analysis process known as ‘coding’ — not to be confused with the other kind of coding! In this process, each sentence of each interview is analysed methodically, and any emerging themes are pulled out, with that quote and others which emerge around that theme listed underneath them. Many quotes appear in multiple places, and pretty much everything someone says in an interview will find a way into this coding process one way or another. 
+Once all interviews had been completed, we carried out a qualitative data analysis process known as ‘coding’ — not to be confused with the other kind of coding! In this process, each sentence of each interview is analysed methodically, and any emerging themes are pulled out, with that quote and others which emerge around that theme listed underneath them. Many quotes appear in multiple places, and pretty much everything someone says in an interview will find a way into this coding process one way or another. 
 
 During this process, many expected themes will emerge, but if the process is being done well, new ideas will also often appear as well, that the person carrying out the coding may not have expected. 
 
