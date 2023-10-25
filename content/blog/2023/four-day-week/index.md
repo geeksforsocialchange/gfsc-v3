@@ -8,6 +8,8 @@ social: social.png
 ---
 We get a lot of enquiries from organisations who [heard] [that we] [work a four day week], and want to know more about how it works for us, so that they can try and implement it for their staff. We wanted to reflect on our working patterns and what they mean for our company, to help anyone who might be thinking about reducing their company’s working week. 
 
+![social.png]
+
 ## What our week looks like
 
 We are open as a studio from Monday to Thursday every week. For us, this means these are the only times we’ll ever schedule client-facing meetings, and when we expect all staff to work the majority of their hours. In addition to being a four day week company, we also operate with shorter days, so a full time week is four days of six working hours, or 24 hours total. 
