@@ -8,7 +8,7 @@ social: social.png
 ---
 We get a lot of enquiries from organisations who [heard](https://web.archive.org/web/20220118211122/https://metro.co.uk/2022/01/18/four-day-working-week-uk-which-companies-offer-it-15936662/) [that we](https://web.archive.org/web/20220417125744/https://www.dailymail.co.uk/news/article-10414445/Staff-30-UK-firms-work-four-day-week-salary-six-month-pilot-begins-TODAY.html) [work a four day week](https://web.archive.org/web/20231002130859/https://www.thesun.co.uk/money/16955730/four-day-week-full-list-companies-uk/), and want to know more about how it works for us, so that they can try and implement it for their staff. We wanted to reflect on our working patterns and what they mean for our company, to help anyone who might be thinking about reducing their company’s working week. 
 
-![social.png]
+![a graphic of a calendar showing our 'standard' work week](social.png)
 
 ## What our week looks like
 
