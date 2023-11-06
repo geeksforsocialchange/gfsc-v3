@@ -56,7 +56,7 @@ Last December we ran our inaugural UnTechCon event, where we invited people to t
 
 ![A page from the zine showing the themes discussed during UnTechCon 1 in a diagram showing which talks relate to which themes](6.png)
 
-You can [buy the zine on Pen Fight](https://penfightdistro.com/shop/untechcon-1-an-untech-unconference-documentation-zine/), [download the PDF directly from us](/assets/pdf/untechcon_web.pdf), or [read a plain text version](/text/untechcon-1). You can also [read more about UnTechCon in our portfolio](/portfolio/untechcon).
+You can [buy the zine on Pen Fight](https://penfightdistro.com/shop/untechcon-1-an-untech-unconference-documentation-zine/), [download the PDF directly from us](/assets/pdf/untechcon_web.pdf), or [read a plain text version](/text/untechcon-1). You can also [read more about UnTechCon in our portfolio](/project/untechcon/).
 
 ### Resistance Lab “A Growing Threat to Life: Taser Usage by Greater Manchester Police” zine
 

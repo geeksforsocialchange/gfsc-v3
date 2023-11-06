@@ -130,7 +130,7 @@ At the end of the day, feedback was collected anonymously from attendees and org
   _talk by ghostglyph_
 - [Virtual communication with loved ones](#virtual-communication-with-loved-ones)
   _discussion proposed by Cassidy_
-- [Visualising organisational structures](#visualising-organisationa-structures)
+- [Visualising organisational structures](#visualising-organisational-structures)
   _discussion proposed by Cassidy_
 - [Meeting Mood](#meeting-mood)
   _talk by Alice_
@@ -186,9 +186,9 @@ If institutionalised schooling disincentivises collaboration and learning to thi
 
 (2019) Relearn 2019 Curved. [Link](http://relearn.be/2019/)
 
-(2022) Anarchist Pedagogies. [Link] (https://anarchistpedagogies.net/)
+(2022) Anarchist Pedagogies. [Link](https://anarchistpedagogies.net/)
 
-Dodd, S. (2000) Radical unschooling, Unschooling. [Link] (https://sandradodd.com/unschooling)
+Dodd, S. (2000) Radical unschooling, Unschooling. [Link](https://sandradodd.com/unschooling)
 
 Escobar, A. (2018) Designs for the pluriverse: Radical interdependence, autonomy, and the making of worlds. Durham North Carolina: Duke University Press.
 
@@ -200,7 +200,7 @@ Illich, I. (2009) Tools for conviviality. London: Marion Boyars.
 
 Illich, I. (2012) Deschooling Society. London: Marion Boyars.
 
-Jennifer (2022) Aspects of learning, in or out of school, Uncharted Worlds. [Link] (https://www.uncharted-worlds.org/blog/2022/11/aspects-of-learning-in-or-out-of-school/)
+Jennifer (2022) Aspects of learning, in or out of school, Uncharted Worlds. [Link](https://www.uncharted-worlds.org/blog/2022/11/aspects-of-learning-in-or-out-of-school/)
 
 Kohn, A. (2011) Feel-bad education: Contrarian essays on children and schooling. Boston, MA: Beacon.
 
@@ -679,9 +679,9 @@ Qualitative research can benefit from an imaginative and motivated approach to d
 
 ### Resources and links
 
-Foale, K. (2016) Data is meaningless without social power. Geeks for Social Change [Link](blog/2016/social-power-data/)
+Foale, K. (2016) Data is meaningless without social power. Geeks for Social Change [Link](/blog/2016/social-power-data/)
 
-Pimblott, K. (2020) Manchester Community Histories in the Shadow of Urban Regeneration, Geeks for Social Change [Link](blog/2020/manchester-community-histories-urban-regeneration/)
+Pimblott, K. (2020) Manchester Community Histories in the Shadow of Urban Regeneration, Geeks for Social Change [Link](/blog/2020/manchester-community-histories-urban-regeneration/)
 
 ## Ways to structure and create radical organisations
 
@@ -796,4 +796,4 @@ Home (no date) The Trans Dimension. [Link](https://transdimension.uk/)
 
 Mermaids website (2022) Mermaids. [Link](https://mermaidsuk.org.uk/)
 
-Stonewall was a riot (no date) Stonewall Was A Riot. [Link](https:/stonewallwasariot.co.uk/)
+Stonewall was a riot (no date) Stonewall Was A Riot. [Link](https://stonewallwasariot.co.uk/)
