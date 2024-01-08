@@ -3,7 +3,7 @@ title: "Rebecca Wigmore"
 firstname: "rebecca"
 pronouns: "She/her"
 job: "Writer"
-jobtype: staff
+jobtype: alum
 dataname: rebecca
 avatar: rebecca.jpg
 ---
