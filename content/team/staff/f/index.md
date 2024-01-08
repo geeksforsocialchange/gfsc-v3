@@ -3,7 +3,7 @@ title: "F"
 firstname: "F"
 pronouns: "ey/em or they/them"
 job: "Technology Strategy Consultant"
-jobtype: staff
+jobtype: alum
 dataname: f
 avatar: f@400.jpg
 ---
