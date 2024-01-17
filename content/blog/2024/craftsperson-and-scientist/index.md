@@ -4,7 +4,7 @@ date: 2024-01-17
 subtitle: Two ways of working we've identified through our collaborative practice
 description: "Some people work best iteratively and some would prefer to forge ahead alone – but how do we ensure these two approaches play nicely together in a team?"
 author: honor, emma, kim
-social: social.png
+social: social.jpg
 ---
 ![Two pencil drawings, one of a craftsperson sat at a bench holding a tool and crafting an orange orb, one of a scientist looking through a microscope at an orange orb](social.jpg)
 
