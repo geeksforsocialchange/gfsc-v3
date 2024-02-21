@@ -1,6 +1,6 @@
 ---
 title: "Growing Great Ideas Public Report"
-date: 2024-02-20
+date: 2024-02-21
 subtitle: Our first year of Community Technology Partnerships
 description: "What we've learnt, what we've done, what we want to do, what's next: our first year developing Community Technology Partnerships with funding from the National Lottery Community Fund"
 author: kim
@@ -16,7 +16,6 @@ What have we learnt about CTPs in this first year? The rest of this post is a se
 > Disadvantaged communities and their people are not the problem – they are the solution 
 
 *Hazel Stuteley OBE, Chair C2 National Charity*
-> 
 
 This quote informed the outcome of our first year in ways we could not have anticipated. The overarching narrative of our first year is one of shifting priorities and rescoping our activities due to the ongoing impact of Covid-19, and the the large scale removal of state support by the Conservative government. Illness, cost of living challenges, the climate crisis, and complete burnout across the sector has had a huge impact on both our abilities and the communities we work with.
 
@@ -31,7 +30,6 @@ Perhaps the single biggest refrain heard when doing community work with tech tod
 > …But I’m not a tech person!
 
 *Everyone*
-> 
 
 Empirically however, almost everyone we interact with uses one or more computers to do some or all of their job with, and if they didn’t, they would be incapable of doing that job. So how did we get to the point where we have more computers than ever, but people feel less empowered to say that they feel able to operate them? 
 
@@ -112,7 +110,6 @@ One of our key learnings during this project is that this kind of ‘hands on’
 Providing a space where people could ‘have a go’, ask ‘silly’ questions, and do it together, showed people they were more tech savvy then they thought.
 
 *Rachele’s PlaceCal diary*
-> 
 
 ## We are building the evaluation and training tools to manage all this
 
@@ -122,7 +119,7 @@ We are currently working on ironing out our evaluation and training methods and 
 
 We will be sharing our theory of change and fieldwork data when we’ve tidied it up — watch this space!
 
-{{% smallsignup %}}
+{{<smallsignup>}}
 
 # Our first year of CTPs
 
@@ -135,7 +132,7 @@ We will be sharing our theory of change and fieldwork data when we’ve tidied i
 - 50+ enquiries to work through when we’re ready from a wide range of community groups and institutions throughout England and Wales
 - 6 x tech workshops for partners with nearly 100 attendees
 
-## The first six months: s**etting up our infrastructure**
+## The first six months: setting up our infrastructure
 
 From the outset, we knew we had to recruit a team on on the ground to work directly with communities, listen to their challenges, and help them figure out how to dismantle their specific barriers.
 
@@ -148,13 +145,11 @@ Rachele, who runs a thriving community pub in Hulme, Manchester, was tasked with
 > I initially found it hard to engage with GMSC — I met most people at the event, and got numbers and emails from GMSC… but the details seemed to be out of date. I cold-called, attended GMSC events, sent emails and didn’t have much luck.
 
 *Rachele’s PlaceCal diary*
-> 
 
 Coral is based on Torbay, where she runs a board game cafe shop, and is deeply embedded in the local community. She attended C2’s three-day “Residential Experiential Learning Course”, convened by C2’s cofounder Hazel Stutely OBE, in September. She delivered a presentation on PlaceCal and CTPs to the C2 network. Coral then worked hard to establish a thriving PlaceCal in Torbay, getting 18 groups and dozens of events on board in short order.
 
-![Coral doing a presentation on PlaceCal to C2 at their weekend gathering](https://prod-files-secure.s3.us-west-2.amazonaws.com/baf083c9-d03e-46bc-b441-49438cc1db49/98fc01c4-9467-42da-a97b-33a64ad2b518/coral_c2.jpeg)
-
-Coral doing a presentation on PlaceCal to C2 at their weekend gathering
+![Coral doing a presentation on PlaceCal to C2 at their weekend gathering](coral_c2.jpeg)
+*Coral doing a presentation on PlaceCal to C2 at their weekend gathering*
 
 We also set up a steering committee made of representatives from C2, Lankelly Chase, Gendered Intelligence, Geeks for Social Change and Radical Routes. However, after a series of enthusiastic initial meetings, attendance began to drop off as the sector became increasingly embattled and meetings were eventually halted.
 
@@ -164,66 +159,56 @@ In October, Kim and Rachele [did a podcast](https://podcasters.spotify.com/pod/s
 
 In November, we launched [The Trans Dimension](https://transdimension.uk) in collaboration with Gendered Intelligence, our first ‘white label’ PlaceCal site. The development budget for came from another funder (Comic Relief and Paul Hamlyn’s Tech for Good fund), and we were able to use all our learning and code base improvements from the National Lottery funding to make it even better. There is more information on this [on our website portfolio](https://gfsc.studio/project/trans-dimension/). A poll of people following Gendered Intelligence on Twitter (i.e. an already heavily engaged group) found that the median number of trans groups people knew about in London was 3 — our project found over 45 active groups that are now actively working in partnership together publishing dozens of events per week. This site is a huge success with 6.7k visitors since launch and continues to get hundreds of visitors a week despite almost no extra effort being expended.
 
-![Kim launching The Trans Dimension at Queer Britain in King’s Cross](https://prod-files-secure.s3.us-west-2.amazonaws.com/baf083c9-d03e-46bc-b441-49438cc1db49/1df27874-5ca5-4160-a004-21f7ea74fdd3/highres_GenInt_069.jpg)
+![Kim launching The Trans Dimension at Queer Britain in King’s Cross](highres_GenInt_069.jpg)
+*Kim launching The Trans Dimension at Queer Britain in King’s Cross*
 
-Kim launching The Trans Dimension at Queer Britain in King’s Cross
-
-![Jay from Gendered Intelligence opening the event](https://prod-files-secure.s3.us-west-2.amazonaws.com/baf083c9-d03e-46bc-b441-49438cc1db49/7dcab28b-e90e-44e9-b674-b1ad5ac72697/GenInt_053.jpg)
-
-Jay from Gendered Intelligence opening the event
+![Jay from Gendered Intelligence opening the event](GenInt%20053.jpg)
+*Jay from Gendered Intelligence opening the event*
 
 We also developed The Trans Dimension Guide to Inclusive Events, a mini-zine on how to make events more trans and disabled inclusive. We did this based on workshops with Greater Manchester Coalition of Disabled People and Gendered Intelligence staff and volunteers.
 
-![Zines and badges produced for The Trans Dimension launch](https://prod-files-secure.s3.us-west-2.amazonaws.com/baf083c9-d03e-46bc-b441-49438cc1db49/a4423e3b-898d-4fed-b5c9-223660cd90d3/transdim.jpg)
-
-Zines and badges produced for The Trans Dimension launch
+![Zines and badges produced for The Trans Dimension launch](transdim.jpg)
+*Zines and badges produced for The Trans Dimension launch*
 
 Back in Manchester, Rachele discovered there was a desire to engage with our approach — but capacity was extremely limited and there were significant barriers to unpick and address.
 
 > I found many groups had switched to WhatsApp groups — these worked short term but fell apart when there were too many members. People did not know what to use instead.
-
-Rising costs meant that many spaces were having to charge venue hire — this meant some groups had stopped.
-
-People did not want to engage with digital skills after COVID — tired of Zoom etc.
-
-Frustration with Platforms — eg Twitter! Nothing connects locally anymore — apart from some specific FB groups. People get burnt out by WhatsApp groups.
-
-People did not have capacity to engage with PlaceCal — some organisations I contacted said that it did not fall into anyone's role and they were only paid to do specific projects.
-
-There is real burn out and “what is the point?”
+>
+>Rising costs meant that many spaces were having to charge venue hire — this meant some groups had stopped.
+>
+>People did not want to engage with digital skills after COVID — tired of Zoom etc.
+>
+>Frustration with Platforms — eg Twitter! Nothing connects locally anymore — apart from some specific FB groups. People get burnt out by WhatsApp groups.
+>
+>People did not have capacity to engage with PlaceCal — some organisations I contacted said that it did not fall into anyone's role and they were only paid to do specific projects.
+>
+>There is real burn out and “what is the point?”
 
 *Rachele’s PlaceCal diary*
-> 
 
 ## The next six months: grassroots development
 
 > I went to as many panels and sessions where I could present about PlaceCal. I especially worked with Flourish CIC, as their group represents over 500 social enterprises and community-led groups across the North West.
+>
+>Out of this research, I came up with [bespoke training] sessions. Most beneficial was working with Flourish’s network — we did informal sessions to develop the Digital Skills workshop based on what they felt they needed. I was really pleased as it was well received - each session had over 20 people sign up, and at least 10 people attend and all attendees really felt like they got something out of it.
 
-Out of this research, I came up with [bespoke training] sessions. Most beneficial was working with Flourish’s network — we did informal sessions to develop the Digital Skills workshop based on what they felt they needed. I was really pleased as it was well received - each session had over 20 people sign up, and at least 10 people attend and all attendees really felt like they got something out of it.
+*Rachele’s PlaceCal diary* 
 
-*Rachele’s PlaceCal diary*
-> 
-
-![Rachele demonstrating how to use a Google Form for event registrations](https://prod-files-secure.s3.us-west-2.amazonaws.com/baf083c9-d03e-46bc-b441-49438cc1db49/4d79d198-9e0a-4f15-91c2-8ac6d1c5b7c7/20230306_113506.jpg)
-
-Rachele demonstrating how to use a Google Form for event registrations
+![Rachele demonstrating how to use a Google Form for event registrations](20230306_113506.jpg)
+*Rachele demonstrating how to use a Google Form for event registrations*
 
 Rachele also delivered [sessions like this](https://www.eventbrite.co.uk/e/digital-skills-for-social-changemakers-in-greater-manchester-tickets-527466134407) with a number of other groups. 
 
 In addition to identifying the broad need for up-skilling, Rachele’s on-the-ground research confirmed that in order for PlaceCal to gain traction, we needed to engage community organisers who had already built up partnerships of groups. Our starting assumption that we could build a platform from the bottom-up was complicated, as Rachele discovered individual organisers wanted a PlaceCal that was grounded in communities of interest, and could be run by one or two highly motivated individuals, rather than many partners tending their individual calendar. 
 
 > [We] found “curators” —  individuals who maintain a group or collect and share events around a specific interest. These are the people that PlaceCal needs to engage with. These people have the connections and trust needed, and normally have the level of tech confidence to engage with PlaceCal straight away. Most have been maintaining a calendar of some sorts. Alongside this, they understand the wider benefits of PlaceCal.
-
-Examples:
-
-We found a lady who had collated all the children’s events in Google Calendar.
-
-There is a lovely man who collates all the up-to-date food bank information in Google Docs.
-
-Hayley works to connect up Home Education events and has access to Facebook groups and runs some spreadsheets.
+>
+>Examples:
+>- We found a lady who had collated all the children’s events in Google Calendar.
+>- There is a lovely man who collates all the up-to-date food bank information in Google Docs.
+>- Hayley works to connect up Home Education events and has access to Facebook groups and runs some spreadsheets.
 
 *Rachele’s PlaceCal diary*
-> 
 
 The latter half of the year was spent creating a focused plan to execute the changes and improvements being fed back to us from the grassroots level. 
 
@@ -262,11 +247,10 @@ In some ways this is an opportunity for us as an initiative. We are potentially 
 In practice though, this has meant that we have had a lot to learn about the specific differences between each community group’s exact needs. This has reinforced our approach of using known community organisers as the key people to lead this work. But it also means we need to meet people where they are, and deal with their immediate tech needs, before we can interest them in any further coordination or development work.
 
 > One of my strengths as a community leader is I know how much people get hassled by consultants with no real gain except for taking up their time.
-
-I have offered people my skills in return for meeting with me - anything from helping with funding bids to cleaning! This is invaluable as many of these groups run on volunteers / goodwill so people's time is precious.
+>
+>I have offered people my skills in return for meeting with me - anything from helping with funding bids to cleaning! This is invaluable as many of these groups run on volunteers / goodwill so people's time is precious.
 
 *Rachele’s PlaceCal diary*
-> 
 
 ## Partners are struggling to make something suitable for their needs and need a lot of support before we can onboard them
 
@@ -331,6 +315,6 @@ As you can probably tell, this is just the start and we are currently laying the
 
 Please do get in touch if you want to have a chat about our approach. We are especially looking for other philanthropic funders and charities who may feel they’ve funded a lot of tech work that hasn’t really added up to much (perhaps under the “digital inclusion” or “human centered design” banner), or that all the tech work they do seems to never quite integrate with the rest of the organisation. We think you’ll find what we are doing a refreshing approach that compliments ABCD or strengths based approaches perfectly, and doesn’t require separate “digital” processes.
 
-You can also join our [community discord,](http://discord.gfsc.studio) or subscribe to our email for updates below.
+You can also join our [community Discord,](http://discord.gfsc.studio) or subscribe to our email for updates below.
 
 Thanks for reading!
