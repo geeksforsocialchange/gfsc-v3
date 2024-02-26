@@ -1,11 +1,14 @@
 ---
-title: "Growing Great Ideas Public Report"
-date: 2024-02-21
-subtitle: Our first year of Community Technology Partnerships
+title: "Our first year of Community Technology Partnerships"
+date: 2024-02-26
+subtitle: Key findings from our National Lottery Community Fund funded project
 description: "What we've learnt, what we've done, what we want to do, what's next: our first year developing Community Technology Partnerships with funding from the National Lottery Community Fund"
 author: kim
 social: social.jpg
-published: false
+draft: false
+aliases: /ggi_report
+projects:
+  - placecal
 ---
 
 # What is a CTP?
