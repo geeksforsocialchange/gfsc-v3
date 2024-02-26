@@ -13,7 +13,7 @@ projects:
 
 ![An illustration of a community of place](/blog/2022/national-network-community-technology-partnerships/PlaceCal_16by9_LocalArea.png)
 
-# What is a CTP?
+## What is a CTP?
 
 Community Technology Partnerships (CTPs) are a concept we’ve been developing [since 2016](https://gfsc.studio/blog/2017/tech-culture-failing-communities/), with [a journal paper on the approach published in 2020](https://gfsc.studio/project/making-a-place/) and our first [official funding happening in 2022](https://gfsc.studio/blog/2022/national-network-community-technology-partnerships/) thanks to the National Lottery Community Fund. Since then we’ve been working hard on refining and exploring CTPs and our flagship tool PlaceCal in order to help connect communities without needing to rely on walled-gardens and big tech.
 
@@ -59,7 +59,7 @@ We focused year one at two specific intersections:
 
 These levels of concern were given to us by our lottery funders but we found them really helpful to think about the different ways of thinking about communities and is based on [Geels’ theory of technological transitions](https://pure.manchester.ac.uk/ws/files/29255286/POST-PEER-REVIEW-PUBLISHERS.PDF).
 
-## We are developing ways to create tech outcomes from community needs
+### We are developing ways to create tech outcomes from community needs
 
 We are currently completing our methodology for converting community needs to tech outcomes. This involves working with individual community groups and partnership organisers, and thinking about the shape and structure of our own team.
 
@@ -90,7 +90,7 @@ To put it simply: **it has emerged that there is no meaningful dividing line bet
 
 [^1]: Our definition of ‘technology’ is expansive and based on the etymology which means ‘systemic treatment of an art or craft’. Technology is the _systemising_ of desirable processes, which often _involves_ tools, but our emphasis is on the systemising itself. This means that we see training, documentation, apps, websites, group constitutions, and well designed posters all as ‘technologies’. For more on this outlook we recommend Ursula Franklins’ _[Real World of Technology](https://archive.org/details/the-real-world-of-technology/) (1989)_ lecture series.
 
-## We are understanding the underlying problems stopping people bringing groups together to form partnerships
+### We are understanding the underlying problems stopping people bringing groups together to form partnerships
 
 The main focus for year one has been understanding what kinds of people have both the will and the means to establish community partnerships — “groups of groups” working together. There are several kinds we have encountered:
 
@@ -101,7 +101,7 @@ The main focus for year one has been understanding what kinds of people have bot
 
 We are therefore focussing our work on community organisers of interest and place, to understand their barriers as they try and get all the groups in their network working together. Our primary outcome for this is that they have a ‘curated calendar’ in PlaceCal: https://placecal.org/find-placecal.
 
-## We are helping individual community groups overcome their barriers to having a web presence
+### We are helping individual community groups overcome their barriers to having a web presence
 
 Our team’s first goal with each individual community group (partner) is to help them get a tech setup that works for them. This usually involves helping them to adapt what they already have, or sometimes adding something new. During this process, we regularly encounter questions about getting information shared online.
 
@@ -117,7 +117,7 @@ One of our key learnings during this project is that this kind of ‘hands on’
 > 
 > _Rachele’s PlaceCal diary_
 
-## We are building the evaluation and training tools to manage all this
+### We are building the evaluation and training tools to manage all this
 
 We have created a theory of change and project plan. These are now guiding us on the resolution of the project.
 
@@ -127,9 +127,10 @@ We will be sharing our theory of change and fieldwork data when we’ve tidied i
 
 {{<smallsignup>}}
 
-# Our first year of CTPs
+---
+## Our first year of CTPs
 
-## The first year in numbers (May ‘22 — April ‘23)
+### The first year in numbers (May ‘22 — April ‘23)
 
 - 86 partner sign-ups
 - 4 x live PlaceCals: The Trans Dimension, PlaceCal Manchester, PlaceCal Torbay, and Greater Manchester Systems Changers (GMSC)
@@ -138,7 +139,7 @@ We will be sharing our theory of change and fieldwork data when we’ve tidied i
 - 50+ enquiries to work through when we’re ready from a wide range of community groups and institutions throughout England and Wales
 - 6 x tech workshops for partners with nearly 100 attendees
 
-## The first six months: setting up our infrastructure
+### The first six months: setting up our infrastructure
 
 From the outset, we knew we had to recruit a team on on the ground to work directly with communities, listen to their challenges, and help them figure out how to dismantle their specific barriers.
 
@@ -192,7 +193,7 @@ Back in Manchester, Rachele discovered there was a desire to engage with our app
 > 
 > _Rachele’s PlaceCal diary_
 
-## The next six months: grassroots development
+### The next six months: grassroots development
 
 > I went to as many panels and sessions where I could present about PlaceCal. I especially worked with Flourish CIC, as their group represents over 500 social enterprises and community-led groups across the North West.
 >
@@ -227,11 +228,12 @@ We started to ask questions like ‘How can people like Rach and David meaningfu
 
 At the end of year one, we were at a pivotal moment in the project. We had suffered numerous setbacks and had our assumptions challenged in many different ways. We felt it was time to document and disseminate our learning in a way that fully explored the complexities we had encountered. This was the genesis of our Theory of Change, and building on that groundwork to draw up a complete project plan for the rest of the project.
 
-# What have you learnt?
+---
+## What have you learnt?
 
 We have learned an enormous amount during this process about our approach, the conditions we are facing, and what we need to do to overcome this together.
 
-## We need to retarget PlaceCal at Organisers, as they are the key to engaging with grassroots communities — but they are struggling
+### We need to retarget PlaceCal at Organisers, as they are the key to engaging with grassroots communities — but they are struggling
 
 Our previous assumption was that city-wide institutions like councils, housing associations and the NHS would be the ones supporting us in a rollout. We learnt this was not the case on the ground and that we instead needed to work with active community organisers.
 
@@ -245,7 +247,7 @@ This shift has been profound. We discovered that to attract these groups we need
 
 We are now working to improve these options, and are confident that enabling this relatively small but very motivated group of people is key to the success of our whole project.
 
-## Community digital tech overall is in a much worse case now than when we started — and we need to adjust expectations
+### Community digital tech overall is in a much worse case now than when we started — and we need to adjust expectations
 
 This has been an extremely difficult few years for everyone we are working with.
 
@@ -259,7 +261,7 @@ In practice though, this has meant that we have had a lot to learn about the spe
 > 
 > _Rachele’s PlaceCal diary_
 
-## Partners are struggling to make something suitable for their needs and need a lot of support before we can onboard them
+### Partners are struggling to make something suitable for their needs and need a lot of support before we can onboard them
 
 Despite the supposed huge advances in tech, individual organisers are struggling more than ever to list events and services online in ways that can be easily discovered. Even staff on the project are struggling to find suitable and affordable ticketing and website solutions for their venues. Often people are stuck with relying on ‘the tech person’ (who no one has seen for six months) to provide and/or maintain a website, and there is no community culture around doing this in ways that are not effectively gate-kept by a tech volunteer.
 
@@ -274,7 +276,7 @@ Despite the supposed huge advances in tech, individual organisers are struggling
 > _Rachele’s PlaceCal diary_
 
 
-## It’s really hard to know where to apply effort best
+### It’s really hard to know where to apply effort best
 
 A lot of times it’s really unclear where the problem lies with any given tech requirement.
 
@@ -286,7 +288,7 @@ Another example is the network of home education groups. These groups are attemp
 
 Overall it’s really hard to know where to draw the line when helping people out, and where our interventions end up becoming the next problem for the group to deal with when we are out the picture.
 
-## No one really has a model for how this should work
+### No one really has a model for how this should work
 
 The current state of community data gathering, storage and retrieval is a complete mess. Almost everyone we worked with is, in our view, acting in breech of GDPR and data protection law almost all the time. We hear horror stories of residents who help out at a local food bank having their phone number put on flyers and circulated by institutions without their knowledge or consent. The ‘mass cc’ strategy to group organisation is still the main tool in use, resulting in many people ending up perpetually on mass mailings they can never ‘unsubscribe’ from.
 
@@ -305,7 +307,7 @@ Computer databases have four basic activities: create, read, update and delete (
 
 A key benefit of PlaceCal is that it works as much as possible to give people the most direct and simple access to all of these actions without giving away their personal information. But we are learning we need to do much more work to help people understand the CRUD functions and their importance. Right now, across any given community, the way information storage and retrieval works is — in our view — dysfunctional, illegal, and immoral.
 
-## We need to develop organisational structures that are more fit for purpose
+### We need to develop organisational structures that are more fit for purpose
 
 Our committee meetings were another casualty of Covid and sector burnout but they taught us that there are strategies around planning and administration we can incorporate to improve their efficacy when we restart them after PlaceCal is launched.
 
