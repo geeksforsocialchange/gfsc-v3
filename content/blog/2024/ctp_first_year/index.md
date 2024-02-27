@@ -11,7 +11,7 @@ projects:
   - placecal
 ---
 
-![An illustration of a community of place](/blog/2022/national-network-community-technology-partnerships/PlaceCal_16by9_LocalArea.png)
+{{<image src="PlaceCal_16by9_LocalArea.png" alt="An illustration of a community of place" classList="image--frame image--center">}}
 
 ## What is a CTP?
 
@@ -155,8 +155,9 @@ Rachele, who runs a thriving community pub in Hulme, Manchester, was tasked with
 
 Coral is based on Torbay, where she runs a board game cafe shop, and is deeply embedded in the local community. She attended C2’s three-day “Residential Experiential Learning Course”, convened by C2’s cofounder Hazel Stutely OBE, in September. She delivered a presentation on PlaceCal and CTPs to the C2 network. Coral then worked hard to establish a thriving PlaceCal in Torbay, getting 18 groups and dozens of events on board in short order.
 
-![Coral doing a presentation on PlaceCal to C2 at their weekend gathering](coral_c2.jpeg)
-_Coral doing a presentation on PlaceCal to C2 at their weekend gathering_
+{{<image-with-caption/start src="coral_c2.jpeg" alt="Coral doing a presentation on PlaceCal to C2 at their weekend gathering" classList="image--frame">}}
+Coral doing a presentation on PlaceCal to C2 at their weekend gathering
+{{<image-with-caption/end>}}
 
 We also set up a steering committee made of representatives from C2, Lankelly Chase, Gendered Intelligence, Geeks for Social Change and Radical Routes. However, after a series of enthusiastic initial meetings, attendance began to drop off as the sector became increasingly embattled and meetings were eventually halted.
 
@@ -166,16 +167,19 @@ In October, Kim and Rachele [did a podcast](https://podcasters.spotify.com/pod/s
 
 In November, we launched [The Trans Dimension](https://transdimension.uk) in collaboration with Gendered Intelligence, our first ‘white label’ PlaceCal site. The development budget for came from another funder (Comic Relief and Paul Hamlyn’s Tech for Good fund), and we were able to use all our learning and code base improvements from the National Lottery funding to make it even better. There is more information on this [on our website portfolio](https://gfsc.studio/project/trans-dimension/). A poll of people following Gendered Intelligence on Twitter (i.e. an already heavily engaged group) found that the median number of trans groups people knew about in London was 3 — our project found over 45 active groups that are now actively working in partnership together publishing dozens of events per week. This site is a huge success with 6.7k visitors since launch and continues to get hundreds of visitors a week despite almost no extra effort being expended.
 
-![Kim launching The Trans Dimension at Queer Britain in King’s Cross](highres_GenInt_069.jpg)
-_Kim launching The Trans Dimension at Queer Britain in King’s Cross_
+{{<image-with-caption/start src="highres_GenInt_069.jpg" alt="Kim launching The Trans Dimension at Queer Britain in King’s Cross" classList="image--frame">}}
+Kim launching The Trans Dimension at Queer Britain in King’s Cross
+{{<image-with-caption/end>}}
 
-![Jay from Gendered Intelligence opening the event](GenInt%20053.jpg)
-_Jay from Gendered Intelligence opening the event_
+{{<image-with-caption/start src="GenInt_053.jpg" alt="Jay from Gendered Intelligence opening the event" classList="image--frame">}}
+Jay from Gendered Intelligence opening the event
+{{<image-with-caption/end>}}
 
 We also developed The Trans Dimension Guide to Inclusive Events, a mini-zine on how to make events more trans and disabled inclusive. We did this based on workshops with Greater Manchester Coalition of Disabled People and Gendered Intelligence staff and volunteers.
 
-![Zines and badges produced for The Trans Dimension launch](transdim.jpg)
-_Zines and badges produced for The Trans Dimension launch_
+{{<image-with-caption/start src="transdim.jpg" alt="Zines and badges produced for The Trans Dimension launch" classList="image--frame">}}
+Zines and badges produced for The Trans Dimension launch
+{{<image-with-caption/end>}}
 
 Back in Manchester, Rachele discovered there was a desire to engage with our approach — but capacity was extremely limited and there were significant barriers to unpick and address.
 
@@ -201,8 +205,9 @@ Back in Manchester, Rachele discovered there was a desire to engage with our app
 > 
 > _Rachele’s PlaceCal diary_
 
-![Rachele demonstrating how to use a Google Form for event registrations](20230306_113506.jpg)
-_Rachele demonstrating how to use a Google Form for event registrations_
+{{<image-with-caption/start src="20230306_113506.jpg" alt="Rachele demonstrating how to use a Google Form for event registrations" classList="image--frame">}}
+Rachele demonstrating how to use a Google Form for event registrations
+{{<image-with-caption/end>}}
 
 Rachele also delivered [sessions like this](https://www.eventbrite.co.uk/e/digital-skills-for-social-changemakers-in-greater-manchester-tickets-527466134407) with a number of other groups.
 
