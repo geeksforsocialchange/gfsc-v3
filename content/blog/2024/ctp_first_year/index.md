@@ -322,7 +322,7 @@ We are working on the following concrete outcomes:
 - Designing a company structure that manages to thread the needle and balance the needs of communities using our software, developers, community development workers, funders, investors, and charities.
 - Solidifying and disseminating how we use organisational tools. We have set up a large range of support tools to track all our internal conversations and interventions, including WhatsApp, Discord, GitHub, Trello, Notion and Chatwoot. Our next step is to create a diagram for how this all works as a whole. This is a large, complicated piece of mutual understanding across multiple domains and types of expertise. We are hopeful we have now made serious inroads into this and can publish a formal process for this in the coming year.
 
-# What’s next?
+## What’s next?
 
 As you can probably tell, this is just the start and we are currently laying the groundwork for what’s to come. GFSCs current overall mission is “to work in partnership with people and organisations who share our social change goals to create tools and processes that help us live joyful, connected and capable lives in communities free from oppression”. And we think we are getting closer than ever to making this a reality for everyone.
 
