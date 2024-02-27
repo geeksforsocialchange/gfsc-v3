@@ -112,9 +112,9 @@ Given that having an online calendar of some kind is a requirement for getting e
 One of our key learnings during this project is that this kind of ‘hands on’, low-level tech support is vital. Even though setting up a Google Calendar (for example) is often a relatively simple task within the technical skill of the people we work with, it’s making a decision to join a wider network and taking that first step to do it that can be daunting. It takes a lot of trust and faith in the person asking you to do it. This is one of the areas in which our team have offered the most value to the partners that we have directly interacted with. We have also found that a lot of people don’t realise the full functionality of the calendar services that they are using — for example, that you can update an event’s details on your phone, and then these will update everywhere online, or that it is possible to publish an iCal feed from Outlook. Realising how simple and powerful these tools are to use has been a real gamechanger for many groups especially as it’s working with technology already used and paid for by groups that people already look at every day.
 
 > This has been vital in building connections with groups as I found many people had the _skillset_ to make a Google Calendar, they just didn’t have the _confidence,_ and had reached tech burnout over lock down.
-> 
+>
 > Providing a space where people could ‘have a go’, ask ‘silly’ questions, and do it together, showed people they were more tech savvy then they thought.
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 ### We are building the evaluation and training tools to manage all this
@@ -128,6 +128,7 @@ We will be sharing our theory of change and fieldwork data when we’ve tidied i
 {{<smallsignup>}}
 
 ---
+
 ## Our first year of CTPs
 
 ### The first year in numbers (May ‘22 — April ‘23)
@@ -150,7 +151,7 @@ Both Coral and Rachele were initially tasked with setting up the first CTP in th
 Rachele, who runs a thriving community pub in Hulme, Manchester, was tasked with creating a PlaceCal partnership with the Greater Manchester Systems Changers (GMSC), which was comprised of around 30 grassroots organisations funded by Lankelly Chase. As mentioned earlier, pursuing a partnership comprised of organisations united by a common donor rather than shared purpose or existing relationships meant Rachele struggled to make meaningful connections.
 
 > I initially found it hard to engage with GMSC — I met most people at the event, and got numbers and emails from GMSC… but the details seemed to be out of date. I cold-called, attended GMSC events, sent emails and didn’t have much luck.
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 Coral is based on Torbay, where she runs a board game cafe shop, and is deeply embedded in the local community. She attended C2’s three-day “Residential Experiential Learning Course”, convened by C2’s cofounder Hazel Stutely OBE, in September. She delivered a presentation on PlaceCal and CTPs to the C2 network. Coral then worked hard to establish a thriving PlaceCal in Torbay, getting 18 groups and dozens of events on board in short order.
@@ -194,7 +195,7 @@ Back in Manchester, Rachele discovered there was a desire to engage with our app
 > People did not have capacity to engage with PlaceCal — some organisations I contacted said that it did not fall into anyone's role and they were only paid to do specific projects.
 >
 > There is real burn out and “what is the point?”
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 ### The next six months: grassroots development
@@ -202,7 +203,7 @@ Back in Manchester, Rachele discovered there was a desire to engage with our app
 > I went to as many panels and sessions where I could present about PlaceCal. I especially worked with Flourish CIC, as their group represents over 500 social enterprises and community-led groups across the North West.
 >
 > Out of this research, I came up with [bespoke training] sessions. Most beneficial was working with Flourish’s network — we did informal sessions to develop the Digital Skills workshop based on what they felt they needed. I was really pleased as it was well received - each session had over 20 people sign up, and at least 10 people attend and all attendees really felt like they got something out of it.
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 {{<image-with-caption/start src="20230306_113506.jpg" alt="Rachele demonstrating how to use a Google Form for event registrations" classList="image--frame">}}
@@ -220,7 +221,7 @@ In addition to identifying the broad need for up-skilling, Rachele’s on-the-gr
 > - We found a lady who had collated all the children’s events in Google Calendar.
 > - There is a lovely man who collates all the up-to-date food bank information in Google Docs.
 > - Hayley works to connect up Home Education events and has access to Facebook groups and runs some spreadsheets.
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 The latter half of the year was spent creating a focused plan to execute the changes and improvements being fed back to us from the grassroots level.
@@ -234,6 +235,7 @@ We started to ask questions like ‘How can people like Rach and David meaningfu
 At the end of year one, we were at a pivotal moment in the project. We had suffered numerous setbacks and had our assumptions challenged in many different ways. We felt it was time to document and disseminate our learning in a way that fully explored the complexities we had encountered. This was the genesis of our Theory of Change, and building on that groundwork to draw up a complete project plan for the rest of the project.
 
 ---
+
 ## What have you learnt?
 
 We have learned an enormous amount during this process about our approach, the conditions we are facing, and what we need to do to overcome this together.
@@ -263,7 +265,7 @@ In practice though, this has meant that we have had a lot to learn about the spe
 > One of my strengths as a community leader is I know how much people get hassled by consultants with no real gain except for taking up their time.
 >
 > I have offered people my skills in return for meeting with me - anything from helping with funding bids to cleaning! This is invaluable as many of these groups run on volunteers / goodwill so people's time is precious.
-> 
+>
 > _Rachele’s PlaceCal diary_
 
 ### Partners are struggling to make something suitable for their needs and need a lot of support before we can onboard them
@@ -271,15 +273,14 @@ In practice though, this has meant that we have had a lot to learn about the spe
 Despite the supposed huge advances in tech, individual organisers are struggling more than ever to list events and services online in ways that can be easily discovered. Even staff on the project are struggling to find suitable and affordable ticketing and website solutions for their venues. Often people are stuck with relying on ‘the tech person’ (who no one has seen for six months) to provide and/or maintain a website, and there is no community culture around doing this in ways that are not effectively gate-kept by a tech volunteer.
 
 > I can’t do anything without getting hold of Solomon who runs our website. I don’t even go on the website! I need a new website! I want to know how it works, how can access it.
-> 
+>
 > _Local youth group leader_
 
 > The primary way we are helping these local organisers is by working with them to understand and overcome the barriers they are facing to having and maintaining a web presence. We are doing this by direct hands on qualitative research with groups in each area, which is being collated into a database of barriers and solutions.
-> 
+>
 > I explained how PlaceCal came about, how it could benefit the community, how simple it was… I also offered to come down and see the work they do and offer any support. I think this made a huge difference — the offer to sit next to her and set it up. I feel like lots of people I have connected with want the chance to be heard, to air their grievances and frustrations.
-> 
+>
 > _Rachele’s PlaceCal diary_
-
 
 ### It’s really hard to know where to apply effort best
 
