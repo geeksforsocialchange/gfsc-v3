@@ -3,7 +3,7 @@ title: "Rosie Ferrier"
 firstname: "Rosie"
 pronouns: "She/her"
 job: "Developer"
-jobtype: staff
+jobtype: alum
 dataname: rosie
 avatar: rosie@400.jpg
 ---

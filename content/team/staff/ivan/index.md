@@ -3,7 +3,7 @@ title: "Ivan Kocienski"
 firstname: "Ivan"
 pronouns: "He/him"
 job: "Developer"
-jobtype: staff
+jobtype: alum
 dataname: ivan
 avatar: ivan@400.jpg
 ---
