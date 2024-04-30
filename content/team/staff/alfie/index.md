@@ -3,7 +3,7 @@ title: "Alfie"
 firstname: "Alfie"
 pronouns: "He/him"
 job: "Developer"
-jobtype: staff
+jobtype: alum
 dataname: alfie
 avatar: alfie@400.jpg
 ---
