@@ -25,7 +25,7 @@ weight: 12
 draft: false 
 ---
 
-Leading trans charity Gendered Intelligence approached us with a number of tech-related issues that were affecting their day-to-day operations. We helped them take an overarching view of the best way forward across all their issues, including the development of our [Enquiry Witch](https://gfsc.studio/project/enquiry-witch/) enquiry manager, researching their needs and building them a new CRM based on Jekyll, developing a new visual identity and information structure, and ultimately migrating their old website over onto this new CRM.
+Leading trans charity Gendered Intelligence approached us with a number of tech-related issues that were affecting their day-to-day operations. We helped them take an overarching view of the best way forward across all their issues, including the development of our [Enquiry Witch](https://gfsc.studio/project/enquiry-witch/) enquiry manager, researching their needs and building them a new CMS in Ruby on Rails, developing a new visual identity and information structure, and ultimately migrating their old website over onto this new CRM.
 
 Gendered Intelligence directly supports trans people with a particular focus on trans youth, and develops and delivers training to shift how society at large understands and supports trans people in work, school and beyond. This means their website needs to reflect accurately their offer, and provide clear and concise pathways to accessing resources and support. 
 
