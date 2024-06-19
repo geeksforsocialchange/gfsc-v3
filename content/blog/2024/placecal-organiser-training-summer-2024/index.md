@@ -2,7 +2,7 @@
 title: "Do you want to make a calendar for your community that makes it easy for everyone to find out what’s going on, all in one place?"
 date: 2024-06-19
 description: We're offering training this summer for PlaceCal Organisers, giving you the opportunity to use PlaceCal in your community. 
-author: kim honor
+author: kim, honor
 social: social.jpg
 ---
 
