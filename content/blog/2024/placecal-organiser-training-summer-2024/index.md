@@ -23,7 +23,7 @@ We know there’s loads of things out there like this — and that none of them 
 
 PlaceCal has been developed alongside an engaged community development approach that works by training up existing community organisers (like yourself!) to first go and support all the groups in your partnership to list their events using software they already have, such as Google Calendar, Outlook 365, Eventbrite, Wordpress, and SquareSpace. PlaceCal then automatically aggregates this information, requiring almost no effort once set up. This takes all the pressure off the groups to get it set up, but then lets them take it over once it’s running.
 
-Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like “wikipedia for community events”, that can be sustained past the end of any one project or volunteers’ input.
+Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like `Wikipedia for community events”, that can be sustained past the end of any one project or volunteers’ input.
 
 **We are still developing the tool and software but are now ready to onboard a small number of groups into our exclusive closed beta trial, 8 years in the making.**
 
