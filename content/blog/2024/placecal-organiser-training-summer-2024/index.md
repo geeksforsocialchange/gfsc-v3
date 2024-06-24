@@ -25,7 +25,7 @@ PlaceCal has been developed alongside an engaged community development approach 
 
 Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like `Wikipedia for community events”, that can be sustained past the end of any one project or volunteers’ input.
 
-**We are still developing the tool and software but are now ready to onboard a small number of groups into our exclusive closed beta trial, 8 years in the making.**
+**After 8 years of hard work making sure it does what community groups need, we are now ready to open it to the public. To celebrate, we are offering training on a pay-what-you-can basis for the first 10 community groups to sign up.**
 
 - Would you like to curate a PlaceCal website for your community partnership?
 - Do you want to get trained up to be a community technology organiser and be able to support your network to promote their activities?
