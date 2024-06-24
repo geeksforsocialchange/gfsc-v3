@@ -1,7 +1,7 @@
 ---
-title: "Do you want to make a calendar for your community that makes it easy for everyone to find out what’s going on, all in one place?"
+title: "Want to use PlaceCal in your community?"
 date: 2024-06-19
-description: We're offering training this summer for PlaceCal Organisers, giving you the opportunity to use PlaceCal in your community. 
+description: Do you want to make a calendar for your community that makes it easy for everyone to find out what’s going on, all in one place? We're offering training this summer for a small cohort of new PlaceCal Organisers! 
 author: kim, honor
 social: social.jpg
 ---
@@ -21,7 +21,7 @@ Some of the benefits of making a centralised community calendar and group listin
 
 We know there’s loads of things out there like this — and that none of them are working very well for the people on the ground actually doing the work. People don’t want to go and sign up for one more service, or list their thing on one more website. We agree, and have designed our approach accordingly.
 
-PlaceCal has been developed alongside an engaged community development approach that works by training up existing community organisers (like yourself!) to first go and support all the groups in your partnership to list their events using software they already have, such as Google Calendar, Outlook 365, Eventbrite, Wordpress, and SquareSpace. PlaceCal then automatically aggregates this information, requiring almost no effort once set up. This takes all the pressure off the groups to get it set up, but then lets them take it over once it’s running.
+PlaceCal has been developed alongside an engaged community development approach that works by training up existing community organisers (like yourself!) to first go and support all the groups in your partnership to list their events using software they already have, such as Google Calendar, Outlook 365, Eventbrite, and SquareSpace (there's a [full list of supported sources](https://handbook.placecal.org/reference/supported-calendar-sources) in the PlaceCal documentation). PlaceCal then automatically aggregates this information, requiring almost no effort once set up. This takes all the pressure off the groups to get it set up, but then lets them take it over once it’s running.
 
 Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like `Wikipedia for community events”, that can be sustained past the end of any one project or volunteers’ input.
 
@@ -81,6 +81,6 @@ The course will provide an overview and everything you need to get started as a 
 This training will be led by the Geeks for Social Change team. 
 
 ### How do I sign up? 
-Fill out this form to express interest in the course. There are limited spaces available, so please book soon to avoid disappointment!
+[Fill out this form](https://docs.google.com/forms/d/1sePhDNPIFmRRwIroDVEPR_PIVejNfYeqqnLZqe0qBd0/) to express interest in the course. There are limited spaces available, so please book soon to avoid disappointment!
 
 If you have any questions please [get in touch](mailto:info@gfsc.studio). 
