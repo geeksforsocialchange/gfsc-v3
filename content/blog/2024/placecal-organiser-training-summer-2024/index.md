@@ -1,14 +1,14 @@
 ---
 title: "Want to use PlaceCal in your community?"
-date: 2024-06-19
+date: 2024-06-25
 description: Do you want to make a calendar for your community that makes it easy for everyone to find out what’s going on, all in one place? We're offering training this summer for a small cohort of new PlaceCal Organisers! 
 author: kim, honor
 social: social.jpg
 ---
 
-PlaceCal is our international award-winning software and community development approach that lets you curate a list of groups and events for any combination of place and interest.
+[PlaceCal](https://placecal.org/) is our international award-winning software and community development approach that lets you curate a list of groups and events for any combination of place and interest.
 
-Other people have used it to make listings of age friendly groups in Hulme & Moss Side in Manchester, transgender groups in London, and climate and migrant justice groups in the North East.
+Other people are using it to make listings of age friendly groups in [Hulme & Moss Side in Manchester](https://hulme.placecal.org/), [transgender groups in London](https://transdimension.uk/), and [climate and migrant justice groups in the North East](https://climatejustice.placecal.org/).
 
 Some of the things people have told us they want to use it to list are: all parent and child groups for their city, a health and wellbeing directory or asset map, cycling groups, independent music venues, reading clubs, gardening groups, and protest and abolition initiatives. 
 
@@ -78,9 +78,13 @@ This training is offered on a Pay What You Can (PWYC) basis as we know that some
 The course will provide an overview and everything you need to get started as a PlaceCal Organiser in your community. All participants will be provided with the supporting material including slides and written course content for reference. Following the course, Organisers will be encouraged to join the Organisers mailing list and/or the [Geeks for Social Change Discord server](https://discord.gfsc.studio), where you can post queries, raise issues and access peer support. 
 
 ### Who is carrying out the training?
+
 This training will be led by the Geeks for Social Change team. 
 
 ### How do I sign up? 
-[Fill out this form](https://docs.google.com/forms/d/1sePhDNPIFmRRwIroDVEPR_PIVejNfYeqqnLZqe0qBd0/) to express interest in the course. There are limited spaces available, so please book soon to avoid disappointment!
 
-If you have any questions please [get in touch](mailto:info@gfsc.studio). 
+[Fill out this form](https://forms.gle/ad7JoBreedj7V5G4A) to express interest in the course. There are limited spaces available, so please book soon to avoid disappointment!
+
+If you have any questions please [book in a 20 minute consultation](https://calendar.app.google/WxiqwKniNyM5K37d6) or [drop us an email](mailto:info@gfsc.studio). 
+
+{{< biglink "Join us by becoming a PlaceCal Organiser" "https://forms.gle/ad7JoBreedj7V5G4A" "Register now" >}}
