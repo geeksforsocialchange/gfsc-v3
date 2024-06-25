@@ -6,6 +6,10 @@ author: kim, honor
 social: social.jpg
 ---
 
+{{<image-with-caption/start src="social.jpg" alt="Climate Action Newcastle volunteers at the Heaton Festival" classList="image--frame image--center">}}
+Climate Action Newcastle volunteers at Heaton Festival. Credit: Rakesh Prashara
+{{<image-with-caption/end>}}
+
 [PlaceCal](https://placecal.org/) is our international award-winning software and community development approach that lets you curate a list of groups and events for any combination of place and interest.
 
 Other people are using it to make listings of age friendly groups in [Hulme & Moss Side in Manchester](https://hulme.placecal.org/), [transgender groups in London](https://transdimension.uk/), and [climate and migrant justice groups in the North East](https://climatejustice.placecal.org/).
@@ -56,6 +60,8 @@ At the end of the course you’ll have a fully-functional PlaceCal site and the 
 
 This course will be delivered in three one-hour sessions over Zoom. Full access to the training materials will be provided to allow for independent study and revision. Some parts of the course are interactive, and some require assistance from the PlaceCal team (e.g. setting up accounts). These tasks will form ‘homework’ to be completed between the sessions so that everyone is on the same page and making progress together. The sessions are formed of a mix of hands-on activities and taught sections.
 
+---
+
 ## Course details
 
 ### Dates
@@ -85,6 +91,6 @@ This training will be led by the Geeks for Social Change team.
 
 [Fill out this form](https://forms.gle/ad7JoBreedj7V5G4A) to express interest in the course. There are limited spaces available, so please book soon to avoid disappointment!
 
-If you have any questions please [book in a 20 minute consultation](https://calendar.app.google/WxiqwKniNyM5K37d6) or [drop us an email](mailto:info@gfsc.studio). 
+If you have any questions please [book in a 20 minute consultation](https://calendar.app.google/WxiqwKniNyM5K37d6) or [drop us an email](mailto:info@gfsc.studio).
 
-{{< biglink "Join us by becoming a PlaceCal Organiser" "https://forms.gle/ad7JoBreedj7V5G4A" "Register now" >}}
+{{< biglink "Join our movement by becoming a PlaceCal Organiser" "https://forms.gle/ad7JoBreedj7V5G4A" "Register now" >}}
