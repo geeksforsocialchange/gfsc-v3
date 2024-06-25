@@ -21,13 +21,13 @@ Some of the benefits of making a centralised community calendar and group listin
 - Reducing social isolation and loneliness, increasing community cohesion, and improving health outcomes
 - Assisting with local strategies like community wealth building, asset-based community development, doughnut economics, and transition towns
 - Creating the conditions and networks we need to resist the current “polycrisis” by building a culture of mutual aid and resistance as government, charity and NHS support erodes
-- Fulfilling statutory obligations to create assets maps or community directories for institutions, community forums, social care providers, etc.
+- Fulfilling statutory obligations to create asset maps or community directories for institutions, community forums, social care providers, etc.
 
 We know there’s loads of things out there like this — and that none of them are working very well for the people on the ground actually doing the work. People don’t want to go and sign up for one more service, or list their thing on one more website. We agree, and have designed our approach accordingly.
 
 PlaceCal has been developed alongside an engaged community development approach that works by training up existing community organisers (like yourself!) to first go and support all the groups in your partnership to list their events using software they already have, such as Google Calendar, Outlook 365, Eventbrite, and SquareSpace (there's a [full list of supported sources](https://handbook.placecal.org/reference/supported-calendar-sources) in the PlaceCal documentation). PlaceCal then automatically aggregates this information, requiring almost no effort once set up. This takes all the pressure off the groups to get it set up, but then lets them take it over once it’s running.
 
-Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like `Wikipedia for community events”, that can be sustained past the end of any one project or volunteers’ input.
+Even better, once groups are in the system, they can be added to multiple partnership sites. This way, we are creating a digital commons owned by our dedicated nonprofit, building something like "Wikipedia for community events", that can be sustained past the end of any one project or volunteers’ input.
 
 **After 8 years of hard work making sure it does what community groups need, we are now ready to open it to the public. To celebrate, we are offering training on a pay-what-you-can basis for the first 10 community groups to sign up.**
 
@@ -96,3 +96,4 @@ This training will be led by the Geeks for Social Change team.
 If you have any questions please [book in a 20 minute consultation](https://calendar.app.google/WxiqwKniNyM5K37d6) or [drop us an email](mailto:info@gfsc.studio).
 
 {{< biglink "Join our movement by becoming a PlaceCal Organiser" "https://forms.gle/ad7JoBreedj7V5G4A" "Register now" >}}
+
