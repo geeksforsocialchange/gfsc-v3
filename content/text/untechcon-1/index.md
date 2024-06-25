@@ -132,7 +132,7 @@ At the end of the day, feedback was collected anonymously from attendees and org
   _discussion proposed by Cassidy_
 - [Visualising organisational structures](#visualising-organisational-structures)
   _discussion proposed by Cassidy_
-- [Meeting Mood](#meeting-mood)
+- [Meeting Mood](https://github.com/geeksforsocialchange/meeting-mood)
   _talk by Alice_
 
 ### Creativity, fun & joy
@@ -489,7 +489,7 @@ How do you communicate being in the space when using digital tools (which are di
 
 Autonomic (no date) Autonomic Co-operative - How We Make Decisions [Link](https://autonomic.zone/blog/how-we-make-decisions)
 
-Consensus flowchart (no date) Seeds for Change [Link](https://seedsforchange.org.uk/consflow.pdf)
+Consensus flowchart (no date) Seeds for Change [Link](https://seedsforchange.org.uk/consensus#flowchart)
 
 Decide together (no date) Loomio [Link](https://loomio.com/)
 

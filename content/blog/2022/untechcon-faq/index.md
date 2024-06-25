@@ -42,7 +42,7 @@ We absolutely welcome suggestions for the hosting of subsequent events in differ
 
 ## What accessibility features will there be?
 
-There will be speech to text transcription for talks via the [SeaVoice Discord Bot](https://wiki.seasalt.ai/seavoice/discord/discord-bot/).
+There will be speech to text transcription for talks via the [SeaVoice Discord Bot](https://suite.seasalt.ai/voice/discord).
 
 [Discord also has some great accessibility features](https://discord.com/accessibility), including support for screen-readers, text scaling, keyboard navigation and more.
 
