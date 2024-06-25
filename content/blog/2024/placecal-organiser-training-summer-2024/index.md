@@ -7,14 +7,14 @@ social: social.jpg
 ---
 
 {{<image-with-caption/start src="social.jpg" alt="Climate Action Newcastle volunteers at the Heaton Festival" classList="image--frame image--center">}}
-Climate Action Newcastle volunteers at Heaton Festival. Credit: Rakesh Prashara
+Climate Action Newcastle volunteers at Heaton Festival. Photo: Rakesh Prashara.
 {{<image-with-caption/end>}}
 
 [PlaceCal](https://placecal.org/) is our international award-winning software and community development approach that lets you curate a list of groups and events for any combination of place and interest.
 
-Other people are using it to make listings of age friendly groups in [Hulme & Moss Side in Manchester](https://hulme.placecal.org/), [transgender groups in London](https://transdimension.uk/), and [climate and migrant justice groups in the North East](https://climatejustice.placecal.org/).
+Other people are using it to make listings of age friendly groups in [Hulme & Moss Side in Manchester](https://hulme.placecal.org/), [parent and child groups in Torbay](https://torbay.placecal.org/), [transgender groups in London](https://transdimension.uk/), and [climate and migrant justice groups in the North East](https://climatejustice.placecal.org/).
 
-Some of the things people have told us they want to use it to list are: all parent and child groups for their city, a health and wellbeing directory or asset map, cycling groups, independent music venues, reading clubs, gardening groups, and protest and abolition initiatives. 
+Some of the things people have told us they want to use it to list are: listing home education networks, a health and wellbeing directory or asset map, cycling groups, independent music venues, reading clubs, gardening groups, and protest and abolition initiatives. 
 
 Some of the benefits of making a centralised community calendar and group listing are:
 
@@ -73,6 +73,7 @@ This training will run three times, each course consisting of three one-hour ses
 - Option 3 - Tuesdays at 6pm, July 30th, August 6th and 13th 
 
 ### Pricing
+
 This training is offered on a Pay What You Can (PWYC) basis as we know that some organisers do not have any funding or institutional support. The below pricing brackets can be used as a guide for what we need to make delivering this sustainable long-term:
 
 - Unfunded, entirely volunteer groups: £0-£50
@@ -81,6 +82,7 @@ This training is offered on a Pay What You Can (PWYC) basis as we know that some
 - Institutions and statutory bodies: £2,000-£5,000
 
 ### Ongoing support
+
 The course will provide an overview and everything you need to get started as a PlaceCal Organiser in your community. All participants will be provided with the supporting material including slides and written course content for reference. Following the course, Organisers will be encouraged to join the Organisers mailing list and/or the [Geeks for Social Change Discord server](https://discord.gfsc.studio), where you can post queries, raise issues and access peer support. 
 
 ### Who is carrying out the training?
