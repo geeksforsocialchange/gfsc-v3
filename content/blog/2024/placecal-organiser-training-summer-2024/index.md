@@ -1,6 +1,6 @@
 ---
 title: "Want to use PlaceCal in your community?"
-date: 2024-06-25
+date: 2024-06-26
 description: Do you want to make a calendar for your community that makes it easy for everyone to find out what’s going on, all in one place? We're offering training this summer for a small cohort of new PlaceCal Organisers! 
 author: kim, honor
 social: social.jpg
