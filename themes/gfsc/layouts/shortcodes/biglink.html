@@ -1,0 +1,18 @@
+<aside class="kofi kofi-alt" markdown="0">
+  <p class="kofi__text">
+    {{ if (.Get 0) }}
+    {{ .Get 0 }}
+    {{ else }}
+    Add link text as the first parameter
+    {{ end }}
+  </p>
+  <div class="kofi__button__container">
+    <a href="{{ .Get 1 }}" class="kofi__button" target="_blank">
+      {{ if (.Get 2) }}
+      {{ .Get 2 }}
+      {{ else }}
+      Find out more
+      {{ end }}
+    </a>
+  </div>
+</aside>
