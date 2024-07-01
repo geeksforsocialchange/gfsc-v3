@@ -91,7 +91,7 @@ We needed something better.
 
 As this article so far has probably hinted, our approach to this was going to be different from the usual product-centred approach to software design. Our fieldwork demonstrated that a shared feeling that “there’s nothing to do” stemmed from several sources: a lack of joined-up data sources, technology, staff hours, computing facilities, and resources in general. Through this process we discovered why so many of these kinds of initiatives have struggled in the past, and started to get an idea of the scale of holistic change needed to change that.
 
-Making a community calendar is not a new or novel idea, and many people have tried them before. We realised to succeed, we’d need to let the social needs drive the technical ones, focussing on using technical tools to enable human connections rather than being driven by [techno-solutionist](https://www.theengineroom.org/hackathons-and-refugees-we-can-do-better/) imperatives. To quote renowned experimental physicist [Ursula Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin):
+Making a community calendar is not a new or novel idea, and many people have tried them before. We realised to succeed, we’d need to let the social needs drive the technical ones, focussing on using technical tools to enable human connections rather than being driven by [techno-solutionist](https://openmigration.org/en/op-ed/hackathon-and-refugees-we-can-do-better/) imperatives. To quote renowned experimental physicist [Ursula Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin):
 
 > Many technological systems, when examined for context and overall design, are basically anti-people. People are seen as sources of problems, while technology is seen as a source of solutions[^3].
 
@@ -115,7 +115,7 @@ Despite the current focus on high tech solutions, [most people’s IT skills are
 Internet use stats showing a huge drop-off for over 70s[^1]
 {{<image-with-caption/end>}}
 
-[^1]: "The digital divide has grown old: Determinants of a digital divide among seniors" [(Friemel, 2016)](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf)
+[^1]: "The digital divide has grown old: Determinants of a digital divide among seniors" [(Friemel, 2016)](https://www.semanticscholar.org/paper/The-digital-divide-has-grown-old%3A-Determinants-of-a-Friemel/0dc149f04330c5265d706883e6ff64f1a3ac080e)
 
 ### A capability-based network
 
@@ -136,7 +136,7 @@ We therefore decided to focus on the simplest possible way that people could lis
 
 The platform was therefore designed to be a nexus for these calendar feeds. If we could train someone in each organisation and convince them of the value of maintaining a single canonical source of information using the software they were already using, then we should take that as our starting point and develop our platform to hook into these feeds. This allows organisations to focus on the key competencies of creating public events listings, without having to learn new software.
 
-By doing this we therefore improve capability from both ends. By creating a “[fitness landscape](https://pdfs.semanticscholar.org/fb23/409e0ed1257af816c96cb5b555838287a50a.pdf)” through training and software that drastically lowers the technical capability organisations need to publish events, _and_ simultaneously training organisations in the use of the simplest possible technology, we co-constituted not just software platform but a neighbourhood strategy for information sharing. We think this creates a network of cooperation rather than competition, where the more people contribute to the system the better it works for everyone. The greater the number of organisations that use it, the more it will be taken seriously by local health providers and statutory authorities as the de facto information system for the area, and becomes a canonical source of local knowledge.
+By doing this we therefore improve capability from both ends. By creating a “[fitness landscape](https://www.semanticscholar.org/paper/Perspective%3A-Complexity-Theory-and-Organization-Cachon-Zipkin/fb23409e0ed1257af816c96cb5b555838287a50a?p2df)” through training and software that drastically lowers the technical capability organisations need to publish events, _and_ simultaneously training organisations in the use of the simplest possible technology, we co-constituted not just software platform but a neighbourhood strategy for information sharing. We think this creates a network of cooperation rather than competition, where the more people contribute to the system the better it works for everyone. The greater the number of organisations that use it, the more it will be taken seriously by local health providers and statutory authorities as the de facto information system for the area, and becomes a canonical source of local knowledge.
 
 ### Towards a truly open design methodology
 
@@ -168,7 +168,7 @@ Somehow, through the partnership, we ended up organising the Winter Light Switch
 
 From the start we were set on using PlaceCal as a source of data for flyers and posters, so what better opportunity to pilot it than collating all the Winter parties in Hulme? December is an extremely lonely time for many people, so it seemed self-evident that helping organisations promote their offerings could help people get out and about, and give agency workers a plethora of options to try and get people out to.
 
-In the end, the two-sided leaflet we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the [PlaceCal website](https://placecal.org/winter2017) itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
+In the end, the two-sided leaflet we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the PlaceCal website itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
 
 {{<image-with-caption/start src="8.jpeg" alt="The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)" classList="image--frame">}}
 The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)

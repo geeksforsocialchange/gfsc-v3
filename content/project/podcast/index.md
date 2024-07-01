@@ -22,7 +22,7 @@ ctaButtons:
   - text: Spotify
     url: https://open.spotify.com/show/5W8FIdNNr3i1jPj02uUevO
   - text: Radio Public 
-    url: https://radiopublic.com/geeks-for-social-change-60Xbpb
+    url: https://www.podchaser.com/podcasts/geeks-for-social-change-4837008?
   - text: Apple Podcasts 
     url: https://podcasts.apple.com/us/podcast/geeks-for-social-change/id1639344512
   - text: Amazon Music
