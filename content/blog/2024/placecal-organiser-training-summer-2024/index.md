@@ -48,13 +48,15 @@ This course is for people who are interested in becoming PlaceCal Organisers. Pl
 
 This course includes three one-hour sessions to set up a PlaceCal site for your community. 
 
-**Session 1: Identifying your partnership** focuses on building your contextual understanding of PlaceCal, how it works and refining the boundaries of the community who you aim to engage in your PlaceCal site.  
+**Session 1: Identifying your partnership** focuses on building your contextual understanding of PlaceCal, how it works and refining the boundaries of the community who you aim to engage in your PlaceCal site. 
 
 **Session 2: Getting started with PlaceCal** gets hands on with how PlaceCal works and into the details of adding and updating community information. 
 
 **Session 3: Calendar deep dive** offers more in-depth detail about calendars and structured data, as well as identifying community needs and working with the tools already in place when onboarding community Partners. 
 
 At the end of the course you’ll have a fully-functional PlaceCal site and the tools you need to use it in your community. At the moment, this is the only way to get a PlaceCal site up and running in your community. The software is in a closed beta, a period of testing with select users, and undertaking this training means you can be part of that!
+
+_You may be able to skip session 1 if you already have a partnership up and running -- feel free to get in touch to discuss this further._
 
 ### How will it be delivered?
 
