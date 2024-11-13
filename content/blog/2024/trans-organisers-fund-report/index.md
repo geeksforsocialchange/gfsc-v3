@@ -61,7 +61,7 @@ As fund administrators, we noted that it was very difficult to liaise with sever
 
 ### Conclusions and next steps from the first round of funding
 
-Through the responses we received it was made apparent that trans organisers in Greater Manchester have a clear vision of the world they want to create, even if the exact steps on the way are less certain. The trans community demonstrated significant need which far outweighed the capacity of this fund, which meant that we needed to identify a specific priority for the next round of funding. At the same time, we faced the challenge of organising groups not being equipped to deal with the administrative and operational burden of receiving and utilising funds. Trans organisers are used to operating on a shoestring against significant systemic challenges. 
+The responses we received demonstrated a significant need in the trans community, which far outweighed the capacity of this fund. This meant that we needed to identify a specific priority for the next round of funding. At the same time, we faced the challenge of organising groups not being equipped to deal with the administrative and operational burden of receiving and utilising funds. Trans organisers are used to operating on a shoestring against significant systemic challenges. 
 
 We were not able to identify visible models for ways in which robust community care could be enacted in a sustainable and ongoing way in the trans community in Greater Manchester. This made our decision-making more challenging when deciding how to approach the next round of funding, as we wanted this fund to have the greatest possible impact. Organisers recognised that many trans people are struggling individually due to the lack of systemic support. This raised the suggestion that dispersing the funds to individuals could have a positive impact—at the risk of ignoring systemic issues for papering over the cracks in the meantime. 
 
@@ -108,3 +108,30 @@ The trans community demonstrates a high willingness to make events accessible, w
 This lack of access to material resources is exemplified by the large reliance on temporary space and pop-up events. The main permanent venue which caters to the trans community was forced to close its physical location during the course of this research, leaving many organisers who had previously used it as a ‘home’ without a stable base. This means that the accessibility of an event may change from event to event, as it is forced to use different venues depending on availability.
 
 Lack of access to permanent space also precludes concrete steps being taken to make accessibility better on the whole. Long term renovations and structural changes, which would be necessary in many existing venues and event spaces, aren’t practical or within reach, and where they are implemented often have to be abandoned when that space’s usage is no longer feasible.
+
+## Recommendations
+
+We’ve devised these recommendations from the findings from our two rounds of funding and research. We’ve split them up based on who we think is best positioned to undertake them.
+
+### Landlords should…
+
+- Invest into access improvements, such as level access entrances and changing places toilets
+- Invest in air filtration systems
+- Keep their premises in a well-maintained condition which doesn’t require significant investment to utilise, even when being used for ‘meanwhile’ lets and short-term projects
+- Consider reduced rent for community use
+
+These measures support organisers without the means to make such additions and alterations themselves, and materially benefit the whole community. 
+
+### Groups should…
+
+- Pay attention to the accessibility of any space they use, and consider setting minimum standards
+- Share comprehensive accessibility information in advance, and signpost to it each time they promote an event
+- Provide a named point of contact and a way of contacting them directly, without relying on social media
+- Seek opportunities to work together and share resources
+- Try and build financial buffers to create more stability in the work they are able to carry out, and mitigate organisational burnout
+
+## Funders should…
+
+- Provide more administrative support for grassroots groups, who may not be used to seeking funding
+- Proactively support trans organisers and focus funding on long-term, infrastructural projects, building sustainability in from the beginning
+- Share information on how grassroots groups might be able to model their financial structure based on proven case studies, to make it easier for those who have never dealt with fundraising before to understand the successful management of organisational finances
