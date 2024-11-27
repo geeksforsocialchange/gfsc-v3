@@ -4,7 +4,7 @@ title: "EnquiryWitch"
 client: "Gendered Intelligence"
 when: "Winter 2021"
 who: kim jazz
-themes: trans-lib digital-autonomy
+themes: digital-autonomy
 categories: software consultancyresearch
 linktourl: https://github.com/geeksforsocialchange/enquirywitch
 linktotext:
