@@ -23,7 +23,7 @@ We identified trans organisers as being the people who bring the trans community
 
 ### What we've done
 
-To cover this diversity we first recruited and paid an honorarium to an all trans and nonbinary steering group including representatives from Geeks for Social Change, Inclusive 11s Football League, Queers in Manchester event listings, and Trans Mutual Aid Manchester. We met 12 times over a year from Autumn 2023 - Summer 2024.
+To cover this diversity we first recruited and paid an honorarium to an all trans and nonbinary steering group including representatives from Geeks for Social Change, [Inclusive 11s football](https://www.manchesterinclusive11s.com/), [Queers in Manchester](https://www.instagram.com/queersinmcr/) event listings, and [Trans Mutual Aid Manchester](https://linktr.ee/tmamcr). We met 12 times over a year from Autumn 2023 - Summer 2024.
 
 We dispersed two rounds of funding, one at the start of 2024 and one in the summer of 2024. 
 
@@ -50,7 +50,7 @@ We analysed the responses by conducting a thematic analysis of the responses pro
 
 #### What do you want to achieve as a trans organiser in Greater Manchester?
 
-Organisers note wide-ranging goals focusing both on broad systemic change and directly supporting individuals, resisting structural and institutional transphobia and creating space for celebration and joy. Groups with specific focus of course speak to specific goals for their focus area – for example the Inclusive 11s Football League aims to create spaces and opportunities for trans people in sport, as well as resisting structural transphobia within this space. Housing, sex education and nightlife and entertainment are also raised as priority areas, as well as a focus on accessibility.
+Organisers note wide-ranging goals focusing both on broad systemic change and directly supporting individuals, resisting structural and institutional transphobia and creating space for celebration and joy. Groups with specific focus of course speak to specific goals for their focus area – for example the Inclusive 11s football aims to create spaces and opportunities for trans people in sport, as well as resisting structural transphobia within this space. Housing, sex education and nightlife and entertainment are also raised as priority areas, as well as a focus on accessibility.
 
 #### What are the barriers that stop you from achieving what you want to achieve?
 
