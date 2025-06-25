@@ -3,7 +3,7 @@ title: "Emma Charleston"
 firstname: "Emma"
 pronouns: "She/her"
 job: "Design and Research Lead"
-jobtype: staff
+jobtype: alum
 dataname: emma
 avatar: emma-charleston@400.jpg
 ---

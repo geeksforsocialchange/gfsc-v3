@@ -3,7 +3,7 @@ title: "honor ash"
 firstname: "honor"
 pronouns: "they/them"
 job: "Writer"
-jobtype: staff
+jobtype: alum
 dataname: honor
 avatar: hnr.jpg
 ---

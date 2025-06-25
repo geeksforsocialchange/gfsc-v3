@@ -44,7 +44,17 @@
       </div>
       <hr class="fancy" />
     {{ end }}
-    <h2 class="members__category">Staff</h2>
+
+      <div class="page page--default studio">
+        <div class="page__content page__content--doublemargin">
+          <h2>GFSC is currently restructuring!</h2>
+          <p>We're currently focussed on getting our next chapter as the <a href="https://gfsc.community/">GFSC Community</a> up and running.</p>
+          <p>GFSC Studio will be back in operation in good time but for now it's just Kim working out the next steps.</p>
+        </div>
+      </div>
+
+
+    {{/* TODO: Reinstate when there's a team again <h2 class="members__category">Staff</h2>  */}}
     {{ $staff := $.Site.GetPage "/team/staff" }}
     {{ range $i, $val := (where $staff.Pages ".Params.jobtype" "==" "staff") }}
       {{ $member := . }}
