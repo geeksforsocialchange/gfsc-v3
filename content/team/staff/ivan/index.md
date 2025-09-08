@@ -6,6 +6,7 @@ job: "Developer"
 jobtype: alum
 dataname: ivan
 avatar: ivan@400.jpg
+headless: true
 ---
 
 Ivan rather enjoys writing code. Currently he uses Ruby on Rails for his day-job but has had a bash at a fair number of other oddities including perl, labview, common lisp and unity. He's also had stabs at javascript and python.

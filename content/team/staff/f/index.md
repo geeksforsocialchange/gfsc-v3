@@ -6,6 +6,7 @@ job: "Technology Strategy Consultant"
 jobtype: alum
 dataname: f
 avatar: f@400.jpg
+headless: true
 ---
 
 F is an anarchist, agender, trans, queer, ace, autistic, mentally ill, disabled, vegan, tattooed, magnetic technologist (and… breathe) with buckets of experience working on all kinds of things from video games you’ve never heard of to government websites you wish you didn’t use every week.
