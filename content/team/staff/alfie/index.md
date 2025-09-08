@@ -6,6 +6,7 @@ job: "Developer"
 jobtype: alum
 dataname: alfie
 avatar: alfie@400.jpg
+headless: true
 ---
 
 Alfie believes that problems are best solved by giving those affected the tools and resources to do so for themselves. He has worked on building infrastructure that promotes community autonomy and resilience for many years. Previously physically and materially, currently digitally.

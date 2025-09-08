@@ -6,6 +6,7 @@ job: "Developer"
 jobtype: alum
 dataname: rosie
 avatar: rosie@400.jpg
+headless: true
 ---
 
 Rosie is a mostly front end developer with a background in illustration. She finds writing code immensely enjoyable, seeing it as more of a craft practice than a technical job, and likes to help demystify its processes wherever she can. She likes collaborative code, type safety, elegant loops and descriptive names.
