@@ -61,13 +61,7 @@
   {{- end }}
 
   {{- if hugo.IsProduction }}
-    <script
-      defer
-      data-domain="gfsc.studio"
-      src="https://plausible.io/js/plausible.js"
-    ></script>
-    <!-- Matomo (stats.gfsc.community, site 3). Runs alongside Plausible for the
-         parallel run; Plausible comes out once the numbers are compared. -->
+    <!-- Matomo (stats.gfsc.community, site 3), cookieless. -->
     <script>
       var _paq = (window._paq = window._paq || []);
       _paq.push(["disableCookies"]);
